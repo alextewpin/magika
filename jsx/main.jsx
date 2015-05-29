@@ -1,8 +1,8 @@
 var $ = require('jquery');
 var React = require('react');
 var Router = require('react-router');
-var attachFastClick = require('fastclick');
-	attachFastClick(document.body);
+// var attachFastClick = require('fastclick');
+// 	attachFastClick(document.body);
 
 var prepareSpells = require('./prepare-spells.js');
 var makeSpellsCharFilterLists = require('./make-spells-char-filter-lists.js');
@@ -74,7 +74,7 @@ var convertToObjects = function(source) {
 
 var App = React.createClass({
 	toggleBookmarks: function(item, category, e) {
-		//e.preventDefault(); 
+		e.preventDefault(); 
 		var bookmarks = this.state.bookmarks;
 		if (!bookmarks[category])
 			bookmarks[category] = []
@@ -425,6 +425,7 @@ var ListItem = React.createClass({
 				<div 
 					className={bookmarksClass} 
 					onClick={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
+					onTouchEnd={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
 				>FV</div>
 			</div>
 		)
