@@ -425,7 +425,6 @@ var ListItem = React.createClass({
 				<div 
 					className={bookmarksClass} 
 					onClick={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
-					onTouchEnd={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
 				>FV</div>
 			</div>
 		)
