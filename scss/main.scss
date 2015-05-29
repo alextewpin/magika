@@ -1,0 +1,286 @@
+@import "normalize";
+@import "bourbon/bourbon";
+
+$c-main: #0088d0;
+$p-content: 10px;
+
+@mixin transition-default {
+	//transition: background-color 0.10s ease-out, color 0.10s ease-out, border-color 0.10s ease-out, opacity 0.10s ease-out;
+}
+
+html, body {
+	font-family: $helvetica;
+	font-size: 14px;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+a {
+	color: $c-main;
+	text-decoration: none;
+}
+
+body:after {
+	display: none;
+	content: url('/img/icons.png');
+}
+
+select, input {
+	outline: none;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
+}
+
+.inline-select-wrapper {
+	position: relative;
+}
+
+.inline-select {
+	opacity: 0;
+	position: absolute;
+	height: 20px;
+	width: 220px;
+	cursor: pointer;
+}
+
+.inline-select-holder-wrapper {
+	@include display(flex);
+	@include align-items(center);
+	height: 20px;
+	color: $c-main;
+}
+
+.inline-select-holder {
+	
+}
+
+.hideme {
+	display: none !important;
+}
+
+//List group
+.list-filters {
+	margin-bottom: 12px;
+	padding: 0px $p-content;
+}
+
+.list-filters-select {
+	margin-bottom: 10px;
+}
+
+.list-filters-search {
+	padding: 3px;
+	border: 1px solid #ccc;
+	border-radius: 0px;
+	height: 24px;
+	width: 100%;
+	outline: none;
+	max-width: 400px;
+	box-sizing: border-box !important;
+	&:focus {
+		border: 1px solid $c-main;
+	}
+}
+
+.list-group {
+	margin-bottom: 10px;
+}
+
+section:last-of-type {
+	margin-bottom: 0px;
+}
+
+.list-group-title {
+	text-transform: uppercase;
+	padding: 0px $p-content;
+	margin-bottom: 5px;
+	color: #aaa;
+	font-size: 12px;
+	font-weight: bold;
+	height: 20px;
+	@include display(flex);
+	@include align-items(center);
+}
+
+//List item 
+.list-item-wrapper {
+	width: 100%;
+	cursor: pointer;
+	@include display(flex);
+	&.list-item-hover:hover {
+		background-color: #F8F5EC;
+	}
+}
+
+.list-item-link {
+	color: #000;
+	width: 100%;
+	height: 26px;
+	padding-left: $p-content;
+	@include display(flex);
+	@include align-items(center);
+	&>* {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding-right: 10px;
+	}
+}
+
+.list-item-content {
+	width: 100%;
+	@include display(flex);
+	@include align-items(center);
+	&>* {
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		padding-right: 10px;
+	}
+}
+
+.list-item-bookmark {
+	width: 26px;
+	height: 26px;
+	background-color: #ccc;
+	padding-right: $p-content;
+	margin: 0px 0px 0px 10px;
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(center);
+	&.selected {
+		background-color: #333;
+		color: #fff;
+	}
+}
+
+//Spell
+.spell-name {
+	width: 48%;
+} 
+
+.spell-casttime {
+	width: 15%;
+	font-size: 12px;
+	color: #666;
+}
+
+.spell-duration {
+	width: 15%;
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+}
+
+.spell-concentration {
+	width: 5%;
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+	padding-right: 15px;
+}
+
+.spell-range {
+	width: 17%;
+	font-size: 12px;
+	color: #666;
+	text-align: right;
+}
+
+.mobile {
+	&.spell-name {
+		width: 95%;
+	}
+	&.spell-range {
+		display: none;
+	}
+	&.spell-concentration {
+		width: 5%;
+		padding-right: 0px;
+	}
+}
+
+//Monster
+.monster-name {
+	width: 48%;
+}
+
+//Mobile
+.nav-mobile {
+	border-bottom: 1px solid #ccc;
+	height: 36px;
+	margin-bottom: 10px;
+	font-size: 16px;
+	line-height: 17px;
+	@include display(flex);
+	@include justify-content(space-between);
+	@include align-items(center);
+}
+
+.nav-breadcrumbs-mobile {
+	@include display(flex);
+	@include align-items(center);
+}
+
+.nav-logo-mobile {
+	font-weight: bold;
+	padding-left: $p-content;
+}
+
+.nav-bookmarks-mobile {
+	padding-right: $p-content;
+}
+
+.footer-mobile {
+	margin: 10px 0px;
+	padding: 0px $p-content;
+}
+
+// Icons
+.icon {
+	@include flex-shrink(0);
+	background-position: -999px -999px;
+	width: 16px;
+	height: 16px;
+	background-size: 128px 16px;
+	background-repeat: no-repeat;
+	padding-right: 0px;
+	margin-right: 3px;
+	background-image: url('/img/icons.png');
+}
+
+.icon-school-abjuration {
+	background-position: 0px 0px;
+}
+
+.icon-school-conjuration {
+	background-position: -16px 0px;
+}
+
+.icon-school-divination {
+	background-position: -32px 0px;
+}
+
+.icon-school-enchantment {
+	background-position: -48px 0px;
+}
+
+.icon-school-evocation {
+	background-position: -64px 0px;
+}
+
+.icon-school-illusion {
+	background-position: -80px 0px;
+}
+
+.icon-school-necromancy {
+	background-position: -96px 0px;
+}
+
+.icon-school-transmutation {
+	background-position: -112px 0px;
+}
