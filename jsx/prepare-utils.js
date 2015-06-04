@@ -1,12 +1,22 @@
 var utils = {};
 
 utils.stringToArray = function(text){
-	if (typeof text == 'string' || text instanceof String) {
+	if (typeof text === 'string' || text instanceof String) {
 		textArray = [];
 		textArray.push(text);
 		return textArray;
 	} else {
 		return text;
+	}
+}
+
+utils.objectToArray = function(obj){
+	if (obj.constructor === Array) {
+		return obj;
+	} else {
+		objArray = [];
+		objArray.push(obj);
+		return objArray;
 	}
 }
 

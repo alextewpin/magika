@@ -36,16 +36,16 @@ var prepareSpells = function(spells) {
 
 		var schoolAndLevel = '';
 		switch (spell.level) {
-			case '0':
+			case 0:
 				schoolAndLevel = spell.school.charAt(0).toUpperCase() + spell.school.substring(1) + ' cantrip';
 				break;
-			case '1':
+			case 1:
 				schoolAndLevel = '1st level ' + spell.school;
 				break;
-			case '2':
+			case 2:
 				schoolAndLevel = '2nd level ' + spell.school;
 				break;
-			case '3':
+			case 3:
 				schoolAndLevel = '3rd level ' + spell.school;
 				break;
 			default:
@@ -101,6 +101,19 @@ var prepareSpells = function(spells) {
 
 		spell.text = utils.stringToArray(spell.text);
 		spell.url = utils.nameToUrl(spell.name);
+
+		spell.text = spell.text.filter(function(p){
+			if (p !== '')
+				return p;
+		})
+		spell.hiLevelIndex = -1;
+		spell.text = spell.text.map(function(p, i){
+			if (p.substr(0, 16) === 'At Higher Levels') {
+				spell.hiLevelIndex = i;
+				return p.replace('At Higher Levels: ', '');
+			} else 
+				return p;
+		})
 
 		var classesArray = spell.classes.split(',');
 		classesArray = classesArray.map(function(className) {

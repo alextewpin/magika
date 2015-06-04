@@ -425,7 +425,7 @@ var ListItem = React.createClass({
 				<div 
 					className={bookmarksClass} 
 					onClick={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
-				>FV</div>
+				>★</div>
 			</div>
 		)
 	}
@@ -434,8 +434,9 @@ var ListItem = React.createClass({
 var MonsterItem = React.createClass({
 	render: function() {
 		return (
-			<div className='list-list-item-content'>
-				<div className='monster-name'>{this.props.name}</div>
+			<div className='list-item-content'>
+				<div className='list-item-name'>{this.props.name}</div>
+				<div className='list-item-monster-type'>{this.props.typeShort}</div>
 			</div>
 		)
 	}
@@ -447,17 +448,21 @@ var SpellItem = React.createClass({
 
 		var concentration = '';
 		if (this.props.concentration)
-			concentration = 'C.';
+			concentration = 'C';
 
-		var bookmarksClass = 'spell-bookmark mobile';
+		var ritual = '';
+		if (this.props.ritual)
+			ritual = 'R';
+
+		var bookmarksClass = 'list-item-icon';
 		if (this.props.bookmarked === true)
 			bookmarksClass = bookmarksClass + ' selected';
 		return (
 			<div className='list-item-content'>
 				<div className={iconClass}></div>
-				<div className='spell-name mobile'>{this.props.name}</div>
-				<div className='spell-range mobile'>{this.props.rangeShort}</div>
-				<div className='spell-concentration mobile'>{concentration}</div>
+				<div className='list-item-name'>{this.props.name}</div>
+				<div className='list-item-icon'>{ritual}</div>
+				<div className='list-item-icon'>{concentration}</div>
 			</div>
 		)
 	}
@@ -469,12 +474,36 @@ var MonsterDescription = React.createClass({
 		return (
 			<div>
 				<MobileNav backLink='bestiary' backTitle='Bestiary'/>
-				<div className='content-wrapper-mobile'>
-					<div className="description-title">{monster.name}</div>
-					<div className="description-body">
-						Description!
+				<DescriptionWrapper>
+					<DescriptionTitle title={monster.name} />
+					<div className="description-subtitle">
+						{monster.sizeFull + ' ' + monster.type + ', ' + monster.alignment}
 					</div>
-				</div>
+					<DescriptionSeparator />
+					<div className='description-block'>
+						<DescriptionItem title='Armor Class' value={monster.ac}/>
+						<DescriptionItem title='Hit Points' value={monster.hp}/>
+						<DescriptionItem title='Speed' value={monster.speed}/>
+					</div>
+					<DescriptionSeparator />
+					<DescriptionBlockStats {...monster} />
+					<DescriptionSeparator />
+					<div className='description-block'>
+						<DescriptionItem title='Saving Throws' value={monster.save}/>
+						<DescriptionItem title='Damage Vulnerables' value={monster.vulnerable}/>
+						<DescriptionItem title='Damage Resistances' value={monster.resist}/>
+						<DescriptionItem title='Damage Immunities' value={monster.immune}/>
+						<DescriptionItem title='Condition Immunities' value={monster.conditionImmune}/>
+						<DescriptionItem title='Skills' value={monster.skill}/>
+						<DescriptionItem title='Senses' value={monster.senses}/>
+						<DescriptionItem title='Languages' value={monster.languages}/>
+						<DescriptionItem title='Challenge' value={monster.cr}/>
+					</div>
+					<DescriptionSeparator />
+					<DescriptionBlockProperties properties={monster.trait} />
+					<DescriptionBlockProperties title='Actions' properties={monster.action} />
+					<DescriptionBlockProperties title='Legengary Actions' properties={monster.legendary} />
+				</DescriptionWrapper>
 			</div>
 		)
 	}
@@ -487,31 +516,24 @@ var SpellDescription = React.createClass({
 		return (
 			<div>
 				<MobileNav backLink='spellbook' backTitle='Spellbook'/>
-				<div className='content-wrapper-mobile'>
-					<div className="description-title">{spell.name}</div>
-					<div className="description-body">
-						<div className="description-block description-school-block">
-							<div className={iconClass}></div>
-							<div><em>{spell.schoolAndLevel}</em></div>
-						</div>
-						<div className="description-block">
-							<div><strong>Casting Time: </strong>{spell.time}</div>
-							<div><strong>Range: </strong>{spell.range}</div>
-							<div><strong>Components: </strong>{spell.components}</div>
-							<div><strong>Duration: </strong>{spell.duration}</div>
-						</div>
-						<div className="description-block">
-							{spell.text.map(function(p, i){
-								var block = null;
-								if (p === '') 
-									block = <p key={i} className="description-separator"></p>;
-								else 
-									block = <p key={i} className="description-p">{p}</p>;
-								return block;
-							})}
-						</div>
+				<DescriptionWrapper>
+					<DescriptionTitle title={spell.name} />
+					<div className="description-subtitle">
+						<div className={iconClass}></div>
+						<div>{spell.schoolAndLevel}</div>
 					</div>
-				</div>
+					<DescriptionSeparator />
+					<div className="description-block">
+						<DescriptionItem title='Casting Time' value={spell.time}/>
+						<DescriptionItem title='Range' value={spell.range}/>
+						<DescriptionItem title='Components' value={spell.components}/>
+						<DescriptionItem title='Duration' value={spell.duration}/>
+					</div>
+					<DescriptionSeparator />
+					<div className="description-block">
+						<DescriptionText text={spell.text} hiLevelIndex={spell.hiLevelIndex} />
+					</div>
+				</DescriptionWrapper>
 			</div>
 		)
 	}
@@ -524,6 +546,102 @@ var InlineSelect = React.createClass({
 				<div className='inline-select-wrapper'>
 					<select className='inline-select' onChange={this.props.handleSelect} value={this.props.currentOption}>{this.props.options}</select>
 					<div className='inline-select-holder-wrapper'><span className='inline-select-holder'>{this.props.currentOption} spells ▾</span></div>
+				</div>
+			</div>
+		)
+	}
+})
+
+var DescriptionWrapper = React.createClass({
+	render: function() {
+		return (
+			<div className='content-wrapper-mobile'>
+				<div className='description'>
+					{this.props.children}
+				</div>
+			</div>
+		)
+	}
+})
+
+var DescriptionSeparator = React.createClass({
+	render: function() {
+		return <div className='description-separator'></div>;
+	}
+})
+
+var DescriptionTitle = React.createClass({
+	render: function() {
+		return <div className='description-title'>{this.props.title}</div>;
+	}
+})
+
+var DescriptionItem = React.createClass({
+	render: function() {
+		if (this.props.value)
+			return <div className='description-item'><strong className='description-item-title'>{this.props.title} </strong>{this.props.value}</div>;
+		else
+			return null;
+	}
+})
+
+var DescriptionBlockProperties = React.createClass({
+	render: function() {
+		var title = null;
+		if (this.props.title)
+			title = <div className='description-block-title'>{this.props.title}</div>
+		if (this.props.properties) {
+			return (
+				<div className='description-block'>
+					{title}
+					{this.props.properties.map(function(property, i){
+						return <DescriptionText key={i} text={property.text} title={property.name}/>
+					}, this)}
+				</div>
+			)
+		} else
+			return null;
+	}
+})
+
+var DescriptionText = React.createClass({
+	render: function() {
+		return (
+			<div className='description-text'>
+				{this.props.text.map(function(p, i){
+					if (i === 0 && this.props.title)
+						return <div key={i} className='description-p'><strong>{this.props.title}.</strong> {p}</div>;
+					else if (this.props.hiLevelIndex && this.props.hiLevelIndex === i)
+						return <div key={i} className='description-p'><strong>At Higher Levels:</strong> {p}</div>;
+					else
+						return <div key={i} className='description-p'>{p}</div>;
+				}, this)}
+			</div>
+		)
+	}
+})
+
+// Specific description blocks
+
+var DescriptionBlockStats = React.createClass({
+	render: function() {
+		return (
+			<div className='description-block'>
+				<div className='description-stats-table'>
+					<div className='description-stat-title'>STR</div>
+					<div className='description-stat-title'>DEX</div>
+					<div className='description-stat-title'>CON</div>
+					<div className='description-stat-title'>INT</div>
+					<div className='description-stat-title'>WIS</div>
+					<div className='description-stat-title'>CHA</div>
+				</div>
+				<div className='description-stats-table'>
+					<div>{this.props.strFull}</div>
+					<div>{this.props.dexFull}</div>
+					<div>{this.props.conFull}</div>
+					<div>{this.props.intFull}</div>
+					<div>{this.props.wisFull}</div>
+					<div>{this.props.chaFull}</div>
 				</div>
 			</div>
 		)

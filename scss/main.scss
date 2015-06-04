@@ -2,7 +2,10 @@
 @import "bourbon/bourbon";
 
 $c-main: #0088d0;
+$c-secondary: #7F1821;
+$c-secondary-half: #d8b9bc;
 $p-content: 10px;
+$lh: 1.4em;
 
 @mixin transition-default {
 	//transition: background-color 0.10s ease-out, color 0.10s ease-out, border-color 0.10s ease-out, opacity 0.10s ease-out;
@@ -11,6 +14,7 @@ $p-content: 10px;
 html, body {
 	font-family: $helvetica;
 	font-size: 14px;
+	line-height: $lh;
 	height: 100%;
 	padding: 0px;
 	margin: 0px;
@@ -45,6 +49,7 @@ select, input {
 	height: 20px;
 	width: 220px;
 	cursor: pointer;
+	font-size: 12px;
 }
 
 .inline-select-holder-wrapper {
@@ -95,13 +100,10 @@ section:last-of-type {
 }
 
 .list-group-title {
-	text-transform: uppercase;
-	padding: 0px $p-content;
-	margin-bottom: 5px;
-	color: #aaa;
-	font-size: 12px;
+	margin: 0px $p-content 5px $p-content;
+	color: $c-secondary;
 	font-weight: bold;
-	height: 20px;
+	border-bottom: 1px solid $c-secondary-half;
 	@include display(flex);
 	@include align-items(center);
 }
@@ -117,18 +119,11 @@ section:last-of-type {
 }
 
 .list-item-link {
+	padding-left: $p-content;
 	color: #000;
 	width: 100%;
-	height: 26px;
-	padding-left: $p-content;
 	@include display(flex);
 	@include align-items(center);
-	&>* {
-		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		padding-right: 10px;
-	}
 }
 
 .list-item-content {
@@ -137,76 +132,117 @@ section:last-of-type {
 	@include align-items(center);
 	&>* {
 		white-space: nowrap;
-		overflow: hidden;
-		text-overflow: ellipsis;
 		padding-right: 10px;
 	}
+}
+
+.list-item-name {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
 
 .list-item-bookmark {
 	width: 26px;
 	height: 26px;
-	background-color: #ccc;
+	color: #ccc;
 	padding-right: $p-content;
 	margin: 0px 0px 0px 10px;
 	@include display(flex);
 	@include align-items(center);
 	@include justify-content(center);
 	&.selected {
-		background-color: #333;
-		color: #fff;
+		color: $c-main;
 	}
 }
 
-//Spell
-.spell-name {
-	width: 48%;
-} 
+//Specific list items
 
-.spell-casttime {
-	width: 15%;
-	font-size: 12px;
+@mixin list-item-other {
+	@include flex-shrink(0);
+	overflow: hidden;
+	text-overflow: ellipsis;
 	color: #666;
+	font-size: 12px;
 }
 
-.spell-duration {
-	width: 15%;
-	font-size: 12px;
-	color: #666;
-	text-align: right;
+.list-item-icon {
+	@include list-item-other;
+	width: 16px;
 }
 
-.spell-concentration {
-	width: 5%;
-	font-size: 12px;
-	color: #666;
-	text-align: right;
-	padding-right: 15px;
+.list-item-monster-type {
+	@include list-item-other;
+	width: 70px;
 }
 
-.spell-range {
-	width: 17%;
-	font-size: 12px;
-	color: #666;
-	text-align: right;
+//Description
+.description {
+	padding: 0px $p-content;
 }
 
-.mobile {
-	&.spell-name {
-		width: 95%;
+.description-title {
+	font-family: $georgia;
+	color: $c-secondary;
+	margin-bottom: 2px;
+	font-size: 22px;
+	line-height: $lh;
+}
+
+.description-block {
+	margin: 8px 0px;
+}
+
+.description-item {
+	padding: 1px 0px;
+}
+
+.description-item-title {
+	color: $c-secondary;
+}
+
+.description-text {
+	padding: 3px 0px;
+}
+
+.description-p:not(:last-child) {
+	margin-bottom: 6px;
+}
+
+.description-separator {
+	height: 1px;
+	width: 100%;
+	background-color: $c-secondary-half;
+}
+
+.description-block-title {
+	margin-bottom: 4px;
+	color: $c-secondary;
+	border-bottom: 1px solid $c-secondary-half;
+	font-size: 18px;
+	line-height: $lh;
+}
+
+.description-subtitle {
+	margin-bottom: 10px;
+	@include display(flex);
+	font-style: italic;
+}
+
+.description-stats-table {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	& > * {
+		font-size: 12px;
+		display: table-cell;
+		text-align: center;
 	}
-	&.spell-range {
-		display: none;
-	}
-	&.spell-concentration {
-		width: 5%;
-		padding-right: 0px;
-	}
 }
 
-//Monster
-.monster-name {
-	width: 48%;
+.description-stat-title {
+	font-weight: bold;
+	color: $c-secondary;
 }
 
 //Mobile
