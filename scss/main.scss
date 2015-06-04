@@ -225,8 +225,9 @@ section:last-of-type {
 
 .description-subtitle {
 	margin-bottom: 10px;
-	@include display(flex);
 	font-style: italic;
+	@include display(flex);
+	@include align-items(center);
 }
 
 .description-stats-table {
@@ -269,6 +270,13 @@ section:last-of-type {
 
 .nav-bookmarks-mobile {
 	padding-right: $p-content;
+}
+
+.list-item-menu-mobile {
+	padding: 0px $p-content;
+	height: 26px;
+	@include display(flex);
+	@include align-items(center);
 }
 
 .footer-mobile {

@@ -1,8 +1,6 @@
 var $ = require('jquery');
 var React = require('react');
 var Router = require('react-router');
-// var attachFastClick = require('fastclick');
-// 	attachFastClick(document.body);
 
 var prepareSpells = require('./prepare-spells.js');
 var makeSpellsCharFilterLists = require('./make-spells-char-filter-lists.js');
@@ -180,10 +178,9 @@ var MobileMainMenu = React.createClass({
 			<div>
 				<MobileNav />
 				<div className='content-wrapper-mobile'>
-					<div className='main-menu-mobile'>
-						<Link to='spellbook' className='main-menu-button-mobile'>Spellbook</Link>
-						<Link to='bestiary' className='main-menu-button-mobile'>Bestiary</Link>
-						<Link to='armory' className='main-menu-button-mobile'>Armory</Link>
+					<div className='list'>
+						<Link to='spellbook' className='list-item-menu-mobile'>Spellbook</Link>
+						<Link to='bestiary' className='list-item-menu-mobile'>Bestiary</Link>
 					</div>
 				</div>
 			</div>
@@ -654,7 +651,6 @@ var routes = (
 		<Route name='spell' path='spellbook/:url' handler={SpellDescription} />
 		<Route name='bestiary' handler={Bestiary} />
 		<Route name='monster' path='bestiary/:url' handler={MonsterDescription} />
-		<Route name='armory' handler={Armory} />
 		<Route name='bookmarks' handler={Bookmarks} />
 		<DefaultRoute handler={MobileMainMenu} />
 	</Route>
@@ -685,36 +681,3 @@ $.when(
 		React.render(<Handler />, document.body);
 	});
 });
-
-
-///////
-
-var Spell = React.createClass({
-	render: function() {
-		iconClass = 'icon icon-school-' + this.props.school;
-
-		var bookmarkClass = 'spell-bookmark'
-		// if (this.props.bookmarks.indexOf(this.props.name) != -1)
-		// 	bookmarkClass = bookmarkClass + " spell-bookmark-selected bg-" + this.props.currentClass.className;
-
-		var timeShort = this.props.timeShort;
-		if (this.props.ritual)
-			timeShort = 'Ritual'
-
-		var concentration = ''
-		if (this.props.concentration)
-			concentration = 'C'
-
-		return (
-			<Link to='spell' params={{spellUrl: this.props.url}} className='spell-wrapper'>
-				{/*<div className={bookmarkClass}></div>*/}
-				<div className={iconClass}></div>
-				<div className='spell-name'>{this.props.name}</div>
-				{/*<div className='spell-casttime'>{timeShort}</div>*/}
-				<div className='spell-range'>{this.props.rangeShort}</div>
-				{/*<div className='spell-duration'>{this.props.durationShort}</div>
-				<div className='spell-concentration'>{concentration}</div>*/}
-			</Link>
-		)
-	}
-})
