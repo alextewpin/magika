@@ -26,20 +26,20 @@ gulp.task('watch', function() {
 	var watcher = watchify(browserify({
 		entries: [path.JS_IN],
 		transform: [reactify],
-		debug: false,
+		debug: true,
 		cache: {}, packageCache: {}, fullPaths: true
 	}));
 
 	return watcher.on('update', function () {
 		watcher.bundle()
 			.pipe(source(path.JS_OUT_NAME))
-			.pipe(streamify(uglify(path.JS_OUT_NAME)))
+			//.pipe(streamify(uglify(path.JS_OUT_NAME)))
 			.pipe(gulp.dest(path.JS_OUT_DEST))
 			console.log('Updated');
 	})
 	.bundle()
 	.pipe(source(path.JS_OUT_NAME))
-	.pipe(streamify(uglify(path.JS_OUT_NAME)))
+	//.pipe(streamify(uglify(path.JS_OUT_NAME)))
 	.pipe(gulp.dest(path.JS_OUT_DEST));
 });
 

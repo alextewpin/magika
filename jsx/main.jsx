@@ -367,22 +367,26 @@ var List = React.createClass({
 									{group.map(function(itemUrl){
 										var item = this.props.keys[itemUrl];
 
-										var wrapperClass = '';
+										// var wrapperClass = '';
+										// if (groupFiltered.indexOf(itemUrl) === -1)
+										// 	wrapperClass = 'hideme';
+
+										var hidden = false;
 										if (groupFiltered.indexOf(itemUrl) === -1)
-											wrapperClass = 'hideme';
+											hidden = true;
 
 										var bookmarked = false;
 										if (this.props.bookmarks[this.props.itemType] && this.props.bookmarks[this.props.itemType].indexOf(itemUrl) !== -1)
 											bookmarked = true;
 
 										return (
-											<div className={wrapperClass} key={itemUrl}>
+											<ListItemWrapper hidden={hidden} key={itemUrl}>
 												<ListItem 
 													{...item}
 													itemType={this.props.itemType}
 													bookmarked={bookmarked}
 													toggleBookmarks={this.props.toggleBookmarks} />
-											</div>
+											</ListItemWrapper>
 										)
 									}, this)}
 								</section>
@@ -395,9 +399,25 @@ var List = React.createClass({
 	}
 })
 
+var ListItemWrapper = React.createClass({
+	shouldComponentUpdate: function(nextProps) {
+		return this.props.hidden !== nextProps.hidden;
+	},
+	render: function() {
+		var wrapperClass = '';
+		if (this.props.hidden === true)
+			wrapperClass = 'hideme';
+		return (
+			<div className={wrapperClass}>
+				{this.props.children}
+			</div>
+		)
+	}
+})
+
 var ListItem = React.createClass({
 	shouldComponentUpdate: function(nextProps) {
-		return this.props.bookmarked !== nextProps.bookmarked
+		return this.props.bookmarked !== nextProps.bookmarked;
 	},
 	render: function() {
 		var bookmarksClass = 'list-item-bookmark mobile';
