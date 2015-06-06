@@ -82,15 +82,6 @@ var App = React.createClass({
 
 		if (index === -1) {
 			bmCategory.push(item);
-			// bmCategory.sort(function(a, b){
-			// 	var itemA = a.toLowerCase();
-			// 	var itemB = b.toLowerCase();
-			// 	if (itemA < itemB)
-			// 		return -1 
-			// 	if (itemA > itemB)
-			// 		return 1
-			// 	return 0
-			// });
 			localStorage.setItem('bookmarks', JSON.stringify(bookmarks));
 			this.setState({
 				bookmarks: bookmarks
@@ -367,10 +358,6 @@ var List = React.createClass({
 									{group.map(function(itemUrl){
 										var item = this.props.keys[itemUrl];
 
-										// var wrapperClass = '';
-										// if (groupFiltered.indexOf(itemUrl) === -1)
-										// 	wrapperClass = 'hideme';
-
 										var hidden = false;
 										if (groupFiltered.indexOf(itemUrl) === -1)
 											hidden = true;
@@ -380,7 +367,7 @@ var List = React.createClass({
 											bookmarked = true;
 
 										return (
-											<ListItemWrapper hidden={hidden} key={itemUrl}>
+											<ListItemWrapper hidden={hidden} bookmarked={bookmarked} key={itemUrl}>
 												<ListItem 
 													{...item}
 													itemType={this.props.itemType}
@@ -401,7 +388,7 @@ var List = React.createClass({
 
 var ListItemWrapper = React.createClass({
 	shouldComponentUpdate: function(nextProps) {
-		return this.props.hidden !== nextProps.hidden;
+		return this.props.bookmarked !== nextProps.bookmarked || this.props.hidden !== nextProps.hidden;
 	},
 	render: function() {
 		var wrapperClass = '';
@@ -433,7 +420,7 @@ var ListItem = React.createClass({
 				item = <MonsterItem {...this.props} />
 				break;
 			default:
-				item = <div></div>
+				item = null;
 		}
 
 		return (
