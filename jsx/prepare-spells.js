@@ -121,10 +121,6 @@ var prepareSpells = function(spells) {
 		});
 		spell.classesArray = classesArray;
 
-		spell.classesArray.forEach(function(className){
-			spell[className] = true;
-		})
-
 	});
 	return spells;
 }
