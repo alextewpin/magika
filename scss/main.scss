@@ -61,25 +61,25 @@ select, input {
 	color: $c-main;
 }
 
-.inline-select-holder {
-	
-}
-
 .hideme {
 	display: none !important;
 }
 
 //List group
-.list-filters {
-	margin-bottom: 12px;
-	padding: 0px $p-content;
+.list {
+	margin-top: 10px;
 }
 
 .list-filters-select {
-	margin-bottom: 10px;
+	padding: 0px $p-content;
 }
 
-.list-filters-search {
+.list-search-wrapper {
+	padding: 0px $p-content;
+	margin-bottom: 7px;
+}
+
+.list-search {
 	padding: 3px;
 	border: 1px solid #ccc;
 	border-radius: 0px;
@@ -88,9 +88,18 @@ select, input {
 	outline: none;
 	max-width: 400px;
 	box-sizing: border-box !important;
+	display: block;
 	&:focus {
 		border: 1px solid $c-main;
 	}
+}
+
+.list-block-title {
+	margin: 0px $p-content 5px $p-content;
+	color: $c-secondary;
+	border-bottom: 1px solid $c-secondary-half;
+	font-size: 18px;
+	line-height: $lh;
 }
 
 .list-group {
@@ -101,13 +110,24 @@ section:last-of-type {
 	margin-bottom: 0px;
 }
 
-.list-group-title {
-	margin: 0px $p-content 5px $p-content;
+@mixin list-group-title {
 	color: $c-secondary;
 	font-weight: bold;
-	border-bottom: 1px solid $c-secondary-half;
 	@include display(flex);
 	@include align-items(center);
+}
+
+.list-group-title {
+	@include list-group-title;
+	margin: 0px $p-content 5px $p-content;
+	border-bottom: 1px solid $c-secondary-half;
+	
+}
+
+.list-group-title-noborder {
+	@include list-group-title;
+	height: 26px;
+	padding: 0px $p-content;
 }
 
 //List item 
@@ -145,6 +165,7 @@ section:last-of-type {
 }
 
 .list-item-bookmark {
+	@include user-select(none);
 	width: 26px;
 	height: 26px;
 	color: #ccc;
@@ -283,6 +304,11 @@ section:last-of-type {
 
 .footer-mobile {
 	margin: 10px 0px;
+	padding: 0px $p-content;
+}
+
+// Loader
+.loader-wrapper {
 	padding: 0px $p-content;
 }
 

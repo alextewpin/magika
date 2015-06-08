@@ -1,4 +1,8 @@
 var gulp = require('gulp');
+
+var fs = require('fs');
+var dataPrepare = require('magika-data-prepare');
+
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
 var plumber = require('gulp-plumber');
@@ -18,7 +22,7 @@ var path = {
 	JS_IN: './jsx/main.jsx'
 };
 
-gulp.task('default', ['watch']);
+gulp.task('default', ['watch', 'data']);
 
 gulp.task('watch', function() {
 	gulp.watch(path.CSS_IN, ['sass'])
@@ -50,3 +54,9 @@ gulp.task('sass', function () {
 		.pipe(minifyCSS())
 		.pipe(gulp.dest(path.CSS_OUT))
 });
+
+gulp.task('data', function() {
+	fs.writeFile('./public/data/data-spells.json', dataPrepare('./data/Spells'));
+});
+
+

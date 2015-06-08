@@ -15,35 +15,6 @@ var DefaultRoute = Router.DefaultRoute;
 var RouteHandler = Router.RouteHandler;
 var Redirect = Router.Redirect;
 
-var SPELLS = []; // Общий список заклинаний (не используется напрямую)
-var SPELLS_BY_KEY = {}; // Он же, но с ключами-именами
-var SPELLS_GROUPED_BY_LEVEL = []; // Он же, сгруппированный по уровням (только имена)
-var SPELLS_CHAR_FILTER_LISTS = {}; // Заклинания по классам (ключ - имя класса)
-var SPELLS_CHAR_FILTERS = []; //Список классов
-
-var MONSTERS = [];
-var MONSTERS_BY_KEY = {};
-var MONSTERS_GROUPED_BY_CR = [];
-
-var groupSpellsByLevel = function(source) {
-	var output = [[], [], [], [], [], [], [], [], [], []];
-	source.forEach(function(spell){
-		output[spell.level].push(spell.url);
-	})
-	return output;
-}
-
-var groupMontersByCR = function(source) {
-	var output = [];
-	for (i = 1; i <= 34; i++) {
-		output.push([])
-	}
-	source.forEach(function(monster){
-		output[monster.crNum].push(monster.url);
-	})
-	return output;
-}
-
 var groupTitleMontersByCR = function(monster) {
 	return 'Challenge ' + monster.cr;
 }
@@ -62,15 +33,21 @@ var checkNotFoundItem = function(keys, item) {
 		return {name: item}
 }
 
-var convertToObjects = function(source) {
-	var output = {};
-	source.forEach(function(item){
-		output[item.url] = item;	
-	})
-	return output;
-}
-
 var App = React.createClass({
+	handleSearchHolder: function(route) {
+		if (this.state.searchHolder !== route) {
+			this.setState({
+				searchHolder: route,
+				searchValue: ''
+			})
+		}
+
+	},
+	handleSearch: function(e) {
+		this.setState({
+			searchValue: e.target.value.toLowerCase()
+		})
+	},
 	toggleBookmarks: function(item, category, e) {
 		e.preventDefault(); 
 		var bookmarks = this.state.bookmarks;
@@ -106,14 +83,22 @@ var App = React.createClass({
 			bookmarks = JSON.parse(storedBookmarks);
 
 		return {
-			  mobile: mobile,
-			  bookmarks: bookmarks
+			dataSpells: {},
+			searchValue: '',
+			searchHolder: '',
+			mobile: mobile,
+			bookmarks: bookmarks
 		};
 	},
 	render: function() {
 		var output = null;
 		if (true)
-			output = <MobileLayout toggleBookmarks={this.toggleBookmarks} {...this.state}/>;
+			output = <MobileLayout 
+				handleSearch={this.handleSearch}
+				toggleBookmarks={this.toggleBookmarks} 
+				handleSearchHolder={this.handleSearchHolder}
+				{...this.state}
+			/>;
 		else
 			output = <DesktopLayout />;
 		return output;
@@ -192,44 +177,96 @@ var Author = React.createClass({
 })
 
 var Bookmarks = React.createClass({
+	sortBM: function (list) {
+		return list.sort(function(a, b){
+			var itemA = a.toLowerCase();
+			var itemB = b.toLowerCase();
+			if (itemA < itemB)
+				return -1 
+			if (itemA > itemB)
+				return 1
+			return 0
+		});
+	},
+	groupBMMontersByCR: function(monsters) {
+		monsters = this.sortBM(monsters);
+		var monstersGrouped = [];
+		for (i = 1; i <= 34; i++) {
+			monstersGrouped.push([])
+		}
+		monsters.forEach(function(monster){
+			monstersGrouped[MONSTERS_BY_KEY[monster].crNum].push(monster);
+		})
+		return monstersGrouped;
+	},
+	groupBMSpellsByLevel: function(spells) {
+		spells = this.sortBM(spells);
+		var spellsGrouped = [[],[],[],[],[],[],[],[],[],[]];
+		spells.forEach(function(spell){
+			spellsGrouped[SPELLS_BY_KEY[spell].level].push(spell);
+		})
+		return spellsGrouped;
+	},
+	componentWillMount: function() {
+	    this.props.handleSearchHolder('bookmarks')  
+	},
 	render: function() {
+		var BMSpellsByLevel = this.groupBMSpellsByLevel(this.props.bookmarks.spell);
+		var spellGroups = [
+			{
+				groupTitleFc: groupTitleSpellsByLevel,
+				group: BMSpellsByLevel
+			}
+		]
+		var BMMontersByCR = this.groupBMMontersByCR(this.props.bookmarks.monster);
+		var monsterGroups = [
+			{
+				groupTitleFc: groupTitleMontersByCR,
+				group: BMMontersByCR
+			}
+		]
 		return (
 			<div>
 				<MobileNav />
-				<div className='content-wrapper-mobile'>
-					<div>Bookmarks</div>
-				</div>
-			</div>
-		)
-	}
-})
-
-var Armory = React.createClass({
-	render: function() {
-		return (
-			<div>
-				<MobileNav />
-				<div className='content-wrapper-mobile'>
-					<div>Armory</div>
-				</div>
+				<ListSearch {...this.props} />
+				<List
+					title='Spells'
+					list='spellbook' 
+					itemType='spell'
+					groups={spellGroups}
+					keys={SPELLS_BY_KEY}
+					hideSubgroupLines={true}
+					{...this.props}
+				/>
+				<List
+					title='Monsters'
+					list='bestiary'
+					itemType='monster'
+					groups={monsterGroups}
+					keys={MONSTERS_BY_KEY}
+					hideSubgroupLines={true}
+					{...this.props}
+				/>
 			</div>
 		)
 	}
 })
 
 var Bestiary = React.createClass({
+	componentWillMount: function () {
+	    this.props.handleSearchHolder('bestiary')  
+	},
 	render: function() {
 		var groups = [
 			{
-				sortProp: 'crNum',
 				groupTitleFc: groupTitleMontersByCR,
-				optionTitle: 'Challenge',
 				group: MONSTERS_GROUPED_BY_CR
 			}
 		]
 		return (
 			<div>
 				<MobileNav title='Bestiary'/>
+				<ListSearch {...this.props} />
 				<List 
 					list='bestiary'
 					itemType='monster'
@@ -243,29 +280,61 @@ var Bestiary = React.createClass({
 })
 
 var Spellbook = React.createClass({
+	getInitialState: function() {
+		return {
+			dataSpells: {},
+			isReady: false
+		}
+	},
+	componentDidMount: function () {
+		$.get('/data/data-spells.json', function(result) {
+			this.setState({
+				dataSpells: result,
+				isReady: true
+			});
+		}.bind(this));
+	},
+	componentWillMount: function () {
+	    this.props.handleSearchHolder('spellbook')  
+	},
 	render: function() {
-		var groups = [
-			{
-				sortProp: 'level',
-				groupTitleFc: groupTitleSpellsByLevel,
-				optionTitle: 'Level',
-				group: SPELLS_GROUPED_BY_LEVEL
-			}
-		]
-		var filters = SPELLS_CHAR_FILTERS;
-		var filterLists = SPELLS_CHAR_FILTER_LISTS;
-		return (
-			<div>
-				<MobileNav title='Spellbook'/>
+		var output;
+		if (this.state.isReady) {
+			var groups = [
+				{
+					groupTitleFc: groupTitleSpellsByLevel,
+					group: this.state.dataSpells.SPELLS_GROUPED_BY_LEVEL
+				}
+			]
+			output = <div>
+				<ListSearch {...this.props} />
 				<List
 					list='spellbook' 
 					itemType='spell'
-					filters={filters}
-					filterLists={filterLists}
+					filters={this.state.dataSpells.SPELLS_CHAR_FILTERS}
+					filterLists={this.state.dataSpells.SPELLS_CHAR_FILTER_LISTS}
 					groups={groups}
-					keys={SPELLS_BY_KEY}
+					keys={this.state.dataSpells.SPELLS_BY_KEY}
 					{...this.props}
 				/>
+			</div>
+		} else {
+			output = <div className='loader-wrapper'>Loading...</div>
+		}
+		return (
+			<div>
+				<MobileNav title='Spellbook'/>
+				{output}
+			</div>
+		)
+	}
+})
+
+var ListSearch = React.createClass({
+	render: function() {
+		return (
+			<div className='list-search-wrapper'>
+				<input className='list-search' onChange={this.props.handleSearch} value={this.props.searchValue} type='search' placeholder='Search'/>
 			</div>
 		)
 	}
@@ -283,11 +352,6 @@ var List = React.createClass({
 	handleSortSelect: function(e) {
 
 	},
-	handleSearch: function(e) {
-		this.setState({
-			searchValue: e.target.value.toLowerCase()
-		})
-	},
 	getInitialState: function () {
 		var currentFilter = '';
 		var currentList = [];
@@ -302,15 +366,16 @@ var List = React.createClass({
 		}
 
 		return {
-			searchValue: '',
 			currentFilter: currentFilter,
 			currentList: currentList,
 			currentGroup: this.props.groups[0]
 		};
 	},
 	render: function() {
+		//Make filters
 		var filterOptions;
 		var filterSelect;
+		
 		if (this.props.filters) {
 			filterOptions = this.props.filters.map(function(filter){
 				return <option key={filter} value={filter}>{filter}</option>
@@ -322,27 +387,44 @@ var List = React.createClass({
 				currentOption={this.state.currentFilter}
 				options={filterOptions} />
 		}
+		
+		//Prepare filtered group
+		var groupsFiltered;
+
+		if (this.props.filters)
+			groupsFiltered = this.state.currentList;
+		else
+			groupsFiltered = this.state.currentGroup.group;
+
+		if (this.props.searchValue !== '') {
+			groupsFiltered = groupsFiltered.map(function(group){
+				return group.filter(function(item){
+					return item.toLowerCase().indexOf(this.props.searchValue) !== -1;
+				}, this)
+			}, this)
+		} 
+
+		//Make title
+		var title;
+		var showTitle = false;
+
+		if (this.props.title)
+			groupsFiltered.forEach(function(group){
+				if (group.length > 0)
+					showTitle = true;
+			})
+
+		if (this.props.title && showTitle)
+			title = <div className='list-block-title'>{this.props.title}</div>
+
 		return (
 			<div>
 				<div className='content-wrapper-mobile'>
-					<div className='list-filters'>
-						{filterSelect}
-						<div><input className='list-filters-search' onChange={this.handleSearch} value={this.state.searchValue} type='search' placeholder='Search'/></div>
-					</div>
+					{filterSelect}
 					<div className="list">
+						{title}
 						{this.state.currentGroup.group.map(function(group, i){
-							var groupFiltered;
-
-							if (this.props.filters)
-								groupFiltered = this.state.currentList[i];
-							else
-								groupFiltered = group;
-							 
-							if (this.state.searchValue !== '') {
-								groupFiltered = groupFiltered.filter(function(item){
-									return item.toLowerCase().indexOf(this.state.searchValue) !== -1;
-								}, this)
-							} 
+							var groupFiltered = groupsFiltered[i];
 
 							var groupClass = 'list-group'
 							if (groupFiltered.length === 0)
@@ -352,9 +434,13 @@ var List = React.createClass({
 							if (group.length !== 0)
 								groupTitle = this.state.currentGroup.groupTitleFc(this.props.keys[group[0]]);
 
+							var groupTitleClass = 'list-group-title'
+							if (this.props.hideSubgroupLines)
+								groupTitleClass = 'list-group-title-noborder'
+
 							return (
 								<section className={groupClass} key={i}>
-									<div className="list-group-title">{groupTitle}</div>
+									<div className={groupTitleClass}>{groupTitle}</div>
 									{group.map(function(itemUrl){
 										var item = this.props.keys[itemUrl];
 
@@ -653,8 +739,8 @@ var DescriptionBlockStats = React.createClass({
 })
 
 var routes = (
-	<Route name='app' path='/' handler={App}>
-		<Route name='spellbook' handler={Spellbook} />
+	<Route name='app' path='/' handler={App} >
+		<Route name='spellbook' foo='bar' handler={Spellbook} />
 		<Route name='spell' path='spellbook/:url' handler={SpellDescription} />
 		<Route name='bestiary' handler={Bestiary} />
 		<Route name='monster' path='bestiary/:url' handler={MonsterDescription} />
@@ -663,28 +749,6 @@ var routes = (
 	</Route>
 );
 
-$.when(
-	$.get('/data/data-spells-phb.json', function(reqData) {
-		SPELLS = SPELLS.concat(reqData.spells.spell);
-	}),
-	$.get('/data/data-spells-ee.json', function(reqData) {
-		SPELLS = SPELLS.concat(reqData.spells.spell);
-	}),
-	$.get('/data/data-monsters-mm.json', function(reqData) {
-		MONSTERS = MONSTERS.concat(reqData.compendium.monster);
-	})
-).then(function() {
-	SPELLS = prepareSpells(SPELLS);
-	SPELLS_BY_KEY = convertToObjects(SPELLS);
-	SPELLS_GROUPED_BY_LEVEL = groupSpellsByLevel(SPELLS);
-	SPELLS_CHAR_FILTER_LISTS = makeSpellsCharFilterLists(SPELLS);
-	SPELLS_CHAR_FILTERS = makeSpellsCharFilters(SPELLS_CHAR_FILTER_LISTS);
-
-	MONSTERS = prepareMonsters(MONSTERS);
-	MONSTERS_BY_KEY = convertToObjects(MONSTERS);
-	MONSTERS_GROUPED_BY_CR = groupMontersByCR(MONSTERS);
-
-	Router.run(routes, function (Handler) {
-		React.render(<Handler />, document.body);
-	});
+Router.run(routes, function (Handler) {
+	React.render(<Handler />, document.body);
 });
