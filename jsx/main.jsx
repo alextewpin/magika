@@ -2,12 +2,6 @@ var $ = require('jquery');
 var React = require('react');
 var Router = require('react-router');
 
-var prepareSpells = require('./prepare-spells.js');
-var makeSpellsCharFilterLists = require('./make-spells-char-filter-lists.js');
-var makeSpellsCharFilters = require('./make-spells-char-filters.js');
-
-var prepareMonsters = require('./prepare-monsters.js');
-
 var Route = Router.Route;
 var Link = Router.Link;
 var NotFoundRoute = Router.NotFoundRoute;
@@ -338,7 +332,7 @@ var Spellbook = React.createClass({
 				/>
 			</div>
 		} else {
-			output = <div className='loader-wrapper'>Loading...</div>
+			output = <LoadingStub/>
 		}
 		return (
 			<div>
@@ -530,7 +524,11 @@ var ListItem = React.createClass({
 
 		return (
 			<div className='list-item-wrapper'>
-				<Link to={this.props.itemType} params={{url: this.props.url}} className='list-item-link'>{item}</Link>
+				<Link 
+					to={this.props.itemType} 
+					params={{url: this.props.url}} 
+					className='list-item-link'
+				>{item}</Link>
 				<div 
 					className={bookmarksClass} 
 					onClick={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
@@ -579,6 +577,60 @@ var SpellItem = React.createClass({
 	}
 })
 
+var SpellDescriptionHandler = React.createClass({
+	render: function() {
+		return <Description itemType='spell' itemUrl={this.props.params.url} />
+	}
+})
+
+var Description = React.createClass({
+	getInitialState: function() {
+		return {
+			data: null,
+			isReady: false
+		}
+	},
+	componentDidMount: function () {
+		var url = '/data?' + this.props.itemType + '=' + this.props.itemUrl;
+		$.get(url, function(result) {
+			this.setState({
+				data: result,
+				isReady: true
+			});
+		}.bind(this));
+	},
+	render: function() {
+		var output;
+		var navBackLink;
+		var navBackTitle;
+
+		switch (this.props.itemType) {
+			case 'spell':
+				navBackLink = 'spellbook';
+				navBackTitle = 'Spellbook';
+				break;
+		}
+
+		if (this.state.isReady) {
+			console.log(this.state.data);
+			switch (this.props.itemType) {
+				case 'spell':
+					output = <SpellDescription {...this.state.data} />;
+					break;
+				default:
+					output = <Wat />;
+			}
+		}
+
+		return (
+			<div>
+				<MobileNav backLink={navBackLink} backTitle={navBackTitle}/>
+				{output}
+			</div>
+		)
+	}	
+})
+
 var MonsterDescription = React.createClass({
 	render: function() {
 		monster = checkNotFoundItem(MONSTERS_BY_KEY, this.props.params.url);
@@ -622,27 +674,25 @@ var MonsterDescription = React.createClass({
 
 var SpellDescription = React.createClass({
 	render: function() {
-		spell = checkNotFoundItem(SPELLS_BY_KEY, this.props.params.url);
-		iconClass = 'icon icon-school-' + spell.school;
+		iconClass = 'icon icon-school-' + this.props.school;
 		return (
 			<div>
-				<MobileNav backLink='spellbook' backTitle='Spellbook'/>
 				<DescriptionWrapper>
-					<DescriptionTitle title={spell.name} />
+					<DescriptionTitle title={this.props.name} />
 					<div className="description-subtitle">
 						<div className={iconClass}></div>
-						<div>{spell.schoolAndLevel}</div>
+						<div>{this.props.schoolAndLevel}</div>
 					</div>
 					<DescriptionSeparator />
 					<div className="description-block">
-						<DescriptionItem title='Casting Time' value={spell.time}/>
-						<DescriptionItem title='Range' value={spell.range}/>
-						<DescriptionItem title='Components' value={spell.components}/>
-						<DescriptionItem title='Duration' value={spell.duration}/>
+						<DescriptionItem title='Casting Time' value={this.props.time}/>
+						<DescriptionItem title='Range' value={this.props.range}/>
+						<DescriptionItem title='Components' value={this.props.components}/>
+						<DescriptionItem title='Duration' value={this.props.duration}/>
 					</div>
 					<DescriptionSeparator />
 					<div className="description-block">
-						<DescriptionText text={spell.text} hiLevelIndex={spell.hiLevelIndex} />
+						<DescriptionText text={this.props.text} hiLevelIndex={this.props.hiLevelIndex} />
 					</div>
 				</DescriptionWrapper>
 			</div>
@@ -660,6 +710,18 @@ var InlineSelect = React.createClass({
 				</div>
 			</div>
 		)
+	}
+})
+
+var LoadingStub = React.createClass({
+	render: function() {
+		return <div className='loader-wrapper'>Loading...</div>
+	}
+})
+
+var Wat = React.createClass({
+	render: function() {
+		return <div className='loader-wrapper'>WAT</div>
 	}
 })
 
@@ -762,9 +824,9 @@ var DescriptionBlockStats = React.createClass({
 var routes = (
 	<Route name='app' path='/' handler={App} >
 		<Route name='spellbook' foo='bar' handler={Spellbook} />
-		<Route name='spell' path='spellbook/:url' handler={SpellDescription} />
+		<Route name='spell' path='spellbook/:url' handler={SpellDescriptionHandler} />
 		<Route name='bestiary' handler={Bestiary} />
-		<Route name='monster' path='bestiary/:url' handler={MonsterDescription} />
+		<Route name='monster' path='bestiary/:url' handler={Description} />
 		<Route name='bookmarks' handler={Bookmarks} />
 		<DefaultRoute handler={MobileMainMenu} />
 	</Route>
