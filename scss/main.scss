@@ -48,7 +48,7 @@ select, input {
 .inline-select {
 	opacity: 0;
 	position: absolute;
-	height: 20px;
+	height: 24px;
 	width: 220px;
 	cursor: pointer;
 	font-size: 12px;
@@ -57,7 +57,7 @@ select, input {
 .inline-select-holder-wrapper {
 	@include display(flex);
 	@include align-items(center);
-	height: 20px;
+	height: 24px;
 	color: $c-main;
 }
 
@@ -80,10 +80,10 @@ select, input {
 }
 
 .list-search {
-	padding: 3px;
+	padding: 3px 4px;
 	border: 1px solid #ccc;
 	border-radius: 0px;
-	height: 24px;
+	height: 26px;
 	width: 100%;
 	outline: none;
 	max-width: 400px;
