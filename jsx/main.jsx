@@ -284,20 +284,19 @@ var Bestiary = React.createClass({
 
 var Spellbook = React.createClass({
 	getInitialState: function() {
-		var dataSpells;
-		var isReady = false;
-		var storedDataSpells = localStorage.getItem('dataSpells');
-		if (storedDataSpells) {
-			dataSpells = JSON.parse(storedDataSpells);
-			isReady = true;
-		}
 		return {
-			dataSpells: dataSpells,
-			isReady: isReady
+			dataSpells: null,
+			isReady: false
 		}
 	},
 	componentDidMount: function () {
-		if (this.props.shouldDataUpdate === true || this.state.dataSpells === null) {
+		var storedDataSpells = localStorage.getItem('dataSpells');
+		if (storedDataSpells) {
+			this.setState({
+				dataSpells: JSON.parse(storedDataSpells),
+				isReady: true
+			});
+		} else {
 			$.get('/data/data-spells.json', function(result) {
 				localStorage.setItem('dataSpells', JSON.stringify(result));
 				this.setState({
