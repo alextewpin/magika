@@ -15,6 +15,8 @@ var DefaultRoute = Router.DefaultRoute;
 var RouteHandler = Router.RouteHandler;
 var Redirect = Router.Redirect;
 
+var DATA_VERSION = 1;
+
 var groupTitleMontersByCR = function(monster) {
 	return 'Challenge ' + monster.cr;
 }
@@ -73,6 +75,13 @@ var App = React.createClass({
 		}
 	},
 	getInitialState: function () {
+		var shouldDataUpdate = false;
+		var storedDataVersion = parseInt(localStorage.getItem('dataVersion'));
+		if (storedDataVersion !== DATA_VERSION) {
+			localStorage.setItem('dataVersion', DATA_VERSION);
+			shouldDataUpdate = true;
+		}
+
 		var mobile = false;
 		if (!!('ontouchstart' in window))
 			mobile = true;
@@ -83,7 +92,7 @@ var App = React.createClass({
 			bookmarks = JSON.parse(storedBookmarks);
 
 		return {
-			dataSpells: {},
+			shouldDataUpdate: shouldDataUpdate,
 			searchValue: '',
 			searchHolder: '',
 			mobile: mobile,
@@ -281,18 +290,28 @@ var Bestiary = React.createClass({
 
 var Spellbook = React.createClass({
 	getInitialState: function() {
+		var dataSpells;
+		var isReady = false;
+		var storedDataSpells = localStorage.getItem('dataSpells');
+		if (storedDataSpells) {
+			dataSpells = JSON.parse(storedDataSpells);
+			isReady = true;
+		}
 		return {
-			dataSpells: {},
-			isReady: false
+			dataSpells: dataSpells,
+			isReady: isReady
 		}
 	},
 	componentDidMount: function () {
-		$.get('/data/data-spells.json', function(result) {
-			this.setState({
-				dataSpells: result,
-				isReady: true
-			});
-		}.bind(this));
+		if (this.props.shouldDataUpdate === true || this.state.dataSpells === null) {
+			$.get('/data/data-spells.json', function(result) {
+				localStorage.setItem('dataSpells', JSON.stringify(result));
+				this.setState({
+					dataSpells: result,
+					isReady: true
+				});
+			}.bind(this));
+		}
 	},
 	componentWillMount: function () {
 	    this.props.handleSearchHolder('spellbook')  
