@@ -536,13 +536,15 @@ var SpellItem = React.createClass({
 	render: function() {
 		iconClass = 'icon icon-school-' + this.props.school;
 
-		var concentration = '';
-		if (this.props.concentration)
-			concentration = <div className='list-item-icon'>C</div>;
-
 		var ritual;
 		if (this.props.ritual)
 			ritual = <div className='list-item-icon'>R</div>;
+
+		var concentration;
+		if (this.props.concentration)
+			concentration = <div className='list-item-icon'>C</div>;
+		else if (this.props.ritual)
+			concentration = <div className='list-item-icon'></div>;
 
 		var bookmarksClass = 'list-item-icon';
 		if (this.props.bookmarked === true)
@@ -551,8 +553,8 @@ var SpellItem = React.createClass({
 			<div className='list-item-content'>
 				<div className={iconClass}></div>
 				<div className='list-item-name'>{this.props.name}</div>
-				{concentration}
 				{ritual}
+				{concentration}
 			</div>
 		)
 	}
