@@ -211,7 +211,7 @@ var Bookmarks = React.createClass({
 		return spellsGrouped;
 	},
 	componentWillMount: function() {
-	    this.props.handleSearchHolder('bookmarks')  
+		this.props.handleSearchHolder('bookmarks')  
 	},
 	render: function() {
 		var BMSpellsByLevel = this.groupBMSpellsByLevel(this.props.bookmarks.spell);
@@ -257,7 +257,7 @@ var Bookmarks = React.createClass({
 
 var Bestiary = React.createClass({
 	componentWillMount: function () {
-	    this.props.handleSearchHolder('bestiary')  
+		this.props.handleSearchHolder('bestiary')  
 	},
 	render: function() {
 		var groups = [
@@ -290,15 +290,8 @@ var Spellbook = React.createClass({
 		}
 	},
 	componentDidMount: function () {
-		var storedDataSpells = localStorage.getItem('dataSpells');
-		if (storedDataSpells) {
-			this.setState({
-				dataSpells: JSON.parse(storedDataSpells),
-				isReady: true
-			});
-		} else {
+		if (!this.props.isReady) {
 			$.get('/data/data-spells.json', function(result) {
-				localStorage.setItem('dataSpells', JSON.stringify(result));
 				this.setState({
 					dataSpells: result,
 					isReady: true
@@ -307,7 +300,7 @@ var Spellbook = React.createClass({
 		}
 	},
 	componentWillMount: function () {
-	    this.props.handleSearchHolder('spellbook')  
+		this.props.handleSearchHolder('spellbook')  
 	},
 	render: function() {
 		var output;
@@ -358,11 +351,28 @@ var List = React.createClass({
 		localStorage.setItem(this.props.list + 'Filter', JSON.stringify(filter));
 		this.setState({
 			currentFilter: filter,
-			currentList: this.props.filterLists[filter]
+			currentList: this.props.filterLists[filter],
+			itemsWithDescription: []
 		})
 	},
 	handleSortSelect: function(e) {
 
+	},
+	toggleDescription: function(item) {
+		var itemsWithDescription = this.state.itemsWithDescription;
+		var index = itemsWithDescription.indexOf(item);
+
+		if (index === -1) {
+			itemsWithDescription.push(item)
+			this.setState({
+				itemsWithDescription: itemsWithDescription
+			})
+		} else {
+			itemsWithDescription.splice(index, 1)
+			this.setState({
+				itemsWithDescription: itemsWithDescription
+			})
+		}
 	},
 	getInitialState: function () {
 		var currentFilter = '';
@@ -380,8 +390,16 @@ var List = React.createClass({
 		return {
 			currentFilter: currentFilter,
 			currentList: currentList,
-			currentGroup: this.props.groups[0]
+			currentGroup: this.props.groups[0],
+			itemsWithDescription: []
 		};
+	},
+	componentWillReceiveProps: function (nextProps) {
+	    if (this.props.searchValue !== nextProps.searchValue)  {
+	    	this.setState({
+	    		itemsWithDescription: []
+	    	})
+	    }
 	},
 	render: function() {
 		//Make filters
@@ -464,12 +482,18 @@ var List = React.createClass({
 										if (this.props.bookmarks[this.props.itemType] && this.props.bookmarks[this.props.itemType].indexOf(itemUrl) !== -1)
 											bookmarked = true;
 
+										var showDescription = false;
+										if (this.state.itemsWithDescription.indexOf(itemUrl) !== -1)
+											showDescription = true;
+
 										return (
-											<ListItemWrapper hidden={hidden} bookmarked={bookmarked} key={itemUrl}>
+											<ListItemWrapper hidden={hidden} bookmarked={bookmarked} showDescription={showDescription} key={itemUrl}>
 												<ListItem 
 													{...item}
 													itemType={this.props.itemType}
 													bookmarked={bookmarked}
+													showDescription={showDescription}
+													toggleDescription={this.toggleDescription}
 													toggleBookmarks={this.props.toggleBookmarks} />
 											</ListItemWrapper>
 										)
@@ -486,7 +510,7 @@ var List = React.createClass({
 
 var ListItemWrapper = React.createClass({
 	shouldComponentUpdate: function(nextProps) {
-		return this.props.bookmarked !== nextProps.bookmarked || this.props.hidden !== nextProps.hidden;
+		return this.props.bookmarked !== nextProps.bookmarked || this.props.hidden !== nextProps.hidden || this.props.showDescription !== nextProps.showDescription;
 	},
 	render: function() {
 		var wrapperClass = '';
@@ -502,7 +526,7 @@ var ListItemWrapper = React.createClass({
 
 var ListItem = React.createClass({
 	shouldComponentUpdate: function(nextProps) {
-		return this.props.bookmarked !== nextProps.bookmarked;
+		return this.props.bookmarked !== nextProps.bookmarked || this.props.showDescription !== nextProps.showDescription
 	},
 	render: function() {
 		var bookmarksClass = 'list-item-bookmark mobile';
@@ -510,28 +534,37 @@ var ListItem = React.createClass({
 			bookmarksClass = bookmarksClass + ' selected';
 
 		var item;
+		var description;
+
 		switch (this.props.itemType) {
 			case 'spell':
 				item = <SpellItem {...this.props} />
+				if (this.props.showDescription)
+					description = <SpellDescription {...this.props} />
 				break;
 			case 'monster':
 				item = <MonsterItem {...this.props} />
+				if (this.props.showDescription)
+					description = <MonsterDescription {...this.props} />
 				break;
 			default:
 				item = null;
+				description = null;
 		}
 
 		return (
 			<div className='list-item-wrapper'>
-				<Link 
-					to={this.props.itemType} 
-					params={{url: this.props.url}} 
-					className='list-item-link'
-				>{item}</Link>
-				<div 
-					className={bookmarksClass} 
-					onClick={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
-				>★</div>
+				<div className='list-item'>
+					<div 
+						className='list-item-link'
+						onClick={this.props.toggleDescription.bind(null, this.props.url)}
+					>{item}</div>
+					<div 
+						className={bookmarksClass} 
+						onClick={this.props.toggleBookmarks.bind(null, this.props.url, this.props.itemType)}
+					>★</div>
+				</div>
+				<div className='list-description'>{description}</div>
 			</div>
 		)
 	}
@@ -611,7 +644,6 @@ var Description = React.createClass({
 		}
 
 		if (this.state.isReady) {
-			console.log(this.state.data);
 			switch (this.props.itemType) {
 				case 'spell':
 					output = <SpellDescription {...this.state.data} />;
@@ -677,19 +709,15 @@ var SpellDescription = React.createClass({
 		return (
 			<div>
 				<DescriptionWrapper>
-					<DescriptionTitle title={this.props.name} />
 					<div className="description-subtitle">
-						<div className={iconClass}></div>
 						<div>{this.props.schoolAndLevel}</div>
 					</div>
-					<DescriptionSeparator />
 					<div className="description-block">
 						<DescriptionItem title='Casting Time' value={this.props.time}/>
 						<DescriptionItem title='Range' value={this.props.range}/>
 						<DescriptionItem title='Components' value={this.props.components}/>
 						<DescriptionItem title='Duration' value={this.props.duration}/>
 					</div>
-					<DescriptionSeparator />
 					<div className="description-block">
 						<DescriptionText text={this.props.text} hiLevelIndex={this.props.hiLevelIndex} />
 					</div>
@@ -733,12 +761,6 @@ var DescriptionWrapper = React.createClass({
 				</div>
 			</div>
 		)
-	}
-})
-
-var DescriptionSeparator = React.createClass({
-	render: function() {
-		return <div className='description-separator'></div>;
 	}
 })
 

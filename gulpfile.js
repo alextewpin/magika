@@ -57,5 +57,4 @@ gulp.task('sass', function () {
 
 gulp.task('data', function() {
 	fs.writeFile('./public/data/data-spells.json', dataPrepare.web('./data_source/Spells'));
-	fs.writeFile('./data_node/data-spells.json', dataPrepare.node('./data_source/Spells'));
 });
