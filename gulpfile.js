@@ -56,5 +56,6 @@ gulp.task('sass', function () {
 });
 
 gulp.task('data', function() {
-	fs.writeFile('./public/data/data-spells.json', dataPrepare.web('./data_source/Spells'));
+	fs.writeFileSync('./public/data/data-spellbook.json', dataPrepare('./data_source/Spells'));
+	fs.writeFileSync('./public/data/data-bestiary.json', dataPrepare('./data_source/Bestiary'));
 });

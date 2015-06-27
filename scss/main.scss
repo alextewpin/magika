@@ -235,11 +235,9 @@ section:last-of-type {
 }
 
 .description-block-title {
-	margin-bottom: 4px;
 	color: $c-secondary;
 	border-bottom: 1px solid $c-secondary-half;
-	font-size: 18px;
-	line-height: $lh;
+	font-weight: bold;
 }
 
 .description-subtitle {
@@ -265,6 +263,10 @@ section:last-of-type {
 	color: $c-secondary;
 }
 
+.description-separator {
+	//height: 10px;
+}
+
 //Mobile
 .nav-mobile {
 	border-bottom: 1px solid #ccc;
@@ -285,6 +287,10 @@ section:last-of-type {
 .nav-logo-mobile {
 	font-weight: bold;
 	padding-left: $p-content;
+}
+
+.nav-title-mobile {
+	text-transform: capitalize;
 }
 
 .nav-bookmarks-mobile {
@@ -351,4 +357,19 @@ section:last-of-type {
 
 .icon-school-transmutation {
 	background-position: -112px 0px;
+}
+
+//Misc
+
+.author {
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	>a {
+		color: #999;
+		text-decoration: underline;
+		&:hover {
+			color: #666;
+		}
+	}
 }
