@@ -71,7 +71,7 @@ var App = React.createClass({
 			bookmarks = JSON.parse(storedBookmarks);
 
 		for (var category in bookmarks) {
-			if (bookmarksCategoies.indexOf(category) !== -1)
+			if (bookmarksCategoies.indexOf(category) === -1)
 				delete bookmarks[category];
 		}
 
