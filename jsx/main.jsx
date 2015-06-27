@@ -60,6 +60,7 @@ var App = React.createClass({
 		}
 	},
 	getInitialState: function () {
+		var bookmarksCategoies = ['spellbook', 'bestiary']
 		var mobile = false;
 		if (!!('ontouchstart' in window))
 			mobile = true;
@@ -69,11 +70,15 @@ var App = React.createClass({
 		if (storedBookmarks) 
 			bookmarks = JSON.parse(storedBookmarks);
 
-		if (!bookmarks.spellbook)
-			bookmarks.spellbook = [];
+		for (var category in bookmarks) {
+			if (bookmarksCategoies.indexOf(category) !== -1)
+				delete bookmarks[category];
+		}
 
-		if (!bookmarks.bestiary)
-			bookmarks.bestiary = [];
+		bookmarksCategoies.forEach(function(category){
+			if (!bookmarks[category])
+				bookmarks[category] = [];
+		})
 
 		return {
 			searchValue: '',
