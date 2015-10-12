@@ -787,6 +787,14 @@ var Description = React.createClass({
 
 var ClassDescription = React.createClass({
 	render: function() {
+		var levels = [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]] //20
+		levels = levels.map(function(level, i){
+			var levelIndex = i + 1
+			if (this.props.features[levelIndex]) {
+				var title = "Level " + levelIndex
+				return <DescriptionBlockProperties title={title} properties={this.props.features[levelIndex]} />
+			}
+		}, this)
 		return (
 			<div>
 				<DescriptionWrapper>
@@ -795,6 +803,9 @@ var ClassDescription = React.createClass({
 						<DescriptionItemBlack title='Hit Dice:' value={this.props.hitDice}/>
 						<DescriptionItemBlack title='Hit Points at 1st Level:' value={this.props.hpAtFirstLevel}/>
 						<DescriptionItemBlack title='Hit Points at Higher Levels:' value={this.props.hpAtHigherLevels}/>
+					</div>
+					<div className="description-block">
+						{levels}
 					</div>
 				</DescriptionWrapper>
 			</div>

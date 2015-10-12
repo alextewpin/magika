@@ -243,7 +243,7 @@
 			"classes": "Bard, Druid, Ranger",
 			"text": [
 				"By means of this spell, you use an animal to deliver a message. Choose a Tiny beast you can see within range, such as a squirrel, a blue ray, or a bird. You specify a location, which you must have visited, and a recipient who matches a general description, such as a man or woman dressed in the uniform of the town guard or a red-haired dwarf wearing a pointed hat. You also speak a message of up to twenty-five words. The target beast travels for the duration of the spell towards the specified location, covering about 50 miles per 24 hours for a flying messenger or 25 miles for other animals.",
-				"When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes it way back to where you cast this spell.",
+				"When the messenger arrives, it delivers your message to the creature that you described, replicating the sound of your voice. The messenger speaks only to a creature matching the description you gave. If the messenger doesn't reach its destination before the spell ends, the message is lost, and the beast makes its way back to where you cast this spell.",
 				"If you cast this spell using a spell slot of 3rd level or higher, the duration of the spell increases by 48 hours for each slot level above 2nd."
 			],
 			"schoolAndLevel": "2nd level enchantment (ritual)",
@@ -322,7 +322,7 @@
 			"ritual": "",
 			"time": "1 action",
 			"range": "120 feet",
-			"components": "V,S",
+			"components": "V, S",
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Bard, Sorcerer, Wizard",
 			"text": [
@@ -423,9 +423,9 @@
 			"classes": "Druid, Wizard, Rogue (Arcane Trickster)",
 			"text": [
 				"This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.",
-				"Antipathy: The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened , but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.",
-				"Sympathy: The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom savig throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willinging move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisom saving throw to end the effect, as described below.",
-				"Ending the Effect: If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. ON a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magica. In addation, a creature affected by the spells is allowed another Wisdom saving throw every 24 hours while the spell persists.",
+				"Antipathy: The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened, but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.",
+				"Sympathy: The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom saving throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willingly move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisdom saving throw to end the effect, as described below.",
+				"Ending the Effect: If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. ON a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magical. In addition, a creature affected by the spells is allowed another Wisdom saving throw every 24 hours while the spell persists.",
 				"A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again."
 			],
 			"schoolAndLevel": "8th level enchantment",
@@ -481,7 +481,7 @@
 			"text": [
 				"You create linked teleportation portals that remain open for the duration. Choose two points on the ground that you can see, one point within 10 feet of you and one point within 500 feet of you. A circular portal, 10 feet in diameter, opens over each point. If the portal would open in the space occupied by a creature, the spell fails, and the casting is lost.",
 				"The portals are two-dimensional glowing rings filled with mist, hovering inches from the ground and perpendicular to it at the points you choose. A ring is visible only from one side (your choice), which is the side that functions as a portal.",
-				"Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other, passing through a portal from the nonportal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction."
+				"Any creature or object entering the portal exits from the other portal as if the two were adjacent to each other, passing through a portal from the non-portal side has no effect. The mist that fills each portal is opaque and blocks vision through it. On your turn, you can rotate the rings as a bonus action so that the active side faces in a different direction."
 			],
 			"schoolAndLevel": "6th level conjuration",
 			"timeShort": "",
@@ -507,8 +507,8 @@
 			"duration": "Concentration, up to 1 hour",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"\tYou gain advantage on all Intelligence checks  using hacking tools to break software encryption  or online security when using a foreign system.  This spell also allows you to break 2nd level and  lower protective spells such as arcane lock or  glyph of warding by making an Intelligence check  using hacking tools against the spell save DC of  the spell's caster.  ",
-				"\tAt Higher Levels: When you cast this spell  using a spell slot of 3rd level or higher, you can  attempt to counteract a spell set to secure the  foreign system if the spell's level is equal to or  less than the level of the spell slot you used.",
+				"\tYou gain advantage on all Intelligence checks using hacking tools to break software encryption or online security when using a foreign system. This spell also allows you to break 2nd level and lower protective spells such as arcane lock or glyph of warding by making an Intelligence check using hacking tools against the spell save DC of the spell's caster.",
+				"\tAt Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can attempt to counteract a spell set to secure the foreign system if the spell's level is equal to or less than the level of the spell slot you used.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "2nd level transmutation",
@@ -674,7 +674,7 @@
 			"duration": "Concentration, up to 10 minutes",
 			"classes": "Paladin",
 			"text": [
-				"Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a nonhostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
+				"Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
 			],
 			"schoolAndLevel": "4th level abjuration",
 			"timeShort": "",
@@ -698,7 +698,7 @@
 			"duration": "Concentration, up to 10 minutes",
 			"classes": "Paladin",
 			"text": [
-				"Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each nonhostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions - blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned."
+				"Purifying energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) can't become diseased, has resistance to poison damage, and has advantage on saving throws against effects that cause any of the following conditions - blinded, charmed, deafened, frightened, paralyzed, poisoned, and stunned."
 			],
 			"schoolAndLevel": "4th level abjuration",
 			"timeShort": "",
@@ -800,7 +800,7 @@
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Paladin",
 			"text": [
-				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the on you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the tart reappears in the space it left or in the nearest unoccupied space if that space is occupied."
+				"The next time you hit a creature with a weapon attack before this spell ends, your weapon crackles with force, and the attack deals an extra 5d10 force damage to the target. Additionally, if this attack reduces the target to 50 hit points of fewer, you banish it. If the target is native to a different plane of existence than the one you're on, the target disappears, returning to its home plane. If the target is native to the plane you're on, the creature vanishes into a harmless demiplane. While there, the target is incapacitated. It remains there until the spell ends, at which point the tart reappears in the space it left or in the nearest unoccupied space if that space is occupied."
 			],
 			"roll": "5d10",
 			"schoolAndLevel": "5th level abjuration",
@@ -1204,7 +1204,7 @@
 			"duration": "1 minute",
 			"classes": "Cleric (Trickery), Sorcerer, Warlock (Archfey), Wizard",
 			"text": [
-				"Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more that one space is equally near). You can dismiss this spell as an action.",
+				"Roll a d20 at the end of each of your turns for the duration of the spell. On a roll of 11 or higher, you vanish from your current plane of existence and appear in the Ethereal Plane (the spell fails and the casting is wasted if you were already on that plane). At the start of you next turn, and when the spell ends if you are on the Ethereal Plane, you return to an unoccupied space of your choice that you can see within 10 feet of the space you vanished from. If no unoccupied space is available within that range, you appear in the nearest unoccupied space (chosen at random if more than one space is equally near). You can dismiss this spell as an action.",
 				"While on the Ethereal Plane, you can see and hear the plane you originated from, which is cast in shades of gray, and you can't see anything more than 60 feet away. You can only affect and be affected by other creatures on the Ethereal Plane. Creature that aren't there can't perceive you or interact with you, unless they have the ability to do so."
 			],
 			"roll": "d20",
@@ -1572,6 +1572,30 @@
 				"Wizard"
 			]
 		},
+		"Circle_of_Power": {
+			"name": "Circle of Power",
+			"level": 5,
+			"school": "abjuration",
+			"ritual": "",
+			"time": "1 action",
+			"range": "Self (30-foot radius)",
+			"components": "V",
+			"duration": "Concentration, up to 10 minutes",
+			"classes": "Paladin",
+			"text": [
+				"Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
+			],
+			"schoolAndLevel": "5th level abjuration",
+			"timeShort": "",
+			"rangeShort": "30-f. radius",
+			"durationShort": "10 m.",
+			"concentration": true,
+			"url": "Circle_of_Power",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Paladin"
+			]
+		},
 		"Clairvoyance": {
 			"name": "Clairvoyance",
 			"level": 3,
@@ -1788,20 +1812,20 @@
 			"duration": "Instantaneous",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"You briefly become one with the city and gain  knowledge of the surrounding area.  Aboveground, this spell gives you knowledge of  the area within 1 mile of you. In sewers and  other underground settings, you gain knowledge  of the area within 600 feet of you.   ",
-				"\tYou instantly gain knowledge of up to three  facts of your choice about any of the following  subjects as they relate to the area: ",
+				"You briefly become one with the city and gain knowledge of the surrounding area. Above ground, this spell gives you knowledge of the area within 1 mile of you. In sewers and other underground settings, you gain knowledge of the area within 600 feet of you.",
+				"\tYou instantly gain knowledge of up to three facts of your choice about any of the following subjects as they relate to the area: ",
 				"\t",
 				"• Terrain and bodies of water ",
 				"\t",
-				"• Prevalent buildings, plants, animals, or  intelligent creatures  ",
+				"• Prevalent buildings, plants, animals, or intelligent creatures",
 				"\t",
-				"• Powerful (CR 1 or higher) celestials, fey, fiends,  elementals, or undead  ",
+				"• Powerful (CR 1 or higher) celestials, fey, fiends, elementals, or undead",
 				"\t",
 				"• Influences from other planes of existence ",
 				"\t",
-				"• Electrical currents, wireless signals, and active  transit lines and tracks  ",
+				"• Electrical currents, wireless signals, and active transit lines and tracks",
 				"\t ",
-				"\tFor example, you could determine the location of  powerful undead in the area, the location of  major sources of electrical power or interference,  and the location of any nearby parks. ",
+				"\tFor example, you could determine the location of powerful undead in the area, the location of major sources of electrical power or interference, and the location of any nearby parks.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "5th level divination (ritual)",
@@ -1883,8 +1907,8 @@
 			"duration": "1 hour",
 			"classes": "Cleric (City)",
 			"text": [
-				"\tFor the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. ",
-				"\tThis spell doesn't decode secret messages in a text or glyph, such as an arcane sigil, that isn't part of a written language. ",
+				"\tFor the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text.",
+				"\tThis spell doesn't decode secret messages in a text or glyph, such as an arcane sigil, that isn't part of a written language.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "1st level divination (ritual)",
@@ -2141,10 +2165,10 @@
 			"duration": "10 minutes",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"You touch a single computerized device or  computer system to conjure a knowbot—a partially sentient piece of software imprinted  with vestiges of your own skills and computer  abilities. For the duration of the spell, you can  use a bonus action to have the knowbot execute  a computer[related task that would normally  require an action. The knowbot makes  Intelligence ability checks using your ability  score and proficiency bonuses (including your  proficiency with hacking tools, if applicable).  ",
-				"\tYou have a limited telepathic bond with the  knowbot, out to a range of 500 feet from the  device or system where the knowbot was  conjured. If you move beyond this range, the  knowbot disappears in 2d4 rounds, as if the  duration of the spell had expired. Moving within  range again immediately reestablishes the bond.  ",
-				"\tThe knowbot is bound to the system in which  it was created, and it stays there until it is  dismissed or the spell's duration expires.  ",
-				"\tAt Higher Levels: When you cast this spell  using a spell slot of 5th level or higher, the spell's  duration increases to 1 hour. Additionally, your  telepathic bond with the knowbot is effective out  to a range of 1,000 feet, and if you leave the  range of the bond, the knowbot continues  performing its last directed task until the spell  expires. ",
+				"You touch a single computerized device or computer system to conjure a knowbot—a partially sentient piece of software imprinted with vestiges of your own skills and computer abilities. For the duration of the spell, you can use a bonus action to have the knowbot execute a computer-related task that would normally require an action. The knowbot makes Intelligence ability checks using your ability score and proficiency bonuses (including your proficiency with hacking tools, if applicable).",
+				"\tYou have a limited telepathic bond with the knowbot, out to a range of 500 feet from the device or system where the knowbot was conjured. If you move beyond this range, the knowbot disappears in 2d4 rounds, as if the duration of the spell had expired. Moving within range again immediately reestablishes the bond.",
+				"\tThe knowbot is bound to the system in which it was created, and it stays there until it is dismissed or the spell's duration expires.",
+				"\tAt Higher Levels: When you cast this spell using a spell slot of 5th level or higher, the spell's duration increases to 1 hour. Additionally, your telepathic bond with the knowbot is effective out to a range of 1,000 feet, and if you leave the range of the bond, the knowbot continues performing its last directed task until the spell expires.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "4th level conjuration",
@@ -2403,7 +2427,7 @@
 			"ritual": "",
 			"time": "1 action",
 			"range": "300 feet",
-			"components": "V, S , M (a drop of water and a pinch of dust)",
+			"components": "V, S, M (a drop of water and a pinch of dust)",
 			"duration": "Concentration, up to 10 minutes",
 			"classes": "Cleric, Cleric (Tempest), Druid, Druid (Coast), Wizard",
 			"text": [
@@ -2664,7 +2688,7 @@
 			"duration": "Instantaneous",
 			"classes": "Cleric, Warlock, Wizard",
 			"text": [
-				"You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a ghoul under your control. (The DM has game statistics for these creatures.) .",
+				"You can cast this spell only at night. Choose up to three corpses of Medium or Small humanoids within range. Each corpse becomes a ghoul under your control. (The DM has game statistics for these creatures.)",
 				"As a bonus action on each of your turns, you can mentally command any creature you animated with this spell if the creature is within 120 feet of you (if you control multiple creatures, you can command any or all of them at the same time, issuing the same command to each one). You decide what action the creature will take and where it will move during its next turn, or you can issue a general command, such as to guard a particular chamber or corridor. If you issue no commands, the creature only defends itself against hostile creatures. Once given an order, the creature continues to follow it until its task is complete.",
 				"The creature is under your control for 24 hours, after which it stops obeying any command you have given it. To maintain control of the creature for another 24 hours, you must cast this spell on the creature before the current 24-hour period ends. This use of the spell reasserts your control over up to three creatures you have animated with this spell, rather than animating new ones.",
 				"When you cast this spell using a 7th-level spell slot, you can animate or reassert control over four ghouls. When you cast this spell using an 8th-level spell slot, you can animate or reassert control over five ghouls or two ghasts or wights. When you cast this spell using a 9th-level spell slot, you can animate or reassert control over six ghouls, three ghasts or wights, or two mummies"
@@ -2759,7 +2783,7 @@
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Cleric (War), Paladin",
 			"text": [
-				"Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each nonhostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack."
+				"Holy power radiates from you in an aura with a 30-foot radius, awakening boldness in friendly creatures. Until the spell ends, the aura moves with you, centered on you. While in the aura, each non-hostile creature in the aura (including you) deals an extra 1d4 radiant damage when it hits with a weapon attack."
 			],
 			"roll": "1d4",
 			"schoolAndLevel": "3rd level evocation",
@@ -3129,7 +3153,7 @@
 			"classes": "Bard, Sorcerer, Warlock (Great Old One), Wizard",
 			"text": [
 				"For the duration, you can read the thoughts of certain creatures. When you cast the spell and as your action on each turn until the spell ends, you can focus your mind on any one creature that you can see within 30 feet of you. If the creature you choose has an Intelligence of 3 or lower or doesn't speak any language, the creature is unaffected.",
-				"You initially learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creatures thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check if it succeeds, the spell ends.",
+				"You initially learn the surface thoughts of the creature - what is most on its mind in that moment. As an action, you can either shift your attention to another creature's thoughts or attempt to probe deeper into the same creature's mind. If you probe deeper, the target must make a Wisdom saving throw. If it fails, you gain insight into its reasoning (if any), its emotional state, and something that looms large in its mind (such as something it worries over, loves, or hates). If it succeeds, the spell ends. Either way, the target knows that you are probing into its mind, and unless you shift your attention to another creature's thoughts, the creature can use its action on its turn to make an Intelligence check contested by your Intelligence check if it succeeds, the spell ends.",
 				"Questions verbally directed at the target creature naturally shape the course of its thoughts, so this spell is particularly effective as part of an interrogation.",
 				"You can also use this spell to detect the presence of thinking creatures you can't see. When you cast the spell or as your action during the duration, you can search for thoughts within 30 feet of you. The spell can penetrate barriers, but 2 feet of rock, 2 inches of any metal other than lead, or a thin sheet of lead blocks you. You can't detect a creature with an Intelligence of 3 or lower or one that doesn't speak any language.",
 				"Once you detect the presence of a creature in this way, you can read its thoughts for the rest of the duration as described above, even if you can't see it, but it must still be within range."
@@ -3159,7 +3183,7 @@
 			"duration": "Concentration, up to 1 hour",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"\tThis spell works to actively hide your presence  within a computer system. For the spell's  duration, you and any other users you choose on  your local network gain a +10 bonus to  Intelligence checks to avoid detection by  administrators, knowbots, tracking software,  and the like. Whenever you and your chosen  users leave any computer system you are  working in while this spell is in effect, all trace of  your previous presence in that system is erased. ",
+				"\tThis spell works to actively hide your presence within a computer system. For the spell's duration, you and any other users you choose on your local network gain a +10 bonus to Intelligence checks to avoid detection by administrators, knowbots, tracking software, and the like. Whenever you and your chosen users leave any computer system you are working in while this spell is in effect, all trace of your previous presence in that system is erased.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "2nd level abjuration",
@@ -3214,12 +3238,12 @@
 			"ritual": "",
 			"time": "1 action",
 			"range": "Self",
-			"components": "V,S",
+			"components": "V, S",
 			"duration": "1 hour",
 			"classes": "Bard, Cleric (Trickery), Sorcerer, Wizard, Rogue (Arcane Trickster)",
 			"text": [
 				"You make yourself, including your clothing, armor, weapons, and other belongings on your person, look different until the spell ends or until you use your action to dismiss it. You can seem 1 foot shorter or taller and can appear thin, fat, or in between. You can't change your body type, so you must adopt a form that has the same basic arrangement of limbs. Otherwise, the extent of the illusion is up to you.",
-				"The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of some one who reaches out to touch you would bump into you while it was seemingly still in midair.",
+				"The changes wrought by this spell fail to hold up to physical inspection. For example, if you use this spell to add a hat to your outfit, objects pass through the hat, and anyone who touches it would feel nothing or would feel your head and hair. If you use this spell to appear thinner than you are, the hand of someone who reaches out to touch you would bump into you while it was seemingly still in midair.",
 				"To discern that you are disguised, a creature can use its action to inspect your appearance and must succeed on an Intelligence (Investigation) check against your spell save DC."
 			],
 			"schoolAndLevel": "1st level illusion",
@@ -4442,11 +4466,11 @@
 			"duration": "8 hours",
 			"classes": "Paladin, Sorcerer, Warlock, Wizard, Cleric (City)",
 			"text": [
-				"You summon a spirit that assumes the form of a  nonmilitary land vehicle of your choice,  appearing in an unoccupied space within range.  The vehicle has the statistics of a normal vehicle  of its sort, though it is celestial, fey, or fiendish  (your choice) in origin. The physical  characteristics of the vehicle reflect its origin to  some degree. For example, a fiendish SUV might  be jet black in color, with tinted windows and a  sinister[looking front grille.  ",
-				"\tYou have a supernatural bond with the  conjured vehicle that allows you to drive beyond  your normal ability. While driving the conjured  vehicle, you are considered proficient with  vehicles of its type, and you add double your  proficiency bonus to ability checks related to  driving the vehicle. While driving the vehicle,  you can make any spell you cast that targets only  you also target the vehicle. ",
-				"\tIf the vehicle drops to 0 hit points, it  disappears, leaving behind no physical form. You  can also dismiss the vehicle at any time as an  action, causing it to disappear. ",
-				"\tYou can't have more than one vehicle bonded  by this spell at a time. As an action, you can  release the vehicle from its bond at any time,  causing it to disappear.  ",
-				"\tAt Higher Levels: When you cast this spell  using a spell slot of 3rd level or higher, you can  conjure a nonmilitary water vehicle large  enough to carry six Medium creatures. When you  cast this spell using a spell slot of 5th level or  higher, you can conjure a nonmilitary air vehicle  large enough to carry ten Medium creatures.  When you cast this spell using a spell slot of 7th  level or higher, you can conjure any type of  vehicle, subject to the DM's approval. ",
+				"You summon a spirit that assumes the form of a nonmilitary land vehicle of your choice, appearing in an unoccupied space within range. The vehicle has the statistics of a normal vehicle of its sort, though it is celestial, fey, or fiendish (your choice) in origin. The physical characteristics of the vehicle reflect its origin to some degree. For example, a fiendish SUV might be jet black in color, with tinted windows and a sinister-looking front grille.",
+				"\tYou have a supernatural bond with the conjured vehicle that allows you to drive beyond your normal ability. While driving the conjured vehicle, you are considered proficient with vehicles of its type, and you add double your proficiency bonus to ability checks related to driving the vehicle. While driving the vehicle, you can make any spell you cast that targets only you also target the vehicle.",
+				"\tIf the vehicle drops to 0 hit points, it disappears, leaving behind no physical form. You can also dismiss the vehicle at any time as an action, causing it to disappear.",
+				"\tYou can't have more than one vehicle bonded by this spell at a time. As an action, you can release the vehicle from its bond at any time, causing it to disappear.",
+				"\tAt Higher Levels: When you cast this spell using a spell slot of 3rd level or higher, you can conjure a nonmilitary water vehicle large enough to carry six Medium creatures. When you cast this spell using a spell slot of 5th level or higher, you can conjure a nonmilitary air vehicle large enough to carry ten Medium creatures. When you cast this spell using a spell slot of 7th level or higher, you can conjure any type of vehicle, subject to the DM's approval.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "2nd level conjuration",
@@ -4538,7 +4562,7 @@
 			"duration": "10 minutes",
 			"classes": "Warlock (Fiend), Wizard, Fighter (Eldritch Knight)",
 			"text": [
-				"Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet, You can end the spell early by using an action to dismiss it.",
+				"Thin and wispy flames wreathe your body for the duration, shedding bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell early by using an action to dismiss it.",
 				"The flames provide you with a warm shield or a chill shield, as you choose. The warm shield grants you resistance to cold damage, and the chill shield grants you resistance to fire damage.",
 				"In addition, whenever a creature within 5 feet of you hits you with a melee attack, the shield erupts with flame. The attacker takes 2d8 fire damage from a warm shield, or 2d8 cold damage from a cold shield."
 			],
@@ -4802,7 +4826,7 @@
 			"duration": "Concentration, up to 1 hour",
 			"classes": "Cleric (Tempest), Druid, Ranger, Sorcerer, Wizard",
 			"text": [
-				"You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured, It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
+				"You create a 20-foot-radius sphere of fog centered on a point within range. The sphere spreads around corners, and its area is heavily obscured. It lasts for the duration or until a wind of moderate or greater speed (at least 10 miles per hour) disperses it.",
 				"When you cast this spell using a spell slot of 2nd level or higher, the radius of the fog increases by 20 feet for each slot level above 1st."
 			],
 			"schoolAndLevel": "1st level conjuration",
@@ -5716,18 +5740,18 @@
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"\tThis spell plays havoc with electronic devices,  making the use of such devices all but impossible.  Each electronic device in a 10-foot-radius sphere  centered on a point you choose within range is  subject to random behavior while it remains  within the area. A device not held by a creature  is automatically affected. If an electronic device  is held by a creature, that creature must succeed  on a Wisdom saving throw or have the device  affected by the spell.  ",
-				"\tAt the start of each of your turns, roll a d6 for  each affected device to determine its behavior.  Except where otherwise indicated, that behavior  lasts until the start of your next turn while this  spell is in effect. ",
+				"\tThis spell plays havoc with electronic devices, making the use of such devices all but impossible. Each electronic device in a 10-foot-radius sphere centered on a point you choose within range is subject to random behavior while it remains within the area. A device not held by a creature is automatically affected. If an electronic device is held by a creature, that creature must succeed on a Wisdom saving throw or have the device affected by the spell.",
+				"\tAt the start of each of your turns, roll a d6 for each affected device to determine its behavior. Except where otherwise indicated, that behavior lasts until the start of your next turn while this spell is in effect.",
 				"\t",
-				"1: The device shuts down and must be  restarted. Do not roll again for this device until it  is restarted.  ",
+				"1: The device shuts down and must be restarted. Do not roll again for this device until it is restarted.",
 				"\t",
-				"2-4: The device does not function.  ",
+				"2-4: The device does not function.",
 				"\t",
-				"5: The device experiences a power surge,  causing an electric shock to the wielder (if any)  and one random creature within 5 feet of the  device. Each affected creature must make a  Dexterity saving throw against your spell save  DC, taking 6d6 lightning damage on a failed save,  or half as much damage on a successful one.  ",
+				"5: The device experiences a power surge, causing an electric shock to the wielder (if any) and one random creature within 5 feet of the device. Each affected creature must make a Dexterity saving throw against your spell save DC, taking 6d6 lightning damage on a failed save, or half as much damage on a successful one.",
 				"\t",
-				"6: The device is usable as normal.  ",
+				"6: The device is usable as normal.",
 				"\t",
-				"\tAt Higher Levels: When you cast this spell  using a spell slot of 4th level or higher, the radius  of the sphere affected by the spell increases by 5  feet for each slot level above 3rd.",
+				"\tAt Higher Levels: When you cast this spell using a spell slot of 4th level or higher, the radius of the sphere affected by the spell increases by 5 feet for each slot level above 3rd.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "3rd level enchantment",
@@ -6335,8 +6359,8 @@
 			"duration": "Concentration, up to 10 minutes",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"\tWith this spell, you can target any creature with  whom you have spoken previously, as long as  the two of you are on the same plane of existence.  When you cast the spell, the nearest functioning  telephone or similar communications device  within 100 feet of the target begins to ring. If  there is no suitable device close enough to the  target, the spell fails.  ",
-				"\tThe target must make a successful Charisma  saving throw or be compelled to answer your  call. Once the connection is established, the call  is crystal clear and cannot be dropped until the  conversation has ended or the spell's duration  ends. You can end the conversation at any time,  but a target must succeed on a Charisma saving  throw to end the conversation. ",
+				"\tWith this spell, you can target any creature with whom you have spoken previously, as long as the two of you are on the same plane of existence. When you cast the spell, the nearest functioning telephone or similar communications device within 100 feet of the target begins to ring. If there is no suitable device close enough to the target, the spell fails.",
+				"\tThe target must make a successful Charisma saving throw or be compelled to answer your call. Once the connection is established, the call is crystal clear and cannot be dropped until the conversation has ended or the spell's duration ends. You can end the conversation at any time, but a target must succeed on a Charisma saving throw to end the conversation.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "1st level divination",
@@ -6585,7 +6609,7 @@
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"\tFour creatures of your choice within range  become undetectable to electronic sensors and  cameras for the duration of the spell. Anything a  target is wearing or carrying is likewise  undetectable as long as it is on the target's  person. The targets remain visible to vision.",
+				"\tFour creatures of your choice within range become undetectable to electronic sensors and cameras for the duration of the spell. Anything a target is wearing or carrying is likewise undetectable as long as it is on the target's person. The targets remain visible to vision.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "3rd level illusion",
@@ -6808,7 +6832,7 @@
 			"duration": "1 hour",
 			"classes": "Bard, Cleric, Sorcerer, Wizard, Fighter (Eldritch Knight)",
 			"text": [
-				"You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light cant be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.",
+				"You touch one object that is no larger than 10 feet in any dimension. Until the spell ends, the object sheds bright light in a 20-foot radius and dim light for an additional 20 feet. The light can be colored as you like. Completely covering the object with something opaque blocks the light. The spell ends if you cast it again or dismiss it as an action.",
 				"If you target an object held or worn by a hostile creature, that creature must succeed on a Dexterity saving throw to avoid the spell."
 			],
 			"schoolAndLevel": "Evocation cantrip",
@@ -6837,7 +6861,7 @@
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Ranger",
 			"text": [
-				"The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal, The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.",
+				"The next time you make a ranged weapon attack during the spell's duration, the weapon's ammunition, or the weapon itself if it's a thrown weapon, transforms into a bolt of lightning. Make the attack roll as normal. The target takes 4d8 lightning damage on a hit, or half as much damage on a miss, instead of the weapon's normal damage.",
 				"Whether you hit or miss, each creature within 10 feet of the target must make a Dexterity saving throw. Each of these creatures takes 2d8 lightning damage on a failed save, or half as much damage on a successful one.",
 				"The piece of ammunition or weapon then returns to its normal form.",
 				"When you cast this spell using a spell slot of 4th level or higher, the damage for both effects of the spell increases by 1d8 for each slot level above 3rd."
@@ -8129,7 +8153,7 @@
 			"duration": "Instantaneous",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"\tThis cantrip allows you to activate or deactivate  any electronic device within range, as long as the  device has a clearly defined on or off function  that can be easily accessed from the outside of  the device. Any device that requires a software-based shutdown sequence to activate or  deactivate cannot be affected by on/off.",
+				"\tThis cantrip allows you to activate or deactivate any electronic device within range, as long as the device has a clearly defined on or off function that can be easily accessed from the outside of the device. Any device that requires a software-based shutdown sequence to activate or deactivate cannot be affected by on/off.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "Transmutation cantrip",
@@ -8898,7 +8922,7 @@
 			"duration": "Concentration, up to 10 minutes",
 			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
 			"text": [
-				"This spell enchants the flesh of the target against  the impact of bullets. Until the spell ends, the  target has resistance to nonmagical ballistic  damage.",
+				"This spell enchants the flesh of the target against the impact of bullets. Until the spell ends, the target has resistance to nonmagical ballistic damage.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "3rd level abjuration",
@@ -9102,7 +9126,7 @@
 			"classes": "Wizard",
 			"text": [
 				"You forge a telepathic link among up to eight willing creatures of your choice within range, psychically linking each creature to all the others for the duration. Creatures with Intelligence scores of 2 or less aren't affected by this spell.",
-				"Until the spell ends, the targets can communicated telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence."
+				"Until the spell ends, the targets can communicate telepathically through the bond whether or not they have a common language. The communication is possible over any distance, though it can't extend to other planes of existence."
 			],
 			"schoolAndLevel": "5th level divination (ritual)",
 			"timeShort": "",
@@ -9289,7 +9313,7 @@
 			"duration": "10 minutes",
 			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
 			"text": [
-				"\tYou can use any electronic device within range  as if it were in your hands. This is not a  telekinesis effect. Rather, this spell allows you to  simulate a device's mechanical functions  electronically. You are able to access only  functions that a person using the device  manually would be able to access. You can use  remote access with only one device at a time.",
+				"\tYou can use any electronic device within range as if it were in your hands. This is not a telekinesis effect. Rather, this spell allows you to simulate a device's mechanical functions electronically. You are able to access only functions that a person using the device manually would be able to access. You can use remote access with only one device at a time.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "1st level transmutation",
@@ -9728,7 +9752,7 @@
 			"duration": "Until dispelled",
 			"classes": "Wizard",
 			"text": [
-				"By means of this spell, a willing creature of an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes invisible and can't be targeted by divination spells or perceived through scrying sensors created by the divination of spells.",
+				"By means of this spell, a willing creature or an object can be hidden away, safe from detection for the duration. When you cast the spell and touch the target, it becomes invisible and can't be targeted by divination spells or perceived through scrying sensors created by the divination of spells.",
 				"If the target is a creature, it falls into a state of suspended animation. Time ceases to flow for it, and it doesn't grow older.",
 				"You can set a condition for the spell to end early. The condition can be anything you choose, but it must occur or be visible within 1 mile of the target. Examples include after 1,000 years or when the tarrasque awakes. This spells also ends if the target takes any damage."
 			],
@@ -9961,7 +9985,7 @@
 			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
 			"text": [
 				"Technomagic",
-				"\tThis spell shuts down all electronic devices  within range that are not wielded by or under  the direct control of a creature. If an electronic  device within range is used by a creature, that  creature must succeed on a Constitution saving  throw to prevent the device from being shut  down. While the spell remains active, no  electronic device within range can be started or  restarted.",
+				"\tThis spell shuts down all electronic devices within range that are not wielded by or under the direct control of a creature. If an electronic device within range is used by a creature, that creature must succeed on a Constitution saving throw to prevent the device from being shut down. While the spell remains active, no electronic device within range can be started or restarted.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "5th level transmutation",
@@ -10302,7 +10326,7 @@
 				"You imbue plants within 30 feet of you with limited sentience and animation, giving them the ability to communicate with you and follow your simple commands. You can question plants about events in the spell's area within the past day, gaining information about creatures that have passed, weather, and other circumstances.",
 				"You can also turn difficult terrain caused by plant growth (such as thickets and undergrowth) into ordinary terrain that lasts for the duration. Or you can turn ordinary terrain where plants are present into difficult terrain that lasts for the duration, causing vines and branches to hinder pursuers, for example.",
 				"Plants might be able to perform other tasks on your behalf, at the DM's discretion. The spell doesn't enable plants to uproot themselves and move about, but they can freely move branches, tendrils, and stalks.",
-				"If a plant creature is in the area, you can communicate with it as if you shard a common language, but you gain no magical ability to influence it.",
+				"If a plant creature is in the area, you can communicate with it as if you shared a common language, but you gain no magical ability to influence it.",
 				"This spell can cause the plants created by the entangle spell to release a restrained creature."
 			],
 			"schoolAndLevel": "3rd level transmutation",
@@ -10787,9 +10811,9 @@
 			"duration": "Concentration, up to 1 hour",
 			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
 			"text": [
-				"The creature you touch feels reality subtly  shifted to its favor while this spell is in effect.  The target isn't inconvenienced by mundane  delays of any sort. Traffic lights are always green,  there's always a waiting elevator, and a taxi is  always around the corner. The target can run at  full speed through dense crowds, and attacks of  opportunity provoked by the target's movement  are made with disadvantage.  ",
-				"\tSynchronicity grants advantage to Dexterity  (Stealth) checks, since the target always finds a  handy piece of cover available. Additionally, the  target has advantage on all ability checks made  to drive a vehicle.  ",
-				"\tIn the event that two or more creatures under  the effect of synchronicity are attempting to  avoid being inconvenienced by each other, the  creatures engage in a contest of Charisma each  time the effects of the spells would oppose each  other. ",
+				"The creature you touch feels reality subtly shifted to its favor while this spell is in effect. The target isn't inconvenienced by mundane delays of any sort. Traffic lights are always green, there's always a waiting elevator, and a taxi is always around the corner. The target can run at full speed through dense crowds, and attacks of opportunity provoked by the target's movement are made with disadvantage.",
+				"\tSynchronicity grants advantage to Dexterity (Stealth) checks, since the target always finds a handy piece of cover available. Additionally, the target has advantage on all ability checks made to drive a vehicle.",
+				"\tIn the event that two or more creatures under the effect of synchronicity are attempting to avoid being inconvenienced by each other, the creatures engage in a contest of Charisma each time the effects of the spells would oppose each other.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "4th level enchantment",
@@ -10817,9 +10841,9 @@
 			"duration": "Concentration, up to 1 hour",
 			"classes": "Sorcerer, Warlock, Wizard",
 			"text": [
-				"\tThis spell allows you to bypass system security  in order to create a secure login on a foreign  system. The login you create allows you  administrator-level privileges in any computer  system not enhanced through technomagic. The  login defeats any technomagic spells of 3rd level  or lower.  ",
-				"\tOnce the duration of the spell expires, the login  and all privileges are wiped from the system.  System logs still show the activity of the user,  but the user identification cannot be found or  traced. ",
-				"\tAt Higher Levels: When you cast this spell  using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's  level is equal to or less than the level of the spell  slot you used.",
+				"\tThis spell allows you to bypass system security in order to create a secure login on a foreign system. The login you create allows you administrator-level privileges in any computer system not enhanced through technomagic. The login defeats any technomagic spells of 3rd level or lower.",
+				"\tOnce the duration of the spell expires, the login and all privileges are wiped from the system. System logs still show the activity of the user, but the user identification cannot be found or traced.",
+				"\tAt Higher Levels: When you cast this spell using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's level is equal to or less than the level of the spell slot you used.",
 				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "4th level transmutation",
@@ -10944,8 +10968,8 @@
 				"\"Very Familiar\" is a place you have been very often, a place you have carefully studied, or a place you can see when you cast the spell. \"Seen Casually\" is some place you have seen more than once but with which you aren't very familiar. \"Viewed Once\" is a place you have seen once, possibly using magic. \"Description\" is a place whose location and appearance you know through someone else's description, perhaps from a map.",
 				"\"False Description\" is a place that doesn't exist. Perhaps you tried to scry an enemy's sanctum but instead viewed an illusion, or you are attempting to teleport to a familiar location that no longer exists.",
 				"On Target: You and your group (or the target object) appear where you want to go.",
-				"Off Target: You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be travelled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as north-east, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at see, you could be in trouble.",
-				"Similar Area: You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as you laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.",
+				"Off Target: You and your group (or the target object) appear a random distance away from the destination in a random direction. Distance off target is 1d10 x 1d10 percent of the distance that was to be travelled. For example, if you tried to travel 120 miles, landed off target, and rolled a 5 and 3 on the two d10s, then you would be off target by 15 percent, or 18 miles. The DM determines the direction off target randomly by rolling a d8 and designating 1 as north, 2 as north-east, 3 as east, and so on around the points of the compass. If you were teleporting to a coastal city and wound up 18 miles out at sea, you could be in trouble.",
+				"Similar Area: You and your group (or the target object) wind up in a different area that's visually or thematically similar to the target area. If you are heading for your home laboratory, for example, you might wind up in another wizard's laboratory or in an alchemical supply shop that has many of the same tools and implements as your laboratory. Generally, you appear in the closest similar place, but since the spell has no range limit, you could conceivably wind up anywhere on the plane.",
 				"Mishap: The spell's unpredictable magic results in a difficult journey. Each teleporting creature (or the target object) takes 3d10 force damage and the DM rerolls on the table to see where you wind up (multiple mishaps can occur, dealing damage each time)."
 			],
 			"schoolAndLevel": "7th level conjuration",
@@ -12549,6 +12573,7 @@
 			"Awaken",
 			"Banishing_Smite",
 			"Bigby's_Hand",
+			"Circle_of_Power",
 			"Cloudkill",
 			"Commune",
 			"Commune_with_City",
@@ -12990,6 +13015,7 @@
 				"Awaken",
 				"Banishing_Smite",
 				"Bigby's_Hand",
+				"Circle_of_Power",
 				"Cloudkill",
 				"Commune",
 				"Commune_with_City",
@@ -14196,6 +14222,7 @@
 			],
 			[
 				"Banishing_Smite",
+				"Circle_of_Power",
 				"Destructive_Wave",
 				"Dispel_Evil_and_Good",
 				"Geas",
