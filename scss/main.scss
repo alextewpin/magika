@@ -146,8 +146,8 @@ section:last-of-type {
 	width: 100%;
 	cursor: pointer;
 	@include display(flex);
-	&.list-item-hover:hover {
-		background-color: #F8F5EC;
+	&:hover {
+		background-color: #eee;
 	}
 }
 
@@ -217,6 +217,7 @@ section:last-of-type {
 //Description
 .description {
 	padding: 0px $p-content;
+	margin-top: 3px;
 	font-size: 14px;
 	line-height: $lh;
 }
