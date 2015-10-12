@@ -423,7 +423,7 @@
 			"classes": "Druid, Wizard, Rogue (Arcane Trickster)",
 			"text": [
 				"This spell attracts or repels creatures of your choice. You target something within range, either a Huge or smaller object or creature or an area that is no larger than a 200-foot cube. Then specify a kind of intelligent creature, such as red dragons, goblins, or vampires. You invest the target with an aura that either attracts or repels the specified creatures for the duration. Choose antipathy or sympathy as the aura's effect.",
-				"Antipathy: The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When sucha c reature can see the target or comes within 60 feet of it, the creature must succeed on a Wisom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened , but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.",
+				"Antipathy: The enchantment causes creatures of the kind you designated to feel an intense urge to leave the area and avoid the target. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisom saving throw or become frightened. The creature remains frightened while it can see the target or is within 60 feet of it. While frightened by the target, the creature must use its movement to move to the nearest safe spot from which it can't see the target. If the creature moves more than 60 feet from the target and can't see it, the creature is no longer frightened , but the creature becomes frightened again if it regains sight of the target or moves within 60 feet of it.",
 				"Sympathy: The enchantment causes the specified creatures to feel an intense urge to approach the target while within 60 feet of it or able to see it. When such a creature can see the target or comes within 60 feet of it, the creature must succeed on a Wisdom savig throw or use its movement on each of its turns to enter the area or move within reach of the target. When the creature has done so, it can't willinging move away from the target. If the target damages or otherwise harms an affected creature, the affected creature can make a Wisom saving throw to end the effect, as described below.",
 				"Ending the Effect: If an affected creature ends its turn while not within 60 feet of the target or able to see it, the creature makes a Wisdom saving throw. ON a successful save, the creature is no longer affected by the target and recognizes the feeling of repugnance or attraction as magica. In addation, a creature affected by the spells is allowed another Wisdom saving throw every 24 hours while the spell persists.",
 				"A creature that successfully saves against this effect is immune to it for 1 minute, after which time it can be affected again."
@@ -489,6 +489,34 @@
 			"durationShort": "10 m.",
 			"concentration": true,
 			"url": "Arcane_Gate",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
+		"Arcane_Hacking_(Technomagic)": {
+			"name": "Arcane Hacking (Technomagic)",
+			"level": 2,
+			"school": "transmutation",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "Self",
+			"components": "V, S, M (hacking tools)",
+			"duration": "Concentration, up to 1 hour",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"\tYou gain advantage on all Intelligence checks  using hacking tools to break software encryption  or online security when using a foreign system.  This spell also allows you to break 2nd level and  lower protective spells such as arcane lock or  glyph of warding by making an Intelligence check  using hacking tools against the spell save DC of  the spell's caster.  ",
+				"\tAt Higher Levels: When you cast this spell  using a spell slot of 3rd level or higher, you can  attempt to counteract a spell set to secure the  foreign system if the spell's level is equal to or  less than the level of the spell slot you used.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "2nd level transmutation",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "1 h.",
+			"concentration": true,
+			"url": "Arcane_Hacking_(Technomagic)",
 			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
@@ -1749,6 +1777,46 @@
 				"Paladin (Devotion)"
 			]
 		},
+		"Commune_with_City": {
+			"name": "Commune with City",
+			"level": 5,
+			"school": "divination",
+			"ritual": "YES",
+			"time": "1 minute",
+			"range": "Self",
+			"components": "V, S",
+			"duration": "Instantaneous",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"You briefly become one with the city and gain  knowledge of the surrounding area.  Aboveground, this spell gives you knowledge of  the area within 1 mile of you. In sewers and  other underground settings, you gain knowledge  of the area within 600 feet of you.   ",
+				"\tYou instantly gain knowledge of up to three  facts of your choice about any of the following  subjects as they relate to the area: ",
+				"\t",
+				"• Terrain and bodies of water ",
+				"\t",
+				"• Prevalent buildings, plants, animals, or  intelligent creatures  ",
+				"\t",
+				"• Powerful (CR 1 or higher) celestials, fey, fiends,  elementals, or undead  ",
+				"\t",
+				"• Influences from other planes of existence ",
+				"\t",
+				"• Electrical currents, wireless signals, and active  transit lines and tracks  ",
+				"\t ",
+				"\tFor example, you could determine the location of  powerful undead in the area, the location of  major sources of electrical power or interference,  and the location of any nearby parks. ",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "5th level divination (ritual)",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "",
+			"concentration": false,
+			"url": "Commune_with_City",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
 		"Commune_with_Nature": {
 			"name": "Commune with Nature",
 			"level": 5,
@@ -1813,10 +1881,11 @@
 			"range": "Self",
 			"components": "V, S, M (a pinch of soot and salt)",
 			"duration": "1 hour",
-			"classes": "Bard, Sorcerer, Warlock, Wizard",
+			"classes": "Cleric (City)",
 			"text": [
-				"For the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface of which the words are written. It takes about 1 minute to read one page of text.",
-				"This spell doesn't decode secret messages in a text or glyph, such as an arcane sigil, that isn't part of a written language."
+				"\tFor the duration, you understand the literal meaning of any spoken language that you hear. You also understand any spoken language that you hear. You also understand any written language that you see, but you must be touching the surface on which the words are written. It takes about 1 minute to read one page of text. ",
+				"\tThis spell doesn't decode secret messages in a text or glyph, such as an arcane sigil, that isn't part of a written language. ",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
 			],
 			"schoolAndLevel": "1st level divination (ritual)",
 			"timeShort": "",
@@ -1826,10 +1895,7 @@
 			"url": "Comprehend_Languages",
 			"hiLevelIndex": -1,
 			"classesArray": [
-				"Bard",
-				"Sorcerer",
-				"Warlock",
-				"Wizard"
+				"Cleric (City)"
 			]
 		},
 		"Compulsion": {
@@ -2062,6 +2128,36 @@
 			"classesArray": [
 				"Druid",
 				"Warlock"
+			]
+		},
+		"Conjure_Knowbot": {
+			"name": "Conjure Knowbot",
+			"level": 4,
+			"school": "conjuration",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "Touch",
+			"components": "V, S",
+			"duration": "10 minutes",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"You touch a single computerized device or  computer system to conjure a knowbot—a partially sentient piece of software imprinted  with vestiges of your own skills and computer  abilities. For the duration of the spell, you can  use a bonus action to have the knowbot execute  a computer[related task that would normally  require an action. The knowbot makes  Intelligence ability checks using your ability  score and proficiency bonuses (including your  proficiency with hacking tools, if applicable).  ",
+				"\tYou have a limited telepathic bond with the  knowbot, out to a range of 500 feet from the  device or system where the knowbot was  conjured. If you move beyond this range, the  knowbot disappears in 2d4 rounds, as if the  duration of the spell had expired. Moving within  range again immediately reestablishes the bond.  ",
+				"\tThe knowbot is bound to the system in which  it was created, and it stays there until it is  dismissed or the spell's duration expires.  ",
+				"\tAt Higher Levels: When you cast this spell  using a spell slot of 5th level or higher, the spell's  duration increases to 1 hour. Additionally, your  telepathic bond with the knowbot is effective out  to a range of 1,000 feet, and if you leave the  range of the bond, the knowbot continues  performing its last directed task until the spell  expires. ",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "4th level conjuration",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "10 m.",
+			"concentration": false,
+			"url": "Conjure_Knowbot",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
 			]
 		},
 		"Conjure_Minor_Elementals": {
@@ -2598,7 +2694,7 @@
 			"classes": "Sorcerer, Wizard, Rogue (Arcane Trickster)",
 			"text": [
 				"You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within range - soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before.",
-				"The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration. ",
+				"The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration.",
 				"Material - Duration: ",
 				"Vegetable matter - 1 day",
 				"Stone/crystal - 12 hours",
@@ -3049,6 +3145,33 @@
 				"Bard",
 				"Sorcerer",
 				"Warlock (Great Old One)",
+				"Wizard"
+			]
+		},
+		"Digital_Phantom_(Technomagic)": {
+			"name": "Digital Phantom (Technomagic)",
+			"level": 2,
+			"school": "abjuration",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "Self",
+			"components": "V, S, M (a small piece of copper wire)",
+			"duration": "Concentration, up to 1 hour",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"\tThis spell works to actively hide your presence  within a computer system. For the spell's  duration, you and any other users you choose on  your local network gain a +10 bonus to  Intelligence checks to avoid detection by  administrators, knowbots, tracking software,  and the like. Whenever you and your chosen  users leave any computer system you are  working in while this spell is in effect, all trace of  your previous presence in that system is erased. ",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "2nd level abjuration",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "1 h.",
+			"concentration": true,
+			"url": "Digital_Phantom_(Technomagic)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
 				"Wizard"
 			]
 		},
@@ -3759,7 +3882,7 @@
 			"text": [
 				"You cause a creature or an object you can see within range to grow larger or smaller for the duration. Choose either a creature or an object that is neither worn nor carried. If the target is unwilling, it can make a Constitution saving throw. On a success, the spell has no effect.",
 				"If the target is a creature, everything it is wearing and carrying changes size with it. Any item dropped by an affected creature returns to normal size at once.",
-				"Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size n the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attack with them deal 1d4 extra damage.",
+				"Enlarge. The target's size doubles in all dimensions, and its weight is multiplied by eight. This growth increases its size by one category - from Medium to Large, for example. If there isn't enough room for the target to double its size, the creature or object attains the maximum possible size in the space available. Until the spell ends, the target also has advantage on Strength checks and Strength saving throws. The target's weapons also grow to match its new size. While these weapons are enlarged, the target's attack with them deal 1d4 extra damage.",
 				"Reduce. The target's size is halved in all dimensions, and its weight is reduced to one-eighth of normal. This reduction decreases its size by one category - from Medium to Small, for example. Until the spell ends, the target also has disadvantage on Strength checks and Strength saving throws. The target's weapons also shrink to match its new size. While these weapons are reduced, the target's attacks with them deal 1d4 less damage (this can't reduce the damage below 1)."
 			],
 			"schoolAndLevel": "2nd level transmutation",
@@ -4306,6 +4429,39 @@
 				"Cleric",
 				"Druid",
 				"Ranger"
+			]
+		},
+		"Find_Vehicle": {
+			"name": "Find Vehicle",
+			"level": 2,
+			"school": "conjuration",
+			"ritual": "NO",
+			"time": "10 minutes",
+			"range": "30 feet",
+			"components": "V, S",
+			"duration": "8 hours",
+			"classes": "Paladin, Sorcerer, Warlock, Wizard, Cleric (City)",
+			"text": [
+				"You summon a spirit that assumes the form of a  nonmilitary land vehicle of your choice,  appearing in an unoccupied space within range.  The vehicle has the statistics of a normal vehicle  of its sort, though it is celestial, fey, or fiendish  (your choice) in origin. The physical  characteristics of the vehicle reflect its origin to  some degree. For example, a fiendish SUV might  be jet black in color, with tinted windows and a  sinister[looking front grille.  ",
+				"\tYou have a supernatural bond with the  conjured vehicle that allows you to drive beyond  your normal ability. While driving the conjured  vehicle, you are considered proficient with  vehicles of its type, and you add double your  proficiency bonus to ability checks related to  driving the vehicle. While driving the vehicle,  you can make any spell you cast that targets only  you also target the vehicle. ",
+				"\tIf the vehicle drops to 0 hit points, it  disappears, leaving behind no physical form. You  can also dismiss the vehicle at any time as an  action, causing it to disappear. ",
+				"\tYou can't have more than one vehicle bonded  by this spell at a time. As an action, you can  release the vehicle from its bond at any time,  causing it to disappear.  ",
+				"\tAt Higher Levels: When you cast this spell  using a spell slot of 3rd level or higher, you can  conjure a nonmilitary water vehicle large  enough to carry six Medium creatures. When you  cast this spell using a spell slot of 5th level or  higher, you can conjure a nonmilitary air vehicle  large enough to carry ten Medium creatures.  When you cast this spell using a spell slot of 7th  level or higher, you can conjure any type of  vehicle, subject to the DM's approval. ",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "2nd level conjuration",
+			"timeShort": "",
+			"rangeShort": "30 feet",
+			"durationShort": "8 h.",
+			"concentration": false,
+			"url": "Find_Vehicle",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Paladin",
+				"Sorcerer",
+				"Warlock",
+				"Wizard",
+				"Cleric (City)"
 			]
 		},
 		"Finger_of_Death": {
@@ -5549,6 +5705,44 @@
 				"Wizard"
 			]
 		},
+		"Haywire_(Technomagic)": {
+			"name": "Haywire (Technomagic)",
+			"level": 3,
+			"school": "enchantment",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "90 feet",
+			"components": "V, S",
+			"duration": "Concentration, up to 1 minute",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"\tThis spell plays havoc with electronic devices,  making the use of such devices all but impossible.  Each electronic device in a 10-foot-radius sphere  centered on a point you choose within range is  subject to random behavior while it remains  within the area. A device not held by a creature  is automatically affected. If an electronic device  is held by a creature, that creature must succeed  on a Wisdom saving throw or have the device  affected by the spell.  ",
+				"\tAt the start of each of your turns, roll a d6 for  each affected device to determine its behavior.  Except where otherwise indicated, that behavior  lasts until the start of your next turn while this  spell is in effect. ",
+				"\t",
+				"1: The device shuts down and must be  restarted. Do not roll again for this device until it  is restarted.  ",
+				"\t",
+				"2-4: The device does not function.  ",
+				"\t",
+				"5: The device experiences a power surge,  causing an electric shock to the wielder (if any)  and one random creature within 5 feet of the  device. Each affected creature must make a  Dexterity saving throw against your spell save  DC, taking 6d6 lightning damage on a failed save,  or half as much damage on a successful one.  ",
+				"\t",
+				"6: The device is usable as normal.  ",
+				"\t",
+				"\tAt Higher Levels: When you cast this spell  using a spell slot of 4th level or higher, the radius  of the sphere affected by the spell increases by 5  feet for each slot level above 3rd.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "3rd level enchantment",
+			"timeShort": "",
+			"rangeShort": "90 feet",
+			"durationShort": "1 m.",
+			"concentration": true,
+			"url": "Haywire_(Technomagic)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
 		"Heal": {
 			"name": "Heal",
 			"level": 6,
@@ -5888,7 +6082,7 @@
 			"ritual": "",
 			"time": "1 action",
 			"range": "120 feet",
-			"components": "S, M (a glowing stick o f incense or a crystal vial filled with phosphorescent material)",
+			"components": "S, M (a glowing stick of incense or a crystal vial filled with phosphorescent material)",
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Bard, Sorcerer, Warlock, Wizard, Rogue (Arcane Trickster)",
 			"text": [
@@ -6130,6 +6324,34 @@
 				"Wizard"
 			]
 		},
+		"Infallible_Relay_(Technomagic)": {
+			"name": "Infallible Relay (Technomagic)",
+			"level": 1,
+			"school": "divination",
+			"ritual": "NO",
+			"time": "1 minute",
+			"range": "Self",
+			"components": "V, S, M (a mobile phone)",
+			"duration": "Concentration, up to 10 minutes",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"\tWith this spell, you can target any creature with  whom you have spoken previously, as long as  the two of you are on the same plane of existence.  When you cast the spell, the nearest functioning  telephone or similar communications device  within 100 feet of the target begins to ring. If  there is no suitable device close enough to the  target, the spell fails.  ",
+				"\tThe target must make a successful Charisma  saving throw or be compelled to answer your  call. Once the connection is established, the call  is crystal clear and cannot be dropped until the  conversation has ended or the spell's duration  ends. You can end the conversation at any time,  but a target must succeed on a Charisma saving  throw to end the conversation. ",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "1st level divination",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "10 m.",
+			"concentration": true,
+			"url": "Infallible_Relay_(Technomagic)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
 		"Inflict_Wounds": {
 			"name": "Inflict Wounds",
 			"level": 1,
@@ -6350,6 +6572,33 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
+			]
+		},
+		"Invisibility_to_Cameras_(Technomagic)": {
+			"name": "Invisibility to Cameras (Technomagic)",
+			"level": 3,
+			"school": "illusion",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "10 feet",
+			"components": "V, S, M (a scrap of black paper)",
+			"duration": "Concentration, up to 1 minute",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"\tFour creatures of your choice within range  become undetectable to electronic sensors and  cameras for the duration of the spell. Anything a  target is wearing or carrying is likewise  undetectable as long as it is on the target's  person. The targets remain visible to vision.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "3rd level illusion",
+			"timeShort": "",
+			"rangeShort": "10 feet",
+			"durationShort": "1 m.",
+			"concentration": true,
+			"url": "Invisibility_to_Cameras_(Technomagic)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
 			]
 		},
 		"Jump": {
@@ -7048,7 +7297,7 @@
 		"Mass_Cure_Wounds": {
 			"name": "Mass Cure Wounds",
 			"level": 5,
-			"school": "conjuration",
+			"school": "evocation",
 			"ritual": "",
 			"time": "1 action",
 			"range": "60 feet",
@@ -7060,7 +7309,7 @@
 				"When you cast this spell using a spell slot of 6th level or higher, the healing increases by 1d8 for each slot level above 5th."
 			],
 			"roll": "3d8+SPELL",
-			"schoolAndLevel": "5th level conjuration",
+			"schoolAndLevel": "5th level evocation",
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
@@ -7077,7 +7326,7 @@
 		"Mass_Heal": {
 			"name": "Mass Heal",
 			"level": 9,
-			"school": "conjuration",
+			"school": "evocation",
 			"ritual": "",
 			"time": "1 action",
 			"range": "60 feet",
@@ -7087,7 +7336,7 @@
 			"text": [
 				"A flood of healing energy flows from you into injured creatures around you. You restore up to 700 hit points, divided as you choose among any number of creatures that you can see within range. Creatures healed by this spell are also cured of all diseases and any effect making them blinded or deafened. This spell has no effect on undead or constructs."
 			],
-			"schoolAndLevel": "9th level conjuration",
+			"schoolAndLevel": "9th level evocation",
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
@@ -7581,7 +7830,7 @@
 				"You attempt to reshape another creature's memories. One creature that you can see must make a Wisdom saving throw. If you are fighting the creature, it has advantage on the saving throw. On a failed save, the target becomes charmed by you for the duration. The charmed target is incapacitated and unaware of its surroundings, though it can still hear you. If it takes any damage or is targeted by another spell, this spell ends, and none of the target's memories are modified.",
 				"While this charm lasts, you can affect the target's memory of an event that it experienced within the last 24 hours and that lasted no more than 10 minutes. You can permanently eliminate all memory of the event, allow the target to recall the event with perfect clarity and exacting detail, change its memory of the details of the event, or create a memory of some other event.",
 				"You must speak to the target to describe how its memories are affected, and it must be able to understand your language for the modified memories to take root. Its mind fills in any gaps in the details of your description. If the spell ends before you have finished describing the modified memories, the creature's memory isn't altered. Otherwise, the modified memories take hold when the spell ends.",
-				"A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of f how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.",
+				"A modified memory doesn't necessarily affect how a creature behaves, particularly if the memory contradicts the creature's natural inclinations, alignment, or beliefs. An illogical modified memory, such as implanting a memory of how much the creature enjoyed dousing itself in acid, is dismissed, perhaps as a bad dream. The DM might deem a modified memory too nonsensical to affect a creature in a significant manner.",
 				"A remove curse or greater restoration spell cast on the target restores the creature's true memory.",
 				"If you cast this spell using a spell slot of 6th level or higher, you can alter the target's memories of an event that took place up to 7 days ago (6th level), 30 days ago (7th level), 1 year ago (8th level), or any time in the creature's past (9th level)."
 			],
@@ -7869,6 +8118,33 @@
 				"Rogue (Arcane Trickster)"
 			]
 		},
+		"On_Off_(Technomagic)": {
+			"name": "On/Off (Technomagic)",
+			"level": 0,
+			"school": "transmutation",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "60 feet",
+			"components": "V, S",
+			"duration": "Instantaneous",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"\tThis cantrip allows you to activate or deactivate  any electronic device within range, as long as the  device has a clearly defined on or off function  that can be easily accessed from the outside of  the device. Any device that requires a software-based shutdown sequence to activate or  deactivate cannot be affected by on/off.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "Transmutation cantrip",
+			"timeShort": "",
+			"rangeShort": "60 feet",
+			"durationShort": "",
+			"concentration": false,
+			"url": "On_Off_(Technomagic)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
 		"Otiluke's_Freezing_Sphere": {
 			"name": "Otiluke's Freezing Sphere",
 			"level": 6,
@@ -7937,7 +8213,7 @@
 			"classes": "Bard, Wizard, Rogue (Arcane Trickster)",
 			"text": [
 				"Choose one creature that you can see within range. The target begins a comic dance in place - shuffling, tapping its feet, and capering for the duration. Creatures that can't be charmed are immune to this spell.",
-				"A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of f itself. On a successful save, the spell ends."
+				"A dancing creature must use all its movement to dance without leaving its space and has disadvantage on Dexterity saving throws and attack rolls. While the target is affected by this spell, other creatures have advantage on attack rolls against it. As an action, a dancing creature makes a Wisdom saving throw to regain control of itself. On a successful save, the spell ends."
 			],
 			"schoolAndLevel": "6th level enchantment",
 			"timeShort": "",
@@ -8050,7 +8326,7 @@
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Wizard, Rogue (Arcane Trickster)",
 			"text": [
-				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the start of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.",
+				"You tap into the nightmares of a creature you can see within range and create an illusory manifestation of its deepest fears, visible only to that creature. The target must make a Wisdom saving throw. On a failed save, the target becomes frightened for the duration. At the end of each of the target's turns before the spell ends, the target must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends.",
 				"When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d10 for each slot level above 4th."
 			],
 			"roll": "4d10",
@@ -8258,7 +8534,7 @@
 			"duration": "Concentration, up to 1 hour",
 			"classes": "Bard, Cleric (Trickery), Druid, Sorcerer, Wizard",
 			"text": [
-				"This spell transforms a creature that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. A shapechanger automatically succeeds on this saving throw.",
+				"This spell transforms a creature with at least 1 hit point that you can see within range into a new form. An unwilling creature must make a Wisdom saving throw to avoid the effect. A shapechanger automatically succeeds on this saving throw.",
 				"The transformation lasts for the duration, or until the target drops to 0 hit points or dies. The new form can be any beast whose challenge rating is equal to or less than the target's (or the target's level, if it doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the chosen beast. It retains its alignment and personality.",
 				"The target assumes the hit points of its new form. When it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious.",
 				"The creature is limited in the actions it can perform by the nature of its new form, and it can't speak, cast spells, or take any other action that requires hands or speech.",
@@ -8609,6 +8885,34 @@
 				"Bard",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
+			]
+		},
+		"Protection_from_Ballistics": {
+			"name": "Protection from Ballistics",
+			"level": 3,
+			"school": "abjuration",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "Touch",
+			"components": "V, S, M (a shell casing(",
+			"duration": "Concentration, up to 10 minutes",
+			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
+			"text": [
+				"This spell enchants the flesh of the target against  the impact of bullets. Until the spell ends, the  target has resistance to nonmagical ballistic  damage.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "3rd level abjuration",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "10 m.",
+			"concentration": true,
+			"url": "Protection_from_Ballistics",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard",
+				"Cleric (City)"
 			]
 		},
 		"Protection_from_Energy": {
@@ -8974,6 +9278,34 @@
 				"Druid"
 			]
 		},
+		"Remote_Access_(Technomagic)": {
+			"name": "Remote Access (Technomagic)",
+			"level": 1,
+			"school": "transmutation",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "120 feet",
+			"components": "V, S",
+			"duration": "10 minutes",
+			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
+			"text": [
+				"\tYou can use any electronic device within range  as if it were in your hands. This is not a  telekinesis effect. Rather, this spell allows you to  simulate a device's mechanical functions  electronically. You are able to access only  functions that a person using the device  manually would be able to access. You can use  remote access with only one device at a time.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "1st level transmutation",
+			"timeShort": "",
+			"rangeShort": "120 feet",
+			"durationShort": "10 m.",
+			"concentration": false,
+			"url": "Remote_Access_(Technomagic)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard",
+				"Cleric (City)"
+			]
+		},
 		"Remove_Curse": {
 			"name": "Remove Curse",
 			"level": 3,
@@ -9088,7 +9420,7 @@
 		"Revivify": {
 			"name": "Revivify",
 			"level": 3,
-			"school": "conjuration",
+			"school": "necromancy",
 			"ritual": "",
 			"time": "1 action",
 			"range": "Touch",
@@ -9098,7 +9430,7 @@
 			"text": [
 				"You touch a creature that has died within the last minute. That creature returns to life with 1 hit point. This spell can't return to life a creature that has died of old age, nor can it restore any missing body parts."
 			],
-			"schoolAndLevel": "3rd level conjuration",
+			"schoolAndLevel": "3rd level necromancy",
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
@@ -9243,7 +9575,7 @@
 				"You can see and hear a particular creature you choose that is on the same plane of existence as you. The target must make a Wisdom saving throw, which is modified by how well you know the target and the sort of physical connection you have to it. If a target knows you're casting this spell, it can fail the saving throw voluntarily if it wants to be observed.",
 				"Knowledge - Save Modifier",
 				"Secondhand (you have heard of the target) - +5",
-				"Firsthand (you have met the target) +0 ",
+				"Firsthand (you have met the target) +0",
 				"Familiar (you know the target well) - -5",
 				"Connection - Save Modifier",
 				"Likeness or picture - -2",
@@ -9615,6 +9947,35 @@
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
+			]
+		},
+		"Shutdown": {
+			"name": "Shutdown",
+			"level": 5,
+			"school": "transmutation",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "120 feet",
+			"components": "V, S",
+			"duration": "Concentration, up to 1 minute",
+			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
+			"text": [
+				"Technomagic",
+				"\tThis spell shuts down all electronic devices  within range that are not wielded by or under  the direct control of a creature. If an electronic  device within range is used by a creature, that  creature must succeed on a Constitution saving  throw to prevent the device from being shut  down. While the spell remains active, no  electronic device within range can be started or  restarted.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "5th level transmutation",
+			"timeShort": "",
+			"rangeShort": "120 feet",
+			"durationShort": "1 m.",
+			"concentration": true,
+			"url": "Shutdown",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard",
+				"Cleric (City)"
 			]
 		},
 		"Silence": {
@@ -10415,6 +10776,65 @@
 				"Wizard"
 			]
 		},
+		"Synchronicity": {
+			"name": "Synchronicity",
+			"level": 4,
+			"school": "enchantment",
+			"ritual": "NO",
+			"time": "1 action",
+			"range": "Touch",
+			"components": "V, S",
+			"duration": "Concentration, up to 1 hour",
+			"classes": "Sorcerer, Warlock, Wizard, Cleric (City)",
+			"text": [
+				"The creature you touch feels reality subtly  shifted to its favor while this spell is in effect.  The target isn't inconvenienced by mundane  delays of any sort. Traffic lights are always green,  there's always a waiting elevator, and a taxi is  always around the corner. The target can run at  full speed through dense crowds, and attacks of  opportunity provoked by the target's movement  are made with disadvantage.  ",
+				"\tSynchronicity grants advantage to Dexterity  (Stealth) checks, since the target always finds a  handy piece of cover available. Additionally, the  target has advantage on all ability checks made  to drive a vehicle.  ",
+				"\tIn the event that two or more creatures under  the effect of synchronicity are attempting to  avoid being inconvenienced by each other, the  creatures engage in a contest of Charisma each  time the effects of the spells would oppose each  other. ",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "4th level enchantment",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "1 h.",
+			"concentration": true,
+			"url": "Synchronicity",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard",
+				"Cleric (City)"
+			]
+		},
+		"System_Backdoor_(Technomagic)": {
+			"name": "System Backdoor (Technomagic)",
+			"level": 4,
+			"school": "transmutation",
+			"ritual": "NO",
+			"time": "1 minute",
+			"range": "Personal",
+			"components": "V, S, M (hacking tools)",
+			"duration": "Concentration, up to 1 hour",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"\tThis spell allows you to bypass system security  in order to create a secure login on a foreign  system. The login you create allows you  administrator-level privileges in any computer  system not enhanced through technomagic. The  login defeats any technomagic spells of 3rd level  or lower.  ",
+				"\tOnce the duration of the spell expires, the login  and all privileges are wiped from the system.  System logs still show the activity of the user,  but the user identification cannot be found or  traced. ",
+				"\tAt Higher Levels: When you cast this spell  using a spell slot of 5th level or higher, you are able to bypass technomagic spells if the spell's  level is equal to or less than the level of the spell  slot you used.",
+				"This spell can be found in the Modern Magic Unearthed Arcana PDF."
+			],
+			"schoolAndLevel": "4th level transmutation",
+			"timeShort": "",
+			"rangeShort": "",
+			"durationShort": "1 h.",
+			"concentration": true,
+			"url": "System_Backdoor_(Technomagic)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
 		"Tasha's_Hideous_Laughter": {
 			"name": "Tasha's Hideous Laughter",
 			"level": 1,
@@ -10930,7 +11350,7 @@
 			"duration": "Concentration, up to 1 hour",
 			"classes": "Bard, Warlock, Wizard",
 			"text": [
-				"Choose one creature or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation becomes permanent.",
+				"Choose one creature with at least 1 hit point or nonmagical object that you can see within range. You transform the creature into a different creature, the creature into an object, or the object into a creature (the object must be neither worn nor carried by another creature). The transformation lasts for the duration, or until the target drops to 0 hit points or dies. If you concentrate on this spell for the full duration, the transformation becomes permanent.",
 				"Shapechangers aren't affected by this spell. An unwilling creature can make a Wisdom saving throw, and if it succeeds, it isn't affected by this spell.",
 				"Creature into Creature: If you turn a creature into another kind of creature, the new form can be any kind you choose whose challenge rating is equal to or less than the target's (or its level, if the target doesn't have a challenge rating). The target's game statistics, including mental ability scores, are replaced by the statistics of the new form. It retains its alignment and personality.",
 				"The target assumes the hit points of its new form, and when it reverts to its normal form, the creature returns to the number of hit points it had before it transformed. If it reverts as a result of dropping to 0 hit points, any excess damage carries over to its normal form. As long as the excess damage doesn't reduce the creature's normal form to 0 hit points, it isn't knocked unconscious.",
@@ -11588,7 +12008,7 @@
 			"duration": "Concentration, up to 1 minute",
 			"classes": "Wizard, Rogue (Arcane Trickster)",
 			"text": [
-				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the start of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature."
+				"Drawing on the deepest fears of a group of creatures, you create illusory creatures in their minds, visible only to them. Each creature in a 30-foot-radius sphere centered on a point of your choice within range must make a Wisdom saving throw. On a failed save, a creature becomes frightened for the duration. The illusion calls on the creature's deepest fears, manifesting its worst nightmares as an implacable threat. At the end of each of the frightened creature's turns, it must succeed on a Wisdom saving throw or take 4d10 psychic damage. On a successful save, the spell ends for that creature."
 			],
 			"roll": "4d10",
 			"schoolAndLevel": "9th level illusion",
@@ -11857,6 +12277,7 @@
 			"Message",
 			"Minor_Illusion",
 			"Mold_Earth_(EE)",
+			"On_Off_(Technomagic)",
 			"Poison_Spray",
 			"Prestidigitation",
 			"Produce_Flame",
@@ -11890,6 +12311,7 @@
 			"Command",
 			"Compelled_Duel",
 			"Comprehend_Languages",
+			"Comprehend_Languages",
 			"Create_or_Destroy_Water",
 			"Cure_Wounds",
 			"Detect_Evil_and_Good",
@@ -11919,6 +12341,7 @@
 			"Ice_Knife_(EE)",
 			"Identify",
 			"Illusory_Script",
+			"Infallible_Relay_(Technomagic)",
 			"Inflict_Wounds",
 			"Jump",
 			"Longstrider",
@@ -11927,6 +12350,7 @@
 			"Protection_from_Evil_and_Good",
 			"Purify_Food_and_Drink",
 			"Ray_of_Sickness",
+			"Remote_Access_(Technomagic)",
 			"Sanctuary",
 			"Searing_Smite",
 			"Shield",
@@ -11947,6 +12371,7 @@
 			"Aid",
 			"Alter_Self",
 			"Animal_Messenger",
+			"Arcane_Hacking_(Technomagic)",
 			"Arcane_Lock",
 			"Augury",
 			"Barkskin",
@@ -11962,6 +12387,7 @@
 			"Darkness",
 			"Darkvision",
 			"Detect_Thoughts",
+			"Digital_Phantom_(Technomagic)",
 			"Dust_Devil_(EE)",
 			"Earthbind_(EE)",
 			"Enhance_Ability",
@@ -11969,6 +12395,7 @@
 			"Enthrall",
 			"Find_Steed",
 			"Find_Traps",
+			"Find_Vehicle",
 			"Flame_Blade",
 			"Flaming_Sphere",
 			"Gentle_Repose",
@@ -12037,8 +12464,10 @@
 			"Gaseous_Form",
 			"Glyph_of_Warding",
 			"Haste",
+			"Haywire_(Technomagic)",
 			"Hunger_of_Hadar",
 			"Hypnotic_Pattern",
+			"Invisibility_to_Cameras_(Technomagic)",
 			"Leomund's_Tiny_Hut",
 			"Lightning_Arrow",
 			"Lightning_Bolt",
@@ -12050,6 +12479,7 @@
 			"Nondetection",
 			"Phantom_Steed",
 			"Plant_Growth",
+			"Protection_from_Ballistics",
 			"Protection_from_Energy",
 			"Remove_Curse",
 			"Revivify",
@@ -12077,6 +12507,7 @@
 			"Blight",
 			"Compulsion",
 			"Confusion",
+			"Conjure_Knowbot",
 			"Conjure_Minor_Elementals",
 			"Conjure_Woodland_Beings",
 			"Control_Water",
@@ -12106,6 +12537,8 @@
 			"Stone_Shape",
 			"Stoneskin",
 			"Storm_Sphere_(EE)",
+			"Synchronicity",
+			"System_Backdoor_(Technomagic)",
 			"Vitriolic_Sphere_(EE)",
 			"Wall_of_Fire",
 			"Watery_Sphere_(EE)"
@@ -12118,6 +12551,7 @@
 			"Bigby's_Hand",
 			"Cloudkill",
 			"Commune",
+			"Commune_with_City",
 			"Commune_with_Nature",
 			"Cone_of_Cold",
 			"Conjure_Elemental",
@@ -12149,6 +12583,7 @@
 			"Reincarnate",
 			"Scrying",
 			"Seeming",
+			"Shutdown",
 			"Swift_Quiver",
 			"Telekinesis",
 			"Teleportation_Circle",
@@ -12283,6 +12718,7 @@
 				"Message",
 				"Minor_Illusion",
 				"Mold_Earth_(EE)",
+				"On_Off_(Technomagic)",
 				"Poison_Spray",
 				"Prestidigitation",
 				"Produce_Flame",
@@ -12316,6 +12752,7 @@
 				"Command",
 				"Compelled_Duel",
 				"Comprehend_Languages",
+				"Comprehend_Languages",
 				"Create_or_Destroy_Water",
 				"Cure_Wounds",
 				"Detect_Evil_and_Good",
@@ -12345,6 +12782,7 @@
 				"Ice_Knife_(EE)",
 				"Identify",
 				"Illusory_Script",
+				"Infallible_Relay_(Technomagic)",
 				"Inflict_Wounds",
 				"Jump",
 				"Longstrider",
@@ -12353,6 +12791,7 @@
 				"Protection_from_Evil_and_Good",
 				"Purify_Food_and_Drink",
 				"Ray_of_Sickness",
+				"Remote_Access_(Technomagic)",
 				"Sanctuary",
 				"Searing_Smite",
 				"Shield",
@@ -12373,6 +12812,7 @@
 				"Aid",
 				"Alter_Self",
 				"Animal_Messenger",
+				"Arcane_Hacking_(Technomagic)",
 				"Arcane_Lock",
 				"Augury",
 				"Barkskin",
@@ -12388,6 +12828,7 @@
 				"Darkness",
 				"Darkvision",
 				"Detect_Thoughts",
+				"Digital_Phantom_(Technomagic)",
 				"Dust_Devil_(EE)",
 				"Earthbind_(EE)",
 				"Enhance_Ability",
@@ -12395,6 +12836,7 @@
 				"Enthrall",
 				"Find_Steed",
 				"Find_Traps",
+				"Find_Vehicle",
 				"Flame_Blade",
 				"Flaming_Sphere",
 				"Gentle_Repose",
@@ -12463,8 +12905,10 @@
 				"Gaseous_Form",
 				"Glyph_of_Warding",
 				"Haste",
+				"Haywire_(Technomagic)",
 				"Hunger_of_Hadar",
 				"Hypnotic_Pattern",
+				"Invisibility_to_Cameras_(Technomagic)",
 				"Leomund's_Tiny_Hut",
 				"Lightning_Arrow",
 				"Lightning_Bolt",
@@ -12476,6 +12920,7 @@
 				"Nondetection",
 				"Phantom_Steed",
 				"Plant_Growth",
+				"Protection_from_Ballistics",
 				"Protection_from_Energy",
 				"Remove_Curse",
 				"Revivify",
@@ -12503,6 +12948,7 @@
 				"Blight",
 				"Compulsion",
 				"Confusion",
+				"Conjure_Knowbot",
 				"Conjure_Minor_Elementals",
 				"Conjure_Woodland_Beings",
 				"Control_Water",
@@ -12532,6 +12978,8 @@
 				"Stone_Shape",
 				"Stoneskin",
 				"Storm_Sphere_(EE)",
+				"Synchronicity",
+				"System_Backdoor_(Technomagic)",
 				"Vitriolic_Sphere_(EE)",
 				"Wall_of_Fire",
 				"Watery_Sphere_(EE)"
@@ -12544,6 +12992,7 @@
 				"Bigby's_Hand",
 				"Cloudkill",
 				"Commune",
+				"Commune_with_City",
 				"Commune_with_Nature",
 				"Cone_of_Cold",
 				"Conjure_Elemental",
@@ -12575,6 +13024,7 @@
 				"Reincarnate",
 				"Scrying",
 				"Seeming",
+				"Shutdown",
 				"Swift_Quiver",
 				"Telekinesis",
 				"Teleportation_Circle",
@@ -12704,6 +13154,7 @@
 				"Message",
 				"Minor_Illusion",
 				"Mold_Earth_(EE)",
+				"On_Off_(Technomagic)",
 				"Poison_Spray",
 				"Prestidigitation",
 				"Ray_of_Frost",
@@ -12727,10 +13178,12 @@
 				"Feather_Fall",
 				"Fog_Cloud",
 				"Ice_Knife_(EE)",
+				"Infallible_Relay_(Technomagic)",
 				"Jump",
 				"Mage_Armor",
 				"Magic_Missile",
 				"Ray_of_Sickness",
+				"Remote_Access_(Technomagic)",
 				"Shield",
 				"Silent_Image",
 				"Sleep",
@@ -12740,6 +13193,7 @@
 			[
 				"Aganazzar's_Scorcher_(EE)",
 				"Alter_Self",
+				"Arcane_Hacking_(Technomagic)",
 				"Blindness_Deafness",
 				"Blur",
 				"Cloud_of_Daggers",
@@ -12747,10 +13201,12 @@
 				"Darkness",
 				"Darkvision",
 				"Detect_Thoughts",
+				"Digital_Phantom_(Technomagic)",
 				"Dust_Devil_(EE)",
 				"Earthbind_(EE)",
 				"Enhance_Ability",
 				"Enlarge_Reduce",
+				"Find_Vehicle",
 				"Gust_of_Wind",
 				"Hold_Person",
 				"Invisibility",
@@ -12783,10 +13239,13 @@
 				"Fly",
 				"Gaseous_Form",
 				"Haste",
+				"Haywire_(Technomagic)",
 				"Hypnotic_Pattern",
+				"Invisibility_to_Cameras_(Technomagic)",
 				"Lightning_Bolt",
 				"Major_Image",
 				"Melf's_Minute_Meteors_(EE)",
+				"Protection_from_Ballistics",
 				"Protection_from_Energy",
 				"Sleet_Storm",
 				"Slow",
@@ -12800,6 +13259,7 @@
 				"Banishment",
 				"Blight",
 				"Confusion",
+				"Conjure_Knowbot",
 				"Dimension_Door",
 				"Dominate_Beast",
 				"Greater_Invisibility",
@@ -12807,6 +13267,8 @@
 				"Polymorph",
 				"Stoneskin",
 				"Storm_Sphere_(EE)",
+				"Synchronicity",
+				"System_Backdoor_(Technomagic)",
 				"Vitriolic_Sphere_(EE)",
 				"Wall_of_Fire",
 				"Watery_Sphere_(EE)"
@@ -12814,6 +13276,7 @@
 			[
 				"Animate_Objects",
 				"Cloudkill",
+				"Commune_with_City",
 				"Cone_of_Cold",
 				"Control_Winds_(EE)",
 				"Creation",
@@ -12822,6 +13285,7 @@
 				"Immolation_(EE)",
 				"Insect_Plague",
 				"Seeming",
+				"Shutdown",
 				"Telekinesis",
 				"Teleportation_Circle",
 				"Wall_of_Stone"
@@ -12886,6 +13350,7 @@
 				"Message",
 				"Minor_Illusion",
 				"Mold_Earth_(EE)",
+				"On_Off_(Technomagic)",
 				"Poison_Spray",
 				"Prestidigitation",
 				"Ray_of_Frost",
@@ -12915,12 +13380,14 @@
 				"Ice_Knife_(EE)",
 				"Identify",
 				"Illusory_Script",
+				"Infallible_Relay_(Technomagic)",
 				"Jump",
 				"Longstrider",
 				"Mage_Armor",
 				"Magic_Missile",
 				"Protection_from_Evil_and_Good",
 				"Ray_of_Sickness",
+				"Remote_Access_(Technomagic)",
 				"Shield",
 				"Silent_Image",
 				"Sleep",
@@ -12933,6 +13400,7 @@
 			[
 				"Aganazzar's_Scorcher_(EE)",
 				"Alter_Self",
+				"Arcane_Hacking_(Technomagic)",
 				"Arcane_Lock",
 				"Blindness_Deafness",
 				"Blur",
@@ -12942,9 +13410,11 @@
 				"Darkness",
 				"Darkvision",
 				"Detect_Thoughts",
+				"Digital_Phantom_(Technomagic)",
 				"Dust_Devil_(EE)",
 				"Earthbind_(EE)",
 				"Enlarge_Reduce",
+				"Find_Vehicle",
 				"Flaming_Sphere",
 				"Gentle_Repose",
 				"Gust_of_Wind",
@@ -12989,7 +13459,9 @@
 				"Gaseous_Form",
 				"Glyph_of_Warding",
 				"Haste",
+				"Haywire_(Technomagic)",
 				"Hypnotic_Pattern",
+				"Invisibility_to_Cameras_(Technomagic)",
 				"Leomund's_Tiny_Hut",
 				"Lightning_Bolt",
 				"Magic_Circle",
@@ -12997,6 +13469,7 @@
 				"Melf's_Minute_Meteors_(EE)",
 				"Nondetection",
 				"Phantom_Steed",
+				"Protection_from_Ballistics",
 				"Protection_from_Energy",
 				"Remove_Curse",
 				"Sending",
@@ -13015,6 +13488,7 @@
 				"Banishment",
 				"Blight",
 				"Confusion",
+				"Conjure_Knowbot",
 				"Conjure_Minor_Elementals",
 				"Control_Water",
 				"Dimension_Door",
@@ -13035,6 +13509,8 @@
 				"Stone_Shape",
 				"Stoneskin",
 				"Storm_Sphere_(EE)",
+				"Synchronicity",
+				"System_Backdoor_(Technomagic)",
 				"Vitriolic_Sphere_(EE)",
 				"Wall_of_Fire",
 				"Watery_Sphere_(EE)"
@@ -13043,6 +13519,7 @@
 				"Animate_Objects",
 				"Bigby's_Hand",
 				"Cloudkill",
+				"Commune_with_City",
 				"Cone_of_Cold",
 				"Conjure_Elemental",
 				"Contact_Other_Plane",
@@ -13061,6 +13538,7 @@
 				"Rary's_Telepathic_Bond",
 				"Scrying",
 				"Seeming",
+				"Shutdown",
 				"Telekinesis",
 				"Teleportation_Circle",
 				"Transmute_Rock_(EE)",
@@ -13689,6 +14167,7 @@
 				"Aid",
 				"Branding_Smite",
 				"Find_Steed",
+				"Find_Vehicle",
 				"Lesser_Restoration",
 				"Locate_Object",
 				"Magic_Weapon",
@@ -13991,6 +14470,7 @@
 				"Mage_Hand",
 				"Magic_Stone_(EE)",
 				"Minor_Illusion",
+				"On_Off_(Technomagic)",
 				"Poison_Spray",
 				"Prestidigitation",
 				"Thunderclap_(EE)",
@@ -14005,16 +14485,21 @@
 				"Hellish_Rebuke",
 				"Hex",
 				"Illusory_Script",
+				"Infallible_Relay_(Technomagic)",
 				"Protection_from_Evil_and_Good",
+				"Remote_Access_(Technomagic)",
 				"Unseen_Servant",
 				"Witch_Bolt"
 			],
 			[
+				"Arcane_Hacking_(Technomagic)",
 				"Cloud_of_Daggers",
 				"Crown_of_Madness",
 				"Darkness",
+				"Digital_Phantom_(Technomagic)",
 				"Earthbind_(EE)",
 				"Enthrall",
+				"Find_Vehicle",
 				"Hold_Person",
 				"Invisibility",
 				"Mirror_Image",
@@ -14030,10 +14515,13 @@
 				"Fear",
 				"Fly",
 				"Gaseous_Form",
+				"Haywire_(Technomagic)",
 				"Hunger_of_Hadar",
 				"Hypnotic_Pattern",
+				"Invisibility_to_Cameras_(Technomagic)",
 				"Magic_Circle",
 				"Major_Image",
+				"Protection_from_Ballistics",
 				"Remove_Curse",
 				"Tongues",
 				"Vampiric_Touch"
@@ -14041,15 +14529,20 @@
 			[
 				"Banishment",
 				"Blight",
+				"Conjure_Knowbot",
 				"Dimension_Door",
 				"Elemental_Bane_(EE)",
-				"Hallucinatory_Terrain"
+				"Hallucinatory_Terrain",
+				"Synchronicity",
+				"System_Backdoor_(Technomagic)"
 			],
 			[
+				"Commune_with_City",
 				"Contact_Other_Plane",
 				"Dream",
 				"Hold_Monster",
-				"Scrying"
+				"Scrying",
+				"Shutdown"
 			],
 			[
 				"Arcane_Gate",
@@ -14452,6 +14945,29 @@
 			[],
 			[]
 		],
+		"Cleric (City)": [
+			[],
+			[
+				"Comprehend_Languages",
+				"Remote_Access_(Technomagic)"
+			],
+			[
+				"Find_Vehicle"
+			],
+			[
+				"Protection_from_Ballistics"
+			],
+			[
+				"Synchronicity"
+			],
+			[
+				"Shutdown"
+			],
+			[],
+			[],
+			[],
+			[]
+		],
 		"Druid (Coast)": [
 			[],
 			[],
@@ -14580,6 +15096,7 @@
 		"All",
 		"Bard",
 		"Cleric",
+		"Cleric (City)",
 		"Cleric (Death)",
 		"Cleric (Knowledge)",
 		"Cleric (Life)",

@@ -30,11 +30,6 @@ var checkNotFoundItem = function(keys, item) {
 }
 
 var App = React.createClass({
-	handleSearch: function(e) {
-		this.setState({
-			searchValue: e.target.value.toLowerCase()
-		})
-	},
 	toggleBookmarks: function(item, category, e) {
 		e.preventDefault(); 
 		var bookmarks = this.state.bookmarks;
@@ -60,7 +55,7 @@ var App = React.createClass({
 		}
 	},
 	getInitialState: function () {
-		var bookmarksCategoies = ['spellbook', 'bestiary']
+		var bookmarksCategoies = ['classes', 'spellbook', 'bestiary']
 		var mobile = false;
 		if (!!('ontouchstart' in window))
 			mobile = true;
@@ -81,7 +76,6 @@ var App = React.createClass({
 		})
 
 		return {
-			searchValue: '',
 			mobile: mobile,
 			bookmarks: bookmarks
 		};
@@ -90,7 +84,6 @@ var App = React.createClass({
 		var output = null;
 		if (true)
 			output = <MobileLayout 
-				handleSearch={this.handleSearch}
 				toggleBookmarks={this.toggleBookmarks} 
 				{...this.state}
 			/>;
@@ -146,6 +139,7 @@ var MobileMainMenu = React.createClass({
 				<MobileNav />
 				<div className='content-wrapper-mobile'>
 					<div className='list'>
+						<Link to='classes' className='list-item-menu-mobile'>Classes</Link>
 						<Link to='spellbook' className='list-item-menu-mobile'>Spellbook</Link>
 						<Link to='bestiary' className='list-item-menu-mobile'>Bestiary</Link>
 					</div>
@@ -167,6 +161,12 @@ var Author = React.createClass({
 	}
 })
 
+var ClassesHandler = React.createClass({
+	render: function() {
+		return <ListLoader {...this.props} dataName='classes' />
+	}
+})
+
 var SpellbookHandler = React.createClass({
 	render: function() {
 		return <ListLoader {...this.props} dataName='spellbook' />
@@ -180,6 +180,11 @@ var BestiaryHandler = React.createClass({
 })
 
 var Bookmarks = React.createClass({
+	handleSearch: function(e) {
+		this.setState({
+			searchValue: e.target.value.toLowerCase()
+		})
+	},
 	isBMEmpty: function(){
 		return (this.props.bookmarks.spellbook.length === 0 && this.props.bookmarks.bestiary.length === 0)
 	},
@@ -193,6 +198,11 @@ var Bookmarks = React.createClass({
 				return 1
 			return 0
 		});
+	},
+	groupBMClasses: function(classes) {
+		output = [];
+		output.push(this.sortBM(classes));
+		return output;
 	},
 	groupBMMontersByCR: function(monsters) {
 		monsters = this.sortBM(monsters);
@@ -216,7 +226,8 @@ var Bookmarks = React.createClass({
 	getInitialState: function() {
 		return {
 			data: null,
-			isReady: false
+			isReady: false,
+			searchValue: ''
 		}
 	},
 	componentDidMount: function () {
@@ -253,6 +264,12 @@ var Bookmarks = React.createClass({
 	render: function() {
 		var output;
 		if (this.state.isReady) {
+			var BMClasses = this.groupBMClasses(this.props.bookmarks['classes']);
+			var classGroups = [
+				{
+					group: BMClasses
+				}
+			]
 			var BMSpellsByLevel = this.groupBMSpellsByLevel(this.props.bookmarks.spellbook);
 			var spellGroups = [
 				{
@@ -268,13 +285,23 @@ var Bookmarks = React.createClass({
 				}
 			]
 			output = <div>
-				<ListSearch {...this.props} />
+				<ListSearch handleSearch={this.handleSearch} searchValue={this.state.searchValue} />
+				<List
+					title='Classes'
+					dataName='classes'
+					groups={classGroups}
+					keys={this.state.data.CLASSES_BY_KEY}
+					hideSubgroupLines={true}
+					searchValue={this.state.searchValue}
+					{...this.props}
+				/>
 				<List
 					title='Spells'
 					dataName='spellbook'
 					groups={spellGroups}
 					keys={this.state.data.SPELLS_BY_KEY}
 					hideSubgroupLines={true}
+					searchValue={this.state.searchValue}
 					{...this.props}
 				/>
 				<List
@@ -283,6 +310,7 @@ var Bookmarks = React.createClass({
 					groups={monsterGroups}
 					keys={this.state.data.MONSTERS_BY_KEY}
 					hideSubgroupLines={true}
+					searchValue={this.state.searchValue}
 					{...this.props}
 				/>
 			</div>
@@ -301,10 +329,16 @@ var Bookmarks = React.createClass({
 })
 
 var ListLoader = React.createClass({
+	handleSearch: function(e) {
+		this.setState({
+			searchValue: e.target.value.toLowerCase()
+		})
+	},
 	getInitialState: function() {
 		return {
 			data: null,
-			isReady: false
+			isReady: false,
+			searchValue: ''
 		}
 	},
 	componentDidMount: function () {
@@ -322,11 +356,15 @@ var ListLoader = React.createClass({
 		var output;
 		if (this.state.isReady) {
 			switch (this.props.dataName) {
+				case 'classes':
+					output = <Classes {...this.props} data={this.state.data} handleSearch={this.handleSearch} searchValue={this.state.searchValue} />;
+					break;
 				case 'spellbook':
-					output = <Spellbook {...this.props} data={this.state.data} />;
+					output = <Spellbook {...this.props} data={this.state.data} handleSearch={this.handleSearch} searchValue={this.state.searchValue} />;
 					break;
 				case 'bestiary':
-					output = <Bestiary {...this.props} data={this.state.data} />;
+					output = <Bestiary {...this.props} data={this.state.data} handleSearch={this.handleSearch}
+						searchValue={this.state.searchValue}/>;
 					break;
 				default:
 					output = null;
@@ -338,6 +376,25 @@ var ListLoader = React.createClass({
 			<div>
 				<MobileNav title={this.props.dataName}/>
 				{output}
+			</div>
+		)
+	}
+})
+
+var Classes = React.createClass({
+	render: function() {
+		var groups = [
+			{
+				group: this.props.data.CLASSES
+			}
+		]
+		return (
+			<div>
+				<List
+					groups={groups}
+					keys={this.props.data.CLASSES_BY_KEY}
+					{...this.props}
+				/>
 			</div>
 		)
 	}
@@ -479,9 +536,10 @@ var List = React.createClass({
 			groupsFiltered = this.state.currentGroup.group;
 
 		if (this.props.searchValue !== '') {
+			var searchValue = this.props.searchValue.replace(' ', '_');
 			groupsFiltered = groupsFiltered.map(function(group){
 				return group.filter(function(item){
-					return item.toLowerCase().indexOf(this.props.searchValue) !== -1;
+					return item.toLowerCase().indexOf(searchValue) !== -1;
 				}, this)
 			}, this)
 		} 
@@ -512,17 +570,21 @@ var List = React.createClass({
 							if (groupFiltered.length === 0)
 								groupClass = groupClass + ' hideme'
 
-							var groupTitle = 'Empty!'
-							if (group.length !== 0)
+							var groupTitle = ''
+							if (group.length !== 0 && this.state.currentGroup.groupTitleFc)
 								groupTitle = this.state.currentGroup.groupTitleFc(this.props.keys[group[0]]);
 
 							var groupTitleClass = 'list-group-title'
 							if (this.props.hideSubgroupLines)
 								groupTitleClass = 'list-group-title-noborder'
 
+							var groupTitleElement = null
+							if (groupTitle !== '')
+								groupTitleElement = <div className={groupTitleClass}>{groupTitle}</div>
+
 							return (
 								<section className={groupClass} key={i}>
-									<div className={groupTitleClass}>{groupTitle}</div>
+									{groupTitleElement}
 									{group.map(function(itemUrl){
 										var item = this.props.keys[itemUrl];
 
@@ -589,6 +651,11 @@ var ListItem = React.createClass({
 		var description;
 
 		switch (this.props.dataName) {
+			case 'classes':
+				item = <ClassItem {...this.props} />
+				if (this.props.showDescription)
+					description = <ClassDescription {...this.props} />
+				break;
 			case 'spellbook':
 				item = <SpellItem {...this.props} />
 				if (this.props.showDescription)
@@ -617,6 +684,16 @@ var ListItem = React.createClass({
 					>★</div>
 				</div>
 				<div className='list-description'>{description}</div>
+			</div>
+		)
+	}
+})
+
+var ClassItem = React.createClass({
+	render: function() {
+		return (
+			<div className='list-item-content'>
+				<div className='list-item-name'>{this.props.name}</div>
 			</div>
 		)
 	}
@@ -706,6 +783,23 @@ var Description = React.createClass({
 			</div>
 		)
 	}	
+})
+
+var ClassDescription = React.createClass({
+	render: function() {
+		return (
+			<div>
+				<DescriptionWrapper>
+					<div className="description-block">
+						<DescriptionBlockTitle title='Hit Points'/>
+						<DescriptionItemBlack title='Hit Dice:' value={this.props.hitDice}/>
+						<DescriptionItemBlack title='Hit Points at 1st Level:' value={this.props.hpAtFirstLevel}/>
+						<DescriptionItemBlack title='Hit Points at Higher Levels:' value={this.props.hpAtHigherLevels}/>
+					</div>
+				</DescriptionWrapper>
+			</div>
+		)
+	}
 })
 
 var MonsterDescription = React.createClass({
@@ -824,11 +918,26 @@ var DescriptionItem = React.createClass({
 	}
 })
 
+var DescriptionItemBlack = React.createClass({
+	render: function() {
+		if (this.props.value)
+			return <div className='description-item'><strong>{this.props.title} </strong>{this.props.value}</div>;
+		else
+			return null;
+	}
+})
+
+var DescriptionBlockTitle = React.createClass({
+	render: function() {
+		return <div className='description-block-title'>{this.props.title}</div>
+	}
+})
+
 var DescriptionBlockProperties = React.createClass({
 	render: function() {
 		var title = null;
 		if (this.props.title)
-			title = <div className='description-block-title'>{this.props.title}</div>
+			title = <DescriptionBlockTitle title={this.props.title} />
 		if (this.props.properties) {
 			return (
 				<div className='description-block'>
@@ -889,6 +998,7 @@ var DescriptionBlockStats = React.createClass({
 
 var routes = (
 	<Route name='app' path='/' handler={App} >
+		<Route name='classes' handler={ClassesHandler} />
 		<Route name='spellbook' handler={SpellbookHandler} />
 		<Route name='bestiary' handler={BestiaryHandler} />
 		<Route name='bookmarks' handler={Bookmarks} />

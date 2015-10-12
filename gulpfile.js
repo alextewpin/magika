@@ -58,4 +58,5 @@ gulp.task('sass', function () {
 gulp.task('data', function() {
 	fs.writeFileSync('./public/data/data-spellbook.json', dataPrepare('./data_source/Spells'));
 	fs.writeFileSync('./public/data/data-bestiary.json', dataPrepare('./data_source/Bestiary'));
+	fs.writeFileSync('./public/data/data-classes.json', dataPrepare('./data_source/Character Files', 'classes'));
 });

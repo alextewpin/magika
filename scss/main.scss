@@ -41,6 +41,13 @@ select, input {
 	appearance: none !important;
 }
 
+.wrapper-mobile {
+	min-height: 100vh;
+	@include display(flex);
+	@include flex-direction(column);
+	@include justify-content(space-between);
+}
+
 .inline-select-wrapper {
 	position: relative;
 }
@@ -365,7 +372,7 @@ section:last-of-type {
 	text-align: center;
 	color: #999;
 	font-size: 14px;
-	margin-bottom: 10px;
+	padding-bottom: 10px;
 	>a {
 		color: #999;
 		text-decoration: underline;
