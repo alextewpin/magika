@@ -186,7 +186,7 @@ var Bookmarks = React.createClass({
 		})
 	},
 	isBMEmpty: function(){
-		return (this.props.bookmarks.spellbook.length === 0 && this.props.bookmarks.bestiary.length === 0)
+		return (this.props.bookmarks['classes'].length === 0 && this.props.bookmarks.spellbook.length === 0 && this.props.bookmarks.bestiary.length === 0)
 	},
 	sortBM: function (list) {
 		return list.sort(function(a, b){
@@ -267,6 +267,7 @@ var Bookmarks = React.createClass({
 			var BMClasses = this.groupBMClasses(this.props.bookmarks['classes']);
 			var classGroups = [
 				{
+					groupTitleFc: null,
 					group: BMClasses
 				}
 			]
@@ -363,8 +364,7 @@ var ListLoader = React.createClass({
 					output = <Spellbook {...this.props} data={this.state.data} handleSearch={this.handleSearch} searchValue={this.state.searchValue} />;
 					break;
 				case 'bestiary':
-					output = <Bestiary {...this.props} data={this.state.data} handleSearch={this.handleSearch}
-						searchValue={this.state.searchValue}/>;
+					output = <Bestiary {...this.props} data={this.state.data} handleSearch={this.handleSearch} searchValue={this.state.searchValue}/>;
 					break;
 				default:
 					output = null;
@@ -574,13 +574,9 @@ var List = React.createClass({
 							if (group.length !== 0 && this.state.currentGroup.groupTitleFc)
 								groupTitle = this.state.currentGroup.groupTitleFc(this.props.keys[group[0]]);
 
-							var groupTitleClass = 'list-group-title'
-							if (this.props.hideSubgroupLines)
-								groupTitleClass = 'list-group-title-noborder'
-
 							var groupTitleElement = null
 							if (groupTitle !== '')
-								groupTitleElement = <div className={groupTitleClass}>{groupTitle}</div>
+								groupTitleElement = <div className='list-group-title'>{groupTitle}</div>
 
 							return (
 								<section className={groupClass} key={i}>
@@ -624,7 +620,9 @@ var List = React.createClass({
 
 var ListItemWrapper = React.createClass({
 	shouldComponentUpdate: function(nextProps) {
-		return this.props.bookmarked !== nextProps.bookmarked || this.props.hidden !== nextProps.hidden || this.props.showDescription !== nextProps.showDescription;
+		return this.props.bookmarked !== nextProps.bookmarked || 
+				this.props.hidden !== nextProps.hidden || 
+				this.props.showDescription !== nextProps.showDescription;
 	},
 	render: function() {
 		var wrapperClass = '';
@@ -640,7 +638,8 @@ var ListItemWrapper = React.createClass({
 
 var ListItem = React.createClass({
 	shouldComponentUpdate: function(nextProps) {
-		return this.props.bookmarked !== nextProps.bookmarked || this.props.showDescription !== nextProps.showDescription
+		return this.props.bookmarked !== nextProps.bookmarked || 
+				this.props.showDescription !== nextProps.showDescription
 	},
 	render: function() {
 		var bookmarksClass = 'list-item-bookmark mobile';
@@ -787,25 +786,74 @@ var Description = React.createClass({
 
 var ClassDescription = React.createClass({
 	render: function() {
-		var levels = [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]] //20
-		levels = levels.map(function(level, i){
+		var features = [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]] //20
+		features = features.map(function(level, i){
 			var levelIndex = i + 1
 			if (this.props.features[levelIndex]) {
 				var title = "Level " + levelIndex
-				return <DescriptionBlockProperties title={title} properties={this.props.features[levelIndex]} />
+				return <DescriptionBlockProperties key={i} title={title} properties={this.props.features[levelIndex]} />
 			}
 		}, this)
+		var spellcasting = null;
+		if (this.props.slots['20']) {
+			var slots = [[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[],[]] //20
+			slots = slots.map(function(level, i){
+				var levelIndex = i + 1
+				if (this.props.slots[levelIndex]) {
+					return <div key={i} className='description-slots-content-row'>
+						<div className='description-slots-content-row-title'>{levelIndex}</div>
+						{this.props.slots[levelIndex].map(function(slotCount, slotLevel){
+							var slotValue = slotCount;
+							var slotClass = '';
+							if (slotValue === '0') {
+								slotValue = '•';
+								slotClass = 'description-slots-content-row-empty'
+							}
+							return <div className={slotClass} key={slotLevel}>{slotValue}</div>
+						})}
+					</div>
+				}
+			}, this)
+
+			var slotsTitle = [];
+			var slotsMaxLevel = this.props.slots['20'].length;
+			for (var i = slotsMaxLevel - 1; i >= -1; i--) {
+				var slotsLevelTitleValue = i;
+				if (i === 0) 
+					slotsLevelTitleValue = 'CT'
+				if (i === -1) 
+					slotsLevelTitleValue = ' '
+				var slotsLevelTitle = <div key={i} className='description-slots-content-row-title'>{slotsLevelTitleValue}</div>
+				slotsTitle.unshift(slotsLevelTitle);
+			}
+
+			spellcasting = <div>
+				<DescriptionBlockTitle title='Spellcasting (OPT)'/>
+				<div className="description-block">
+					<DescriptionItemBlack title='Spellcasting Ability:' value={this.props.spellAbility}/>
+				</div>
+				<div className="description-block">
+					<div className='description-slots-content-row'>
+						{slotsTitle}
+					</div>
+					{slots}
+				</div>
+			</div>
+		}
 		return (
 			<div>
 				<DescriptionWrapper>
 					<div className="description-block">
-						<DescriptionBlockTitle title='Hit Points'/>
 						<DescriptionItemBlack title='Hit Dice:' value={this.props.hitDice}/>
 						<DescriptionItemBlack title='Hit Points at 1st Level:' value={this.props.hpAtFirstLevel}/>
 						<DescriptionItemBlack title='Hit Points at Higher Levels:' value={this.props.hpAtHigherLevels}/>
 					</div>
 					<div className="description-block">
-						{levels}
+						<DescriptionItemBlack title='Saving Throws:' value={this.props.proficiency}/>
+					</div>
+					{spellcasting}
+					<div className="description-block">
+						{features}
 					</div>
 				</DescriptionWrapper>
 			</div>
@@ -877,7 +925,10 @@ var InlineSelect = React.createClass({
 			<div className='list-filters-select'>
 				<div className='inline-select-wrapper'>
 					<select className='inline-select' onChange={this.props.handleSelect} value={this.props.currentOption}>{this.props.options}</select>
-					<div className='inline-select-holder-wrapper'><span className='inline-select-holder'>{this.props.currentOption} spells ▾</span></div>
+					<div className='inline-select-holder'>
+						<div>{this.props.currentOption} spells&nbsp;</div> 
+						<div>▾</div>
+					</div>
 				</div>
 			</div>
 		)
