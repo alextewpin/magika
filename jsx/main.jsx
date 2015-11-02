@@ -117,7 +117,10 @@ var MobileNav = React.createClass({
 	render: function() {
 		var title;
 		if (this.props.title)
-			title = <span className='nav-title-mobile'>&nbsp;→ {this.props.title}</span>
+			title = <span className='nav-title-mobile'>&nbsp;→ {this.props.title}</span>;
+		var bookmarks;
+		if (this.props.title !== 'bookmarks')
+			bookmarks = <Link to='bookmarks' className='nav-bookmarks-mobile'>Bookmarks</Link>;
 		return (
 			<div className='nav-mobile'>
 				<div className='nav-breadcrumbs-mobile'>
@@ -126,7 +129,7 @@ var MobileNav = React.createClass({
 						{title}
 					</div>
 				</div>
-				<Link to='bookmarks' className='nav-bookmarks-mobile'>Bookmarks</Link>
+				{bookmarks}
 			</div>
 		)
 	}
@@ -322,7 +325,7 @@ var Bookmarks = React.createClass({
 		}
 		return (
 			<div>
-				<MobileNav title={this.props.dataName}/>
+				<MobileNav title='bookmarks'/>
 				{output}
 			</div>
 		)
@@ -434,7 +437,9 @@ var Bestiary = React.createClass({
 		return (
 			<div>
 				<ListSearch {...this.props} />
-				<List 
+				<List
+					filters={this.props.data.MONSTER_TYPE_FILTERS}
+					filterLists={this.props.data.MONSTER_TYPE_FILTER_LISTS} 
 					groups={groups}
 					keys={this.props.data.MONSTERS_BY_KEY}
 					{...this.props}
@@ -524,7 +529,8 @@ var List = React.createClass({
 			filterSelect = <InlineSelect
 				handleSelect={this.handleFilterSelect}
 				currentOption={this.state.currentFilter}
-				options={filterOptions} />
+				options={filterOptions}
+				dataName={this.props.dataName} />
 		}
 		
 		//Prepare filtered group
@@ -827,8 +833,12 @@ var ClassDescription = React.createClass({
 				slotsTitle.unshift(slotsLevelTitle);
 			}
 
+			var spellcastingTitle = 'Spellcasting';
+			if (this.props.slotsOptional == true)
+				spellcastingTitle += '*';
+
 			spellcasting = <div>
-				<DescriptionBlockTitle title='Spellcasting (OPT)'/>
+				<DescriptionBlockTitle title={spellcastingTitle} />
 				<div className="description-block">
 					<DescriptionItemBlack title='Spellcasting Ability:' value={this.props.spellAbility}/>
 				</div>
@@ -921,12 +931,21 @@ var SpellDescription = React.createClass({
 
 var InlineSelect = React.createClass({
 	render: function() {
+		var dataName = ''
+		switch (this.props.dataName) {
+			case 'spellbook':
+				dataName = 'spells';
+				break;
+			case 'bestiary':
+				dataName = 'monsters'
+				break;
+		}
 		return (
 			<div className='list-filters-select'>
 				<div className='inline-select-wrapper'>
 					<select className='inline-select' onChange={this.props.handleSelect} value={this.props.currentOption}>{this.props.options}</select>
 					<div className='inline-select-holder'>
-						<div>{this.props.currentOption} spells&nbsp;</div> 
+						<div>{this.props.currentOption} {dataName}&nbsp;</div> 
 						<div>▾</div>
 					</div>
 				</div>
@@ -1005,7 +1024,7 @@ var DescriptionBlockProperties = React.createClass({
 				<div className='description-block'>
 					{title}
 					{this.props.properties.map(function(property, i){
-						return <DescriptionText key={i} text={property.text} title={property.name}/>
+						return <DescriptionText key={i} text={property.text} title={property.name} optional={property.optional}/>
 					}, this)}
 				</div>
 			)
@@ -1019,9 +1038,14 @@ var DescriptionText = React.createClass({
 		return (
 			<div className='description-text'>
 				{this.props.text.map(function(p, i){
-					if (i === 0 && this.props.title)
-						return <div key={i} className='description-p'><strong>{this.props.title}.</strong> {p}</div>;
-					else if (this.props.hiLevelIndex && this.props.hiLevelIndex === i)
+					if (i === 0 && this.props.title) {
+						var title = this.props.title;
+						if (this.props.optional === true)
+							title += '.*'
+						else
+							title += '.'
+						return <div key={i} className='description-p'><strong>{title}</strong> {p}</div>;
+					} else if (this.props.hiLevelIndex && this.props.hiLevelIndex === i)
 						return <div key={i} className='description-p'><strong>At Higher Levels:</strong> {p}</div>;
 					else
 						return <div key={i} className='description-p'>{p}</div>;

@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 
 var fs = require('fs');
-var dataPrepare = require('magika-data-prepare');
+var dataPrepare = require('./data_prepare');
 
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
