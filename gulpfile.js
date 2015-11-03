@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 
 var fs = require('fs');
-var dataPrepare = require('./data_prepare');
+var dataPrepare = require('./source/data_prepare');
 
 var sass = require('gulp-sass');
 var watch = require('gulp-watch');
@@ -15,11 +15,11 @@ var streamify = require('gulp-streamify');
 var source = require('vinyl-source-stream');
 
 var path = {
-	CSS_IN: './scss/main.scss',
-	CSS_OUT: './public/css',
+	CSS_IN: './source/scss/main.scss',
+	CSS_OUT: './build/css',
 	JS_OUT_NAME: 'main.js',
-	JS_OUT_DEST: './public/js',
-	JS_IN: './jsx/main.jsx'
+	JS_OUT_DEST: './build/js',
+	JS_IN: './source/jsx/main.jsx'
 };
 
 gulp.task('default', ['watch', 'data']);
@@ -56,7 +56,7 @@ gulp.task('sass', function () {
 });
 
 gulp.task('data', function() {
-	fs.writeFileSync('./public/data/data-spellbook.json', dataPrepare('./data_source/Spells'));
-	fs.writeFileSync('./public/data/data-bestiary.json', dataPrepare('./data_source/Bestiary'));
-	fs.writeFileSync('./public/data/data-classes.json', dataPrepare('./data_source/Character Files', 'classes'));
+	fs.writeFileSync('./build/data/data-spellbook.json', dataPrepare('./source/data_source/Spells'));
+	fs.writeFileSync('./build/data/data-bestiary.json', dataPrepare('./source/data_source/Bestiary'));
+	fs.writeFileSync('./build/data/data-classes.json', dataPrepare('./source/data_source/Character Files', 'classes'));
 });
