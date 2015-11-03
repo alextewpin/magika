@@ -242,7 +242,7 @@ var Bookmarks = React.createClass({
 			}
 			
 			dataNames = dataNames.map(function(dataName){
-				var dataUrl = '/build/data/data-' + dataName + '.json';
+				var dataUrl = 'build/data/data-' + dataName + '.json';
 				return $.get(dataUrl);
 			})
 
@@ -346,7 +346,7 @@ var ListLoader = React.createClass({
 		}
 	},
 	componentDidMount: function () {
-		var dataUrl = '/build/data/data-' + this.props.dataName + '.json'
+		var dataUrl = 'build/data/data-' + this.props.dataName + '.json'
 		if (!this.props.isReady) {
 			$.get(dataUrl, function(result) {
 				this.setState({
