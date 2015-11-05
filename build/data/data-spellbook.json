@@ -450,7 +450,7 @@
 			"range": "30 feet",
 			"components": "V, S, M (a bit of bat fur)",
 			"duration": "Concentration, up to 1 hour",
-			"classes": "Cleric (Knowledge), Wizard",
+			"classes": "Cleric (Arcana), Cleric (Knowledge), Wizard",
 			"text": [
 				"You create an invisible, magical eye within range that hovers in the air for the duration.",
 				"You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction.",
@@ -464,6 +464,7 @@
 			"url": "Arcane_Eye",
 			"hiLevelIndex": -1,
 			"classesArray": [
+				"Cleric (Arcana)",
 				"Cleric (Knowledge)",
 				"Wizard"
 			]
@@ -672,7 +673,7 @@
 			"range": "Self (30-foot radius)",
 			"components": "V",
 			"duration": "Concentration, up to 10 minutes",
-			"classes": "Paladin",
+			"classes": "Paladin, Warlock (Undying)",
 			"text": [
 				"Life-preserving energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. Each non-hostile creature in the aura (including you) has resistance to necrotic damage, and its hit point maximum can't be reduced. In addition, a non-hostile, living creature regains 1 hit point when it starts its turn in the aura with 0 hit points."
 			],
@@ -684,7 +685,8 @@
 			"url": "Aura_of_Life",
 			"hiLevelIndex": -1,
 			"classesArray": [
-				"Paladin"
+				"Paladin",
+				"Warlock (Undying)"
 			]
 		},
 		"Aura_of_Purity": {
@@ -720,7 +722,7 @@
 			"range": "Self (30-foot radius)",
 			"components": "V",
 			"duration": "Concentration, up to 1 minute",
-			"classes": "Paladin",
+			"classes": "Paladin, Paladin (Crown)",
 			"text": [
 				"Healing energy radiates from you in an aura with a 30-foot radius. Until the spell ends, the aura moves with you, centered on you. You can use a bonus action to cause one creature in the aura (including you) to regain 2d6 hit points."
 			],
@@ -733,7 +735,8 @@
 			"url": "Aura_of_Vitality",
 			"hiLevelIndex": -1,
 			"classesArray": [
-				"Paladin"
+				"Paladin",
+				"Paladin (Crown)"
 			]
 		},
 		"Awaken": {
@@ -823,7 +826,7 @@
 			"range": "60 feet",
 			"components": "V, S, M (an item distasteful to the target)",
 			"duration": "Concentration, up to 1 minute",
-			"classes": "Cleric, Paladin, Paladin (Vengeance), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight)",
+			"classes": "Cleric, Paladin, Paladin (Crown), Paladin (Vengeance), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight)",
 			"text": [
 				"You attempt to send one creature that you can see within range to another place of existence. The target must succeed on a Charisma saving throw or be banished.",
 				"If the target is native to the plane of existence you're on, you banish the target to a harmless demiplane. While there, the target is incapacitated. The target remains there until the spell ends, at which point the target reappears in the space it left or in the nearest unoccupied space if that space is occupied.",
@@ -840,6 +843,7 @@
 			"classesArray": [
 				"Cleric",
 				"Paladin",
+				"Paladin (Crown)",
 				"Paladin (Vengeance)",
 				"Sorcerer",
 				"Warlock",
@@ -1172,7 +1176,7 @@
 			"range": "30 feet",
 			"components": "V",
 			"duration": "1 minute",
-			"classes": "Bard, Cleric, Cleric (Death), Sorcerer, Warlock (Fiend), Wizard",
+			"classes": "Bard, Cleric, Cleric (Death), Sorcerer, Warlock (Fiend), Warlock (Undying), Wizard",
 			"text": [
 				"You can blind or deafen a foe. Choose one creature that you can see within range to make a Constitution saving throw. If it fails, the target is either blinded or deafened (your choice) for the duration. At the end of each of its turns, the target can make a Constitution saving throw. On a success, the spell ends.",
 				"When you cast this spell using a spell slot of 3rd level or higher, you can target one additional creature for each slot level above 2nd."
@@ -1190,6 +1194,7 @@
 				"Cleric (Death)",
 				"Sorcerer",
 				"Warlock (Fiend)",
+				"Warlock (Undying)",
 				"Wizard"
 			]
 		},
@@ -1274,6 +1279,39 @@
 			"hiLevelIndex": 2,
 			"classesArray": [
 				"Druid"
+			]
+		},
+		"Booming_Blade_(SCAG)": {
+			"name": "Booming Blade (SCAG)",
+			"level": 0,
+			"school": "evocation",
+			"ritual": "",
+			"time": "1 action",
+			"range": "5 feet",
+			"components": "V, M (a weapon)",
+			"duration": "1 round",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and it becomes sheathed in booming energy until the start of your next turn. If the target willingly moves before then, it immediately takes 1d8 thunder damage, and the spell ends.",
+				"    This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 thunder damage to the target, and the damage the target takes for moving increases to 2d8. Both damage rolls increase by 1d8 at 11th level and 17th level."
+			],
+			"roll": [
+				"1d8",
+				"2d8",
+				"3d8",
+				"4d8"
+			],
+			"schoolAndLevel": "Evocation cantrip",
+			"timeShort": "",
+			"rangeShort": "5 feet",
+			"durationShort": "1 r.",
+			"concentration": false,
+			"url": "Booming_Blade_(SCAG)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
 			]
 		},
 		"Branding_Smite": {
@@ -1581,7 +1619,7 @@
 			"range": "Self (30-foot radius)",
 			"components": "V",
 			"duration": "Concentration, up to 10 minutes",
-			"classes": "Paladin",
+			"classes": "Paladin, Paladin (Crown)",
 			"text": [
 				"Divine energy radiates from you, distorting and diffusing magical energy within 30 feet of you. Until the spell ends, the sphere moves with you, centered on you. For the duration, each friendly creature in the area (including you) has advantage on saving throws against spells and other magical effects. Additionally, when an affected creature succeeds on a saving throw made against a spell or magical effect that allows it to make a saving throw to take only half damage, it instead takes no damage if it succeeds on the saving throw."
 			],
@@ -1593,7 +1631,8 @@
 			"url": "Circle_of_Power",
 			"hiLevelIndex": -1,
 			"classesArray": [
-				"Paladin"
+				"Paladin",
+				"Paladin (Crown)"
 			]
 		},
 		"Clairvoyance": {
@@ -1749,7 +1788,7 @@
 			"range": "60 feet",
 			"components": "V",
 			"duration": "1 round",
-			"classes": "Cleric, Cleric (Knowledge), Paladin, Warlock (Fiend)",
+			"classes": "Cleric, Cleric (Knowledge), Paladin, Paladin (Crown), Warlock (Fiend)",
 			"text": [
 				"You speak a one-word command to a creature you can see within range. The target must succeed on a Wisdom saving throw or follow the command on its next turn. The spell has no effect if the target is undead, if it doesn't understand your language, or if your command is directly harmful to it.",
 				"Some typical commands and their effects follow. You might issue a command other than one described here. If you do so, the DM determines how the target behaves. If the target can't follow your command, the spell ends.",
@@ -1771,6 +1810,7 @@
 				"Cleric",
 				"Cleric (Knowledge)",
 				"Paladin",
+				"Paladin (Crown)",
 				"Warlock (Fiend)"
 			]
 		},
@@ -1880,7 +1920,7 @@
 			"range": "30 feet",
 			"components": "V",
 			"duration": "Concentration, up to 1 minute",
-			"classes": "Paladin",
+			"classes": "Paladin, Paladin (Crown)",
 			"text": [
 				"You attempt to compel a creature into a duel. One creature that you can see within range must make a Wisdom saving throw. On a failed save, the creature is drawn to you, compelled by your divine demand. For the duration, it has disadvantage on attack rolls against creatures other than you, and must make a Wisdom saving throw each time it attempts to move to a space that is more than 30 feet away from you, if it succeeds on this saving throw, this spell doesn't restrict the target's movement for that turn.",
 				"The spell ends if you attack any other creature, if you cast a spell that targets a hostile creature other than the target, if a creature friendly to you damages the target or casts a harmful spell on it, or if you end your turn more than 30 feet away from the target."
@@ -1893,7 +1933,8 @@
 			"url": "Compelled_Duel",
 			"hiLevelIndex": -1,
 			"classesArray": [
-				"Paladin"
+				"Paladin",
+				"Paladin (Crown)"
 			]
 		},
 		"Comprehend_Languages": {
@@ -2308,7 +2349,7 @@
 			"range": "Touch",
 			"components": "V, S",
 			"duration": "7 days",
-			"classes": "Cleric, Druid, Paladin (Oathbreaker)",
+			"classes": "Cleric, Druid, Paladin (Oathbreaker), Warlock (Undying)",
 			"text": [
 				"Your touch inflicts disease. Make a melee spell attack against a creature within your reach. On a hit, you afflict the creature with a disease of your choice from any of the ones described below.",
 				"At the end of each of the target's turns, it must make a Constitution saving throw. After failing three of these saving throws, the disease's effects last for the duration, and the creature stops making these saves. After succeeding on three of these saving throws, the creature recovers from the disease, and the spell ends.",
@@ -2331,7 +2372,8 @@
 			"classesArray": [
 				"Cleric",
 				"Druid",
-				"Paladin (Oathbreaker)"
+				"Paladin (Oathbreaker)",
+				"Warlock (Undying)"
 			]
 		},
 		"Contingency": {
@@ -2957,7 +2999,7 @@
 			"range": "Touch",
 			"components": "V, S",
 			"duration": "8 hours",
-			"classes": "Cleric, Cleric (Death), Cleric (Life), Paladin",
+			"classes": "Cleric, Cleric (Death), Cleric (Life), Paladin, Warlock (Undying)",
 			"text": [
 				"You touch a creature and grant it a measure of protection from death. The first time the target would drop to 0 hit points as a result of taking damage, the target instead drops to 1 hit point, and the spell ends. If the spell is still in effect when the target is subjected to an effect that would kill it instantaneously without dealing damage, that effect is instead negated against the target, and the spells ends."
 			],
@@ -2972,7 +3014,8 @@
 				"Cleric",
 				"Cleric (Death)",
 				"Cleric (Life)",
-				"Paladin"
+				"Paladin",
+				"Warlock (Undying)"
 			]
 		},
 		"Delayed_Blast_Fireball": {
@@ -3091,7 +3134,7 @@
 			"range": "Self",
 			"components": "V, S",
 			"duration": "Concentration, up to 10 minutes",
-			"classes": "Bard, Cleric, Druid, Paladin, Ranger, Sorcerer, Wizard",
+			"classes": "Bard, Cleric, Cleric (Arcana), Druid, Paladin, Ranger, Sorcerer, Wizard",
 			"text": [
 				"For the duration, you sense the presence of magic within 30 feet of you. If you sense magic in this way, you can use your action to see a faint aura around any visible creature or object in the area that bears magic, and you learn its school of magic, if any.",
 				"The spell can penetrate most barriers, but is blocked by 1 foot of stone, 1 inch of common metal, a thin sheet of lead, or 3 feet of wood or dirt."
@@ -3106,6 +3149,7 @@
 			"classesArray": [
 				"Bard",
 				"Cleric",
+				"Cleric (Arcana)",
 				"Druid",
 				"Paladin",
 				"Ranger",
@@ -3328,7 +3372,7 @@
 			"range": "120 feet",
 			"components": "V, S",
 			"duration": "Instantaneous",
-			"classes": "Bard, Cleric, Cleric (Trickery), Druid, Paladin, Paladin (Devotion), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight)",
+			"classes": "Bard, Cleric, Cleric (Arcana), Cleric (Trickery), Druid, Paladin, Paladin (Devotion), Sorcerer, Warlock, Wizard, Fighter (Eldritch Knight)",
 			"text": [
 				"Choose any creature, object, or magical effect within range. Any spell of 3rd level or lower on the target ends. For each spell of or higher on the target, make an ability check using your spellcasting ability. The DC equals 10 + the spell's level. On a successful check, the spell ends.",
 				"When you cast this spell using a spell slot of 4th level or higher, you automatically end the effects of a spell on the target if the spell's level is equal to or less than the level of the spell slot you used."
@@ -3343,6 +3387,7 @@
 			"classesArray": [
 				"Bard",
 				"Cleric",
+				"Cleric (Arcana)",
 				"Cleric (Trickery)",
 				"Druid",
 				"Paladin",
@@ -4210,7 +4255,7 @@
 			"range": "Self",
 			"components": "V, S, M (a small amount of alcohol or distilled spirits)",
 			"duration": "1 hour",
-			"classes": "Cleric (Death), Sorcerer, Wizard",
+			"classes": "Cleric (Death), Sorcerer, Warlock (Undying), Wizard",
 			"text": [
 				"Bolstering yourself with a necromantic facsimile of life, you gain 1d4+4 temporary hit points for the duration.",
 				"When you cast this spell using a spell slot of 2nd level or higher, you gain 5 additional temporary hit points for each slot level above 1st."
@@ -4226,6 +4271,7 @@
 			"classesArray": [
 				"Cleric (Death)",
 				"Sorcerer",
+				"Warlock (Undying)",
 				"Wizard"
 			]
 		},
@@ -4325,7 +4371,7 @@
 			"range": "Touch",
 			"components": "V, S, M (a pinch of graveyard dirt)",
 			"duration": "1 hour",
-			"classes": "Bard, Cleric, Druid, Wizard",
+			"classes": "Bard, Cleric, Druid, Warlock (Undying), Wizard",
 			"text": [
 				"You touch a willing creature and put it into a cataleptic state that is indistinguishable from death.",
 				"For the spell's duration, or until you use an action to touch the target and dismiss the spell, the target appears dead to all outward inspection and to spells used to determine the target's status. The target is blinded and incapacitated, and its speed drops to 0. The target has resistance to all damage except psychic damage. If the target is diseased or poisoned when you cast the spell, or becomes diseased or poisoned while under the spell's effect, the disease and poison have no effect until the spell ends."
@@ -4341,6 +4387,7 @@
 				"Bard",
 				"Cleric",
 				"Druid",
+				"Warlock (Undying)",
 				"Wizard"
 			]
 		},
@@ -5099,7 +5146,7 @@
 			"range": "60 feet",
 			"components": "V",
 			"duration": "30 days",
-			"classes": "Bard, Cleric, Druid, Paladin, Wizard, Rogue (Arcane Trickster)",
+			"classes": "Bard, Cleric, Druid, Paladin, Paladin (Crown), Wizard, Rogue (Arcane Trickster)",
 			"text": [
 				"You place a magical command on a creature that you can see within range, forcing it to carry out some service or refrain from some action or course of activity as you decide. If the creature can understand you, it must succeed on a Wisdom saving throw or become charmed by you for the duration. While the creature is charmed by you, it takes 5d10 psychic damage each time it acts in a manner directly counter to your instructions, but no more than once each day. A creature that can't understand you is unaffected by the spell.",
 				"You can issue any command you choose, short of an activity that would result in certain death. Should you issue a suicidal command, the spell ends.",
@@ -5119,6 +5166,7 @@
 				"Cleric",
 				"Druid",
 				"Paladin",
+				"Paladin (Crown)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
 			]
@@ -5400,6 +5448,38 @@
 				"Druid"
 			]
 		},
+		"Green-Flame_Blade_(SCAG)": {
+			"name": "Green-Flame Blade (SCAG)",
+			"level": 0,
+			"school": "evocation",
+			"ritual": "",
+			"time": "1 action",
+			"range": "5 feet",
+			"components": "V, M (a weapon)",
+			"duration": "1 round",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"As part of the action used to cast this spell, you must make a melee attack with a weapon against one creature within the spell's range, otherwise the spell fails. On a hit, the target suffers the attack's normal effects, and green fire leaps from the target to a different creature of your choice that you can see within 5 feet of it. The second creature takes fire damage equal to your spellcasting ability modifier.",
+				"    This spell's damage increases when you reach higher levels. At 5th level, the melee attack deals an extra 1d8 fire damage to the target, and the fire damage to the second creature increases to 1d8 + your spellcasting ability modifier. Both damage rolls increase by 1d8 at 11th level and 17th level."
+			],
+			"roll": [
+				"1d8",
+				"2d8",
+				"3d8"
+			],
+			"schoolAndLevel": "Evocation cantrip",
+			"timeShort": "",
+			"rangeShort": "5 feet",
+			"durationShort": "1 r.",
+			"concentration": false,
+			"url": "Green-Flame_Blade_(SCAG)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
 		"Guardian_of_Faith": {
 			"name": "Guardian of Faith",
 			"level": 4,
@@ -5409,7 +5489,7 @@
 			"range": "30 feet",
 			"components": "V",
 			"duration": "8 hours",
-			"classes": "Cleric, Cleric (Life), Cleric (Light), Paladin (Devotion)",
+			"classes": "Cleric, Cleric (Life), Cleric (Light), Paladin (Crown), Paladin (Devotion)",
 			"text": [
 				"A Large spectral guardian appears and hovers for the duration in an unoccupied space of your choice that you can see within range. The guardian occupies that space and is indistinct except for a gleaming sword and shield emblazoned with the symbol of your deity.",
 				"Any creature hostile to you that moves to a space within 10 feet of the guardian for the first time on a turn must succeed on a Dexterity saving throw. The creature takes 20 radiant damage on a failed save, or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage."
@@ -5425,6 +5505,7 @@
 				"Cleric",
 				"Cleric (Life)",
 				"Cleric (Light)",
+				"Paladin (Crown)",
 				"Paladin (Devotion)"
 			]
 		},
@@ -6690,7 +6771,7 @@
 			"range": "Self",
 			"components": "V, S, M (incense worth at least 250 gp, which the spell consumes, and four ivory strips worth at least 50 gp each)",
 			"duration": "Instantaneous",
-			"classes": "Bard, Cleric, Cleric (Knowledge), Wizard",
+			"classes": "Bard, Cleric, Cleric (Knowledge), Warlock (Undying), Wizard",
 			"text": [
 				"Name or describe a person, place, or object. The spell brings to your mind a brief summary of the significant lore about the thing you named. The lore might consist of current tales, forgotten stories, or even secret lore that has never been widely known. If the thing you named isn't of legendary importance, you gain no information.",
 				"The more information you already have about the thing, the more precise and detailed the information you receive is. The information you learn is accurate but might be couched in figurative language. For example, if you have a mysterious magic axe on hand, the spell might yield this information - Woe to the evildoer whose hand touches the axe, for even the haft slices the hand of the evil ones. Only a true Child of Stone, lover and beloved of Moradin, may awaken the true powers of the axe, and only with the sacred word Rudnogg on the lips."
@@ -6706,6 +6787,7 @@
 				"Bard",
 				"Cleric",
 				"Cleric (Knowledge)",
+				"Warlock (Undying)",
 				"Wizard"
 			]
 		},
@@ -6718,7 +6800,7 @@
 			"range": "Touch",
 			"components": "V, S, M (an exquisite chest, 3 feet by 2 feet by 2 feet, constructed from rare materials worth at least 5,000 gp, and a Tiny replica made from the same materials worth at least 50 gp)",
 			"duration": "Instantaneous",
-			"classes": "Wizard",
+			"classes": "Cleric (Arcana), Wizard",
 			"text": [
 				"You hide a chest, and all its contents, on the Ethereal Plane. You must touch the chest and the miniature replica that serves as a material component for the spell. The chest can contain up to 12 cubic feet of nonliving material (3 feet by 2 feet by 2 feet).",
 				"While the chest remains on the Ethereal Plane, you can use an action and touch the replica to recall the chest. It appears in an unoccupied space on the ground within 5 feet of you. You can send the chest back to the Ethereal Plane by using an action and touching both the chest and the replica.",
@@ -6733,6 +6815,7 @@
 			"url": "Leomund's_Secret_Chest",
 			"hiLevelIndex": -1,
 			"classesArray": [
+				"Cleric (Arcana)",
 				"Wizard"
 			]
 		},
@@ -6906,6 +6989,39 @@
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
+			]
+		},
+		"Lightning_Lure_(SCAG)": {
+			"name": "Lightning Lure (SCAG)",
+			"level": 0,
+			"school": "evocation",
+			"ritual": "",
+			"time": "1 action",
+			"range": "15 feet",
+			"components": "V",
+			"duration": "Instantaneous",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"You create a lash of lightning energy that strikes at one creature of your choice that you can see within range. The target must succeed on a Strength saving throw or be pulled up to 10 feet in a straight line toward you and then take 1d8 lightning damage if it is within 5 feet of you.",
+				"    The spell's damage increases by 1d8 when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
+			],
+			"roll": [
+				"1d8",
+				"2d8",
+				"3d8",
+				"4d8"
+			],
+			"schoolAndLevel": "Evocation cantrip",
+			"timeShort": "",
+			"rangeShort": "15 feet",
+			"durationShort": "",
+			"concentration": false,
+			"url": "Lightning_Lure_(SCAG)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
 			]
 		},
 		"Locate_Animals_or_Plants": {
@@ -7118,7 +7234,7 @@
 			"range": "10 feet",
 			"components": "V, S, M (holy water or powdered silver and iron worth at least 100 gp, which the spell consumes)",
 			"duration": "1 hour",
-			"classes": "Cleric, Paladin, Warlock, Wizard, Fighter (Eldritch Knight)",
+			"classes": "Cleric, Cleric (Arcana), Paladin, Warlock, Wizard, Fighter (Eldritch Knight)",
 			"text": [
 				"You create a 10-foot-radius, 20-foot-tall cylinder of magical energy centered on a point on the ground that you can see within range. Glowing runes appear wherever the cylinder intersects with the floor or other surface.",
 				"Choose one or more of the following types of creatures - celestials, elementals, fey, fiends, or undead. The circle affects a creature of the chosen type in the following ways.",
@@ -7137,6 +7253,7 @@
 			"hiLevelIndex": 6,
 			"classesArray": [
 				"Cleric",
+				"Cleric (Arcana)",
 				"Paladin",
 				"Warlock",
 				"Wizard",
@@ -7182,7 +7299,7 @@
 			"range": "120 feet",
 			"components": "V, S",
 			"duration": "Instantaneous",
-			"classes": "Sorcerer, Wizard, Fighter (Eldritch Knight)",
+			"classes": "Cleric (Arcana), Sorcerer, Wizard, Fighter (Eldritch Knight)",
 			"text": [
 				"You create three glowing darts of magical force. Each dart hits a creature of your choice that you can see within range. A dart deals 1d4+1 force damage to its target. The darts all strike simultaneously and you can direct them to hit one creature or several.",
 				"When you cast this spell using a spell slot of 2nd level or higher, the spell creates one more dart for each slot above 1st."
@@ -7196,6 +7313,7 @@
 			"url": "Magic_Missile",
 			"hiLevelIndex": 1,
 			"classesArray": [
+				"Cleric (Arcana)",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
@@ -7269,7 +7387,7 @@
 			"range": "Touch",
 			"components": "V, S",
 			"duration": "Concentration, up to 1 hour",
-			"classes": "Cleric (War), Paladin, Wizard",
+			"classes": "Cleric (Arcana), Cleric (War), Paladin, Wizard",
 			"text": [
 				"You touch a nonmagical weapon. Until the spell ends, that weapon becomes a magic weapon with a +1 bonus to attack rolls and damage rolls.",
 				"When you cast this spell using a spell slot of 4th level or higher, the bonus increases to +2. When you use a spell slot of 6th level or higher, the bonus increases to +3."
@@ -7282,6 +7400,7 @@
 			"url": "Magic_Weapon",
 			"hiLevelIndex": 1,
 			"classesArray": [
+				"Cleric (Arcana)",
 				"Cleric (War)",
 				"Paladin",
 				"Wizard"
@@ -8123,7 +8242,7 @@
 			"range": "Touch",
 			"components": "V, S, M (a small square of silk)",
 			"duration": "24 hours",
-			"classes": "Wizard, Rogue (Arcane Trickster)",
+			"classes": "Cleric (Arcana), Wizard, Rogue (Arcane Trickster)",
 			"text": [
 				"You place an illusion on a creature or an object you touch so that divination spells reveal false information about it. The target can be a willing creature or an object that isn't being carried or worn by another creature.",
 				"When you cast the spell, choose one or both of the following effects. The effect lasts for the duration. If you cast this spell on the same creature or object every day for 30 days, placing the same effect on it each time, the illusion lasts until it is dispelled.",
@@ -8138,6 +8257,7 @@
 			"url": "Nystul's_Magic_Aura",
 			"hiLevelIndex": -1,
 			"classesArray": [
+				"Cleric (Arcana)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
 			]
@@ -8430,7 +8550,7 @@
 			"range": "60 feet",
 			"components": "V, S, M (a jewel worth at least 1,000 gp, which the spell consumes)",
 			"duration": "24 hours",
-			"classes": "Bard, Cleric, Druid, Wizard",
+			"classes": "Bard, Cleric, Cleric (Arcana), Druid, Wizard",
 			"text": [
 				"With this spell, you attempt to bind a celestial, an elemental, a fey, or a fiend to your service. The creature must be within range for the entire casting of the spell. (Typically, the creature is first summoned into the center of an inverted magic circle in order to keep it trapped while this spell is cast.) At the completion of the casting, the target must make a Charisma saving throw. On a failed save, it is bound to serve you for the duration. If the creature was summoned or created by another spell, that spell's duration is extended to match the duration of this spell.",
 				"A bound creature must follow your instructions to the best of its ability. You might command the creature to accompany you on an adventure, to guard a location, or to deliver a message. The creature obeys the letter of your instructions, but if the creature is hostile to you, it strives to twist your words to achieve its own objectives. If the creature carries out your instructions completely before the spell ends, it travels to you to report this fact if you are on the same plane of existence. If you are on a different plane of existence, it returns to the place where you bound it and remains there until the spell ends.",
@@ -8446,6 +8566,7 @@
 			"classesArray": [
 				"Bard",
 				"Cleric",
+				"Cleric (Arcana)",
 				"Druid",
 				"Wizard"
 			]
@@ -9211,7 +9332,7 @@
 			"range": "60 feet",
 			"components": "V, S",
 			"duration": "Instantaneous",
-			"classes": "Cleric (Death), Sorcerer, Wizard",
+			"classes": "Cleric (Death), Sorcerer, Warlock (Undying), Wizard",
 			"text": [
 				"A ray of sickening greenish energy lashes out toward a creature within range. Make a ranged spell attack against the target. On a hit, the target takes 2d8 poison damage and must make a Constitution saving throw. On a failed save, it is also poisoned until the end of your next turn.",
 				"When you cast this spell using a spell slot of 2nd level or higher, the damage increases by 1d8 for each slot level above 1st."
@@ -9230,6 +9351,7 @@
 			"classesArray": [
 				"Cleric (Death)",
 				"Sorcerer",
+				"Warlock (Undying)",
 				"Wizard"
 			]
 		},
@@ -10011,7 +10133,7 @@
 			"range": "120 feet",
 			"components": "V, S",
 			"duration": "Concentration, up to 10 minutes",
-			"classes": "Bard, Cleric, Druid (Desert), Ranger",
+			"classes": "Bard, Cleric, Druid (Desert), Ranger, Warlock (Undying)",
 			"text": [
 				"For the duration, no sound can be created within or pass through a 20-foot-radius sphere centered on a point you choose within range. Any creature or object entirely inside the sphere is immune to thunder damage, and creatures are deafened while entirely inside it. Casting a spell that includes a verbal component is impossible there."
 			],
@@ -10026,7 +10148,8 @@
 				"Bard",
 				"Cleric",
 				"Druid (Desert)",
-				"Ranger"
+				"Ranger",
+				"Warlock (Undying)"
 			]
 		},
 		"Silent_Image": {
@@ -10294,7 +10417,7 @@
 			"range": "10 feet",
 			"components": "V, S, M (burning incense)",
 			"duration": "10 minutes",
-			"classes": "Bard, Cleric, Cleric (Knowledge)",
+			"classes": "Bard, Cleric, Cleric (Knowledge), Warlock (Undying)",
 			"text": [
 				"You grant the semblance of life and intelligence to a corpse of your choice within range, allowing it to answer the questions you pose. The corpse must still have a mouth and can't be undead. The spell fails if the corpse was the target of this spell within the last 10 days.",
 				"Until the spell ends, you can ask the corpse up to five questions. The corpse knows only what it knew in life, including the languages it knew. Answers are usually brief, cryptic, or repetitive, and the corpse is under no compulsion to offer a truthful answer if you are hostile to it or it recognizes you as an enemy. This spell doesn't return the creature's soul to its body, only its animating spirit. Thus, the corpse can't learn new information, doesn't comprehend anything that has happened since it died, and can't speculate about future events."
@@ -10309,7 +10432,8 @@
 			"classesArray": [
 				"Bard",
 				"Cleric",
-				"Cleric (Knowledge)"
+				"Cleric (Knowledge)",
+				"Warlock (Undying)"
 			]
 		},
 		"Speak_with_Plants": {
@@ -10410,7 +10534,7 @@
 			"range": "Self (15-foot-radius)",
 			"components": "V, S, M (a holy symbol)",
 			"duration": "Concentration, up to 10 minutes",
-			"classes": "Cleric, Cleric (War)",
+			"classes": "Cleric, Cleric (War), Paladin (Crown)",
 			"text": [
 				"You call forth spirits to protect you. They flit around you to a distance of 15 feet for the duration. If you are good or neutral, their spectral form appears angelic or fey (your choice). If you are evil, they appear fiendish.",
 				"When you cast this spell, you can designate any number of creatures you can see to be unaffected by it. An affected creature's speed is halved in the area, and when the creature enters the area for the first time on a turn or starts its turn there, it must make a Wisdom saving throw. On a failed save, the creature takes 3d8 radiant damage (if you are good or neutral) or 3d8 necrotic damage (if you are evil). On a successful save, the creature takes half as much damage.",
@@ -10426,7 +10550,8 @@
 			"hiLevelIndex": 2,
 			"classesArray": [
 				"Cleric",
-				"Cleric (War)"
+				"Cleric (War)",
+				"Paladin (Crown)"
 			]
 		},
 		"Spiritual_Weapon": {
@@ -10761,6 +10886,39 @@
 				"Ranger"
 			]
 		},
+		"Sword_Burst_(SCAG)": {
+			"name": "Sword Burst (SCAG)",
+			"level": 0,
+			"school": "conjuration",
+			"ritual": "",
+			"time": "1 action",
+			"range": "5 feet",
+			"components": "V",
+			"duration": "Instantaneous",
+			"classes": "Sorcerer, Warlock, Wizard",
+			"text": [
+				"You create a momentary circle of spectral blades that sweep around you. Each creature within range, other than you, must succeed on a Dexterity saving throw or take 1d6 force damage.",
+				"    The spell's damage increases by 1d6 when you reach 5th level (2d6), 11th level (3d6), and 17th level (4d6)."
+			],
+			"roll": [
+				"1d6",
+				"2d6",
+				"3d6",
+				"4d6"
+			],
+			"schoolAndLevel": "Conjuration cantrip",
+			"timeShort": "",
+			"rangeShort": "5 feet",
+			"durationShort": "",
+			"concentration": false,
+			"url": "Sword_Burst_(SCAG)",
+			"hiLevelIndex": -1,
+			"classesArray": [
+				"Sorcerer",
+				"Warlock",
+				"Wizard"
+			]
+		},
 		"Symbol": {
 			"name": "Symbol",
 			"level": 7,
@@ -10994,7 +11152,7 @@
 			"range": "10 feet",
 			"components": "V, M (rare chalks and inks infused with precious gems with 50 gp, which the spell consumes)",
 			"duration": "1 round",
-			"classes": "Bard, Sorcerer, Wizard",
+			"classes": "Bard, Cleric (Arcana), Sorcerer, Wizard",
 			"text": [
 				"As you cast the spell, you draw a 10-foot-diameter circle on the ground inscribed with sigils that link your location to a permanent teleportation circle of your choice whose sigil sequence you know and that is on the same plane of existence as you. A shimmering portal opens within the circle you drew and remains open until the end of your next turn. Any creature that enters the portal instantly appears within 5 feet of the destination circle or in the nearest unoccupied space if that space is occupied.",
 				"Many major temples, guilds, and other important places have permanent teleportation circles inscribed somewhere within their confines. Each such circle includes a unique sigil sequence - a string of magical runes arranged in a particular pattern. When you first gain the ability to cast this spell, you learn the sigil sequences for two destinations on the Material Plane, determined by the DM. You can learn additional sigil sequences during your adventures. You can commit a new sigil sequence to memory after studying it for 1 minute.",
@@ -11009,6 +11167,7 @@
 			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
+				"Cleric (Arcana)",
 				"Sorcerer",
 				"Wizard"
 			]
@@ -11852,7 +12011,7 @@
 			"range": "Touch",
 			"components": "V, S, M (a pair of platinum rings worth at least 50 gp each, which you and target must wear for the duration)",
 			"duration": "1 hour",
-			"classes": "Cleric",
+			"classes": "Cleric, Paladin (Crown)",
 			"text": [
 				"This spell wards a willing creature you touch and creates a mystic connection between you and the target until the spell ends. While the target is within 60 feet of you, it gains a +1 bonus to AC and saving throws, and it has resistance to all damage. Also, each time it takes damage, you take the same amount of damage.",
 				"The spell ends if you drop to 0 hit points or if you and the target become separated by more than 60 feet. It also ends if the spell is cast again on either of the connected creatures. You can also dismiss the spell as an action."
@@ -11865,7 +12024,8 @@
 			"url": "Warding_Bond",
 			"hiLevelIndex": -1,
 			"classesArray": [
-				"Cleric"
+				"Cleric",
+				"Paladin (Crown)"
 			]
 		},
 		"Warding_Wind_(EE)": {
@@ -12259,7 +12419,7 @@
 			"range": "60 feet",
 			"components": "V, S, M",
 			"duration": "10 minutes",
-			"classes": "Bard, Cleric, Paladin, Paladin (Devotion)",
+			"classes": "Bard, Cleric, Paladin, Paladin (Devotion), Paladin (Crown)",
 			"text": [
 				"You create a magical zone that guards against deception in a 15-foot-radius sphere centered on a point of your choice within range. Until the spell ends, a creature that enters the spell's area for the first time on a turn or starts its turn there must make a Charisma saving throw. On a failed save, a creature can't speak a deliberate lie while in the radius. You know whether each creature succeeds or fails on its saving throw.",
 				"An affected creature is aware of the spell and can thus avoid answering questions to which it would normally respond with a lie. Such creatures can be evasive in its answers as long as it remains within the boundaries of the truth."
@@ -12275,7 +12435,8 @@
 				"Bard",
 				"Cleric",
 				"Paladin",
-				"Paladin (Devotion)"
+				"Paladin (Devotion)",
+				"Paladin (Crown)"
 			]
 		}
 	},
@@ -12283,6 +12444,7 @@
 		[
 			"Acid_Splash",
 			"Blade_Ward",
+			"Booming_Blade_(SCAG)",
 			"Chill_Touch",
 			"Control_Flames_(EE)",
 			"Create_Bonfire_(EE)",
@@ -12292,9 +12454,11 @@
 			"Fire_Bolt",
 			"Friends",
 			"Frostbite_(EE)",
+			"Green-Flame_Blade_(SCAG)",
 			"Guidance",
 			"Gust_(EE)",
 			"Light",
+			"Lightning_Lure_(SCAG)",
 			"Mage_Hand",
 			"Magic_Stone_(EE)",
 			"Mending",
@@ -12312,6 +12476,7 @@
 			"Shillelagh",
 			"Shocking_Grasp",
 			"Spare_the_Dying",
+			"Sword_Burst_(SCAG)",
 			"Thaumaturgy",
 			"Thorn_Whip",
 			"Thunderclap_(EE)",
@@ -12724,6 +12889,7 @@
 			[
 				"Acid_Splash",
 				"Blade_Ward",
+				"Booming_Blade_(SCAG)",
 				"Chill_Touch",
 				"Control_Flames_(EE)",
 				"Create_Bonfire_(EE)",
@@ -12733,9 +12899,11 @@
 				"Fire_Bolt",
 				"Friends",
 				"Frostbite_(EE)",
+				"Green-Flame_Blade_(SCAG)",
 				"Guidance",
 				"Gust_(EE)",
 				"Light",
+				"Lightning_Lure_(SCAG)",
 				"Mage_Hand",
 				"Magic_Stone_(EE)",
 				"Mending",
@@ -12753,6 +12921,7 @@
 				"Shillelagh",
 				"Shocking_Grasp",
 				"Spare_the_Dying",
+				"Sword_Burst_(SCAG)",
 				"Thaumaturgy",
 				"Thorn_Whip",
 				"Thunderclap_(EE)",
@@ -13165,6 +13334,7 @@
 			[
 				"Acid_Splash",
 				"Blade_Ward",
+				"Booming_Blade_(SCAG)",
 				"Chill_Touch",
 				"Control_Flames_(EE)",
 				"Create_Bonfire_(EE)",
@@ -13172,8 +13342,10 @@
 				"Fire_Bolt",
 				"Friends",
 				"Frostbite_(EE)",
+				"Green-Flame_Blade_(SCAG)",
 				"Gust_(EE)",
 				"Light",
+				"Lightning_Lure_(SCAG)",
 				"Mage_Hand",
 				"Mending",
 				"Message",
@@ -13185,6 +13357,7 @@
 				"Ray_of_Frost",
 				"Shape_Water_(EE)",
 				"Shocking_Grasp",
+				"Sword_Burst_(SCAG)",
 				"Thunderclap_(EE)",
 				"True_Strike"
 			],
@@ -13361,6 +13534,7 @@
 			[
 				"Acid_Splash",
 				"Blade_Ward",
+				"Booming_Blade_(SCAG)",
 				"Chill_Touch",
 				"Control_Flames_(EE)",
 				"Create_Bonfire_(EE)",
@@ -13368,8 +13542,10 @@
 				"Fire_Bolt",
 				"Friends",
 				"Frostbite_(EE)",
+				"Green-Flame_Blade_(SCAG)",
 				"Gust_(EE)",
 				"Light",
+				"Lightning_Lure_(SCAG)",
 				"Mage_Hand",
 				"Mending",
 				"Message",
@@ -13381,6 +13557,7 @@
 				"Ray_of_Frost",
 				"Shape_Water_(EE)",
 				"Shocking_Grasp",
+				"Sword_Burst_(SCAG)",
 				"Thunderclap_(EE)",
 				"True_Strike"
 			],
@@ -14458,6 +14635,33 @@
 			[],
 			[]
 		],
+		"Cleric (Arcana)": [
+			[],
+			[
+				"Detect_Magic",
+				"Magic_Missile"
+			],
+			[
+				"Magic_Weapon",
+				"Nystul's_Magic_Aura"
+			],
+			[
+				"Dispel_Magic",
+				"Magic_Circle"
+			],
+			[
+				"Arcane_Eye",
+				"Leomund's_Secret_Chest"
+			],
+			[
+				"Planar_Binding",
+				"Teleportation_Circle"
+			],
+			[],
+			[],
+			[],
+			[]
+		],
 		"Cleric (Knowledge)": [
 			[],
 			[
@@ -14488,17 +14692,21 @@
 		"Warlock": [
 			[
 				"Blade_Ward",
+				"Booming_Blade_(SCAG)",
 				"Chill_Touch",
 				"Create_Bonfire_(EE)",
 				"Eldritch_Blast",
 				"Friends",
 				"Frostbite_(EE)",
+				"Green-Flame_Blade_(SCAG)",
+				"Lightning_Lure_(SCAG)",
 				"Mage_Hand",
 				"Magic_Stone_(EE)",
 				"Minor_Illusion",
 				"On_Off_(Technomagic)",
 				"Poison_Spray",
 				"Prestidigitation",
+				"Sword_Burst_(SCAG)",
 				"Thunderclap_(EE)",
 				"True_Strike"
 			],
@@ -14604,6 +14812,60 @@
 				"Power_Word_Kill",
 				"True_Polymorph"
 			]
+		],
+		"Warlock (Undying)": [
+			[],
+			[
+				"False_Life",
+				"Ray_of_Sickness"
+			],
+			[
+				"Blindness_Deafness",
+				"Silence"
+			],
+			[
+				"Feign_Death",
+				"Speak_with_Dead"
+			],
+			[
+				"Aura_of_Life",
+				"Death_Ward"
+			],
+			[
+				"Contagion",
+				"Legend_Lore"
+			],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Paladin (Crown)": [
+			[],
+			[
+				"Command",
+				"Compelled_Duel"
+			],
+			[
+				"Warding_Bond",
+				"Zone_of_Truth"
+			],
+			[
+				"Aura_of_Vitality",
+				"Spirit_Guardians"
+			],
+			[
+				"Banishment",
+				"Guardian_of_Faith"
+			],
+			[
+				"Circle_of_Power",
+				"Geas"
+			],
+			[],
+			[],
+			[],
+			[]
 		],
 		"Paladin (Vengeance)": [
 			[],
@@ -15122,6 +15384,7 @@
 		"All",
 		"Bard",
 		"Cleric",
+		"Cleric (Arcana)",
 		"Cleric (City)",
 		"Cleric (Death)",
 		"Cleric (Knowledge)",
@@ -15143,6 +15406,7 @@
 		"Fighter (Eldritch Knight)",
 		"Paladin",
 		"Paladin (Ancients)",
+		"Paladin (Crown)",
 		"Paladin (Devotion)",
 		"Paladin (Oathbreaker)",
 		"Paladin (Vengeance)",
@@ -15153,6 +15417,7 @@
 		"Warlock (Archfey)",
 		"Warlock (Fiend)",
 		"Warlock (Great Old One)",
+		"Warlock (Undying)",
 		"Wizard"
 	]
 }
