@@ -97,6 +97,30 @@
 						"optional": true
 					},
 					{
+						"name": "Primal Path: Path of the Battlerager",
+						"text": [
+							"Known as Kuldjargh (literally \"axe idiot\") in Dwarvish, battleragers are dwarf followers of the gods of war and take the Path of the Battlerager. They specialize in wearing nulky, spiked armor and throwing themselves into combat, striking with their body itself and giving themselves over to the fury of battle."
+						],
+						"optional": true
+					},
+					{
+						"name": "Path of the Battlerager: Restriction - Dwarves Only",
+						"text": [
+							"Only dwarves can follow the Path of the Battlerager. The battlerager fills a particular niche in dwarven society and culture.",
+							"Your DM can lift this restriction to better suite the campaign. The restriction exists for the Forgotten Realms. It might not apply to yourt DM's setting or your DM's version of the realms."
+						],
+						"optional": true
+					},
+					{
+						"name": "Path of the Battlerager: Battlerager Armor",
+						"text": [
+							"When you choose this path at 3rd level, you gain the ability to use spiked armor as a weapon.",
+							"While you are wearing spiked armor and are raging, you can use a bonus action to make one melee weapon attack with your armor spikes at a target within 5 feet of you. If the attack hits, the spikes deal 1d4 piercing damage. You use your Strength modifier for the attack and damage rolls.",
+							"Additionally, when you use the Attack action to grapple a creature, the target takes 3 piercing damage if your grapple check succeeds."
+						],
+						"optional": true
+					},
+					{
 						"name": "Path of the Berserker: Frenzy",
 						"text": [
 							"Starting when you choose this path at 3rd level, you can go into a frenzy when you rage. If you do so, for the duration of your rage you can make a single melee weapon attack as a bonus action on each of your turns after this one. When your rage ends, you suffer one level of exhaustion."
@@ -129,6 +153,20 @@
 						"name": "Totem Spirit (Eagle)",
 						"text": [
 							"While you're raging and aren't wearing heavy armor, other creatures have disadvantage on opportunity attack rolls against you, and you can use the Dash action as a bonus action on your turn. The spirit of the eagle makes you into a predator who can weave through the fray with ease."
+						],
+						"optional": true
+					},
+					{
+						"name": "Totem Spirit (Elk)",
+						"text": [
+							"While you're raging and aren't wearing heaving armor, your waliing speed increases by 15 feet. The spirit of the elk makes you extraordinarily swift."
+						],
+						"optional": true
+					},
+					{
+						"name": "Totem Spirit (Tiger)",
+						"text": [
+							"While raging, you can add 10 feet to your long jump distance and 3 feet to your high jump distance. The spirit of the tiger empowers your leaps."
 						],
 						"optional": true
 					},
@@ -175,6 +213,13 @@
 						"optional": false
 					},
 					{
+						"name": "Path of the Battlerager: Reckless Abandon",
+						"text": [
+							"Beginning at 6th level, when you use Reckless Attack while raging, you also gain temporary hit points equal to your Constitution modifier (minimum of 1). THey vanish if any of them are left when your rage ends."
+						],
+						"optional": true
+					},
+					{
 						"name": "Path of the Berserker: Mindless Rage",
 						"text": [
 							"Beginning at 6th level, you can't be charmed or frightened while raging. If you are charmed or frightened when you enter your rage, the effect is suspended for the duration of the rage."
@@ -199,6 +244,20 @@
 						"name": "Aspect of the Beast: Eagle",
 						"text": [
 							"You gain the eyesight of an eagle. You can see up to 1 mile away with no difficulty, able to discern even fine details as though looking at something no more than 100 feet away from you. Additionally, dim light doesn't impose disadvantage on your Wisdom (Perception) checks."
+						],
+						"optional": true
+					},
+					{
+						"name": "Aspect of the Beast: Elk",
+						"text": [
+							"Whether mounted or on foot, your travel pace is doubled, as is the travel pace of up to ten companions while they're within 60 feet of you and you're not incapacitated. The elk spirit helps you roam far and fast."
+						],
+						"optional": true
+					},
+					{
+						"name": "Aspect of the Beast: Tiger",
+						"text": [
+							"You gain proficiency in two skills from the following list: Athletics, Acrobatics, Stealth, and Survival. The cat spirit hones your survival instincts."
 						],
 						"optional": true
 					},
@@ -257,6 +316,13 @@
 						"optional": true
 					},
 					{
+						"name": "Path of the Battlerager: Battlerager Charge",
+						"text": [
+							"Beginning at 10th level, you can take the DAsh action as a bonus action while you are raging."
+						],
+						"optional": true
+					},
+					{
 						"name": "Path of the Totem Warrior: Spirit Walker",
 						"text": [
 							"At 10th level, you can cast the commune with nature spell, but only as a ritual. When you do so, a spiritual version of one of the animals you chose for Totem Spirit or Aspect of the Beast appears to you to convey the information you seek."
@@ -309,6 +375,13 @@
 						"optional": true
 					},
 					{
+						"name": "Path of the Battlerager: Spiked Retribution",
+						"text": [
+							"Starting at 14th level, when a creature within 5 feet of you hits you with a melee attack, the attacker takes 3 piercing damage if you are raging, aren't incapacitated, and are wearing spiked armor"
+						],
+						"optional": true
+					},
+					{
 						"name": "Path of the Totem Warrior: Totemic Attunement",
 						"text": [
 							"At 14th level, you gain a magical benefit based on a totem animal of your choice. You can choose the same animal you selected previously or a different one."
@@ -326,6 +399,20 @@
 						"name": "Totemic Attunement: Eagle",
 						"text": [
 							"While raging, you have a flying speed equal to your current walking speed. This benefit works only in short bursts; you fall if you end your turn in the air and nothing else is holding you aloft."
+						],
+						"optional": true
+					},
+					{
+						"name": "Totemic Attunement: Elk",
+						"text": [
+							"While raging, you can use a bonus action during your move to pass through the space of a Large of smaller creature. That creature must succeed on a Strength saving throw (DC 8 + your Strength bonus + your proficiency bonus) or be knocked prone and take bludgeoning damage equal to 1d12 + your strength modifier."
+						],
+						"optional": true
+					},
+					{
+						"name": "Totemic Attunement: Tiger",
+						"text": [
+							"While you're raging, if you move at least 20 feet in a straight line toward a Large or smaller target right before making a melee weapon attack against it, you can use a bonus action to make an additional melee weapon attack against it."
 						],
 						"optional": true
 					},
@@ -1010,12 +1097,26 @@
 					{
 						"name": "Divine Domain",
 						"text": [
-							"Choose one domain related to your deity: Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.",
+							"Choose one domain related to your deity: Arcana, Knowledge, Life, Light, Nature, Tempest, Trickery, or War. Each domain is detailed in their own feature, and each one provides examples of gods associated with it. Your choice grants you domain spells and other features when you choose it at 1st level. It also grants you additional ways to use Channel Divinity when you gain that feature at 2nd level, and additional benefits at 6th, 8th, and 17th levels.",
 							"Domain Spells",
 							"Each domain has a list of spells-its domain spells-that you gain at the cleric levels noted in the domain description. Once you gain a domain spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day.",
 							"If you have a domain spell that doesn't appear on the cleric spell list, the spell is nonetheless a cleric spell for you."
 						],
 						"optional": false
+					},
+					{
+						"name": "Divine Domain Arcana",
+						"text": [
+							"Magic is an energy that suffuses the multiverse and that fuels both destruction and creation. Gods of the Arcana domain know the secrets and potential of magic intimately. For some of these gods, magical knowledge is a great responsibility that comes with a special understanding of the nature of reality. Other gods of Arcana see magic as pure power, to be used as its wielder sees fit.",
+							"The gods of this domain are often associated with knowledge, as learning and arcane power tend to go hand-in-hand. In the Realms, deities of this domain include Azuth and Mystra, as well as Corellon Larethian of the elven pantheon. In other worlds, this domain includes Hecate, Math Mathonwy, and Isis; the triple moon gods of Solinari, Lunitari, and Nuitari of Krynn; and Boccob, Vecna, and WeeJas of Greyhawk.",
+							"Arcana Domain Spells: At each indicated cleric level, add the listed spells to your spells prepared. They do not count towards your limit.",
+							"1st - detect magic, magic missile",
+							"3rd - magic weapon, Nystul's magic aura",
+							"5th - dispel magic, magic circle",
+							"7th - arcane eye, Leomund's secret chest",
+							"9th - planar binding, teleportation circle"
+						],
+						"optional": true
 					},
 					{
 						"name": "Divine Domain: Death",
@@ -1118,6 +1219,13 @@
 							"5th - crusader's mantle, spirit guardians",
 							"7th - freedom of movement, stoneskin",
 							"9th - flame strike, hold monster"
+						],
+						"optional": true
+					},
+					{
+						"name": "Arcana Domain: Arcane Initiate",
+						"text": [
+							"When you choose this domain at 1st level, you gain proficiency in the Arcana skill, and you gain two cantrips of your choice from the wizard spell list. For you, these cantrips count as cleric cantrips."
 						],
 						"optional": true
 					},
@@ -1243,6 +1351,22 @@
 						"optional": false
 					},
 					{
+						"name": "Arcana Domain Channel Divinity: Arcane Abjuration",
+						"text": [
+							"Starting at 2nd level, you can use your Channel Divinity to abjure otherworldly creatures",
+							"As an action, you present your holy symbol, and one celestial, elemental, fey, or fiend of your choice that is within 30 feet of you must make a Wisdom saving throw, provided that the creature can see or hear you. IF the creature fails its saving throw, it is turned for 1 minute or until it takes any damage.",
+							"A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly end its move in a space within 30 feet of you. It also can't take reactions. For its action, it can use use the Dash action or try to escape from an effect that prevents it form moving. If there's nowhere to move, then the creature can use the Dodge action.",
+							"After you reach 5th level, when a creature fails its saving throw against you Arcane Abjuration feature, the creature is banished for 1 minute (as in the banishment spell, no concentration required) if it isn't oin its plane of origin, and its challenge rating is at or below a certain threshold, as shown below.",
+							"Cleric level - Banishes Creatures of CR...",
+							"5th - 1/2 or lower",
+							"8th - 1 or lower",
+							"11th - 2 or lower",
+							"14th - 3 or lower",
+							"17th - 4 or lower"
+						],
+						"optional": true
+					},
+					{
 						"name": "Death Domain Channel Divinity: Touch of Death",
 						"text": [
 							"Starting at 2nd level, the cleric can use Channel Divinity to destroy another creature's life force by touch.",
@@ -1334,6 +1458,13 @@
 						"optional": false
 					},
 					{
+						"name": "Arcana Domain: Spell Breaker",
+						"text": [
+							"Starting at 6th level, when you restore hit points to an ally with a spell of 1st level or higher, you can also end one spell of your choice on that creature. The level of the spell you end must be equal to or lower than the level of the spell slot you use to cast the healing spell"
+						],
+						"optional": true
+					},
+					{
 						"name": "Death Domain: Inescapable Destruction",
 						"text": [
 							"Starting at 6th level, the cleric's ability to channel negative energy becomes more potent. Necrotic damage dealt by the character's cleric spells and Channel Divinity options ignores resistance to necrotic damage."
@@ -1395,6 +1526,16 @@
 					}
 				],
 				"8": [
+					{
+						"$": {
+							"optionl": "YES"
+						},
+						"name": "Arcana Domain: Potent Spellcasting",
+						"text": [
+							"Starting at 8th level, you add your Wisdom modifier to the damage you deal with any cleric cantrip."
+						],
+						"optional": false
+					},
 					{
 						"name": "Death Domain: Divine Strike",
 						"text": [
@@ -1508,6 +1649,13 @@
 							"Starting at 17th level, when an undead of CR 4 or lower fails its saving throw against your Turn Undead feature, the creature is instantly destroyed."
 						],
 						"optional": false
+					},
+					{
+						"name": "Arcana Domain: Arcane MAstery",
+						"text": [
+							"At 17th level, you choose four spells from the Wizard spell list, one from each of the following levels: 6th, 7th, 8th, and 9th. You add them to your list of domain spells. Like your other domain spells, they are always prepared and count as cleric spells for you."
+						],
+						"optional": true
 					},
 					{
 						"name": "Death Domain: Improved Reaper",
@@ -2453,6 +2601,31 @@
 						"optional": true
 					},
 					{
+						"name": "Martial Archetype: Purple Dragon Knight (Banneret)",
+						"text": [
+							"Purple Dragon Knights are warriors who hail from the kingdom of Cormyr. Pledged to protect the crown, they take the fight against evil beyond the kingdom's borders. They are tasked with wandering the land as knights errant, relying on their judgment, bravery, and fidelity to guide them in defeating evildoers.",
+							"A Purple Dragon Knight inspires greatness in others by committing brave deeds in battle. The mere presence of a knight in a hamlet is enough to cause some orcs and bandits to seek easier prey. A lone knight is a skilled warrior, but a knight leading a band of allies can transform even the most poorly equipped militia into a ferocious war band.",
+							"A knight prefers to lead through deeds, not words. As a knight spearheads an attack, the knight's actions can awaken reserves of courage and conviction in allies that they never suspected they had."
+						],
+						"optional": true
+					},
+					{
+						"name": "Purple Dragon Knight: Restriction: Knighthood",
+						"text": [
+							"Purple Dragon Knights are tied to a specific order of Cormyrean knighthood.",
+							"Banneret serves as the generic name for this archetype if you use it in other campaign settings or to model warlords other than the Purple Dragon Knights."
+						],
+						"optional": true
+					},
+					{
+						"name": "Purple Dragon Knight: Rallying Cry",
+						"text": [
+							"When you choose this archetype at 3rd level, you learn how to inspire your allies to fight on past their injuries.",
+							"When you use your Second Wind feature, you can choose up to three creatures within 60 feet of you that are allied with you. Each one regains hit points equal to your fighter level, provided that the creature can see or hear you."
+						],
+						"optional": true
+					},
+					{
 						"name": "Battle Master: Combat Superiority",
 						"text": [
 							"When you choose this archetype at 3rd level, you learn maneuvers that are fueled by special dice called superiority dice.",
@@ -2697,6 +2870,16 @@
 							"Beginning at 7th level, when you use your action to cast a cantrip, you can make one weapon attack as a bonus action."
 						],
 						"optional": true
+					},
+					{
+						"name": "Purple Dragon Knight: Royal Envoy",
+						"text": [
+							"A Purple Dragon Knight serves as an envoy of the Cormyrean crown. Knights of high standing are expected to conduct themselves with grace.",
+							"At 7th level, you gain proficiency in the Persuasion skill. If you are already proficient in it, you gain proficiency in one of the following skills of your choice: Animal Handling, Insight, Intimidation, or Performance.",
+							"Your proficiency bonus is doubled for any ability check you make that uses Persuasion. You receive this benefit regardless of the skill proficiency you gain from this feature."
+						],
+						"proficiency": "Persuasion",
+						"optional": true
 					}
 				],
 				"8": [
@@ -2752,6 +2935,14 @@
 						"name": "Eldritch Knight: Eldritch Strike",
 						"text": [
 							"At 10th level, you learn how to make your weapon strikes undercut a creature's resistance to your spells. When you hit a creature with a weapon attack, that creature has disadvantage on the next saving throw it makes against a spell you cast before the end of your next turn."
+						],
+						"optional": true
+					},
+					{
+						"name": "Purple Dragon Knight: Inspiring Surge",
+						"text": [
+							"Starting at 10th level, when you use your Action Surge feature, you can choose one creature within 60 feet of you that is allied with you. That creature can make one melee or ranged weapon attack with its reaction, provided that it can see or hear you.",
+							"Starting at 17th level, you can choose two allies within 60 feet of you, rather than one."
 						],
 						"optional": true
 					}
@@ -2827,6 +3018,13 @@
 						"name": "Eldritch Knight: Arcane Charge",
 						"text": [
 							"At 15th level, you gain the ability to teleport up to 30 feet to an unoccupied space you can see when you use your Action Surge. You can teleport before or after the additional action."
+						],
+						"optional": true
+					},
+					{
+						"name": "Purple Dragon Knight: Bulwark",
+						"text": [
+							"Beginning at 15th level, you can extend the benefit of your Indomitable feature to an ally. When you decide to use Indomitable to reroll an Intelligence, a Wisdom, or a Charisma saving throw and you aren't incapacitated, you can choose one ally within 60 feet of you that also failed its saving throw against the same effect. If that creature can see or hear you, it can reroll its saving throw and must use the new roll."
 						],
 						"optional": true
 					}
@@ -3168,6 +3366,36 @@
 							"If you reduce the damage to 0, you can catch the missile if it is small enough for you to hold in one hand and you have at least one hand free. If you catch a missile in this way, you can spend 1 ki point to make a ranged attack (range 20 feet/60 feet) with the weapon or piece of ammunition you just caught, as part of the same reaction. You make this attack with proficiency, regardless of your weapon proficiencies, and the missile counts as a monk weapon for the attack."
 						],
 						"optional": false
+					},
+					{
+						"name": "Monastic Tradition: Way of the Long Death",
+						"text": [
+							"Monks of the Way of the Long Death are obsessed with the meaning and mechanics of dying. They capture creatures and prepare elaborate experiments to capture, record, and understand the moments of their demise. They use this knowledge to guide their understanding of martial arts, yielding a deadly fighting style."
+						],
+						"optional": true
+					},
+					{
+						"name": "Way of the Long Death: Touch of Death",
+						"text": [
+							"Starting when you choose this tradition at 3rd level, your study of death allows you to extract vitality from another creature as it nears its demise. When you reduce a creature within 5 feet of you to 0 hit points, you gain temporary hit points equal to your Wisdom modifier + your monk level (minimum of 1 temporary hit point)."
+						],
+						"optional": true
+					},
+					{
+						"name": "Monastic Tradition: Way of the Sun Soul",
+						"text": [
+							"Monks of the Way of the Sun Soul learn to channel their own life energy into searing bolts of light. They teach that meditation can unlock the ability to unleash the indomitable light shed by the soul of every living creature."
+						],
+						"optional": true
+					},
+					{
+						"name": "Way of the Sun Soul: Radiant Sun Bolt",
+						"text": [
+							"Starting when you choose this tradition at 3rd level, you can hurl searing bolts of magical radiance.",
+							"You gain a ranged spell attack that you can use with the Attack action. The attack has a range of 30 feet. You are proficient with it, and you add your Dexterity modifier to its attack and damage rolls. Its damage is radiant, and its damage die is a d4. This die changes as you gain monk levels — to a d6 at 5th level, a d8 at 11th level, and a d10 at 17th level.",
+							"When you use the Attack action on your turn to use this special attack, you can spend 1 ki point to make two additional attacks with it as a bonus action."
+						],
+						"optional": true
 					}
 				],
 				"4": [
@@ -3241,9 +3469,24 @@
 						"optional": true
 					},
 					{
-						"name": "Wholeness of Body",
+						"name": "Way of the Open Hand: Wholeness of Body",
 						"text": [
 							"You gain the ability to heal yourself. As an action, you can regain hit points equal to three times your monk level. You must finish a long rest before you can use this feature again."
+						],
+						"optional": true
+					},
+					{
+						"name": "Way of the Long Death: Hour of Reaping",
+						"text": [
+							"At 6th level, you gain the ability to unsettle or terrify those around you as an action, for your soul has been touched by the shadow of death. When you take this action, each creature within 30 feet of you that can see you must succeed on a Wisdom saving throw or be frightened of you until the end of your next turn."
+						],
+						"optional": true
+					},
+					{
+						"name": "Way of the Sun Soul: Searing Arc Strike",
+						"text": [
+							"At 6th level, you gain the ability to channel your ki into searing waves of energy. Immediately after you take the Attack action on your turn, you can spend 2 ki points to cast the 1st-level spell burning hands as a bonus action.",
+							"You can spend additional ki points to cast burning hands as a higher level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level (round down)."
 						],
 						"optional": true
 					}
@@ -3330,6 +3573,22 @@
 							"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
 						],
 						"optional": true
+					},
+					{
+						"name": "Way of the Long Death: Mastery of Death",
+						"text": [
+							"Beginning at 11th level, you use your familiarity with death to escape its grasp. When you are reduced to 0 hit points, you can expend 1 ki point (no action required) to have 1 hit point instead."
+						],
+						"optional": true
+					},
+					{
+						"name": "Way of the Sun Soul: Searing Sunburst",
+						"text": [
+							"At 11th level, you gain the ability to create an orb of light that erupts into a devastating explosion. As an action, you create an orb and hurl it at a point you choose within 150 feet, where it erupts into a sphere of radiant light for a brief but deadly instant.",
+							"Each creature in that 20-foot radius sphere must succeed on a Constitution saving throw or take 2d6 radiant damage. A creature doesn't need to make the save if the creature is behind total cover that is opaque.",
+							"You can increase the sphere's damage by spending ki points. Each point you spend, up to a maximum of 3, increases the damage by 2d6."
+						],
+						"optional": true
 					}
 				],
 				"12": [
@@ -3358,6 +3617,7 @@
 							"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws.",
 							"Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result."
 						],
+						"proficiency": "constitution, intelligence, wisdom, charisma",
 						"optional": false
 					},
 					{
@@ -3415,6 +3675,21 @@
 						"text": [
 							"You learn one additional elemental discipline of your choice. You should know 4 elemental disciplines, as well as Elemental Attunement.",
 							"Whenever you learn a new elemental discipline, you can also replace one elemental discipline that you already know with a different discipline."
+						],
+						"optional": true
+					},
+					{
+						"name": "Way of the Long Death: Touch of the Long Death",
+						"text": [
+							"Starting at 17th level, your touch can channel the energy of death into a creature. As an action, you touch one creature within 5 feet of you, and you expend 1 to 10 ki points. The target must make a Constitution saving throw, and it takes 2d10 necrotic damage per ki point spent on a failed save, or half as much damage on a successful one."
+						],
+						"optional": true
+					},
+					{
+						"name": "Way of the Sun Soul: Sun Shield",
+						"text": [
+							"At 17th level, you become wreathed in a luminous aura. You shed bright light in a 30-foot radius and dim light for an additional 30 feet. You can extinguish or restore the light as a bonus action.",
+							"If a creature hits you with a melee attack while this light shines, you can use your reaction to deal radiant damage to the creature. The radiant damage equals 5 + your Wisdom modifier."
 						],
 						"optional": true
 					}
@@ -3911,7 +4186,7 @@
 					{
 						"name": "Sacred Oath",
 						"text": [
-							"When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, ar the Oath of Vengeance, all detailed at the end of the c1ass description.",
+							"When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose the Oath of Devotion, the Oath of the Ancients, the Oath of the Crown, or the Oath of Vengeance, all detailed at the end of the c1ass description.",
 							"Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature."
 						],
 						"optional": false
@@ -3933,7 +4208,19 @@
 						"optional": true
 					},
 					{
-						"name": "Oath of the Ancients",
+						"name": "Oath of the Ancients: Oath Spells",
+						"text": [
+							"You gain oath spells at the paladin levels listed.",
+							"3rd - ensnaring strike, speak with animals",
+							"5th - moonbeam, misty step",
+							"9th - plant growth, protection from energy",
+							"13th - ice storm, stoneskin",
+							"17th - commune with nature, tree stride"
+						],
+						"optional": true
+					},
+					{
+						"name": "Sacred Oath: Oath of the Ancients",
 						"text": [
 							"The Oath of the Ancients is as old as the race of elves and the rituals of the druids. Sometimes called fey knights, green knights, or horned knights, paladins who swear this oath cast their lot with the side of the light in the cosmic struggle against darkness because they love the beautiful and life-giving things of the world, not necessarily because they believe in principles of honor, courage, and justice. They adorn their armor and clothing with images of growing things - leaves, antlers, or flowers - to reflect their commitment to preserving life and light in the world.",
 							"Tenets of the Ancients",
@@ -3962,7 +4249,19 @@
 						"optional": true
 					},
 					{
-						"name": "Oath of Devotion",
+						"name": "Oath of Devotion: Oath Spells",
+						"text": [
+							"You gain oath spells at the paladin levels listed.",
+							"3rd - protection from evil and good, sanctuary",
+							"5th - lesser restoration, zone of truth",
+							"9th - beacon of hope, dispel magic",
+							"13th - freedom of movement, guardian of faith",
+							"17th - commune, flame strike"
+						],
+						"optional": true
+					},
+					{
+						"name": "Sacred Oath: Oath of Devotion",
 						"text": [
 							"The Oath of Devotion binds a paladin to the loftiest ideals of justice, virtue, and order. Sometimes called cavaliers, white knights, or holy warriors, these paladins meet the ideal of the knight in shining armor, acting with honor in pursuit of justice and the greater good. They hold themselves to the highest standards of conduct, and some, for better or worse, hold the rest of the world to the same standards. Many who swear this oath are devoted to gods of law and good and use their gods' tenets as the measure of their devotion. They hold angels - the perfect servants of good - as their ideals, and incorporate images of angelic wings into their helmets or coats of arms.",
 							"Tenets of Devotion",
@@ -3992,7 +4291,19 @@
 						"optional": true
 					},
 					{
-						"name": "Oath of Vengeance",
+						"name": "Oath of Vengeance: Oath Spells",
+						"text": [
+							"You gain oath spells at the paladin levels listed.",
+							"3rd - bane, hunter's mark",
+							"5th - hold person, misty step",
+							"9th - haste, protection from energy",
+							"13th - banishment, dimension door",
+							"17th - hold monster, scrying"
+						],
+						"optional": true
+					},
+					{
+						"name": "Sacred Oath: Oath of Vengeance",
 						"text": [
 							"The Oath of Vengeance is a solemn commitment to punish those who have committed a grievous sin. When evil forces slaughter helpless villagers, when an entire people turns against the will of the gods, when a thieves' guild grows too violent and powerful, when a dragon rampages through the countryside - at times like these, paladins arise and swear an Oath of Vengeance to set right that which has gone wrong. To these paladins - sometimes called avengers or dark knights - their own purity is not as important as delivering justice.",
 							"Tenets of Vengeance: The tenets of the Oath of Vengeance vary by paladin, but all the tenets revolve around punishing wrongdoers by any means necessary. Paladins who uphold these tenets are willing to sacrifice even their own righteousness to mete out justice upon those who do evil, so the paladins are often neutral or lawful neutral in alignment. The core principles of the tenets are brutally simple.",
@@ -4000,6 +4311,26 @@
 							"No Mercy for the Wicked. Ordinary foes might win my mercy, but my sworn enemies do not.",
 							"By Any Means Necessary. My qualms can't get in the way of exterminating my foes.",
 							"Restitution. If my foes wreak ruin on the world, it is because I failed to stop them. I must help those harmed by their misdeeds."
+						],
+						"optional": true
+					},
+					{
+						"name": "Sacred Oath: Oathbreaker",
+						"text": [
+							"An Oathbreaker is a paladin who breaks his or her sacred oaths to pursue some dark ambition or serve an evil power. Whatever light burned in the paladin's heart has been extinguished. Only darkness remains.",
+							"A paladin must be evil and at least 3rd level to become an Oathbreaker. The paladin replaces the features specific to his or her Sacred Oath with Oathbreaker features."
+						],
+						"optional": false
+					},
+					{
+						"name": "Oathbreaker: Oathbreaker Spells",
+						"text": [
+							"You gain oathbreaker spells at the paladin levels listed.",
+							"3rd - hellish rebuke, inflict wounds",
+							"5th - crown of madness, darkness",
+							"9th - animate dead, bestow curse",
+							"13th - blight, confusion",
+							"17th - contagion, dominate person"
 						],
 						"optional": true
 					},
@@ -4014,6 +4345,45 @@
 						"name": "Oathbreaker Channel Divinity: Dreadful Aspect",
 						"text": [
 							"As an action, the paladin channels the darkest emotions and focuses them into a burst of magical menace. Each creature of the paladin's choice within 30 feet of the paladin must make a Wisdom saving throw if it can see the paladin. On a failed save, the target is frightened of the paladin for 1 minute. If a creature frightened by this effect ends its turn more than 30 feet away from the paladin, it can attempt another Wisdom saving throw to end the effect on it."
+						],
+						"optional": true
+					},
+					{
+						"name": "Sacred Oath: Oath of the Crown",
+						"text": [
+							"The Oath of the Crown is sworn to the ideals of civilization, be it the spirit of a nation, fealty to a sovereign, or service to a deity of law and rulership. The paladins who swear this oath dedicate themselves to serving society and, in particular, the laws that hold society together. These paladins are the watchful guardians on the walls, standing against the chaotic tides of barbarism that threaten to tear down all that civilization has built, and are commonly known as guardians, exemplars, or sentinels. Often, paladins who swear this oath are members of an order of knighthood in service to a nation or sovereign, and undergo their oath as part of their admission to the order's ranks.",
+							"Tenets of the Crown:",
+							"The tenets of the Oath of the Crown are often set by the sovereign to which their oath is sworn, but generally emphasize the following tenets.",
+							"Law: The law is paramount. It is the mortar that holds the stones of civilization together, and it must be respected.",
+							"Loyalty: Your word is your bond. Without loyalty, oaths and laws are meaningless.",
+							"Courage: You must be willing to do what needs to be done for the sake of order, even in the face of overwhelming odds. If you don't act, then who will?",
+							"Responsibility: You must deal with the consequences of your actions, and you are responsible for fulfilling your duties and obligations."
+						],
+						"optional": true
+					},
+					{
+						"name": "Oath of the Crown: Oath Spells",
+						"text": [
+							"You gain oath spells at the paladin levels listed.",
+							"3rd - command, compelled duel",
+							"5th - warding bond, zone of truth",
+							"9th - aura of vitality, spirit guardians",
+							"13th - banishment, guardian of faith",
+							"17th - circle of power, geas"
+						],
+						"optional": true
+					},
+					{
+						"name": "Oath of the Crown Channel Divinity: Champion Challenge",
+						"text": [
+							"You issue a challenge that compels other creatures to do battle with you. Each creature of your choice that you can see within 30 feet of you must make a Wisdom saving throw. On a failed save, a creature can't willingly move more than 30 feet away from you. This effect ends on the creature if you are incapacitated or die or if the creature is moved more than 30 feet away from you."
+						],
+						"optional": true
+					},
+					{
+						"name": "Oath of the Crown Channel Divinity: Turn the Tide",
+						"text": [
+							"As a bonus action, you can bolster injured creatures with your Channel Divinity. Each creature of your choice that can hear you within 30 feet of you regains hit points equal to 1d6 + your Charisma modifier (minimum of 1) if it has no more than half of its hit points."
 						],
 						"optional": true
 					}
@@ -4076,6 +4446,13 @@
 						"text": [
 							"Starting at 7th level, the paladin, as well any fiends and undead within 10 feet of the paladin, gains a bonus to melee weapon damage rolls equal to the paladin's Charisma modifier (minimum of +1). A creature can benefit from this feature from only one paladin at a time.",
 							"At 18th level, the range of this aura increases to 30 feet."
+						],
+						"optional": true
+					},
+					{
+						"name": "Oath of the Crown: Divine Allegiance",
+						"text": [
+							"Starting at 7th level, when a creature within 5 feet of you takes damage, you can use your reaction to magically substitute your own health for that of the target creature, causing that creature not to take the damage. Instead, you take the damage. This damage to you can't be reduced or prevented in any way."
 						],
 						"optional": true
 					}
@@ -4158,6 +4535,13 @@
 							"At 15th level, the paladin gains resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons."
 						],
 						"optional": true
+					},
+					{
+						"name": "Oath of the Crown: Unyielding Spirit",
+						"text": [
+							"Starting at 15th level, you have advantage on saving throws to avoid becoming paralyzed or stunned."
+						],
+						"optional": true
 					}
 				],
 				"16": [
@@ -4228,6 +4612,17 @@
 							"At 20th-level, the paladin can, as an action, surround himself or herself with an aura of gloom that lasts for 1 minute. The aura reduces any bright light in a 30-foot radius around the paladin to dim light. Whenever an enemy that is frightened by the paladin starts its turn in the aura, it takes 4d10 psychic damage. Additionally, the paladin and creatures he or she chooses in the aura are draped in deeper shadow. Creatures that rely on sight have disadvantage on attack rolls against creatures draped in this shadow.",
 							"While the aura lasts, the paladin can use a bonus action on his or her turn to cause the shadows in the aura to attack one creature. The paladin makes a melee spell attack against the target. If the attack hits, the target takes necrotic damage equal to 3d10 + the paladin's Charisma modifier.",
 							"After activating the aura, the paladin can't do so again until he or she finishes a long rest."
+						],
+						"optional": true
+					},
+					{
+						"name": "Oath of the Crown: Exalted Champion",
+						"text": [
+							"At 20th level, your presence on the field of battle is an inspiration to those dedicated to your cause. You can use your action to gain the following benefits for 1 hour:",
+							"- You have resistance to bludgeoning, piercing, and slashing damage from nonmagical weapons.",
+							"- Your allies have advantage on death saving throws while within 30 feet of you.",
+							"- You have advantage on Wisdom saving throws, as do your allies within 30 feet of you.",
+							"This effect ends early if you are incapacitated or die. Once you use this feature, you can't use it again until you finish a long rest."
 						],
 						"optional": true
 					}
@@ -6152,15 +6547,15 @@
 					{
 						"name": "Swashbuckler: Fancy Footwork",
 						"text": [
-							"Starting at 3rd level, you are a continuous blur of motion in battle as you dart in, attack, and slip away to safety. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn."
+							"When you choose this archetype at 3rd level, you learn how to land a strike and then slip away without reprisal. During your turn, if you make a melee attack against a creature, that creature cannot make opportunity attacks against you for the rest of your turn."
 						],
 						"optional": true
 					},
 					{
-						"name": "Swashbuckler: Toujours l'Audace",
+						"name": "Swashbuckler: Rakish Audacity",
 						"text": [
-							"At 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls.",
-							"In addition, you can use Sneak Attack with any melee attack made against a target that has none of your allies adjacent to it."
+							"Starting at 3rd level, your unmistakable confidence propels you into battle. You add your Charisma modifier to your initiative rolls.",
+							"In addition, you don't need advantage on your attack roll to use your Sneak Attack if no creature other than your target is within 5 feet of you. All the other rules for the Sneak Attack class feature still apply to you."
 						],
 						"optional": true
 					},
@@ -6176,6 +6571,29 @@
 						"text": [
 							"When you choose this archetype at 3rd level, you gain the ability to climb faster than normal; climbing no longer costs you extra movement.",
 							"In addition, when you make a running jump, the distance you cover increases by a number of feet equal to your Dexterity modifier."
+						],
+						"optional": true
+					},
+					{
+						"name": "Rougeish Archetype: Mastermind",
+						"text": [
+							"Your focus is on people and on the influence and secrets they have. Many spies, courtiers, and schemers follow this archetype, leading lives of intrigue. Words are your weapons as often as knives or poison, and secrets and favors are some of your favorite treasures.",
+							"Source: Sword Coast Adventurer's Guide, p. 135"
+						],
+						"optional": true
+					},
+					{
+						"name": "Mastermind: Master of Intrigue",
+						"text": [
+							"When you choose this archetype at 3rd level, you gain proficiency with the disguise kit, the forgery kit, and one gaming set of your choice. You also learn two languages of your choice.",
+							"Additionally, you can unerringly mimic the speech patterns and accent of a creature that you hear speak for at least 1 minute, allowing you to pass yourself off as a native speaker of a particular land, provided that you know the language."
+						],
+						"optional": true
+					},
+					{
+						"name": "Mastermind: Master of Tactics",
+						"text": [
+							"Starting at 3rd level, you can use the Help action as a bonus action. Additionally, when you use the Help action to aid an ally in attacking a creature, the target of that attack can be within 30 feet of you, rather than 5 feet of you, if the target can see or hear you."
 						],
 						"optional": true
 					}
@@ -6237,9 +6655,9 @@
 					{
 						"name": "Swashbuckler: Panache",
 						"text": [
-							"At 9th level, your charm becomes as sharp and dangerous as your blade. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.",
-							"If you succeed on the check and the creature is hostile, it must target you with any attacks it makes and cannot willingly move farther away from you. This effect lasts for 1 minute or until you move more than 60 feet away from the target.",
-							"If you succeed on the check and the creature is not hostile, it is charmed by you for 1 minute. While charmed, it regards you as a friendly acquaintance."
+							"At 9th level, your charm becomes extraordinarily beguiling. As an action, you can make a Charisma (Persuasion) check contested by a creature's Wisdom (Insight) check. The creature must be able to hear you, and the two of you must share a language.",
+							"If you succeed on the check and the creature is hostile to you, it has disadvantage on attack rolls against targets other than you and can't make opportunity attacks against targets other than you. This effect lasts for 1 minute, until one of your companions attacks the target or affects it with a spell, or until you and the target are more than 60 feet apart.",
+							"If you succeed on the check and the creature isn't hostile to you, it is charmed by you for 1 minute. While charmed, it regards you as a friendly aquaintance. This effect ends immediately if you or your companions do anything harmful to it."
 						],
 						"optional": true
 					},
@@ -6247,6 +6665,18 @@
 						"name": "Thief: Supreme Sneak",
 						"text": [
 							"Starting at 9th level, you have advantage on a Dexterity (Stealth) check if you move no more than half your speed on the same turn."
+						],
+						"optional": true
+					},
+					{
+						"name": "Mastermind: Insightful Manipulator",
+						"text": [
+							"Starting at 9th level, if you spend at least 1 minute observing or interacting with another creature outside combat, you can learn certain information about its capabilities compared to your own. The DM tells you if the creature is your equal, superior, or inferior in regard to two of the following characteristics of your choice:",
+							"- Intelligence score",
+							"- Wisdom score",
+							"- Charisma score",
+							"- Class levels (if any)",
+							"At the DM's option, you might also realize you know a piece of the creature's history or one of its personality traits, if it has any."
 						],
 						"optional": true
 					}
@@ -6299,7 +6729,7 @@
 					{
 						"name": "Swashbuckler: Elegant Maneuver",
 						"text": [
-							"You complete difficult maneuvers with practiced ease. Starting at 13th level, you can use a bonus action to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make on your turn."
+							"Starting at 13th level, you can use a bonus action on your turn to gain advantage on the next Dexterity (Acrobatics) or Strength (Athletics) check you make during the same turn."
 						],
 						"optional": true
 					},
@@ -6307,6 +6737,13 @@
 						"name": "Thief: Use Magic Device",
 						"text": [
 							"By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items."
+						],
+						"optional": true
+					},
+					{
+						"name": "Mastermind: Misdirection",
+						"text": [
+							"Beginning at 13th level, you can sometimes cause another creature to suffer an attack meant for you. When you are targeted by an attack while a creature within 5 feet of you is granting you cover against that attack, you can use your reaction to have the attack target that creature instead of you."
 						],
 						"optional": true
 					}
@@ -6359,7 +6796,7 @@
 					{
 						"name": "Swashbuckler: Master Duelist",
 						"text": [
-							"At 17th level your mastery of the blade lets you turn failure to success in combat. If you miss with an attack, you can choose to roll the attack again with advantage. Once you use this ability, you cannot use it again until you finish a short or long rest."
+							"Beginning at 17th level, your mastery of the blade lets you turn failure to success in combat. If you miss with an attack roll, you can choose to roll it again with advantage. Once you do so, you can't use this feature again until you finish a short or long rest."
 						],
 						"optional": true
 					},
@@ -6367,6 +6804,14 @@
 						"name": "Thief: Thief's Reflexes",
 						"text": [
 							"When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised."
+						],
+						"optional": true
+					},
+					{
+						"name": "Mastermind: Soul of Deceit",
+						"text": [
+							"Starting at 17th level, your thoughts can’t be read by telepathy or other means, unless you allow it. You can present false thoughts by making a Charisma (Deception) check contested by the mind reader's Wisdom (Insight) check.",
+							"Additionally, no matter what you say, magic that would determine if you are telling the truth indicates you are being truthful, if you so choose, and you can't be compelled to tell the truth by magic."
 						],
 						"optional": true
 					}
@@ -6737,23 +7182,16 @@
 						"optional": true
 					},
 					{
-						"name": "Storm: Bonus Spells",
+						"name": "Storm: Tempestuous Magic",
 						"text": [
-							"Add the following spells to your list of known spells when you reach the indicated level. These spells count as sorcerer spells for you and do not count against your number of spells known.",
-							"1st — fog cloud, thunderwave",
-							"3rd — gust of wind, levitate",
-							"5th — call lightning, sleet storm",
-							"7th — conjure minor elementals*, ice storm",
-							"9th — conjure elemental**",
-							"* Unless you gain this spell from another source, you can summon only smoke mephits, steam mephits, ice mephits, or dust mephits with it.",
-							"**Unless you gain this spell from another source, you can summon only air elementals with it."
+							"Starting at 1st level, you can use a bonus action on your turn to cause whirling gusts of elemental air to briefly surround you, immediately before or after you cast a spell of 1st level or higher. Doing so allows you to fly up to 10 feet without provoking opportunity attacks."
 						],
 						"optional": true
 					},
 					{
-						"name": "Storm: Tempestuous Magic",
+						"name": "Storm: Wind Speaker",
 						"text": [
-							"At 1st level, you are attuned to elemental air magic. Whenever you cast a spell other than a cantrip during your turn, whirling gusts of elemental air surround you. You can use a bonus action to fly 10 feet without provoking opportunity attacks."
+							"The arcane magic you command is infused with elemental air. You can speak, read, and write Primordial. (Knowing this language allows you to understand and be understood by those who speak its dialects: Aquan, Auran, Ignan, and Terran.)"
 						],
 						"optional": true
 					},
@@ -6948,7 +7386,7 @@
 					{
 						"name": "Storm: Heart of the Storm",
 						"text": [
-							"At 6th level, you gain resistance to lightning and thunder damage. Whenever you cast a spell other than a cantrip that deals lightning or thunder damage, a stormy aura surrounds you. In addition to the spell's effects, creatures of your choice within 10 feet of you take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level."
+							"At 6th level, you gain resistance to lightning and thunder damage. In addition, whenever you cast a spell of 1st level or higher that deals lightning or thunder damage, stormy magic erupts from you. This eruption causes creatures of your choice that you can see within 10 feet of you to take lightning or thunder damage (choose each time this ability activates) equal to half your sorcerer level."
 						],
 						"optional": true
 					},
@@ -7076,7 +7514,7 @@
 					{
 						"name": "Storm: Storm's Fury",
 						"text": [
-							"At 14th level, the storm energy you channel through your magic seethes within your soul. When you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker equal to your sorcerer level. The attacker must also make a Strength saving throw, with a DC equal to 8+your Charisma bonus+your proficiency bonus. On a failed save, the attacker is pushed in a straight line 20 feet away from you."
+							"Starting at 14th level, when you are hit by a melee attack, you can use your reaction to deal lightning damage to the attacker. The damage equals your sorcerer level. The attacker must also make a Strength saving throw against your sorcerer spell save DC. On a failed save, the attacker is pushed in a straight line up to 20 feet away from you."
 						],
 						"optional": true
 					},
@@ -7540,6 +7978,29 @@
 						"optional": true
 					},
 					{
+						"name": "Otherworldly Patron: The Undying",
+						"text": [
+							"Death holds no sway over your patron, who has unlocked the secrets of everlasting life, although such a prize - like all power - comes at a price. Once mortal, the Undying has seen mortal lifetimes pass like the seasons, like the flicker of endless days and nights. It has the secrets of the ages to share, secrets of life and death. Beings of this sort include Vecna, Lord of the Hand and the Eye; the dread Iuz; the lich-queen Vol; the Undying Court of Aerenal; Vlaakith, lich-queen of the githyanki; and the deathless wizard Fistandantalus.",
+							"In the Realms, Undying patrons include Larloch the Shadow King, legendary master of Warlock's Crypt, and Gilgeam, the God-King of Unther.",
+							"Expanded Spell List:",
+							"The Undying lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.",
+							"1st - false life, ray of sickness",
+							"2nd - blindness/deafness, silence",
+							"3rd - feign death, speak with dead",
+							"4th - aura of life, death ward",
+							"5th - contagion, legend lore"
+						],
+						"optional": true
+					},
+					{
+						"name": "The Undying: Among the Dead",
+						"text": [
+							"Starting at 1st level, you learn the spare the dying cantrip, which counts as a warlock cantrip for you. You also have advantage on saving throws against any disease.",
+							"Additionally, undead have difficulty harming you. If an undead targets you directly with an attack or a harmful spell, that creature must make a Wisdom saving throw against your spell save DC (an undead needn't make the save when it includes you in an area effect, such as the explosion of fireball). On a failed save, the creature must choose a new target or forfeit targeting someone instead of you, potentially wasting the attack or spell. On a succesful save, the creature is immune to this effect for 24 hours. An undead is also immune to this effect for 24 hours if you target it with an attack or a harmful spell."
+						],
+						"optional": true
+					},
+					{
 						"name": "Pact Magic",
 						"text": [
 							"Your arcane research and the magic bestowed on you by your patron have given you facility with spells. See chapter 10 for the general rules of spellcasting and chapter 11 for the warlock spell list.",
@@ -7893,6 +8354,14 @@
 						"text": [
 							"At 6th level, you learn to magically ward yourself against attack and to turn an enemy's failed strike into good luck for yourself. When a creature makes an attack roll against you, you can use your reaction to impose disadvantage on that roll. If the attack misses you, your next attack roll against the creature has advantage if you make it before the end of your next turn.",
 							"Once you use this feature, you can't use it again until you finish a short or long rest."
+						],
+						"optional": true
+					},
+					{
+						"name": "The Undying: Defy Death",
+						"text": [
+							"Starting at 6th level, you can give yourself vitality when you cheat death or when you help someone else cheat it. You can regain hit points equal to 1d8 + your Constitution modifier (minimum of 1 hit point) when you succeed on a death saving throw or when you satbilize a creature with spare the dying.",
+							"Once you use this feature, you can't use it again until you finish a long rest."
 						],
 						"optional": true
 					}
@@ -8312,6 +8781,14 @@
 							"Starting at 10th level, your thoughts can't be read by telepathy or other means unless you allow it. You also have resistance to psychic damage, and whenever a creature deals psychic damage to you, that creature takes the same amount of damage that you do."
 						],
 						"optional": true
+					},
+					{
+						"name": "The Undying: Undying Nature",
+						"text": [
+							"Beginning at 10th level, you can hold your breath indefinitely, and you don't require food, water, or sleep, although you still require rest to reduce exhaustion and still benefit from finishing short and long rests.",
+							"In addition, you age at a slower rate. For every 10 years that pass, your body ages only 1 year, and you are immune to being magically aged."
+						],
+						"optional": true
 					}
 				],
 				"11": [
@@ -8575,6 +9052,14 @@
 						"text": [
 							"At 14th level, you gain the ability to infect a humanoid's mind with the alien magic of your patron. You can use your action to touch an incapacitated humanoid. That creature is then charmed by you until a remove curse spell is cast on it, the charmed condition is removed from it, or you use this feature again.",
 							"You can communicate telepathically with the charmed creature as long as the two of you are on the same plane of existence."
+						],
+						"optional": true
+					},
+					{
+						"name": "The Undying: Indestructible Life",
+						"text": [
+							"When you reach 14th level, you partake some of the true secrets of the Undying. On your turn, you can use a bonus action to regain hit points equal to 1d8 + your warlock level. Additionally, if you put a severed body part of yours back in place when you use this feature, the part reattaches.",
+							"Once you use this feature, you can't use it again until you finish a short or long rest."
 						],
 						"optional": true
 					}
@@ -9408,7 +9893,7 @@
 					{
 						"name": "Arcane Tradition",
 						"text": [
-							"When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
+							"When you reach 2nd level, you choose an arcane tradition, shaping your practice of magic through one of eight schools: Abjuration, Bladesinging, Conjuration, Divination, Enchantment, Evocation, Illusion, Necromancy, or Transmutation, all detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level."
 						],
 						"optional": false
 					},
@@ -9617,6 +10102,44 @@
 							"You must finish a short rest, then spend 10 minutes with parchment, quill, and ink to create a spell scroll containing one spell chosen from those you know. Subtract the spell's level from the total levels worth of slots you regain using Arcane Recovery. This reduction to your Arcane Recovery applies until you use the scroll and then finish a long rest."
 						],
 						"optional": true
+					},
+					{
+						"name": "Arcane Tradition: Bladesinger",
+						"text": [
+							"Bladesingers are elves who bravely defend their people and lands. They are elf wizards who master a school of sword fighting grounded in a tradition of arcane magic. In combat, a bladesinger uses a series of intricate, elegant maneuvers that fend off harm and allow the bladesinger to channel magic into devastating attacks and a cunning defense."
+						],
+						"optional": true
+					},
+					{
+						"name": "Bladesinger: Restriction: Elves Only",
+						"text": [
+							"Only elves and half-elves can choose the bladesinger arcane tradition. In the world of Faerûn, elves closely guard the secrets of bladesinging.",
+							"Your DM can lift this restriction to better suit the campaign. The restriction reflects the story of bladesingers in the Forgotten Realms, but it might not apply to your DM's setting or your DM's version of the Realms."
+						],
+						"optional": true
+					},
+					{
+						"name": "Bladesinger: Training in War and Song (Bladesinging)",
+						"text": [
+							"When you adopt this tradition at 2nd level, you gain proficiency with light armor, and you gain proficiency with one type of one-handed melee weapon of your choice.",
+							"You also gain proficiency in the Performance skill if you don't already have it."
+						],
+						"proficiency": "Performance",
+						"optional": true
+					},
+					{
+						"name": "Bladesinger: Bladesong",
+						"text": [
+							"Starting at 2nd level, you can invoke a secret elven magic called the Bladesong, provided you aren't wearing medium or heavy armor or using a shield. It graces you with supernatural speed, agility, and focus.",
+							"You can use a bonus action to start the Bladesong, which lasts for 1 minute. It ends early if you are incapacitated, if you don medium or heavy armor or a shield, or if you use two hands to make an attack with a weapon. You can also dismiss Bladesong at any time you choose (no action required).",
+							"While your bladesong is active, you gain the following benefits:",
+							"- You gain a bonus to your AC equal to your Intelligence modifier (minimum of +1).",
+							"- Your walking speed increases by 10 feet.",
+							"- You have advantage on Dexterity (Acrobatics) checks.",
+							"- You gain a bonus to any Constitution saving throws you make to maintain concentration on a spell. The bonus equals your Intelligence modifier (minimum of +1).",
+							"You can use this feature twice. You regain all expended uses of it when you finish a short or long rest."
+						],
+						"optional": true
 					}
 				],
 				"4": [
@@ -9709,6 +10232,13 @@
 							"6th - +2 armor"
 						],
 						"optional": true
+					},
+					{
+						"name": "Bladesinger: Extra Attack",
+						"text": [
+							"Starting at 6th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+						],
+						"optional": true
 					}
 				],
 				"8": [
@@ -9789,6 +10319,13 @@
 						"text": [
 							"Starting at 10th level, you can create a second magic weapon, suit of armor, shield, or bundle of ammunition using your Infuse Weapons and Armor ability. Attempting to infuse a third item causes the oldest one to immediately lose its potency.",
 							"You can also create one additional potion or scroll using Infuse Potions or Infuse Scrolls."
+						],
+						"optional": true
+					},
+					{
+						"name": "Bladesinger: Song of Defense",
+						"text": [
+							"Beginning at 10th level, you can direct your magic to absorb damage while your bladesong is active. When you take damage, you can use your reaction to expend one spell slot and reduce that damage to you by an amount equal to five times the spell's slot level."
 						],
 						"optional": true
 					}
@@ -9920,6 +10457,13 @@
 							"00 Wand of secrets"
 						],
 						"optional": false
+					},
+					{
+						"name": "Bladesinger: Song of Victory",
+						"text": [
+							"Starting at 14th level, you add your Intelligence modifier (minimum of +1) to the damage of your melee weapon attacks while your Bladesong is active."
+						],
+						"optional": true
 					}
 				],
 				"16": [
