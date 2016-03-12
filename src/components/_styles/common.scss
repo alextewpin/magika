@@ -1,0 +1,35 @@
+@import "constants.scss";
+
+* {
+  outline: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  @include font__style_body;
+  background-color: $pl__white;
+  color: $pl__black;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+a {
+  text-decoration: none;
+  color: $pl__black;
+}
+
+input,
+textarea,
+button {
+  @include font__style_body;
+}

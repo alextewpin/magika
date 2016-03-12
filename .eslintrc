@@ -18,11 +18,12 @@
     "no-console":                          0,
     "no-multi-spaces":                     0,
     "spaced-comment":                      0,
+    "jsx-quotes":                          [2, "prefer-single"],
     "dot-notation":                        [2, {"allowKeywords": false}],
     "no-param-reassign":                   [2, {"props": false}],
     "comma-dangle":                        [2, "never"],
     "space-before-function-paren":         [2, "always"],
-    "jsx-quotes":                          [2, "prefer-single"],
+    "react/prefer-stateless-function":      2,
     "react/jsx-no-bind":                   [2, {"ignoreRefs": true}],
     "react/jsx-closing-bracket-location":  [2, "after-props"]
   }

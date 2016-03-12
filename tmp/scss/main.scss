@@ -334,43 +334,6 @@ section:last-of-type {
 }
 
 //Mobile
-.nav-mobile {
-	border-bottom: 2px solid $c-secondary;
-	height: ($g * 12) - 2px;
-	margin-bottom: $p-v;
-	font-size: 16px;
-	line-height: 18px;
-	color: #fff;
-	background-color: $c-main;
-	@include display(flex);
-	@include justify-content(space-between);
-	@include align-items(center);
-}
-
-.nav-breadcrumbs-mobile {
-	@include display(flex);
-	@include align-items(center);
-}
-
-.nav-logo-mobile {
-	margin-left: $p-h;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-	padding: 1px 0px;
-}
-
-.nav-title-mobile {
-	text-transform: capitalize;
-	padding: 1px 0px;
-}
-
-.nav-bookmarks-mobile {
-	margin-right: $p-h;
-	color: #fff;
-	border-bottom: 2px solid #fff;
-	padding: 1px 0px;
-}
-
 .list-item-menu-mobile {
 	padding: 0px $p-h;
 	height: 32px;

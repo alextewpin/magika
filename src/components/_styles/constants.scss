@@ -1,0 +1,22 @@
+// Grid
+@function g($times: 1) {
+  @return $times * 4px;
+}
+
+$g__padding-h: g(5);
+$g__padding-v: g(5);
+
+// Palette
+$pl__primary: #DD321E;
+$pl__secondary: #8C0411;
+$pl__black: #000;
+$pl__white: #FFF;
+
+// Fonts
+$font__lh: 1.25em;
+
+@mixin font__style_body {
+  font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-size: 14px;
+  line-height: $font__lh;
+}

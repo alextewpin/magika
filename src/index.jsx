@@ -1,5 +1,9 @@
 require('./index.html');
-//require('_styles/common.scss');
+
+require('_styles/common.scss');
+
+require('_assets/favicon.ico');
+require('_assets/favicon-hires.png');
 
 import { Router, Route, IndexRoute, useRouterHistory } from 'react-router';
 import { createHashHistory } from 'history';

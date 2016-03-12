@@ -1,0 +1,38 @@
+@import "~_styles/constants.scss";
+
+.root {
+  border-bottom: 2px solid $pl__secondary;
+  height: g(12) - 2px;
+  margin-bottom: $g__padding-v;
+  font-size: 16px;
+  line-height: 18px;
+  color: $pl__white;
+  background-color: $pl__primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-left: $g__padding-h;
+  color: $pl__white;
+  border-bottom: 2px solid $pl__white;
+  padding: 1px 0px;
+}
+
+.title {
+  text-transform: capitalize;
+  padding: 1px 0px;
+}
+
+.bookmarks {
+  margin-right: $g__padding-h;
+  color: $pl__white;
+  border-bottom: 2px solid $pl__white;
+  padding: 1px 0px;
+}
