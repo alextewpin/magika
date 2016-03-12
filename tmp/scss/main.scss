@@ -1,0 +1,456 @@
+$c-main: #DD321E;
+$c-secondary: #8C0411;
+$g: 4px;
+$p-h: $g * 5;
+$p-v: $g * 5;
+$lh: 1.4em;
+
+@mixin transition-default {
+	//transition: background-color 0.10s ease-out, color 0.10s ease-out, border-color 0.10s ease-out, opacity 0.10s ease-out;
+}
+
+html, body {
+	font-family: $helvetica;
+	font-size: 16px;
+	line-height: $lh;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	-webkit-overflow-scrolling: touch;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+a {
+	text-decoration: none;
+}
+
+body:after {
+	display: none;
+	content: url('../img/icons.png');
+}
+
+select, input {
+	outline: none;
+	-webkit-appearance: none !important;
+	-moz-appearance: none !important;
+	appearance: none !important;
+}
+
+.wrapper-mobile {
+	min-height: 100vh;
+	@include display(flex);
+	@include flex-direction(column);
+	@include justify-content(space-between);
+}
+
+.inline-select-wrapper {
+	position: relative;
+}
+
+.inline-select {
+	opacity: 0;
+	position: absolute;
+	height: $g * 8;
+	width: 100%;
+	max-width: 400px;
+	cursor: pointer;
+	font-size: 14px;
+	border: none;
+}
+
+.inline-select-holder {
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(space-between);
+	padding: $g;
+	height: $g * 8;
+	width: 100%;
+	max-width: 400px;
+	border: 2px solid $c-secondary;
+	box-sizing: border-box !important;
+	color: $c-secondary;
+	&>*:first-child {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	&>*:last-child {
+		@include flex-shrink(0);
+	}
+}
+
+.hideme {
+	display: none !important;
+}
+
+//List group
+.list {
+	margin-top: $p-v;
+}
+
+.list-filters-select {
+	padding: 0px $p-h;
+}
+
+.list-search-wrapper {
+	padding: 0px $p-h;
+	margin-bottom: $p-v/2;
+}
+
+.list-search {
+	padding: $g;
+	border: 2px solid $c-secondary;
+	border-radius: 0px;
+	height: $g * 8;
+	width: 100%;
+	outline: none;
+	max-width: 400px;
+	box-sizing: border-box !important;
+	display: block;
+	&:focus {
+		border: 2px solid $c-main;
+	}
+}
+
+.list-block-title {
+	@include display(flex);
+	@include align-items(center);
+	margin: 0px $p-h;
+	height: 8 * $g;
+	color: $c-secondary;
+	border-bottom: 2px solid $c-secondary;
+	font-size: 18px;
+	line-height: $lh;
+}
+
+.list-group {
+	margin-bottom: $p-v;
+}
+
+section:last-of-type {
+	margin-bottom: 0px;
+}
+
+@mixin list-group-title {
+	color: $c-secondary;
+	font-weight: bold;
+	height: $g * 8;
+	padding: 0px $p-h;
+	@include display(flex);
+	@include align-items(center);
+	// &>* {
+	// 	@include flex-shrink(0);
+	// }
+	// &>.list-group-title-border {
+	// 	background-color: $c-secondary;
+	// 	&:first-child {
+	// 		width: $p-h - $g;
+	// 		margin-right: $g;
+	// 		height: 2px;
+	// 	}
+	// 	&:last-child {
+	// 		@include flex-shrink(1);
+	// 		margin-left: $g;
+	// 		width: 100%;
+	// 		height: 2px;
+	// 	}
+	// }
+}
+
+.list-group-title {
+	@include list-group-title;
+}
+
+// .list-group-title-noborder {
+// 	@include list-group-title;
+// 	&>* {
+// 		background-color: transparent !important;
+// 	}
+// }
+
+//List item 
+.list-item-wrapper {
+
+}
+
+.list-item {
+	width: 100%;
+	cursor: pointer;
+	@include display(flex);
+	&:hover {
+		background-color: #eee;
+	}
+}
+
+.list-item-link {
+	padding-left: $p-h;
+	color: #000;
+	width: 100%;
+	min-width: 1px;
+	@include display(flex);
+	@include align-items(center);
+}
+
+.list-description {
+	margin-left: 19px;
+}
+
+.list-item-content {
+	width: 100%;
+	@include display(flex);
+	@include align-items(center);
+	&>* {
+		white-space: nowrap;
+		padding-right: 10px;
+		&:last-child {
+			padding-right: 0px;
+		}
+	}
+}
+
+.list-item-name {
+	width: 100%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.list-item-bookmark {
+	@include user-select(none);
+	width: 26px;
+	height: 32px;
+	color: #ccc;
+	padding-right: $p-h;
+	margin: 0px 0px 0px 10px;
+	@include display(flex);
+	@include align-items(center);
+	@include justify-content(center);
+	&.selected {
+		color: $c-main;
+	}
+}
+
+//Specific list items
+
+@mixin list-item-other {
+	@include flex-shrink(0);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	color: #666;
+	font-size: 12px;
+}
+
+.list-item-icon {
+	@include list-item-other;
+	width: 16px;
+}
+
+.list-item-monster-type {
+	@include list-item-other;
+	width: 70px;
+}
+
+//Description
+.description {
+	padding: 0px $p-h;
+	margin-top: 3px;
+	font-size: 14px;
+	line-height: $lh;
+}
+
+.description-block {
+	margin: 5px 0px;
+}
+
+.description-item {
+
+}
+
+.description-item-title {
+	color: $c-secondary;
+}
+
+.description-text {
+	padding: 3px 0px;
+}
+
+.description-p:not(:last-child) {
+	margin-bottom: 5px;
+}
+
+.description-block-title {
+	color: $c-secondary;
+	border-bottom: 2px dotted $c-secondary;
+	padding-bottom: 3px;
+	font-weight: bold;
+}
+
+.description-subtitle {
+	margin-bottom: 5px;
+	font-style: italic;
+	@include display(flex);
+	@include align-items(center);
+}
+
+.description-stats-table {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	& > * {
+		font-size: 12px;
+		display: table-cell;
+		text-align: center;
+	}
+}
+
+.description-stat-title {
+	font-weight: bold;
+	color: $c-secondary;
+}
+
+.description-separator {
+	//height: 10px;
+}
+
+.description-slots-content-row {
+	display: table;
+	table-layout: fixed;
+	width: 100%;
+	font-size: 12px;
+	&>* {
+		display: table-cell;
+		text-align: center;
+	}
+}
+
+.description-slots-content-row-title {
+	color: $c-secondary;
+	font-weight: bold;
+}
+
+.description-slots-content-row-empty {
+	color: #ccc;
+}
+
+//Mobile
+.nav-mobile {
+	border-bottom: 2px solid $c-secondary;
+	height: ($g * 12) - 2px;
+	margin-bottom: $p-v;
+	font-size: 16px;
+	line-height: 18px;
+	color: #fff;
+	background-color: $c-main;
+	@include display(flex);
+	@include justify-content(space-between);
+	@include align-items(center);
+}
+
+.nav-breadcrumbs-mobile {
+	@include display(flex);
+	@include align-items(center);
+}
+
+.nav-logo-mobile {
+	margin-left: $p-h;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	padding: 1px 0px;
+}
+
+.nav-title-mobile {
+	text-transform: capitalize;
+	padding: 1px 0px;
+}
+
+.nav-bookmarks-mobile {
+	margin-right: $p-h;
+	color: #fff;
+	border-bottom: 2px solid #fff;
+	padding: 1px 0px;
+}
+
+.list-item-menu-mobile {
+	padding: 0px $p-h;
+	height: 32px;
+	@include display(flex);
+	@include align-items(center);
+	color: $c-main;
+}
+
+.footer-mobile {
+	margin: 10px 0px;
+	padding: 0px $p-h;
+}
+
+// Loader
+.loader-wrapper {
+	padding: 0px $p-h;
+}
+
+// Icons
+.icon {
+	@include flex-shrink(0);
+	background-position: -999px -999px;
+	width: 16px;
+	height: 16px;
+	background-size: 128px 16px;
+	background-repeat: no-repeat;
+	padding-right: 0px;
+	margin-right: 3px;
+	background-image: url('../img/icons.png');
+	image-rendering: -moz-crisp-edges;
+    image-rendering: -o-crisp-edges;
+    image-rendering: -webkit-optimize-contrast;
+    -ms-interpolation-mode: nearest-neighbor;
+    image-rendering: pixelated;
+}
+
+.icon-school-abjuration {
+	background-position: 0px 0px;
+}
+
+.icon-school-conjuration {
+	background-position: -16px 0px;
+}
+
+.icon-school-divination {
+	background-position: -32px 0px;
+}
+
+.icon-school-enchantment {
+	background-position: -48px 0px;
+}
+
+.icon-school-evocation {
+	background-position: -64px 0px;
+}
+
+.icon-school-illusion {
+	background-position: -80px 0px;
+}
+
+.icon-school-necromancy {
+	background-position: -96px 0px;
+}
+
+.icon-school-transmutation {
+	background-position: -112px 0px;
+}
+
+//Misc
+
+.author {
+	text-align: center;
+	color: #999;
+	font-size: 14px;
+	padding-bottom: 10px;
+	>a {
+		color: #999;
+		text-decoration: underline;
+		&:hover {
+			color: #666;
+		}
+	}
+}

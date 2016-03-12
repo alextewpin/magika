@@ -1,9 +1,7 @@
 source/data_source
 node_modules
-
-### Sass ###
-.sass-cache
-*.css.map
+jsconfig.json
+*.log
 
 ### OSX ###
 .DS_Store
