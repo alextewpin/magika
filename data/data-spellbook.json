@@ -19,13 +19,13 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Abi-Dalzim's_Horrid_Wilting_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Abi-Dalzim's_Horrid_Wilting_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Absorb_Elements_(EE)": {
 			"name": "Absorb Elements (EE)",
@@ -47,15 +47,15 @@
 			"timeShort": "Reaction",
 			"rangeShort": "",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Absorb_Elements_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Druid",
 				"Ranger",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Absorb_Elements_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Acid_Splash": {
 			"name": "Acid Splash",
@@ -81,15 +81,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Acid_Splash",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Acid_Splash",
+			"hiLevelIndex": -1
 		},
 		"Aganazzar's_Scorcher_(EE)": {
 			"name": "Aganazzar's Scorcher (EE)",
@@ -111,14 +111,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Aganazzar's_Scorcher_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Aganazzar's_Scorcher_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Aid": {
 			"name": "Aid",
@@ -138,13 +138,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Aid",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric",
 				"Paladin"
-			]
+			],
+			"concentration": false,
+			"url": "Aid",
+			"hiLevelIndex": 1
 		},
 		"Alarm": {
 			"name": "Alarm",
@@ -165,14 +165,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Alarm",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Ranger",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Alarm",
+			"hiLevelIndex": -1
 		},
 		"Alter_Self": {
 			"name": "Alter Self",
@@ -195,13 +195,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Alter_Self",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Alter_Self",
+			"hiLevelIndex": -1
 		},
 		"Animal_Friendship": {
 			"name": "Animal Friendship",
@@ -221,15 +221,15 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Animal_Friendship",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Nature)",
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Animal_Friendship",
+			"hiLevelIndex": 1
 		},
 		"Animal_Messenger": {
 			"name": "Animal Messenger",
@@ -250,14 +250,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Animal_Messenger",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Animal_Messenger",
+			"hiLevelIndex": 2
 		},
 		"Animal_Shapes": {
 			"name": "Animal Shapes",
@@ -278,12 +278,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "24 h.",
-			"concentration": true,
-			"url": "Animal_Shapes",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Animal_Shapes",
+			"hiLevelIndex": -1
 		},
 		"Animate_Dead": {
 			"name": "Animate Dead",
@@ -305,15 +305,15 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Animate_Dead",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Death)",
 				"Paladin (Oathbreaker)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Animate_Dead",
+			"hiLevelIndex": 3
 		},
 		"Animate_Objects": {
 			"name": "Animate Objects",
@@ -342,14 +342,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Animate_Objects",
-			"hiLevelIndex": 10,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Animate_Objects",
+			"hiLevelIndex": 10
 		},
 		"Antilife_Shell": {
 			"name": "Antilife Shell",
@@ -370,13 +370,13 @@
 			"timeShort": "",
 			"rangeShort": "10-f. radius",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Antilife_Shell",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Death)",
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Antilife_Shell",
+			"hiLevelIndex": -1
 		},
 		"Antimagic_Field": {
 			"name": "Antimagic Field",
@@ -403,13 +403,13 @@
 			"timeShort": "",
 			"rangeShort": "10-f. radius",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Antimagic_Field",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Antimagic_Field",
+			"hiLevelIndex": -1
 		},
 		"Antipathy_Sympathy": {
 			"name": "Antipathy/Sympathy",
@@ -432,14 +432,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 d.",
-			"concentration": false,
-			"url": "Antipathy_Sympathy",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Antipathy_Sympathy",
+			"hiLevelIndex": -1
 		},
 		"Arcane_Eye": {
 			"name": "Arcane Eye",
@@ -460,14 +460,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Arcane_Eye",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Arcana)",
 				"Cleric (Knowledge)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Arcane_Eye",
+			"hiLevelIndex": -1
 		},
 		"Arcane_Gate": {
 			"name": "Arcane Gate",
@@ -488,14 +488,14 @@
 			"timeShort": "",
 			"rangeShort": "500 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Arcane_Gate",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Arcane_Gate",
+			"hiLevelIndex": -1
 		},
 		"Arcane_Hacking_(Technomagic)": {
 			"name": "Arcane Hacking (Technomagic)",
@@ -516,14 +516,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Arcane_Hacking_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Arcane_Hacking_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Arcane_Lock": {
 			"name": "Arcane Lock",
@@ -543,13 +543,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Arcane_Lock",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Arcane_Lock",
+			"hiLevelIndex": -1
 		},
 		"Armor_of_Agathys": {
 			"name": "Armor of Agathys",
@@ -569,12 +569,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Armor_of_Agathys",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Warlock"
-			]
+			],
+			"concentration": false,
+			"url": "Armor_of_Agathys",
+			"hiLevelIndex": 1
 		},
 		"Arms_of_Hadar": {
 			"name": "Arms of Hadar",
@@ -595,12 +595,12 @@
 			"timeShort": "",
 			"rangeShort": "10-f. radius",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Arms_of_Hadar",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Warlock"
-			]
+			],
+			"concentration": false,
+			"url": "Arms_of_Hadar",
+			"hiLevelIndex": 1
 		},
 		"Astral_Projection": {
 			"name": "Astral Projection",
@@ -624,14 +624,14 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Astral_Projection",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Astral_Projection",
+			"hiLevelIndex": -1
 		},
 		"Augury": {
 			"name": "Augury",
@@ -656,13 +656,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Augury",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Knowledge)"
-			]
+			],
+			"concentration": false,
+			"url": "Augury",
+			"hiLevelIndex": -1
 		},
 		"Aura_of_Life": {
 			"name": "Aura of Life",
@@ -681,13 +681,13 @@
 			"timeShort": "",
 			"rangeShort": "30-f. radius",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Aura_of_Life",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin",
 				"Warlock (Undying)"
-			]
+			],
+			"concentration": true,
+			"url": "Aura_of_Life",
+			"hiLevelIndex": -1
 		},
 		"Aura_of_Purity": {
 			"name": "Aura of Purity",
@@ -706,12 +706,12 @@
 			"timeShort": "",
 			"rangeShort": "30-f. radius",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Aura_of_Purity",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Aura_of_Purity",
+			"hiLevelIndex": -1
 		},
 		"Aura_of_Vitality": {
 			"name": "Aura of Vitality",
@@ -731,13 +731,13 @@
 			"timeShort": "",
 			"rangeShort": "30-f. radius",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Aura_of_Vitality",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin",
 				"Paladin (Crown)"
-			]
+			],
+			"concentration": true,
+			"url": "Aura_of_Vitality",
+			"hiLevelIndex": -1
 		},
 		"Awaken": {
 			"name": "Awaken",
@@ -757,13 +757,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Awaken",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Awaken",
+			"hiLevelIndex": -1
 		},
 		"Bane": {
 			"name": "Bane",
@@ -783,14 +783,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Bane",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Paladin (Vengeance)"
-			]
+			],
+			"concentration": true,
+			"url": "Bane",
+			"hiLevelIndex": 1
 		},
 		"Banishing_Smite": {
 			"name": "Banishing Smite",
@@ -810,12 +810,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Banishing_Smite",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Banishing_Smite",
+			"hiLevelIndex": -1
 		},
 		"Banishment": {
 			"name": "Banishment",
@@ -837,9 +837,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Banishment",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric",
 				"Paladin",
@@ -849,7 +846,10 @@
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Banishment",
+			"hiLevelIndex": 3
 		},
 		"Barkskin": {
 			"name": "Barkskin",
@@ -868,15 +868,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Barkskin",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Nature)",
 				"Druid",
 				"Druid (Forest)",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Barkskin",
+			"hiLevelIndex": -1
 		},
 		"Beacon_of_Hope": {
 			"name": "Beacon of Hope",
@@ -895,14 +895,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Beacon_of_Hope",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Life)",
 				"Paladin (Devotion)"
-			]
+			],
+			"concentration": true,
+			"url": "Beacon_of_Hope",
+			"hiLevelIndex": -1
 		},
 		"Beast_Bond_(EE)": {
 			"name": "Beast Bond (EE)",
@@ -922,13 +922,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Beast_Bond_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Beast_Bond_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Beast_Sense": {
 			"name": "Beast Sense",
@@ -947,13 +947,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Beast_Sense",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Beast_Sense",
+			"hiLevelIndex": -1
 		},
 		"Bestow_Curse": {
 			"name": "Bestow Curse",
@@ -978,15 +978,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Bestow_Curse",
-			"hiLevelIndex": 6,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Paladin (Oathbreaker)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Bestow_Curse",
+			"hiLevelIndex": 6
 		},
 		"Bigby's_Hand": {
 			"name": "Bigby's Hand",
@@ -1018,12 +1018,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Bigby's_Hand",
-			"hiLevelIndex": 7,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Bigby's_Hand",
+			"hiLevelIndex": 7
 		},
 		"Blade_Barrier": {
 			"name": "Blade Barrier",
@@ -1044,12 +1044,12 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Blade_Barrier",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": true,
+			"url": "Blade_Barrier",
+			"hiLevelIndex": -1
 		},
 		"Blade_Ward": {
 			"name": "Blade Ward",
@@ -1068,9 +1068,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Blade_Ward",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
@@ -1078,7 +1075,10 @@
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Blade_Ward",
+			"hiLevelIndex": -1
 		},
 		"Bless": {
 			"name": "Bless",
@@ -1098,14 +1098,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Bless",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Life)",
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Bless",
+			"hiLevelIndex": 1
 		},
 		"Blight": {
 			"name": "Blight",
@@ -1128,9 +1128,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Blight",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric (Death)",
 				"Druid",
@@ -1139,7 +1136,10 @@
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Blight",
+			"hiLevelIndex": 3
 		},
 		"Blinding_Smite": {
 			"name": "Blinding Smite",
@@ -1160,12 +1160,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Blinding_Smite",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Blinding_Smite",
+			"hiLevelIndex": -1
 		},
 		"Blindness_Deafness": {
 			"name": "Blindness/Deafness",
@@ -1185,9 +1185,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Blindness_Deafness",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -1196,7 +1193,10 @@
 				"Warlock (Fiend)",
 				"Warlock (Undying)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Blindness_Deafness",
+			"hiLevelIndex": 1
 		},
 		"Blink": {
 			"name": "Blink",
@@ -1217,15 +1217,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Blink",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Trickery)",
 				"Sorcerer",
 				"Warlock (Archfey)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Blink",
+			"hiLevelIndex": -1
 		},
 		"Blur": {
 			"name": "Blur",
@@ -1244,15 +1244,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Blur",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Desert)",
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Blur",
+			"hiLevelIndex": -1
 		},
 		"Bones_of_the_Earth_(EE)": {
 			"name": "Bones of the Earth (EE)",
@@ -1274,12 +1274,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Bones_of_the_Earth_(EE)",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Bones_of_the_Earth_(EE)",
+			"hiLevelIndex": 2
 		},
 		"Booming_Blade_(SCAG)": {
 			"name": "Booming Blade (SCAG)",
@@ -1305,14 +1305,14 @@
 			"timeShort": "",
 			"rangeShort": "5 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Booming_Blade_(SCAG)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Booming_Blade_(SCAG)",
+			"hiLevelIndex": -1
 		},
 		"Branding_Smite": {
 			"name": "Branding Smite",
@@ -1333,12 +1333,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Branding_Smite",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Branding_Smite",
+			"hiLevelIndex": 1
 		},
 		"Burning_Hands": {
 			"name": "Burning Hands",
@@ -1360,16 +1360,16 @@
 			"timeShort": "",
 			"rangeShort": "15-f. cone",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Burning_Hands",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Cleric (Light)",
 				"Sorcerer",
 				"Warlock (Fiend)",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Burning_Hands",
+			"hiLevelIndex": 2
 		},
 		"Call_Lightning": {
 			"name": "Call Lightning",
@@ -1392,14 +1392,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Call_Lightning",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric (Tempest)",
 				"Druid",
 				"Druid (Forest)"
-			]
+			],
+			"concentration": true,
+			"url": "Call_Lightning",
+			"hiLevelIndex": 3
 		},
 		"Calm_Emotions": {
 			"name": "Calm Emotions",
@@ -1420,14 +1420,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Calm_Emotions",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Warlock (Archfey)"
-			]
+			],
+			"concentration": true,
+			"url": "Calm_Emotions",
+			"hiLevelIndex": -1
 		},
 		"Catapult_(EE)": {
 			"name": "Catapult (EE)",
@@ -1449,13 +1449,13 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Catapult_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Catapult_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Chain_Lightning": {
 			"name": "Chain Lightning",
@@ -1477,13 +1477,13 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Chain_Lightning",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Chain_Lightning",
+			"hiLevelIndex": 2
 		},
 		"Charm_Person": {
 			"name": "Charm Person",
@@ -1503,9 +1503,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Charm_Person",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Trickery)",
@@ -1514,7 +1511,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Charm_Person",
+			"hiLevelIndex": 1
 		},
 		"Chill_Touch": {
 			"name": "Chill Touch",
@@ -1542,14 +1542,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Chill_Touch",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Chill_Touch",
+			"hiLevelIndex": -1
 		},
 		"Chromatic_Orb": {
 			"name": "Chromatic Orb",
@@ -1573,14 +1573,14 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Chromatic_Orb",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Chromatic_Orb",
+			"hiLevelIndex": 1
 		},
 		"Circle_of_Death": {
 			"name": "Circle of Death",
@@ -1601,14 +1601,14 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Circle_of_Death",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Circle_of_Death",
+			"hiLevelIndex": 1
 		},
 		"Circle_of_Power": {
 			"name": "Circle of Power",
@@ -1627,13 +1627,13 @@
 			"timeShort": "",
 			"rangeShort": "30-f. radius",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Circle_of_Power",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin",
 				"Paladin (Crown)"
-			]
+			],
+			"concentration": true,
+			"url": "Circle_of_Power",
+			"hiLevelIndex": -1
 		},
 		"Clairvoyance": {
 			"name": "Clairvoyance",
@@ -1654,16 +1654,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Clairvoyance",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Sorcerer",
 				"Warlock (Great Old One)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Clairvoyance",
+			"hiLevelIndex": -1
 		},
 		"Clone": {
 			"name": "Clone",
@@ -1683,12 +1683,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Clone",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Clone",
+			"hiLevelIndex": -1
 		},
 		"Cloud_of_Daggers": {
 			"name": "Cloud of Daggers",
@@ -1709,15 +1709,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Cloud_of_Daggers",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Cloud_of_Daggers",
+			"hiLevelIndex": 1
 		},
 		"Cloudkill": {
 			"name": "Cloudkill",
@@ -1740,15 +1740,15 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Cloudkill",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric (Death)",
 				"Druid (Underdark)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Cloudkill",
+			"hiLevelIndex": 3
 		},
 		"Color_Spray": {
 			"name": "Color Spray",
@@ -1770,14 +1770,14 @@
 			"timeShort": "",
 			"rangeShort": "15-f. cone",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Color_Spray",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Color_Spray",
+			"hiLevelIndex": 2
 		},
 		"Command": {
 			"name": "Command",
@@ -1803,16 +1803,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Command",
-			"hiLevelIndex": 7,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Knowledge)",
 				"Paladin",
 				"Paladin (Crown)",
 				"Warlock (Fiend)"
-			]
+			],
+			"concentration": false,
+			"url": "Command",
+			"hiLevelIndex": 7
 		},
 		"Commune": {
 			"name": "Commune",
@@ -1833,13 +1833,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Commune",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Paladin (Devotion)"
-			]
+			],
+			"concentration": false,
+			"url": "Commune",
+			"hiLevelIndex": -1
 		},
 		"Commune_with_City": {
 			"name": "Commune with City",
@@ -1872,14 +1872,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Commune_with_City",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Commune_with_City",
+			"hiLevelIndex": -1
 		},
 		"Commune_with_Nature": {
 			"name": "Commune with Nature",
@@ -1900,16 +1900,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Commune_with_Nature",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Druid (Arctic)",
 				"Druid (Forest)",
 				"Paladin (Ancients)",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Commune_with_Nature",
+			"hiLevelIndex": -1
 		},
 		"Compelled_Duel": {
 			"name": "Compelled Duel",
@@ -1929,13 +1929,13 @@
 			"timeShort": "Bonus",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Compelled_Duel",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin",
 				"Paladin (Crown)"
-			]
+			],
+			"concentration": true,
+			"url": "Compelled_Duel",
+			"hiLevelIndex": -1
 		},
 		"Comprehend_Languages": {
 			"name": "Comprehend Languages",
@@ -1956,12 +1956,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Comprehend_Languages",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (City)"
-			]
+			],
+			"concentration": false,
+			"url": "Comprehend_Languages",
+			"hiLevelIndex": -1
 		},
 		"Compulsion": {
 			"name": "Compulsion",
@@ -1981,12 +1981,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Compulsion",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard"
-			]
+			],
+			"concentration": true,
+			"url": "Compulsion",
+			"hiLevelIndex": -1
 		},
 		"Cone_of_Cold": {
 			"name": "Cone of Cold",
@@ -2008,14 +2008,14 @@
 			"timeShort": "",
 			"rangeShort": "60-f. cone",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Cone_of_Cold",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Druid (Arctic)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Cone_of_Cold",
+			"hiLevelIndex": 2
 		},
 		"Confusion": {
 			"name": "Confusion",
@@ -2042,9 +2042,6 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Confusion",
-			"hiLevelIndex": 7,
 			"classesArray": [
 				"Bard",
 				"Cleric (Knowledge)",
@@ -2053,7 +2050,10 @@
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Confusion",
+			"hiLevelIndex": 7
 		},
 		"Conjure_Animals": {
 			"name": "Conjure Animals",
@@ -2079,13 +2079,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Conjure_Animals",
-			"hiLevelIndex": 7,
 			"classesArray": [
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Conjure_Animals",
+			"hiLevelIndex": 7
 		},
 		"Conjure_Barrage": {
 			"name": "Conjure Barrage",
@@ -2105,12 +2105,12 @@
 			"timeShort": "",
 			"rangeShort": "60-f. cone",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Conjure_Barrage",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Conjure_Barrage",
+			"hiLevelIndex": -1
 		},
 		"Conjure_Celestial": {
 			"name": "Conjure Celestial",
@@ -2131,12 +2131,12 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Conjure_Celestial",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": true,
+			"url": "Conjure_Celestial",
+			"hiLevelIndex": -1
 		},
 		"Conjure_Elemental": {
 			"name": "Conjure Elemental",
@@ -2158,14 +2158,14 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Conjure_Elemental",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Druid",
 				"Druid (Coast)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Conjure_Elemental",
+			"hiLevelIndex": 3
 		},
 		"Conjure_Fey": {
 			"name": "Conjure Fey",
@@ -2187,13 +2187,13 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Conjure_Fey",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Druid",
 				"Warlock"
-			]
+			],
+			"concentration": true,
+			"url": "Conjure_Fey",
+			"hiLevelIndex": 3
 		},
 		"Conjure_Knowbot": {
 			"name": "Conjure Knowbot",
@@ -2216,14 +2216,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Conjure_Knowbot",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Conjure_Knowbot",
+			"hiLevelIndex": -1
 		},
 		"Conjure_Minor_Elementals": {
 			"name": "Conjure Minor Elementals",
@@ -2249,13 +2249,13 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Conjure_Minor_Elementals",
-			"hiLevelIndex": 7,
 			"classesArray": [
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Conjure_Minor_Elementals",
+			"hiLevelIndex": 7
 		},
 		"Conjure_Volley": {
 			"name": "Conjure Volley",
@@ -2275,12 +2275,12 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Conjure_Volley",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Conjure_Volley",
+			"hiLevelIndex": -1
 		},
 		"Conjure_Woodland_Beings": {
 			"name": "Conjure Woodland Beings",
@@ -2305,13 +2305,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Conjure_Woodland_Beings",
-			"hiLevelIndex": 6,
 			"classesArray": [
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Conjure_Woodland_Beings",
+			"hiLevelIndex": 6
 		},
 		"Contact_Other_Plane": {
 			"name": "Contact Other Plane",
@@ -2332,13 +2332,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Contact_Other_Plane",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Contact_Other_Plane",
+			"hiLevelIndex": -1
 		},
 		"Contagion": {
 			"name": "Contagion",
@@ -2366,15 +2366,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "7 d.",
-			"concentration": false,
-			"url": "Contagion",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Paladin (Oathbreaker)",
 				"Warlock (Undying)"
-			]
+			],
+			"concentration": false,
+			"url": "Contagion",
+			"hiLevelIndex": -1
 		},
 		"Contingency": {
 			"name": "Contingency",
@@ -2395,12 +2395,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 d.",
-			"concentration": false,
-			"url": "Contingency",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Contingency",
+			"hiLevelIndex": -1
 		},
 		"Continual_Flame": {
 			"name": "Continual Flame",
@@ -2419,14 +2419,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Continual_Flame",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Continual_Flame",
+			"hiLevelIndex": -1
 		},
 		"Control_Flames_(EE)": {
 			"name": "Control Flames (EE)",
@@ -2451,16 +2451,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "Instantaneous or 1 h. (see below)",
-			"concentration": false,
-			"url": "Control_Flames_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Control_Flames_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Control_Water": {
 			"name": "Control Water",
@@ -2484,16 +2484,16 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Control_Water",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Tempest)",
 				"Druid",
 				"Druid (Coast)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Control_Water",
+			"hiLevelIndex": -1
 		},
 		"Control_Weather": {
 			"name": "Control Weather",
@@ -2534,14 +2534,14 @@
 			"timeShort": "",
 			"rangeShort": "5-m. radius",
 			"durationShort": "8 h.",
-			"concentration": true,
-			"url": "Control_Weather",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Control_Weather",
+			"hiLevelIndex": -1
 		},
 		"Control_Winds_(EE)": {
 			"name": "Control Winds (EE)",
@@ -2564,14 +2564,14 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Control_Winds_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Control_Winds_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Cordon_of_Arrows": {
 			"name": "Cordon of Arrows",
@@ -2593,12 +2593,12 @@
 			"timeShort": "",
 			"rangeShort": "5 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Cordon_of_Arrows",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Cordon_of_Arrows",
+			"hiLevelIndex": 2
 		},
 		"Counterspell": {
 			"name": "Counterspell",
@@ -2618,15 +2618,15 @@
 			"timeShort": "Reaction",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Counterspell",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Counterspell",
+			"hiLevelIndex": -1
 		},
 		"Create_Bonfire_(EE)": {
 			"name": "Create Bonfire (EE)",
@@ -2653,9 +2653,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Create_Bonfire_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
@@ -2663,7 +2660,10 @@
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Create_Bonfire_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Create_Food_and_Water": {
 			"name": "Create Food and Water",
@@ -2682,14 +2682,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Create_Food_and_Water",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid (Desert)",
 				"Paladin"
-			]
+			],
+			"concentration": false,
+			"url": "Create_Food_and_Water",
+			"hiLevelIndex": -1
 		},
 		"Create_or_Destroy_Water": {
 			"name": "Create or Destroy Water",
@@ -2711,13 +2711,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Create_or_Destroy_Water",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Create_or_Destroy_Water",
+			"hiLevelIndex": 3
 		},
 		"Create_Undead": {
 			"name": "Create Undead",
@@ -2739,14 +2739,14 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Create_Undead",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Create_Undead",
+			"hiLevelIndex": 3
 		},
 		"Creation": {
 			"name": "Creation",
@@ -2774,14 +2774,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Creation",
-			"hiLevelIndex": 9,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Creation",
+			"hiLevelIndex": 9
 		},
 		"Crown_of_Madness": {
 			"name": "Crown of Madness",
@@ -2802,9 +2802,6 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Crown_of_Madness",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Paladin (Oathbreaker)",
@@ -2812,7 +2809,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Crown_of_Madness",
+			"hiLevelIndex": -1
 		},
 		"Crusader's_Mantle": {
 			"name": "Crusader's Mantle",
@@ -2832,13 +2832,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Crusader's_Mantle",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (War)",
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Crusader's_Mantle",
+			"hiLevelIndex": -1
 		},
 		"Cure_Wounds": {
 			"name": "Cure Wounds",
@@ -2859,9 +2859,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Cure_Wounds",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -2869,7 +2866,10 @@
 				"Druid",
 				"Paladin",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Cure_Wounds",
+			"hiLevelIndex": 1
 		},
 		"Dancing_Lights": {
 			"name": "Dancing Lights",
@@ -2889,16 +2889,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Dancing_Lights",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Dancing_Lights",
+			"hiLevelIndex": -1
 		},
 		"Darkness": {
 			"name": "Darkness",
@@ -2919,9 +2919,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Darkness",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Swamp)",
 				"Paladin (Oathbreaker)",
@@ -2929,7 +2926,10 @@
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Darkness",
+			"hiLevelIndex": -1
 		},
 		"Darkvision": {
 			"name": "Darkvision",
@@ -2948,15 +2948,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Darkvision",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Ranger",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Darkvision",
+			"hiLevelIndex": -1
 		},
 		"Daylight": {
 			"name": "Daylight",
@@ -2977,9 +2977,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Daylight",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Light)",
@@ -2988,7 +2985,10 @@
 				"Paladin",
 				"Ranger",
 				"Sorcerer"
-			]
+			],
+			"concentration": false,
+			"url": "Daylight",
+			"hiLevelIndex": -1
 		},
 		"Death_Ward": {
 			"name": "Death Ward",
@@ -3007,16 +3007,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Death_Ward",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Death)",
 				"Cleric (Life)",
 				"Paladin",
 				"Warlock (Undying)"
-			]
+			],
+			"concentration": false,
+			"url": "Death_Ward",
+			"hiLevelIndex": -1
 		},
 		"Delayed_Blast_Fireball": {
 			"name": "Delayed Blast Fireball",
@@ -3040,13 +3040,13 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Delayed_Blast_Fireball",
-			"hiLevelIndex": 4,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Delayed_Blast_Fireball",
+			"hiLevelIndex": 4
 		},
 		"Demiplane": {
 			"name": "Demiplane",
@@ -3066,13 +3066,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Demiplane",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Demiplane",
+			"hiLevelIndex": -1
 		},
 		"Destructive_Wave": {
 			"name": "Destructive Wave",
@@ -3092,13 +3092,13 @@
 			"timeShort": "",
 			"rangeShort": "30-f. radius",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Destructive_Wave",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Tempest)",
 				"Paladin"
-			]
+			],
+			"concentration": false,
+			"url": "Destructive_Wave",
+			"hiLevelIndex": -1
 		},
 		"Detect_Evil_and_Good": {
 			"name": "Detect Evil and Good",
@@ -3117,13 +3117,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Detect_Evil_and_Good",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Detect_Evil_and_Good",
+			"hiLevelIndex": -1
 		},
 		"Detect_Magic": {
 			"name": "Detect Magic",
@@ -3143,9 +3143,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Detect_Magic",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -3155,7 +3152,10 @@
 				"Ranger",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Detect_Magic",
+			"hiLevelIndex": -1
 		},
 		"Detect_Poison_and_Disease": {
 			"name": "Detect Poison and Disease",
@@ -3175,15 +3175,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Detect_Poison_and_Disease",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Paladin",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Detect_Poison_and_Disease",
+			"hiLevelIndex": -1
 		},
 		"Detect_Thoughts": {
 			"name": "Detect Thoughts",
@@ -3206,15 +3206,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Detect_Thoughts",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock (Great Old One)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Detect_Thoughts",
+			"hiLevelIndex": -1
 		},
 		"Digital_Phantom_(Technomagic)": {
 			"name": "Digital Phantom (Technomagic)",
@@ -3234,14 +3234,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Digital_Phantom_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Digital_Phantom_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Dimension_Door": {
 			"name": "Dimension Door",
@@ -3263,9 +3263,6 @@
 			"timeShort": "",
 			"rangeShort": "500 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Dimension_Door",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Trickery)",
@@ -3273,7 +3270,10 @@
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Dimension_Door",
+			"hiLevelIndex": -1
 		},
 		"Disguise_Self": {
 			"name": "Disguise Self",
@@ -3294,16 +3294,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Disguise_Self",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Trickery)",
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Disguise_Self",
+			"hiLevelIndex": -1
 		},
 		"Disintegrate": {
 			"name": "Disintegrate",
@@ -3327,13 +3327,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Disintegrate",
-			"hiLevelIndex": 4,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Disintegrate",
+			"hiLevelIndex": 4
 		},
 		"Dispel_Evil_and_Good": {
 			"name": "Dispel Evil and Good",
@@ -3355,13 +3355,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Dispel_Evil_and_Good",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Dispel_Evil_and_Good",
+			"hiLevelIndex": -1
 		},
 		"Dispel_Magic": {
 			"name": "Dispel Magic",
@@ -3381,9 +3381,6 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Dispel_Magic",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -3396,7 +3393,10 @@
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Dispel_Magic",
+			"hiLevelIndex": 1
 		},
 		"Dissonant_Whispers": {
 			"name": "Dissonant Whispers",
@@ -3417,13 +3417,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Dissonant_Whispers",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Warlock (Great Old One)"
-			]
+			],
+			"concentration": false,
+			"url": "Dissonant_Whispers",
+			"hiLevelIndex": 1
 		},
 		"Divination": {
 			"name": "Divination",
@@ -3444,14 +3444,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Divination",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid (Forest)",
 				"Druid (Grassland)"
-			]
+			],
+			"concentration": false,
+			"url": "Divination",
+			"hiLevelIndex": -1
 		},
 		"Divine_Favor": {
 			"name": "Divine Favor",
@@ -3470,13 +3470,13 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Divine_Favor",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (War)",
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Divine_Favor",
+			"hiLevelIndex": -1
 		},
 		"Divine_Word": {
 			"name": "Divine Word",
@@ -3500,12 +3500,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Divine_Word",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Divine_Word",
+			"hiLevelIndex": -1
 		},
 		"Dominate_Beast": {
 			"name": "Dominate Beast",
@@ -3528,16 +3528,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Dominate_Beast",
-			"hiLevelIndex": 4,
 			"classesArray": [
 				"Cleric (Nature)",
 				"Druid",
 				"Sorcerer",
 				"Warlock (Archfey)",
 				"Warlock (Great Old One)"
-			]
+			],
+			"concentration": true,
+			"url": "Dominate_Beast",
+			"hiLevelIndex": 4
 		},
 		"Dominate_Monster": {
 			"name": "Dominate Monster",
@@ -3560,16 +3560,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Dominate_Monster",
-			"hiLevelIndex": 4,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Dominate_Monster",
+			"hiLevelIndex": 4
 		},
 		"Dominate_Person": {
 			"name": "Dominate Person",
@@ -3592,9 +3592,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Dominate_Person",
-			"hiLevelIndex": 4,
 			"classesArray": [
 				"Bard",
 				"Cleric (Trickery)",
@@ -3604,7 +3601,10 @@
 				"Warlock (Great Old One)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Dominate_Person",
+			"hiLevelIndex": 4
 		},
 		"Drawmij's_Instant_Summon": {
 			"name": "Drawmij's Instant Summon",
@@ -3626,12 +3626,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Drawmij's_Instant_Summon",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Drawmij's_Instant_Summon",
+			"hiLevelIndex": -1
 		},
 		"Dream": {
 			"name": "Dream",
@@ -3654,16 +3654,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Dream",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid (Grassland)",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Dream",
+			"hiLevelIndex": -1
 		},
 		"Druidcraft": {
 			"name": "Druidcraft",
@@ -3686,12 +3686,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Druidcraft",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Druidcraft",
+			"hiLevelIndex": -1
 		},
 		"Dust_Devil_(EE)": {
 			"name": "Dust Devil (EE)",
@@ -3715,14 +3715,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Dust_Devil_(EE)",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Dust_Devil_(EE)",
+			"hiLevelIndex": 3
 		},
 		"Earth_Tremor_(EE)": {
 			"name": "Earth Tremor (EE)",
@@ -3744,16 +3744,16 @@
 			"timeShort": "",
 			"rangeShort": "10-f. radius",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Earth_Tremor_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Earth_Tremor_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Earthbind_(EE)": {
 			"name": "Earthbind (EE)",
@@ -3773,15 +3773,15 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Earthbind_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Earthbind_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Earthquake": {
 			"name": "Earthquake",
@@ -3810,14 +3810,14 @@
 			"timeShort": "",
 			"rangeShort": "500 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Earthquake",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Sorcerer"
-			]
+			],
+			"concentration": true,
+			"url": "Earthquake",
+			"hiLevelIndex": -1
 		},
 		"Eldritch_Blast": {
 			"name": "Eldritch Blast",
@@ -3842,12 +3842,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Eldritch_Blast",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock"
-			]
+			],
+			"concentration": false,
+			"url": "Eldritch_Blast",
+			"hiLevelIndex": -1
 		},
 		"Elemental_Bane_(EE)": {
 			"name": "Elemental Bane (EE)",
@@ -3869,14 +3869,14 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Elemental_Bane_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Druid",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Elemental_Bane_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Elemental_Weapon": {
 			"name": "Elemental Weapon",
@@ -3897,12 +3897,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Elemental_Weapon",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Elemental_Weapon",
+			"hiLevelIndex": 1
 		},
 		"Enhance_Ability": {
 			"name": "Enhance Ability",
@@ -3928,15 +3928,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Enhance_Ability",
-			"hiLevelIndex": 7,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid",
 				"Sorcerer"
-			]
+			],
+			"concentration": true,
+			"url": "Enhance_Ability",
+			"hiLevelIndex": 7
 		},
 		"Enlarge_Reduce": {
 			"name": "Enlarge/Reduce",
@@ -3958,13 +3958,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Enlarge_Reduce",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Enlarge_Reduce",
+			"hiLevelIndex": -1
 		},
 		"Ensnaring_Strike": {
 			"name": "Ensnaring Strike",
@@ -3986,13 +3986,13 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Ensnaring_Strike",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Paladin (Ancients)",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Ensnaring_Strike",
+			"hiLevelIndex": 2
 		},
 		"Entangle": {
 			"name": "Entangle",
@@ -4013,12 +4013,12 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Entangle",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Entangle",
+			"hiLevelIndex": -1
 		},
 		"Enthrall": {
 			"name": "Enthrall",
@@ -4037,13 +4037,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Enthrall",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Warlock"
-			]
+			],
+			"concentration": false,
+			"url": "Enthrall",
+			"hiLevelIndex": -1
 		},
 		"Erupting_Earth_(EE)": {
 			"name": "Erupting Earth (EE)",
@@ -4065,14 +4065,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Erupting_Earth_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Erupting_Earth_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Etherealness": {
 			"name": "Etherealness",
@@ -4096,16 +4096,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Etherealness",
-			"hiLevelIndex": 5,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Etherealness",
+			"hiLevelIndex": 5
 		},
 		"Evard's_Black_Tentacles": {
 			"name": "Evard's Black Tentacles",
@@ -4127,13 +4127,13 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Evard's_Black_Tentacles",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock (Great Old One)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Evard's_Black_Tentacles",
+			"hiLevelIndex": -1
 		},
 		"Expeditious_Retreat": {
 			"name": "Expeditious Retreat",
@@ -4152,14 +4152,14 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Expeditious_Retreat",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Expeditious_Retreat",
+			"hiLevelIndex": -1
 		},
 		"Eyebite": {
 			"name": "Eyebite",
@@ -4181,15 +4181,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Eyebite",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Eyebite",
+			"hiLevelIndex": -1
 		},
 		"Fabricate": {
 			"name": "Fabricate",
@@ -4210,13 +4210,13 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Fabricate",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Fabricate",
+			"hiLevelIndex": -1
 		},
 		"Faerie_Fire": {
 			"name": "Faerie Fire",
@@ -4236,15 +4236,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Faerie_Fire",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Light)",
 				"Druid",
 				"Warlock (Archfey)"
-			]
+			],
+			"concentration": true,
+			"url": "Faerie_Fire",
+			"hiLevelIndex": -1
 		},
 		"False_Life": {
 			"name": "False Life",
@@ -4265,15 +4265,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "False_Life",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric (Death)",
 				"Sorcerer",
 				"Warlock (Undying)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "False_Life",
+			"hiLevelIndex": 1
 		},
 		"Fear": {
 			"name": "Fear",
@@ -4293,16 +4293,16 @@
 			"timeShort": "",
 			"rangeShort": "30-f. cone",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Fear",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Fear",
+			"hiLevelIndex": -1
 		},
 		"Feather_Fall": {
 			"name": "Feather Fall",
@@ -4321,14 +4321,14 @@
 			"timeShort": "Reaction",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Feather_Fall",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Feather_Fall",
+			"hiLevelIndex": -1
 		},
 		"Feeblemind": {
 			"name": "Feeblemind",
@@ -4351,16 +4351,16 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Feeblemind",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Feeblemind",
+			"hiLevelIndex": -1
 		},
 		"Feign_Death": {
 			"name": "Feign Death",
@@ -4380,16 +4380,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Feign_Death",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid",
 				"Warlock (Undying)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Feign_Death",
+			"hiLevelIndex": -1
 		},
 		"Find_Familiar": {
 			"name": "Find Familiar",
@@ -4413,12 +4413,12 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Find_Familiar",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Find_Familiar",
+			"hiLevelIndex": -1
 		},
 		"Find_Steed": {
 			"name": "Find Steed",
@@ -4441,12 +4441,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Find_Steed",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": false,
+			"url": "Find_Steed",
+			"hiLevelIndex": -1
 		},
 		"Find_the_Path": {
 			"name": "Find the Path",
@@ -4466,14 +4466,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 d.",
-			"concentration": true,
-			"url": "Find_the_Path",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Find_the_Path",
+			"hiLevelIndex": -1
 		},
 		"Find_Traps": {
 			"name": "Find Traps",
@@ -4493,14 +4493,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Find_Traps",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Find_Traps",
+			"hiLevelIndex": -1
 		},
 		"Find_Vehicle": {
 			"name": "Find Vehicle",
@@ -4524,16 +4524,16 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Find_Vehicle",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Cleric (City)"
-			]
+			],
+			"concentration": false,
+			"url": "Find_Vehicle",
+			"hiLevelIndex": -1
 		},
 		"Finger_of_Death": {
 			"name": "Finger of Death",
@@ -4554,14 +4554,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Finger_of_Death",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Finger_of_Death",
+			"hiLevelIndex": -1
 		},
 		"Fire_Bolt": {
 			"name": "Fire Bolt",
@@ -4588,15 +4588,15 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Fire_Bolt",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Fire_Bolt",
+			"hiLevelIndex": -1
 		},
 		"Fire_Shield": {
 			"name": "Fire Shield",
@@ -4618,14 +4618,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Fire_Shield",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock (Fiend)",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Fire_Shield",
+			"hiLevelIndex": -1
 		},
 		"Fire_Storm": {
 			"name": "Fire Storm",
@@ -4646,14 +4646,14 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Fire_Storm",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Sorcerer"
-			]
+			],
+			"concentration": false,
+			"url": "Fire_Storm",
+			"hiLevelIndex": -1
 		},
 		"Fireball": {
 			"name": "Fireball",
@@ -4675,16 +4675,16 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Fireball",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Cleric (Light)",
 				"Sorcerer",
 				"Warlock (Fiend)",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Fireball",
+			"hiLevelIndex": 2
 		},
 		"Flame_Arrows_(EE)": {
 			"name": "Flame Arrows (EE)",
@@ -4706,15 +4706,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Flame_Arrows_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Druid",
 				"Ranger",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Flame_Arrows_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Flame_Blade": {
 			"name": "Flame Blade",
@@ -4740,12 +4740,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Flame_Blade",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Flame_Blade",
+			"hiLevelIndex": 3
 		},
 		"Flame_Strike": {
 			"name": "Flame Strike",
@@ -4766,16 +4766,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Flame_Strike",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Light)",
 				"Cleric (War)",
 				"Paladin (Devotion)",
 				"Warlock (Fiend)"
-			]
+			],
+			"concentration": false,
+			"url": "Flame_Strike",
+			"hiLevelIndex": 1
 		},
 		"Flaming_Sphere": {
 			"name": "Flaming Sphere",
@@ -4798,14 +4798,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Flaming_Sphere",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric (Light)",
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Flaming_Sphere",
+			"hiLevelIndex": 3
 		},
 		"Flesh_to_Stone": {
 			"name": "Flesh to Stone",
@@ -4827,13 +4827,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Flesh_to_Stone",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Flesh_to_Stone",
+			"hiLevelIndex": -1
 		},
 		"Fly": {
 			"name": "Fly",
@@ -4853,14 +4853,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Fly",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Fly",
+			"hiLevelIndex": 1
 		},
 		"Fog_Cloud": {
 			"name": "Fog Cloud",
@@ -4880,16 +4880,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Fog_Cloud",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric (Tempest)",
 				"Druid",
 				"Ranger",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Fog_Cloud",
+			"hiLevelIndex": 1
 		},
 		"Forbiddance": {
 			"name": "Forbiddance",
@@ -4912,12 +4912,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 d.",
-			"concentration": false,
-			"url": "Forbiddance",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Forbiddance",
+			"hiLevelIndex": -1
 		},
 		"Forcecage": {
 			"name": "Forcecage",
@@ -4941,14 +4941,14 @@
 			"timeShort": "",
 			"rangeShort": "100 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Forcecage",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Forcecage",
+			"hiLevelIndex": -1
 		},
 		"Foresight": {
 			"name": "Foresight",
@@ -4968,15 +4968,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Foresight",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Foresight",
+			"hiLevelIndex": -1
 		},
 		"Freedom_of_Movement": {
 			"name": "Freedom of Movement",
@@ -4996,9 +4996,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Freedom_of_Movement",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -5011,7 +5008,10 @@
 				"Druid (Swamp)",
 				"Paladin (Devotion)",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Freedom_of_Movement",
+			"hiLevelIndex": -1
 		},
 		"Friends": {
 			"name": "Friends",
@@ -5030,9 +5030,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Friends",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
@@ -5040,7 +5037,10 @@
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Friends",
+			"hiLevelIndex": -1
 		},
 		"Frostbite_(EE)": {
 			"name": "Frostbite (EE)",
@@ -5067,9 +5067,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Frostbite_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
@@ -5077,7 +5074,10 @@
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Frostbite_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Gaseous_Form": {
 			"name": "Gaseous Form",
@@ -5098,15 +5098,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Gaseous_Form",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Underdark)",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Gaseous_Form",
+			"hiLevelIndex": -1
 		},
 		"Gate": {
 			"name": "Gate",
@@ -5128,14 +5128,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Gate",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Gate",
+			"hiLevelIndex": -1
 		},
 		"Geas": {
 			"name": "Geas",
@@ -5158,9 +5158,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "30 d.",
-			"concentration": false,
-			"url": "Geas",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -5169,7 +5166,10 @@
 				"Paladin (Crown)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Geas",
+			"hiLevelIndex": 3
 		},
 		"Gentle_Repose": {
 			"name": "Gentle Repose",
@@ -5189,13 +5189,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 d.",
-			"concentration": false,
-			"url": "Gentle_Repose",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Gentle_Repose",
+			"hiLevelIndex": -1
 		},
 		"Giant_Insect": {
 			"name": "Giant Insect",
@@ -5217,12 +5217,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Giant_Insect",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Giant_Insect",
+			"hiLevelIndex": -1
 		},
 		"Glibness": {
 			"name": "Glibness",
@@ -5241,13 +5241,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Glibness",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Warlock"
-			]
+			],
+			"concentration": false,
+			"url": "Glibness",
+			"hiLevelIndex": -1
 		},
 		"Globe_of_Invulnerability": {
 			"name": "Globe of Invulnerability",
@@ -5268,13 +5268,13 @@
 			"timeShort": "",
 			"rangeShort": "10-f. radius",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Globe_of_Invulnerability",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Globe_of_Invulnerability",
+			"hiLevelIndex": 2
 		},
 		"Glyph_of_Warding": {
 			"name": "Glyph of Warding",
@@ -5301,15 +5301,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Glyph_of_Warding",
-			"hiLevelIndex": 7,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Glyph_of_Warding",
+			"hiLevelIndex": 7
 		},
 		"Goodberry": {
 			"name": "Goodberry",
@@ -5329,13 +5329,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Goodberry",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Goodberry",
+			"hiLevelIndex": -1
 		},
 		"Grasping_Vine": {
 			"name": "Grasping Vine",
@@ -5355,14 +5355,14 @@
 			"timeShort": "Bonus",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Grasping_Vine",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Nature)",
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Grasping_Vine",
+			"hiLevelIndex": -1
 		},
 		"Grease": {
 			"name": "Grease",
@@ -5382,12 +5382,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Grease",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Grease",
+			"hiLevelIndex": -1
 		},
 		"Greater_Invisibility": {
 			"name": "Greater Invisibility",
@@ -5406,9 +5406,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Greater_Invisibility",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid (Underdark)",
@@ -5416,7 +5413,10 @@
 				"Warlock (Archfey)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Greater_Invisibility",
+			"hiLevelIndex": -1
 		},
 		"Greater_Restoration": {
 			"name": "Greater Restoration",
@@ -5439,14 +5439,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Greater_Restoration",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Greater_Restoration",
+			"hiLevelIndex": -1
 		},
 		"Green-Flame_Blade_(SCAG)": {
 			"name": "Green-Flame Blade (SCAG)",
@@ -5471,14 +5471,14 @@
 			"timeShort": "",
 			"rangeShort": "5 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Green-Flame_Blade_(SCAG)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Green-Flame_Blade_(SCAG)",
+			"hiLevelIndex": -1
 		},
 		"Guardian_of_Faith": {
 			"name": "Guardian of Faith",
@@ -5498,16 +5498,16 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Guardian_of_Faith",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Life)",
 				"Cleric (Light)",
 				"Paladin (Crown)",
 				"Paladin (Devotion)"
-			]
+			],
+			"concentration": false,
+			"url": "Guardian_of_Faith",
+			"hiLevelIndex": -1
 		},
 		"Guards_and_Wards": {
 			"name": "Guards and Wards",
@@ -5538,13 +5538,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Guards_and_Wards",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Guards_and_Wards",
+			"hiLevelIndex": -1
 		},
 		"Guidance": {
 			"name": "Guidance",
@@ -5564,13 +5564,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Guidance",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Guidance",
+			"hiLevelIndex": -1
 		},
 		"Guiding_Bolt": {
 			"name": "Guiding Bolt",
@@ -5594,12 +5594,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Guiding_Bolt",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Guiding_Bolt",
+			"hiLevelIndex": 1
 		},
 		"Gust_(EE)": {
 			"name": "Gust (EE)",
@@ -5622,16 +5622,16 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Gust_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Gust_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Gust_of_Wind": {
 			"name": "Gust of Wind",
@@ -5653,16 +5653,16 @@
 			"timeShort": "",
 			"rangeShort": "60-f. line",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Gust_of_Wind",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Tempest)",
 				"Druid",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Gust_of_Wind",
+			"hiLevelIndex": -1
 		},
 		"Hail_of_Thorns": {
 			"name": "Hail of Thorns",
@@ -5683,12 +5683,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Hail_of_Thorns",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Hail_of_Thorns",
+			"hiLevelIndex": 1
 		},
 		"Hallow": {
 			"name": "Hallow",
@@ -5719,13 +5719,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Hallow",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Warlock (Fiend)"
-			]
+			],
+			"concentration": false,
+			"url": "Hallow",
+			"hiLevelIndex": -1
 		},
 		"Hallucinatory_Terrain": {
 			"name": "Hallucinatory Terrain",
@@ -5745,9 +5745,6 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Hallucinatory_Terrain",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
@@ -5755,7 +5752,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Hallucinatory_Terrain",
+			"hiLevelIndex": -1
 		},
 		"Harm": {
 			"name": "Harm",
@@ -5775,12 +5775,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Harm",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Harm",
+			"hiLevelIndex": -1
 		},
 		"Haste": {
 			"name": "Haste",
@@ -5800,15 +5800,15 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Haste",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Grassland)",
 				"Paladin (Vengeance)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Haste",
+			"hiLevelIndex": -1
 		},
 		"Haywire_(Technomagic)": {
 			"name": "Haywire (Technomagic)",
@@ -5839,14 +5839,14 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Haywire_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Haywire_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Heal": {
 			"name": "Heal",
@@ -5866,13 +5866,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Heal",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Heal",
+			"hiLevelIndex": 1
 		},
 		"Healing_Word": {
 			"name": "Healing Word",
@@ -5893,14 +5893,14 @@
 			"timeShort": "Bonus",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Healing_Word",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Healing_Word",
+			"hiLevelIndex": 1
 		},
 		"Heat_Metal": {
 			"name": "Heat Metal",
@@ -5922,13 +5922,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Heat_Metal",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Bard",
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Heat_Metal",
+			"hiLevelIndex": 2
 		},
 		"Hellish_Rebuke": {
 			"name": "Hellish Rebuke",
@@ -5949,13 +5949,13 @@
 			"timeShort": "Reaction",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Hellish_Rebuke",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Paladin (Oathbreaker)",
 				"Warlock"
-			]
+			],
+			"concentration": false,
+			"url": "Hellish_Rebuke",
+			"hiLevelIndex": 1
 		},
 		"Heroes'_Feast": {
 			"name": "Heroes' Feast",
@@ -5976,13 +5976,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Heroes'_Feast",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Heroes'_Feast",
+			"hiLevelIndex": -1
 		},
 		"Heroism": {
 			"name": "Heroism",
@@ -6002,13 +6002,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Heroism",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Heroism",
+			"hiLevelIndex": 1
 		},
 		"Hex": {
 			"name": "Hex",
@@ -6030,12 +6030,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "90 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Hex",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Warlock"
-			]
+			],
+			"concentration": true,
+			"url": "Hex",
+			"hiLevelIndex": 3
 		},
 		"Hold_Monster": {
 			"name": "Hold Monster",
@@ -6055,9 +6055,6 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Hold_Monster",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric (War)",
@@ -6066,7 +6063,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Hold_Monster",
+			"hiLevelIndex": 1
 		},
 		"Hold_Person": {
 			"name": "Hold Person",
@@ -6086,9 +6086,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Hold_Person",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -6099,7 +6096,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Hold_Person",
+			"hiLevelIndex": 1
 		},
 		"Holy_Aura": {
 			"name": "Holy Aura",
@@ -6118,12 +6118,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Holy_Aura",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": true,
+			"url": "Holy_Aura",
+			"hiLevelIndex": -1
 		},
 		"Hunger_of_Hadar": {
 			"name": "Hunger of Hadar",
@@ -6147,12 +6147,12 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Hunger_of_Hadar",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock"
-			]
+			],
+			"concentration": true,
+			"url": "Hunger_of_Hadar",
+			"hiLevelIndex": -1
 		},
 		"Hunter's_Mark": {
 			"name": "Hunter's Mark",
@@ -6172,13 +6172,13 @@
 			"timeShort": "Bonus",
 			"rangeShort": "90 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Hunter's_Mark",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Paladin (Vengeance)",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Hunter's_Mark",
+			"hiLevelIndex": 1
 		},
 		"Hypnotic_Pattern": {
 			"name": "Hypnotic Pattern",
@@ -6198,16 +6198,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Hypnotic_Pattern",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Hypnotic_Pattern",
+			"hiLevelIndex": -1
 		},
 		"Ice_Knife_(EE)": {
 			"name": "Ice Knife (EE)",
@@ -6232,14 +6232,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Ice_Knife_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Ice_Knife_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Ice_Storm": {
 			"name": "Ice Storm",
@@ -6261,9 +6261,6 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Ice_Storm",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Cleric (Tempest)",
 				"Druid",
@@ -6272,7 +6269,10 @@
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Ice_Storm",
+			"hiLevelIndex": 2
 		},
 		"Identify": {
 			"name": "Identify",
@@ -6292,14 +6292,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Identify",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Knowledge)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Identify",
+			"hiLevelIndex": -1
 		},
 		"Illusory_Script": {
 			"name": "Illusory Script",
@@ -6321,15 +6321,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 d.",
-			"concentration": false,
-			"url": "Illusory_Script",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Illusory_Script",
+			"hiLevelIndex": -1
 		},
 		"Immolation_(EE)": {
 			"name": "Immolation (EE)",
@@ -6354,13 +6354,13 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Immolation_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Immolation_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Imprisonment": {
 			"name": "Imprisonment",
@@ -6393,13 +6393,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Imprisonment",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Imprisonment",
+			"hiLevelIndex": -1
 		},
 		"Incendiary_Cloud": {
 			"name": "Incendiary Cloud",
@@ -6421,13 +6421,13 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Incendiary_Cloud",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Incendiary_Cloud",
+			"hiLevelIndex": -1
 		},
 		"Infallible_Relay_(Technomagic)": {
 			"name": "Infallible Relay (Technomagic)",
@@ -6448,14 +6448,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Infallible_Relay_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Infallible_Relay_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Inflict_Wounds": {
 			"name": "Inflict Wounds",
@@ -6479,13 +6479,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Inflict_Wounds",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric",
 				"Paladin (Oathbreaker)"
-			]
+			],
+			"concentration": false,
+			"url": "Inflict_Wounds",
+			"hiLevelIndex": 1
 		},
 		"Insect_Plague": {
 			"name": "Insect Plague",
@@ -6507,9 +6507,6 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Insect_Plague",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Nature)",
@@ -6520,7 +6517,10 @@
 				"Druid (Swamp)",
 				"Druid (Underdark)",
 				"Sorcerer"
-			]
+			],
+			"concentration": true,
+			"url": "Insect_Plague",
+			"hiLevelIndex": 2
 		},
 		"Investiture_of_Flame_(EE)": {
 			"name": "Investiture of Flame (EE)",
@@ -6544,15 +6544,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Investiture_of_Flame_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Investiture_of_Flame_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Investiture_of_Ice_(EE)": {
 			"name": "Investiture of Ice (EE)",
@@ -6576,15 +6576,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Investiture_of_Ice_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Investiture_of_Ice_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Investiture_of_Stone_(EE)": {
 			"name": "Investiture of Stone (EE)",
@@ -6607,15 +6607,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Investiture_of_Stone_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Investiture_of_Stone_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Investiture_of_Wind_(EE)": {
 			"name": "Investiture of Wind (EE)",
@@ -6639,15 +6639,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Investiture_of_Wind_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Investiture_of_Wind_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Invisibility": {
 			"name": "Invisibility",
@@ -6667,9 +6667,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Invisibility",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Druid (Grassland)",
@@ -6677,7 +6674,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Invisibility",
+			"hiLevelIndex": 1
 		},
 		"Invisibility_to_Cameras_(Technomagic)": {
 			"name": "Invisibility to Cameras (Technomagic)",
@@ -6697,14 +6697,14 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Invisibility_to_Cameras_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Invisibility_to_Cameras_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Jump": {
 			"name": "Jump",
@@ -6723,15 +6723,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Jump",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Ranger",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Jump",
+			"hiLevelIndex": -1
 		},
 		"Knock": {
 			"name": "Knock",
@@ -6753,14 +6753,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Knock",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Knock",
+			"hiLevelIndex": -1
 		},
 		"Legend_Lore": {
 			"name": "Legend Lore",
@@ -6780,16 +6780,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Legend_Lore",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Cleric (Knowledge)",
 				"Warlock (Undying)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Legend_Lore",
+			"hiLevelIndex": -1
 		},
 		"Leomund's_Secret_Chest": {
 			"name": "Leomund's Secret Chest",
@@ -6811,13 +6811,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Leomund's_Secret_Chest",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Arcana)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Leomund's_Secret_Chest",
+			"hiLevelIndex": -1
 		},
 		"Leomund's_Tiny_Hut": {
 			"name": "Leomund's Tiny Hut",
@@ -6838,14 +6838,14 @@
 			"timeShort": "",
 			"rangeShort": "10-f. radius",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Leomund's_Tiny_Hut",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Leomund's_Tiny_Hut",
+			"hiLevelIndex": -1
 		},
 		"Lesser_Restoration": {
 			"name": "Lesser Restoration",
@@ -6864,9 +6864,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Lesser_Restoration",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -6875,7 +6872,10 @@
 				"Paladin",
 				"Paladin (Devotion)",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Lesser_Restoration",
+			"hiLevelIndex": -1
 		},
 		"Levitate": {
 			"name": "Levitate",
@@ -6896,13 +6896,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Levitate",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Levitate",
+			"hiLevelIndex": -1
 		},
 		"Light": {
 			"name": "Light",
@@ -6922,16 +6922,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Light",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Light",
+			"hiLevelIndex": -1
 		},
 		"Lightning_Arrow": {
 			"name": "Lightning Arrow",
@@ -6954,12 +6954,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Lightning_Arrow",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Lightning_Arrow",
+			"hiLevelIndex": 3
 		},
 		"Lightning_Bolt": {
 			"name": "Lightning Bolt",
@@ -6981,15 +6981,15 @@
 			"timeShort": "",
 			"rangeShort": "100-f. line",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Lightning_Bolt",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Druid (Mountain)",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Lightning_Bolt",
+			"hiLevelIndex": 2
 		},
 		"Lightning_Lure_(SCAG)": {
 			"name": "Lightning Lure (SCAG)",
@@ -7015,14 +7015,14 @@
 			"timeShort": "",
 			"rangeShort": "15 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Lightning_Lure_(SCAG)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Lightning_Lure_(SCAG)",
+			"hiLevelIndex": -1
 		},
 		"Locate_Animals_or_Plants": {
 			"name": "Locate Animals or Plants",
@@ -7041,14 +7041,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Locate_Animals_or_Plants",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Locate_Animals_or_Plants",
+			"hiLevelIndex": -1
 		},
 		"Locate_Creature": {
 			"name": "Locate Creature",
@@ -7069,9 +7069,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Locate_Creature",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -7080,7 +7077,10 @@
 				"Paladin",
 				"Ranger",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Locate_Creature",
+			"hiLevelIndex": -1
 		},
 		"Locate_Object": {
 			"name": "Locate Object",
@@ -7101,9 +7101,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Locate_Object",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -7111,7 +7108,10 @@
 				"Paladin",
 				"Ranger",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Locate_Object",
+			"hiLevelIndex": -1
 		},
 		"Longstrider": {
 			"name": "Longstrider",
@@ -7131,15 +7131,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Longstrider",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Ranger",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Longstrider",
+			"hiLevelIndex": 1
 		},
 		"Maelstrom_(EE)": {
 			"name": "Maelstrom (EE)",
@@ -7160,12 +7160,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Maelstrom_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Maelstrom_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Mage_Armor": {
 			"name": "Mage Armor",
@@ -7185,14 +7185,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Mage_Armor",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Mage_Armor",
+			"hiLevelIndex": -1
 		},
 		"Mage_Hand": {
 			"name": "Mage Hand",
@@ -7213,9 +7213,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Mage_Hand",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
@@ -7223,7 +7220,10 @@
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Mage_Hand",
+			"hiLevelIndex": -1
 		},
 		"Magic_Circle": {
 			"name": "Magic Circle",
@@ -7248,9 +7248,6 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Magic_Circle",
-			"hiLevelIndex": 6,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Arcana)",
@@ -7258,7 +7255,10 @@
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Magic_Circle",
+			"hiLevelIndex": 6
 		},
 		"Magic_Jar": {
 			"name": "Magic Jar",
@@ -7283,12 +7283,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Magic_Jar",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Magic_Jar",
+			"hiLevelIndex": -1
 		},
 		"Magic_Missile": {
 			"name": "Magic Missile",
@@ -7309,15 +7309,15 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Magic_Missile",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric (Arcana)",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Magic_Missile",
+			"hiLevelIndex": 1
 		},
 		"Magic_Mouth": {
 			"name": "Magic Mouth",
@@ -7338,14 +7338,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Magic_Mouth",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Magic_Mouth",
+			"hiLevelIndex": -1
 		},
 		"Magic_Stone_(EE)": {
 			"name": "Magic Stone (EE)",
@@ -7370,13 +7370,13 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Magic_Stone_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Warlock"
-			]
+			],
+			"concentration": false,
+			"url": "Magic_Stone_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Magic_Weapon": {
 			"name": "Magic Weapon",
@@ -7396,15 +7396,15 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Magic_Weapon",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric (Arcana)",
 				"Cleric (War)",
 				"Paladin",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Magic_Weapon",
+			"hiLevelIndex": 1
 		},
 		"Major_Image": {
 			"name": "Major Image",
@@ -7426,16 +7426,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Major_Image",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Major_Image",
+			"hiLevelIndex": 3
 		},
 		"Mass_Cure_Wounds": {
 			"name": "Mass Cure Wounds",
@@ -7456,15 +7456,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Mass_Cure_Wounds",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Cleric (Life)",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Mass_Cure_Wounds",
+			"hiLevelIndex": 1
 		},
 		"Mass_Heal": {
 			"name": "Mass Heal",
@@ -7483,12 +7483,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Mass_Heal",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Mass_Heal",
+			"hiLevelIndex": -1
 		},
 		"Mass_Healing_Word": {
 			"name": "Mass Healing Word",
@@ -7509,12 +7509,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Mass_Healing_Word",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Mass_Healing_Word",
+			"hiLevelIndex": 1
 		},
 		"Mass_Suggestion": {
 			"name": "Mass Suggestion",
@@ -7537,16 +7537,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Mass_Suggestion",
-			"hiLevelIndex": 4,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Mass_Suggestion",
+			"hiLevelIndex": 4
 		},
 		"Maximilian's_Earthen_Grasp_(EE)": {
 			"name": "Maximilian's Earthen Grasp (EE)",
@@ -7570,13 +7570,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Maximilian's_Earthen_Grasp_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Maximilian's_Earthen_Grasp_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Maze": {
 			"name": "Maze",
@@ -7597,12 +7597,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Maze",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Maze",
+			"hiLevelIndex": -1
 		},
 		"Meld_into_Stone": {
 			"name": "Meld into Stone",
@@ -7624,14 +7624,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Meld_into_Stone",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Druid (Mountain)"
-			]
+			],
+			"concentration": false,
+			"url": "Meld_into_Stone",
+			"hiLevelIndex": -1
 		},
 		"Melf's_Acid_Arrow": {
 			"name": "Melf's Acid Arrow",
@@ -7656,14 +7656,14 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Melf's_Acid_Arrow",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Druid (Swamp)",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Melf's_Acid_Arrow",
+			"hiLevelIndex": 1
 		},
 		"Melf's_Minute_Meteors_(EE)": {
 			"name": "Melf's Minute Meteors (EE)",
@@ -7685,14 +7685,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Melf's_Minute_Meteors_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Melf's_Minute_Meteors_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Mending": {
 			"name": "Mending",
@@ -7712,16 +7712,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Mending",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Mending",
+			"hiLevelIndex": -1
 		},
 		"Message": {
 			"name": "Message",
@@ -7741,16 +7741,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Message",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Message",
+			"hiLevelIndex": -1
 		},
 		"Meteor_Swarm": {
 			"name": "Meteor Swarm",
@@ -7771,13 +7771,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Meteor_Swarm",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Meteor_Swarm",
+			"hiLevelIndex": -1
 		},
 		"Mind_Blank": {
 			"name": "Mind Blank",
@@ -7796,13 +7796,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Mind_Blank",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Mind_Blank",
+			"hiLevelIndex": -1
 		},
 		"Minor_Illusion": {
 			"name": "Minor Illusion",
@@ -7824,9 +7824,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Minor_Illusion",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
@@ -7834,7 +7831,10 @@
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Minor_Illusion",
+			"hiLevelIndex": -1
 		},
 		"Mirage_Arcane": {
 			"name": "Mirage Arcane",
@@ -7856,15 +7856,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 d.",
-			"concentration": false,
-			"url": "Mirage_Arcane",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Mirage_Arcane",
+			"hiLevelIndex": -1
 		},
 		"Mirror_Image": {
 			"name": "Mirror Image",
@@ -7891,9 +7891,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Mirror_Image",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Trickery)",
 				"Druid (Coast)",
@@ -7901,7 +7898,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Mirror_Image",
+			"hiLevelIndex": -1
 		},
 		"Mislead": {
 			"name": "Mislead",
@@ -7921,14 +7921,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Mislead",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Mislead",
+			"hiLevelIndex": -1
 		},
 		"Misty_Step": {
 			"name": "Misty Step",
@@ -7947,9 +7947,6 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Misty_Step",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Coast)",
 				"Paladin (Ancients)",
@@ -7957,7 +7954,10 @@
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Misty_Step",
+			"hiLevelIndex": -1
 		},
 		"Modify_Memory": {
 			"name": "Modify Memory",
@@ -7981,15 +7981,15 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Modify_Memory",
-			"hiLevelIndex": 5,
 			"classesArray": [
 				"Bard",
 				"Cleric (Trickery)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Modify_Memory",
+			"hiLevelIndex": 5
 		},
 		"Mold_Earth_(EE)": {
 			"name": "Mold Earth (EE)",
@@ -8013,16 +8013,16 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "Instantaneous or 1 h. (see below)",
-			"concentration": false,
-			"url": "Mold_Earth_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Mold_Earth_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Moonbeam": {
 			"name": "Moonbeam",
@@ -8046,13 +8046,13 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Moonbeam",
-			"hiLevelIndex": 4,
 			"classesArray": [
 				"Druid",
 				"Paladin (Ancients)"
-			]
+			],
+			"concentration": true,
+			"url": "Moonbeam",
+			"hiLevelIndex": 4
 		},
 		"Mordenkainen's_Faithful_Hound": {
 			"name": "Mordenkainen's Faithful Hound",
@@ -8077,12 +8077,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Mordenkainen's_Faithful_Hound",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Mordenkainen's_Faithful_Hound",
+			"hiLevelIndex": -1
 		},
 		"Mordenkainen's_Magnificent_Mansion": {
 			"name": "Mordenkainen's Magnificent Mansion",
@@ -8103,13 +8103,13 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Mordenkainen's_Magnificent_Mansion",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Mordenkainen's_Magnificent_Mansion",
+			"hiLevelIndex": -1
 		},
 		"Mordenkainen's_Private_Sanctum": {
 			"name": "Mordenkainen's Private Sanctum",
@@ -8137,13 +8137,13 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Mordenkainen's_Private_Sanctum",
-			"hiLevelIndex": 9,
 			"classesArray": [
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Mordenkainen's_Private_Sanctum",
+			"hiLevelIndex": 9
 		},
 		"Mordenkainen's_Sword": {
 			"name": "Mordenkainen's Sword",
@@ -8167,13 +8167,13 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Mordenkainen's_Sword",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Mordenkainen's_Sword",
+			"hiLevelIndex": -1
 		},
 		"Move_Earth": {
 			"name": "Move Earth",
@@ -8196,14 +8196,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "2 h.",
-			"concentration": true,
-			"url": "Move_Earth",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Move_Earth",
+			"hiLevelIndex": -1
 		},
 		"Nondetection": {
 			"name": "Nondetection",
@@ -8222,16 +8222,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Nondetection",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Knowledge)",
 				"Ranger",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Nondetection",
+			"hiLevelIndex": -1
 		},
 		"Nystul's_Magic_Aura": {
 			"name": "Nystul's Magic Aura",
@@ -8253,14 +8253,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Nystul's_Magic_Aura",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Arcana)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Nystul's_Magic_Aura",
+			"hiLevelIndex": -1
 		},
 		"On_Off_(Technomagic)": {
 			"name": "On/Off (Technomagic)",
@@ -8280,14 +8280,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "On_Off_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "On_Off_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Otiluke's_Freezing_Sphere": {
 			"name": "Otiluke's Freezing Sphere",
@@ -8310,12 +8310,12 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Otiluke's_Freezing_Sphere",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Otiluke's_Freezing_Sphere",
+			"hiLevelIndex": 3
 		},
 		"Otiluke's_Resilient_Sphere": {
 			"name": "Otiluke's Resilient Sphere",
@@ -8337,13 +8337,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Otiluke's_Resilient_Sphere",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Otiluke's_Resilient_Sphere",
+			"hiLevelIndex": -1
 		},
 		"Otto's_Irresistible_Dance": {
 			"name": "Otto's Irresistible Dance",
@@ -8363,14 +8363,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Otto's_Irresistible_Dance",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Otto's_Irresistible_Dance",
+			"hiLevelIndex": -1
 		},
 		"Pass_Without_Trace": {
 			"name": "Pass Without Trace",
@@ -8389,15 +8389,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Pass_Without_Trace",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Trickery)",
 				"Druid",
 				"Druid (Grassland)",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Pass_Without_Trace",
+			"hiLevelIndex": -1
 		},
 		"Passwall": {
 			"name": "Passwall",
@@ -8417,13 +8417,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Passwall",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Mountain)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Passwall",
+			"hiLevelIndex": -1
 		},
 		"Phantasmal_Force": {
 			"name": "Phantasmal Force",
@@ -8447,9 +8447,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Phantasmal_Force",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
@@ -8457,7 +8454,10 @@
 				"Warlock (Great Old One)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Phantasmal_Force",
+			"hiLevelIndex": -1
 		},
 		"Phantasmal_Killer": {
 			"name": "Phantasmal Killer",
@@ -8478,13 +8478,13 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Phantasmal_Killer",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Phantasmal_Killer",
+			"hiLevelIndex": 1
 		},
 		"Phantom_Steed": {
 			"name": "Phantom Steed",
@@ -8504,13 +8504,13 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Phantom_Steed",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Phantom_Steed",
+			"hiLevelIndex": -1
 		},
 		"Planar_Ally": {
 			"name": "Planar Ally",
@@ -8534,12 +8534,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Planar_Ally",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Planar_Ally",
+			"hiLevelIndex": -1
 		},
 		"Planar_Binding": {
 			"name": "Planar Binding",
@@ -8560,16 +8560,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Planar_Binding",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Cleric (Arcana)",
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Planar_Binding",
+			"hiLevelIndex": 2
 		},
 		"Plane_Shift": {
 			"name": "Plane Shift",
@@ -8591,16 +8591,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Plane_Shift",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Plane_Shift",
+			"hiLevelIndex": -1
 		},
 		"Plant_Growth": {
 			"name": "Plant Growth",
@@ -8622,9 +8622,6 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Plant_Growth",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Nature)",
 				"Druid",
@@ -8632,7 +8629,10 @@
 				"Paladin (Ancients)",
 				"Ranger",
 				"Warlock (Archfey)"
-			]
+			],
+			"concentration": false,
+			"url": "Plant_Growth",
+			"hiLevelIndex": -1
 		},
 		"Poison_Spray": {
 			"name": "Poison Spray",
@@ -8658,15 +8658,15 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Poison_Spray",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Poison_Spray",
+			"hiLevelIndex": -1
 		},
 		"Polymorph": {
 			"name": "Polymorph",
@@ -8689,16 +8689,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Polymorph",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Trickery)",
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Polymorph",
+			"hiLevelIndex": -1
 		},
 		"Power_Word_Heal": {
 			"name": "Power Word Heal",
@@ -8717,12 +8717,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Power_Word_Heal",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard"
-			]
+			],
+			"concentration": false,
+			"url": "Power_Word_Heal",
+			"hiLevelIndex": -1
 		},
 		"Power_Word_Kill": {
 			"name": "Power Word Kill",
@@ -8741,16 +8741,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Power_Word_Kill",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Power_Word_Kill",
+			"hiLevelIndex": -1
 		},
 		"Power_Word_Stun": {
 			"name": "Power Word Stun",
@@ -8770,16 +8770,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Power_Word_Stun",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Power_Word_Stun",
+			"hiLevelIndex": -1
 		},
 		"Prayer_of_Healing": {
 			"name": "Prayer of Healing",
@@ -8800,12 +8800,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Prayer_of_Healing",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Prayer_of_Healing",
+			"hiLevelIndex": 1
 		},
 		"Prestidigitation": {
 			"name": "Prestidigitation",
@@ -8831,9 +8831,6 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Prestidigitation",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
@@ -8841,7 +8838,10 @@
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Prestidigitation",
+			"hiLevelIndex": -1
 		},
 		"Primordial_Ward_(EE)": {
 			"name": "Primordial Ward (EE)",
@@ -8862,12 +8862,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Primordial_Ward_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Primordial_Ward_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Prismatic_Spray": {
 			"name": "Prismatic Spray",
@@ -8898,13 +8898,13 @@
 			"timeShort": "",
 			"rangeShort": "60 f. cone",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Prismatic_Spray",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Prismatic_Spray",
+			"hiLevelIndex": -1
 		},
 		"Prismatic_Wall": {
 			"name": "Prismatic Wall",
@@ -8934,12 +8934,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Prismatic_Wall",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Prismatic_Wall",
+			"hiLevelIndex": -1
 		},
 		"Produce_Flame": {
 			"name": "Produce Flame",
@@ -8967,12 +8967,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Produce_Flame",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Produce_Flame",
+			"hiLevelIndex": -1
 		},
 		"Programmed_Illusion": {
 			"name": "Programmed Illusion",
@@ -8994,14 +8994,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Programmed_Illusion",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Programmed_Illusion",
+			"hiLevelIndex": -1
 		},
 		"Project_Image": {
 			"name": "Project Image",
@@ -9023,14 +9023,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 d.",
-			"concentration": true,
-			"url": "Project_Image",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Project_Image",
+			"hiLevelIndex": -1
 		},
 		"Protection_from_Ballistics": {
 			"name": "Protection from Ballistics",
@@ -9050,15 +9050,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Protection_from_Ballistics",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Cleric (City)"
-			]
+			],
+			"concentration": true,
+			"url": "Protection_from_Ballistics",
+			"hiLevelIndex": -1
 		},
 		"Protection_from_Energy": {
 			"name": "Protection from Energy",
@@ -9077,9 +9077,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Protection_from_Energy",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
@@ -9090,7 +9087,10 @@
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Protection_from_Energy",
+			"hiLevelIndex": -1
 		},
 		"Protection_from_Evil_and_Good": {
 			"name": "Protection from Evil and Good",
@@ -9110,9 +9110,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Protection_from_Evil_and_Good",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Paladin",
@@ -9120,7 +9117,10 @@
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Protection_from_Evil_and_Good",
+			"hiLevelIndex": -1
 		},
 		"Protection_from_Poison": {
 			"name": "Protection from Poison",
@@ -9140,15 +9140,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Protection_from_Poison",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Paladin",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Protection_from_Poison",
+			"hiLevelIndex": -1
 		},
 		"Purify_Food_and_Drink": {
 			"name": "Purify Food and Drink",
@@ -9167,14 +9167,14 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Purify_Food_and_Drink",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Paladin"
-			]
+			],
+			"concentration": false,
+			"url": "Purify_Food_and_Drink",
+			"hiLevelIndex": -1
 		},
 		"Pyrotechnics_(EE)": {
 			"name": "Pyrotechnics (EE)",
@@ -9196,14 +9196,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Pyrotechnics_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Pyrotechnics_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Raise_Dead": {
 			"name": "Raise Dead",
@@ -9225,15 +9225,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Raise_Dead",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Cleric (Life)",
 				"Paladin"
-			]
+			],
+			"concentration": false,
+			"url": "Raise_Dead",
+			"hiLevelIndex": -1
 		},
 		"Rary's_Telepathic_Bond": {
 			"name": "Rary's Telepathic Bond",
@@ -9253,12 +9253,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Rary's_Telepathic_Bond",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Rary's_Telepathic_Bond",
+			"hiLevelIndex": -1
 		},
 		"Ray_of_Enfeeblement": {
 			"name": "Ray of Enfeeblement",
@@ -9279,14 +9279,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Ray_of_Enfeeblement",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Death)",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Ray_of_Enfeeblement",
+			"hiLevelIndex": -1
 		},
 		"Ray_of_Frost": {
 			"name": "Ray of Frost",
@@ -9313,15 +9313,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Ray_of_Frost",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Ray_of_Frost",
+			"hiLevelIndex": -1
 		},
 		"Ray_of_Sickness": {
 			"name": "Ray of Sickness",
@@ -9345,15 +9345,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Ray_of_Sickness",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric (Death)",
 				"Sorcerer",
 				"Warlock (Undying)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Ray_of_Sickness",
+			"hiLevelIndex": 1
 		},
 		"Regenerate": {
 			"name": "Regenerate",
@@ -9374,14 +9374,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Regenerate",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Regenerate",
+			"hiLevelIndex": -1
 		},
 		"Reincarnate": {
 			"name": "Reincarnate",
@@ -9417,12 +9417,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Reincarnate",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Reincarnate",
+			"hiLevelIndex": -1
 		},
 		"Remote_Access_(Technomagic)": {
 			"name": "Remote Access (Technomagic)",
@@ -9442,15 +9442,15 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Remote_Access_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Cleric (City)"
-			]
+			],
+			"concentration": false,
+			"url": "Remote_Access_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Remove_Curse": {
 			"name": "Remove Curse",
@@ -9469,16 +9469,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Remove_Curse",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Paladin",
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Remove_Curse",
+			"hiLevelIndex": -1
 		},
 		"Resistance": {
 			"name": "Resistance",
@@ -9498,13 +9498,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Resistance",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Resistance",
+			"hiLevelIndex": -1
 		},
 		"Resurrection": {
 			"name": "Resurrection",
@@ -9527,13 +9527,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Resurrection",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Resurrection",
+			"hiLevelIndex": -1
 		},
 		"Reverse_Gravity": {
 			"name": "Reverse Gravity",
@@ -9554,14 +9554,14 @@
 			"timeShort": "",
 			"rangeShort": "100 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Reverse_Gravity",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Reverse_Gravity",
+			"hiLevelIndex": -1
 		},
 		"Revivify": {
 			"name": "Revivify",
@@ -9580,14 +9580,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Revivify",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Life)",
 				"Paladin"
-			]
+			],
+			"concentration": false,
+			"url": "Revivify",
+			"hiLevelIndex": -1
 		},
 		"Rope_Trick": {
 			"name": "Rope Trick",
@@ -9609,12 +9609,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Rope_Trick",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Rope_Trick",
+			"hiLevelIndex": -1
 		},
 		"Sacred_Flame": {
 			"name": "Sacred Flame",
@@ -9640,12 +9640,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Sacred_Flame",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Sacred_Flame",
+			"hiLevelIndex": -1
 		},
 		"Sanctuary": {
 			"name": "Sanctuary",
@@ -9665,13 +9665,13 @@
 			"timeShort": "Bonus",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Sanctuary",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Paladin (Devotion)"
-			]
+			],
+			"concentration": false,
+			"url": "Sanctuary",
+			"hiLevelIndex": -1
 		},
 		"Scorching_Ray": {
 			"name": "Scorching Ray",
@@ -9696,16 +9696,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Scorching_Ray",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Cleric (Light)",
 				"Sorcerer",
 				"Warlock (Fiend)",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Scorching_Ray",
+			"hiLevelIndex": 2
 		},
 		"Scrying": {
 			"name": "Scrying",
@@ -9735,9 +9735,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Scrying",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
@@ -9749,7 +9746,10 @@
 				"Paladin (Vengeance)",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Scrying",
+			"hiLevelIndex": -1
 		},
 		"Searing_Smite": {
 			"name": "Searing Smite",
@@ -9770,12 +9770,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Searing_Smite",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Searing_Smite",
+			"hiLevelIndex": 1
 		},
 		"See_Invisibility": {
 			"name": "See Invisibility",
@@ -9794,14 +9794,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "See_Invisibility",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "See_Invisibility",
+			"hiLevelIndex": -1
 		},
 		"Seeming": {
 			"name": "Seeming",
@@ -9823,16 +9823,16 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Seeming",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock (Archfey)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Seeming",
+			"hiLevelIndex": -1
 		},
 		"Sending": {
 			"name": "Sending",
@@ -9853,15 +9853,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Sending",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Warlock (Great Old One)",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Sending",
+			"hiLevelIndex": -1
 		},
 		"Sequester": {
 			"name": "Sequester",
@@ -9882,12 +9882,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Sequester",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Sequester",
+			"hiLevelIndex": -1
 		},
 		"Shape_Water_(EE)": {
 			"name": "Shape Water (EE)",
@@ -9912,16 +9912,16 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "Instantaneous or 1 h. (see below)",
-			"concentration": false,
-			"url": "Shape_Water_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Shape_Water_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Shapechange": {
 			"name": "Shapechange",
@@ -9945,13 +9945,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Shapechange",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Shapechange",
+			"hiLevelIndex": -1
 		},
 		"Shatter": {
 			"name": "Shatter",
@@ -9972,9 +9972,6 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Shatter",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Bard",
 				"Cleric (Tempest)",
@@ -9982,7 +9979,10 @@
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Shatter",
+			"hiLevelIndex": 2
 		},
 		"Shield": {
 			"name": "Shield",
@@ -10001,14 +10001,14 @@
 			"timeShort": "Reaction",
 			"rangeShort": "",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Shield",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Shield",
+			"hiLevelIndex": -1
 		},
 		"Shield_of_Faith": {
 			"name": "Shield of Faith",
@@ -10027,14 +10027,14 @@
 			"timeShort": "Bonus",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Shield_of_Faith",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Cleric (War)",
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Shield_of_Faith",
+			"hiLevelIndex": -1
 		},
 		"Shillelagh": {
 			"name": "Shillelagh",
@@ -10053,12 +10053,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Shillelagh",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Shillelagh",
+			"hiLevelIndex": -1
 		},
 		"Shocking_Grasp": {
 			"name": "Shocking Grasp",
@@ -10085,15 +10085,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Shocking_Grasp",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Shocking_Grasp",
+			"hiLevelIndex": -1
 		},
 		"Shutdown": {
 			"name": "Shutdown",
@@ -10114,15 +10114,15 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Shutdown",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Cleric (City)"
-			]
+			],
+			"concentration": true,
+			"url": "Shutdown",
+			"hiLevelIndex": -1
 		},
 		"Silence": {
 			"name": "Silence",
@@ -10141,16 +10141,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Silence",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Druid (Desert)",
 				"Ranger",
 				"Warlock (Undying)"
-			]
+			],
+			"concentration": true,
+			"url": "Silence",
+			"hiLevelIndex": -1
 		},
 		"Silent_Image": {
 			"name": "Silent Image",
@@ -10171,15 +10171,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Silent_Image",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Silent_Image",
+			"hiLevelIndex": -1
 		},
 		"Simulacrum": {
 			"name": "Simulacrum",
@@ -10201,13 +10201,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Simulacrum",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Simulacrum",
+			"hiLevelIndex": -1
 		},
 		"Skywrite_(EE)": {
 			"name": "Skywrite (EE)",
@@ -10227,14 +10227,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Skywrite_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Skywrite_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Sleep": {
 			"name": "Sleep",
@@ -10257,16 +10257,16 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Sleep",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Warlock (Archfey)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": false,
+			"url": "Sleep",
+			"hiLevelIndex": 3
 		},
 		"Sleet_Storm": {
 			"name": "Sleet Storm",
@@ -10287,16 +10287,16 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Sleet_Storm",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Tempest)",
 				"Druid",
 				"Druid (Arctic)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Sleet_Storm",
+			"hiLevelIndex": -1
 		},
 		"Slow": {
 			"name": "Slow",
@@ -10318,14 +10318,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Slow",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Arctic)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Slow",
+			"hiLevelIndex": -1
 		},
 		"Snilloc's_Snowball_Swarm_(EE)": {
 			"name": "Snilloc's Snowball Swarm (EE)",
@@ -10347,14 +10347,14 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Snilloc's_Snowball_Swarm_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Snilloc's_Snowball_Swarm_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Spare_the_Dying": {
 			"name": "Spare the Dying",
@@ -10373,12 +10373,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Spare_the_Dying",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Spare_the_Dying",
+			"hiLevelIndex": -1
 		},
 		"Speak_with_Animals": {
 			"name": "Speak with Animals",
@@ -10397,16 +10397,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Speak_with_Animals",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Nature)",
 				"Druid",
 				"Paladin (Ancients)",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Speak_with_Animals",
+			"hiLevelIndex": -1
 		},
 		"Speak_with_Dead": {
 			"name": "Speak with Dead",
@@ -10426,15 +10426,15 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Speak_with_Dead",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Cleric (Knowledge)",
 				"Warlock (Undying)"
-			]
+			],
+			"concentration": false,
+			"url": "Speak_with_Dead",
+			"hiLevelIndex": -1
 		},
 		"Speak_with_Plants": {
 			"name": "Speak with Plants",
@@ -10457,14 +10457,14 @@
 			"timeShort": "",
 			"rangeShort": "30-f. radius",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Speak_with_Plants",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": false,
+			"url": "Speak_with_Plants",
+			"hiLevelIndex": -1
 		},
 		"Spider_Climb": {
 			"name": "Spider Climb",
@@ -10483,9 +10483,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Spider_Climb",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Forest)",
 				"Druid (Mountain)",
@@ -10493,7 +10490,10 @@
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Spider_Climb",
+			"hiLevelIndex": -1
 		},
 		"Spike_Growth": {
 			"name": "Spike Growth",
@@ -10514,16 +10514,16 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Spike_Growth",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Nature)",
 				"Druid",
 				"Druid (Arctic)",
 				"Druid (Mountain)",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Spike_Growth",
+			"hiLevelIndex": -1
 		},
 		"Spirit_Guardians": {
 			"name": "Spirit Guardians",
@@ -10545,14 +10545,14 @@
 			"timeShort": "",
 			"rangeShort": "15-f. radius",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Spirit_Guardians",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Cleric",
 				"Cleric (War)",
 				"Paladin (Crown)"
-			]
+			],
+			"concentration": true,
+			"url": "Spirit_Guardians",
+			"hiLevelIndex": 2
 		},
 		"Spiritual_Weapon": {
 			"name": "Spiritual Weapon",
@@ -10578,14 +10578,14 @@
 			"timeShort": "Bonus",
 			"rangeShort": "60 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Spiritual_Weapon",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric",
 				"Cleric (Life)",
 				"Cleric (War)"
-			]
+			],
+			"concentration": false,
+			"url": "Spiritual_Weapon",
+			"hiLevelIndex": 3
 		},
 		"Staggering_Smite": {
 			"name": "Staggering Smite",
@@ -10605,12 +10605,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Staggering_Smite",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Staggering_Smite",
+			"hiLevelIndex": -1
 		},
 		"Stinking_Cloud": {
 			"name": "Stinking Cloud",
@@ -10631,9 +10631,6 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Stinking_Cloud",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid (Swamp)",
@@ -10641,7 +10638,10 @@
 				"Sorcerer",
 				"Warlock (Fiend)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Stinking_Cloud",
+			"hiLevelIndex": -1
 		},
 		"Stone_Shape": {
 			"name": "Stone Shape",
@@ -10660,16 +10660,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Stone_Shape",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
 				"Druid (Mountain)",
 				"Druid (Underdark)",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Stone_Shape",
+			"hiLevelIndex": -1
 		},
 		"Stoneskin": {
 			"name": "Stoneskin",
@@ -10688,9 +10688,6 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Stoneskin",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (War)",
 				"Druid",
@@ -10700,7 +10697,10 @@
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Stoneskin",
+			"hiLevelIndex": -1
 		},
 		"Storm_of_Vengeance": {
 			"name": "Storm of Vengeance",
@@ -10729,12 +10729,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Storm_of_Vengeance",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Storm_of_Vengeance",
+			"hiLevelIndex": -1
 		},
 		"Storm_Sphere_(EE)": {
 			"name": "Storm Sphere (EE)",
@@ -10762,14 +10762,14 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Storm_Sphere_(EE)",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Storm_Sphere_(EE)",
+			"hiLevelIndex": 3
 		},
 		"Suggestion": {
 			"name": "Suggestion",
@@ -10791,9 +10791,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": true,
-			"url": "Suggestion",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Knowledge)",
@@ -10801,7 +10798,10 @@
 				"Warlock",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Suggestion",
+			"hiLevelIndex": -1
 		},
 		"Sunbeam": {
 			"name": "Sunbeam",
@@ -10823,14 +10823,14 @@
 			"timeShort": "",
 			"rangeShort": "60-f. line",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Sunbeam",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Sunbeam",
+			"hiLevelIndex": -1
 		},
 		"Sunburst": {
 			"name": "Sunburst",
@@ -10852,14 +10852,14 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Sunburst",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Sunburst",
+			"hiLevelIndex": -1
 		},
 		"Swift_Quiver": {
 			"name": "Swift Quiver",
@@ -10879,12 +10879,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Swift_Quiver",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Swift_Quiver",
+			"hiLevelIndex": -1
 		},
 		"Sword_Burst_(SCAG)": {
 			"name": "Sword Burst (SCAG)",
@@ -10910,14 +10910,14 @@
 			"timeShort": "",
 			"rangeShort": "5 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Sword_Burst_(SCAG)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Sword_Burst_(SCAG)",
+			"hiLevelIndex": -1
 		},
 		"Symbol": {
 			"name": "Symbol",
@@ -10949,14 +10949,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Symbol",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Symbol",
+			"hiLevelIndex": -1
 		},
 		"Synchronicity": {
 			"name": "Synchronicity",
@@ -10978,15 +10978,15 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Synchronicity",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Cleric (City)"
-			]
+			],
+			"concentration": true,
+			"url": "Synchronicity",
+			"hiLevelIndex": -1
 		},
 		"System_Backdoor_(Technomagic)": {
 			"name": "System Backdoor (Technomagic)",
@@ -11008,14 +11008,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "System_Backdoor_(Technomagic)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "System_Backdoor_(Technomagic)",
+			"hiLevelIndex": -1
 		},
 		"Tasha's_Hideous_Laughter": {
 			"name": "Tasha's Hideous Laughter",
@@ -11035,15 +11035,15 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Tasha's_Hideous_Laughter",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Warlock (Great Old One)",
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Tasha's_Hideous_Laughter",
+			"hiLevelIndex": -1
 		},
 		"Telekinesis": {
 			"name": "Telekinesis",
@@ -11068,14 +11068,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Telekinesis",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock (Great Old One)",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Telekinesis",
+			"hiLevelIndex": -1
 		},
 		"Telepathy": {
 			"name": "Telepathy",
@@ -11095,12 +11095,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Telepathy",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Telepathy",
+			"hiLevelIndex": -1
 		},
 		"Teleport": {
 			"name": "Teleport",
@@ -11134,14 +11134,14 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Teleport",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Teleport",
+			"hiLevelIndex": -1
 		},
 		"Teleportation_Circle": {
 			"name": "Teleportation Circle",
@@ -11162,15 +11162,15 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Teleportation_Circle",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric (Arcana)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Teleportation_Circle",
+			"hiLevelIndex": -1
 		},
 		"Tenser's_Floating_Disk": {
 			"name": "Tenser's Floating Disk",
@@ -11191,12 +11191,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Tenser's_Floating_Disk",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Tenser's_Floating_Disk",
+			"hiLevelIndex": -1
 		},
 		"Thaumaturgy": {
 			"name": "Thaumaturgy",
@@ -11222,12 +11222,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": false,
-			"url": "Thaumaturgy",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Thaumaturgy",
+			"hiLevelIndex": -1
 		},
 		"Thorn_Whip": {
 			"name": "Thorn Whip",
@@ -11254,12 +11254,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Thorn_Whip",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Thorn_Whip",
+			"hiLevelIndex": -1
 		},
 		"Thunderclap_(EE)": {
 			"name": "Thunderclap (EE)",
@@ -11286,9 +11286,6 @@
 			"timeShort": "",
 			"rangeShort": "5-f. radius",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Thunderclap_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
@@ -11297,7 +11294,10 @@
 				"Wizard",
 				"Rogue (Arcane Trickster)",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Thunderclap_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Thunderous_Smite": {
 			"name": "Thunderous Smite",
@@ -11317,12 +11317,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Thunderous_Smite",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Thunderous_Smite",
+			"hiLevelIndex": -1
 		},
 		"Thunderwave": {
 			"name": "Thunderwave",
@@ -11344,9 +11344,6 @@
 			"timeShort": "",
 			"rangeShort": "15-f. cube",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Thunderwave",
-			"hiLevelIndex": 2,
 			"classesArray": [
 				"Bard",
 				"Cleric (Tempest)",
@@ -11354,7 +11351,10 @@
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Thunderwave",
+			"hiLevelIndex": 2
 		},
 		"Tidal_Wave_(EE)": {
 			"name": "Tidal Wave (EE)",
@@ -11375,13 +11375,13 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Tidal_Wave_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Tidal_Wave_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Time_Stop": {
 			"name": "Time Stop",
@@ -11402,13 +11402,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Time_Stop",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Time_Stop",
+			"hiLevelIndex": -1
 		},
 		"Tongues": {
 			"name": "Tongues",
@@ -11427,16 +11427,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Tongues",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Tongues",
+			"hiLevelIndex": -1
 		},
 		"Transmute_Rock_(EE)": {
 			"name": "Transmute Rock (EE)",
@@ -11461,13 +11461,13 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Transmute_Rock_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Transmute_Rock_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Transport_via_Plants": {
 			"name": "Transport via Plants",
@@ -11486,12 +11486,12 @@
 			"timeShort": "",
 			"rangeShort": "10 feet",
 			"durationShort": "1 r.",
-			"concentration": false,
-			"url": "Transport_via_Plants",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Transport_via_Plants",
+			"hiLevelIndex": -1
 		},
 		"Tree_Stride": {
 			"name": "Tree Stride",
@@ -11511,16 +11511,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Tree_Stride",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Nature)",
 				"Druid",
 				"Druid (Forest)",
 				"Paladin (Ancients)",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Tree_Stride",
+			"hiLevelIndex": -1
 		},
 		"True_Polymorph": {
 			"name": "True Polymorph",
@@ -11547,14 +11547,14 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "True_Polymorph",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "True_Polymorph",
+			"hiLevelIndex": -1
 		},
 		"True_Resurrection": {
 			"name": "True Resurrection",
@@ -11575,13 +11575,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "True_Resurrection",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "True_Resurrection",
+			"hiLevelIndex": -1
 		},
 		"True_Seeing": {
 			"name": "True Seeing",
@@ -11600,16 +11600,16 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "True_Seeing",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Sorcerer",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "True_Seeing",
+			"hiLevelIndex": -1
 		},
 		"True_Strike": {
 			"name": "True Strike",
@@ -11628,9 +11628,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 r.",
-			"concentration": true,
-			"url": "True_Strike",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Sorcerer",
@@ -11638,7 +11635,10 @@
 				"Wizard",
 				"Fighter (Eldritch Knight)",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "True_Strike",
+			"hiLevelIndex": -1
 		},
 		"Tsunami": {
 			"name": "Tsunami",
@@ -11668,12 +11668,12 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "6 r.",
-			"concentration": true,
-			"url": "Tsunami",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Tsunami",
+			"hiLevelIndex": -1
 		},
 		"Unseen_Servant": {
 			"name": "Unseen Servant",
@@ -11694,14 +11694,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Unseen_Servant",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Unseen_Servant",
+			"hiLevelIndex": -1
 		},
 		"Vampiric_Touch": {
 			"name": "Vampiric Touch",
@@ -11725,14 +11725,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Vampiric_Touch",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Cleric (Death)",
 				"Warlock",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Vampiric_Touch",
+			"hiLevelIndex": 1
 		},
 		"Vicious_Mockery": {
 			"name": "Vicious Mockery",
@@ -11758,12 +11758,12 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Vicious_Mockery",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard"
-			]
+			],
+			"concentration": false,
+			"url": "Vicious_Mockery",
+			"hiLevelIndex": -1
 		},
 		"Vitriolic_Sphere_(EE)": {
 			"name": "Vitriolic Sphere (EE)",
@@ -11788,14 +11788,14 @@
 			"timeShort": "",
 			"rangeShort": "150 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Vitriolic_Sphere_(EE)",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": false,
+			"url": "Vitriolic_Sphere_(EE)",
+			"hiLevelIndex": 1
 		},
 		"Wall_of_Fire": {
 			"name": "Wall of Fire",
@@ -11818,9 +11818,6 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Wall_of_Fire",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Cleric (Light)",
 				"Druid",
@@ -11828,7 +11825,10 @@
 				"Warlock (Fiend)",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Wall_of_Fire",
+			"hiLevelIndex": 3
 		},
 		"Wall_of_Force": {
 			"name": "Wall of Force",
@@ -11848,12 +11848,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Wall_of_Force",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Wall_of_Force",
+			"hiLevelIndex": -1
 		},
 		"Wall_of_Ice": {
 			"name": "Wall of Ice",
@@ -11879,12 +11879,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Wall_of_Ice",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Wall_of_Ice",
+			"hiLevelIndex": 3
 		},
 		"Wall_of_Sand_(EE)": {
 			"name": "Wall of Sand (EE)",
@@ -11904,13 +11904,13 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Wall_of_Sand_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Wall_of_Sand_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Wall_of_Stone": {
 			"name": "Wall of Stone",
@@ -11934,16 +11934,16 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Wall_of_Stone",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Druid (Desert)",
 				"Druid (Mountain)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Wall_of_Stone",
+			"hiLevelIndex": -1
 		},
 		"Wall_of_Thorns": {
 			"name": "Wall of Thorns",
@@ -11966,12 +11966,12 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Wall_of_Thorns",
-			"hiLevelIndex": 3,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": true,
+			"url": "Wall_of_Thorns",
+			"hiLevelIndex": 3
 		},
 		"Wall_of_Water_(EE)": {
 			"name": "Wall of Water (EE)",
@@ -11992,15 +11992,15 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Wall_of_Water_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Wall_of_Water_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Warding_Bond": {
 			"name": "Warding Bond",
@@ -12020,13 +12020,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Warding_Bond",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Paladin (Crown)"
-			]
+			],
+			"concentration": false,
+			"url": "Warding_Bond",
+			"hiLevelIndex": -1
 		},
 		"Warding_Wind_(EE)": {
 			"name": "Warding Wind (EE)",
@@ -12052,14 +12052,14 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "10 m.",
-			"concentration": true,
-			"url": "Warding_Wind_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Druid",
 				"Sorcerer"
-			]
+			],
+			"concentration": true,
+			"url": "Warding_Wind_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Water_Breathing": {
 			"name": "Water Breathing",
@@ -12078,16 +12078,16 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "24 h.",
-			"concentration": false,
-			"url": "Water_Breathing",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Druid (Coast)",
 				"Ranger",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Water_Breathing",
+			"hiLevelIndex": -1
 		},
 		"Water_Walk": {
 			"name": "Water Walk",
@@ -12107,9 +12107,6 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 h.",
-			"concentration": false,
-			"url": "Water_Walk",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric",
 				"Druid",
@@ -12117,7 +12114,10 @@
 				"Druid (Swamp)",
 				"Ranger",
 				"Sorcerer"
-			]
+			],
+			"concentration": false,
+			"url": "Water_Walk",
+			"hiLevelIndex": -1
 		},
 		"Watery_Sphere_(EE)": {
 			"name": "Watery Sphere (EE)",
@@ -12141,14 +12141,14 @@
 			"timeShort": "",
 			"rangeShort": "90 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Watery_Sphere_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Watery_Sphere_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Web": {
 			"name": "Web",
@@ -12172,14 +12172,14 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "1 h.",
-			"concentration": true,
-			"url": "Web",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid (Underdark)",
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Web",
+			"hiLevelIndex": -1
 		},
 		"Weird": {
 			"name": "Weird",
@@ -12199,13 +12199,13 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Weird",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Wizard",
 				"Rogue (Arcane Trickster)"
-			]
+			],
+			"concentration": true,
+			"url": "Weird",
+			"hiLevelIndex": -1
 		},
 		"Whirlwind_(EE)": {
 			"name": "Whirlwind (EE)",
@@ -12232,13 +12232,13 @@
 			"timeShort": "",
 			"rangeShort": "300 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Whirlwind_(EE)",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid",
 				"Wizard"
-			]
+			],
+			"concentration": true,
+			"url": "Whirlwind_(EE)",
+			"hiLevelIndex": -1
 		},
 		"Wind_Walk": {
 			"name": "Wind Walk",
@@ -12258,12 +12258,12 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "8 h.",
-			"concentration": false,
-			"url": "Wind_Walk",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Druid"
-			]
+			],
+			"concentration": false,
+			"url": "Wind_Walk",
+			"hiLevelIndex": -1
 		},
 		"Wind_Wall": {
 			"name": "Wind Wall",
@@ -12285,14 +12285,14 @@
 			"timeShort": "",
 			"rangeShort": "120 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Wind_Wall",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric (Nature)",
 				"Druid",
 				"Ranger"
-			]
+			],
+			"concentration": true,
+			"url": "Wind_Wall",
+			"hiLevelIndex": -1
 		},
 		"Wish": {
 			"name": "Wish",
@@ -12324,13 +12324,13 @@
 			"timeShort": "",
 			"rangeShort": "",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Wish",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Sorcerer",
 				"Wizard"
-			]
+			],
+			"concentration": false,
+			"url": "Wish",
+			"hiLevelIndex": -1
 		},
 		"Witch_Bolt": {
 			"name": "Witch Bolt",
@@ -12351,15 +12351,15 @@
 			"timeShort": "",
 			"rangeShort": "30 feet",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Witch_Bolt",
-			"hiLevelIndex": 1,
 			"classesArray": [
 				"Sorcerer",
 				"Warlock",
 				"Wizard",
 				"Fighter (Eldritch Knight)"
-			]
+			],
+			"concentration": true,
+			"url": "Witch_Bolt",
+			"hiLevelIndex": 1
 		},
 		"Word_of_Recall": {
 			"name": "Word of Recall",
@@ -12379,12 +12379,12 @@
 			"timeShort": "",
 			"rangeShort": "5 feet",
 			"durationShort": "",
-			"concentration": false,
-			"url": "Word_of_Recall",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Cleric"
-			]
+			],
+			"concentration": false,
+			"url": "Word_of_Recall",
+			"hiLevelIndex": -1
 		},
 		"Wrathful_Smite": {
 			"name": "Wrathful Smite",
@@ -12403,12 +12403,12 @@
 			"timeShort": "Bonus",
 			"rangeShort": "",
 			"durationShort": "1 m.",
-			"concentration": true,
-			"url": "Wrathful_Smite",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Paladin"
-			]
+			],
+			"concentration": true,
+			"url": "Wrathful_Smite",
+			"hiLevelIndex": -1
 		},
 		"Zone_of_Truth": {
 			"name": "Zone of Truth",
@@ -12428,16 +12428,16 @@
 			"timeShort": "",
 			"rangeShort": "60 feet",
 			"durationShort": "10 m.",
-			"concentration": false,
-			"url": "Zone_of_Truth",
-			"hiLevelIndex": -1,
 			"classesArray": [
 				"Bard",
 				"Cleric",
 				"Paladin",
 				"Paladin (Devotion)",
 				"Paladin (Crown)"
-			]
+			],
+			"concentration": false,
+			"url": "Zone_of_Truth",
+			"hiLevelIndex": -1
 		}
 	},
 	"SPELLS_GROUPED_BY_LEVEL": [
