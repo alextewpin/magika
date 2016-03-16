@@ -12,7 +12,7 @@ function groupSpellsByLevel (source) {
 
 function makeSpellsCharFilterLists (spells) {
   const spellLists = {
-    'All': [[], [], [], [], [], [], [], [], [], []]
+    All: [[], [], [], [], [], [], [], [], [], []]
   };
   spells.forEach(spell => {
     spellLists.All[spell.level].push(spell.url);
@@ -29,22 +29,13 @@ function makeSpellsCharFilterLists (spells) {
 }
 
 function makeSpellsCharFilters (spellLists) {
-  const charClassesList = [];
-  for (let className in spellLists) { // eslint-disable-line prefer-const
-    if ({}.hasOwnProperty.call(spellLists, className)) {
-      charClassesList.push(className);
-    }
-  }
-  charClassesList.sort((a, b) => {
-    if (a < b) { return -1; }
-    if (a > b) { return 1; }
-    return 0;
-  });
-
-  charClassesList.splice(charClassesList.indexOf('All'), 1);
-  charClassesList.unshift('All');
-
-  return charClassesList;
+  const charClassesList = Object.keys(spellLists)
+    .sort((a, b) => {
+      if (a < b) { return -1; }
+      if (a > b) { return 1; }
+      return 0;
+    });
+  return charClassesList.splice(charClassesList.indexOf('All'), 1).splice(0, 0, 'All');
 }
 
 function getSpellSchool (school) {
@@ -133,33 +124,34 @@ function getClassesArray (classes) {
 }
 
 function prepareSpells (spells) {
-  spells.forEach(spell => {
-    spell.level = parseInt(spell.level, 10);
-    spell.school = getSpellSchool(spell.school);
-    spell.schoolAndLevel = getSchoolAndLevel(spell.school, spell.level, spell.ritual);
-    spell.timeShort = getTimeShort(spell.time);
-    spell.rangeShort = getRangeShort(spell.range);
-    spell.durationShort = getDurationShort(spell.duration);
-    spell.classesArray = getClassesArray(spell.classes);
-    spell.concentration = spell.duration.indexOf('Concentration') !== -1 ? true : false;
+  return spells.map(spell => {
+    const _spell = Object.assign({}, spell);
+    _spell.level = parseInt(spell.level, 10);
+    _spell.school = getSpellSchool(spell.school);
+    _spell.schoolAndLevel = getSchoolAndLevel(spell.school, spell.level, spell.ritual);
+    _spell.timeShort = getTimeShort(spell.time);
+    _spell.rangeShort = getRangeShort(spell.range);
+    _spell.durationShort = getDurationShort(spell.duration);
+    _spell.classesArray = getClassesArray(spell.classes);
+    _spell.concentration = spell.duration.indexOf('Concentration') !== -1;
 
-    spell.text = utils.stringToArray(spell.text);
-    spell.url = utils.nameToUrl(spell.name);
+    _spell.url = utils.nameToUrl(spell.name);
 
-    spell.hiLevelIndex = -1;
-    spell.text = spell.text.filter(p => {
-      if (p !== '') { return p; }
-    });
-    spell.text = spell.text.map((p, i) => {
-      if (p.substr(0, 16) === 'At Higher Levels') {
-        spell.hiLevelIndex = i;
-        return p.replace('At Higher Levels: ', '');
-      } else {
-        return p;
-      }
-    });
+    _spell.hiLevelIndex = -1;
+    _spell.text = utils.stringToArray(spell.text)
+      .filter(p => {
+        return p !== '';
+      })
+      .map((p, i) => {
+        if (p.substr(0, 16) === 'At Higher Levels') {
+          _spell.hiLevelIndex = i;
+          return p.replace('At Higher Levels: ', '');
+        } else {
+          return p;
+        }
+      });
+    return _spell;
   });
-  return spells;
 }
 
 function prepareSpellsShort (spells) {

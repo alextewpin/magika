@@ -1,5 +1,7 @@
 {
-  "extends": "defaults/configurations/airbnb/es6-react",
+  "parser": "babel-eslint",
+  "extends": "airbnb",
+  "plugins": ["no-loops"],
   "env": {
     "browser": true,
     "node": true
@@ -20,11 +22,12 @@
     "spaced-comment":                      0,
     "jsx-quotes":                          [2, "prefer-single"],
     "dot-notation":                        [2, {"allowKeywords": false}],
-    "no-param-reassign":                   [2, {"props": false}],
     "comma-dangle":                        [2, "never"],
     "space-before-function-paren":         [2, "always"],
     "react/prefer-stateless-function":      2,
+    "react/jsx-space-before-closing":      [2, "never"],
     "react/jsx-no-bind":                   [2, {"ignoreRefs": true}],
-    "react/jsx-closing-bracket-location":  [2, "after-props"]
+    "react/jsx-closing-bracket-location":  [2, "after-props"],
+    "no-loops/no-loops":                   2
   }
 }

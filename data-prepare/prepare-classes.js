@@ -11,62 +11,60 @@ function makeClassesList (source) {
 function getFeaturesForLevel (levelObject) {
   let featuresArray = utils.objectToArray(levelObject.feature);
   featuresArray = featuresArray.map(feature => {
-    feature.optional = false;
+    const _feature = Object.assign({}, feature);
+    _feature.optional = false;
     if (feature.$ && feature.$.optional === 'YES') {
-      feature.optional = true;
-      delete feature.$;
+      _feature.optional = true;
+      delete _feature.$;
     }
 
-    feature.text = utils.stringToArray(feature.text);
-    feature.text = feature.text.map(p => {
-      return p.trim();
-    });
-    feature.text = feature.text.filter(p => {
-      return p !== '';
-    });
+    _feature.text = utils.stringToArray(feature.text)
+      .map(p => p.trim())
+      .filter(p => (p !== ''));
 
-    delete feature.modifier;
-    return feature;
+    delete _feature.modifier;
+    return _feature;
   });
   return featuresArray;
 }
 
 function prepareClasses (charClasses) {
-  charClasses.forEach(charClass => {
+  return charClasses.map(charClass => {
     if (charClass.autolevel) {
-      charClass.url = utils.nameToUrl(charClass.name);
-
+      const _charClass = Object.assign({}, charClass);
       const hd = charClass.hd;
       const cls = charClass.name.toLowerCase();
       const avgDice = Math.ceil((parseInt(hd, 10) + 1) / 2);
-      charClass.hitDice = `1d${hd} per ${cls} level`;
-      charClass.hpAtFirstLevel = `${hd} + your Constitution modifier'`;
-      charClass.hpAtHigherLevels = `'1d${hd} (or ${avgDice}) + your Constitution modifier per ${cls} level after 1st`;
+      _charClass.hitDice = `1d${hd} per ${cls} level`;
+      _charClass.hpAtFirstLevel = `${hd} + your Constitution modifier'`;
+      _charClass.hpAtHigherLevels = `'1d${hd} (or ${avgDice}) + your Constitution modifier per ${cls} level after 1st`;
 
-      charClass.features = {};
-      charClass.slots = {};
-      charClass.slotsOptional = false;
+      _charClass.features = {};
+      _charClass.slots = {};
+      _charClass.slotsOptional = false;
 
       charClass.autolevel.forEach(levelObject => {
         const level = parseInt(levelObject.$.level, 10);
 
         if (levelObject.feature) {
-          charClass.features[level] = getFeaturesForLevel(levelObject);
+          _charClass.features[level] = getFeaturesForLevel(levelObject);
         }
 
         if (levelObject.slots) {
           if (levelObject.slots.$ && levelObject.slots.$.optional === 'YES') {
-            charClass.slotsOptional = true;
-            charClass.slots[level] = levelObject.slots._.split(',');
+            _charClass.slotsOptional = true;
+            _charClass.slots[level] = levelObject.slots._.split(',');
           } else {
-            charClass.slots[level] = levelObject.slots.split(',');
+            _charClass.slots[level] = levelObject.slots.split(',');
           }
         }
       });
-      delete charClass.autolevel;
+      delete _charClass.autolevel;
+      return _charClass;
+    } else {
+      return 'prepare-classes.js 65';
     }
   });
-  return charClasses;
 }
 
 module.exports.prepareClasses = prepareClasses;

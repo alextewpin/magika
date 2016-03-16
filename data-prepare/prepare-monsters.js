@@ -1,12 +1,11 @@
 const utils = require('./prepare-utils.js');
 
 function propsToArray (props) {
-  let _props = utils.objectToArray(props);
-  _props = _props.map(prop => {
-    prop.text = utils.objectToArray(prop.text);
+  return utils.objectToArray(props).map(prop => {
+    const _prop = Object.assign({}, prop);
+    _prop.text = utils.objectToArray(prop.text);
     return prop;
   });
-  return _props;
 }
 
 function statFull (stat) {
@@ -17,10 +16,7 @@ function statFull (stat) {
 }
 
 function groupMontersByCR (source) {
-  const output = [];
-  for (let i = 1; i <= 34; i++) {
-    output.push([]);
-  }
+  const output = [...Array(34)].map(() => []);
   source.forEach(monster => {
     if (output[monster.crNum].indexOf(monster.url) === -1) {
       output[monster.crNum].push(monster.url);
@@ -30,20 +26,14 @@ function groupMontersByCR (source) {
 }
 
 function makeMosterTypeFilterLists (monsters) {
-  const allCrArray = [];
-  for (let i = 1; i <= 34; i++) {
-    allCrArray.push([]);
-  }
+  const allCrArray = [...Array(34)].map(() => []);
   const monsterLists = {
-    'All': allCrArray
+    All: allCrArray
   };
   monsters.forEach(monster => {
     monsterLists.All[monster.crNum].push(monster.url);
     if (monsterLists[monster.typeShort] === undefined) {
-      const typeCrArray = [];
-      for (let i = 1; i <= 34; i++) {
-        typeCrArray.push([]);
-      }
+      const typeCrArray = [...Array(34)].map(() => []);
       monsterLists[monster.typeShort] = typeCrArray;
     }
     if (monsterLists[monster.typeShort][monster.crNum].indexOf(monster.url) === -1) {
@@ -54,20 +44,13 @@ function makeMosterTypeFilterLists (monsters) {
 }
 
 function makeMosterTypeFilters (monsterLists) {
-  const monsterTypeList = [];
-  for (let monsterType in monsterLists) { // eslint-disable-line prefer-const
-    if ({}.hasOwnProperty.call(monsterLists, monsterType)) {
-      monsterTypeList.push(monsterType);
-    }
-  }
-  monsterTypeList.sort((a, b) => {
-    if (a < b) { return -1; }
-    if (a > b) { return 1; }
-    return 0;
-  });
-  monsterTypeList.splice(monsterTypeList.indexOf('All'), 1);
-  monsterTypeList.unshift('All');
-  return monsterTypeList;
+  const monsterTypeList = Object.keys(monsterLists)
+    .sort((a, b) => {
+      if (a < b) { return -1; }
+      if (a > b) { return 1; }
+      return 0;
+    });
+  return monsterTypeList.splice(monsterTypeList.indexOf('All'), 1).splice(0, 0, 'All');
 }
 
 function getCrNum (cr) {
@@ -88,7 +71,9 @@ function getSizeFull (size) {
     case 'L': return 'Large';
     case 'H': return 'Huge';
     case 'G': return 'Gargantuan';
-    default: console.warn(`Unexpected size: ${size}`);
+    default:
+      console.warn(`Unexpected size: ${size}`);
+      return '';
   }
 }
 
@@ -123,22 +108,24 @@ function getStatsFull (monster) {
 }
 
 function prepareMonsters (monsters) {
-  monsters.forEach(monster => {
-    monster.crNum = getCrNum(monster.cr);
-    monster.sizeFull = getSizeFull(monster.size);
-    monster.typeShort = getTypeShort(monster.type);
+  return monsters.map(monster => {
+    const _monster = Object.assign({}, monster);
+    _monster.crNum = getCrNum(monster.cr);
+    _monster.sizeFull = getSizeFull(monster.size);
+    _monster.typeShort = getTypeShort(monster.type);
 
     Object.assign(monster, getStatsFull(monster));
 
-    if (monster.languages === '') { monster.languages = '—'; }
-    if (monster.action) { monster.action = propsToArray(monster.action); }
-    if (monster.trait) { monster.trait = propsToArray(monster.trait); }
-    if (monster.reaction) { monster.reaction = propsToArray(monster.reaction); }
-    if (monster.legendary) { monster.legendary = propsToArray(monster.legendary); }
+    if (monster.languages === '') { _monster.languages = '—'; }
+    if (monster.action) { _monster.action = propsToArray(monster.action); }
+    if (monster.trait) { _monster.trait = propsToArray(monster.trait); }
+    if (monster.reaction) { _monster.reaction = propsToArray(monster.reaction); }
+    if (monster.legendary) { _monster.legendary = propsToArray(monster.legendary); }
 
-    monster.url = utils.nameToUrl(monster.name);
+    _monster.url = utils.nameToUrl(monster.name);
+
+    return _monster;
   });
-  return monsters;
 }
 
 module.exports.prepareMonsters = prepareMonsters;

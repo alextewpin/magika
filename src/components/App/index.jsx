@@ -2,11 +2,14 @@ import styles from './styles.scss';
 
 import Nav from 'Nav';
 
+const asd = { foo: 'asd', bar: 'qwe' };
+const qwe = { ...asd };
+
 function App ({ children }) {
   return (
     <div>
       <Nav/>
-      <div>Search</div>
+      <div>{qwe.foo}</div>
       <div>
         {children}
       </div>
