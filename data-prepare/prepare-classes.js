@@ -1,11 +1,8 @@
 const utils = require('./prepare-utils.js');
 
 function makeClassesList (source) {
-  const output = [];
-  output.push(source.map(charClass => {
-    return charClass.url;
-  }));
-  return output;
+  console.log(source);
+  return source.map(charClass => charClass.url);
 }
 
 function getFeaturesForLevel (levelObject) {
@@ -36,8 +33,8 @@ function prepareClasses (charClasses) {
       const cls = charClass.name.toLowerCase();
       const avgDice = Math.ceil((parseInt(hd, 10) + 1) / 2);
       _charClass.hitDice = `1d${hd} per ${cls} level`;
-      _charClass.hpAtFirstLevel = `${hd} + your Constitution modifier'`;
-      _charClass.hpAtHigherLevels = `'1d${hd} (or ${avgDice}) + your Constitution modifier per ${cls} level after 1st`;
+      _charClass.hpAtFirstLevel = `${hd} + your Constitution modifier`;
+      _charClass.hpAtHigherLevels = `1d${hd} (or ${avgDice}) + your Constitution modifier per ${cls} level after 1st`;
 
       _charClass.features = {};
       _charClass.slots = {};
@@ -59,6 +56,7 @@ function prepareClasses (charClasses) {
           }
         }
       });
+      _charClass.url = utils.nameToUrl(charClass.name);
       delete _charClass.autolevel;
       return _charClass;
     } else {

@@ -35,7 +35,8 @@ function makeSpellsCharFilters (spellLists) {
       if (a > b) { return 1; }
       return 0;
     });
-  return charClassesList.splice(charClassesList.indexOf('All'), 1).splice(0, 0, 'All');
+  const allIndex = charClassesList.indexOf('All');
+  return ['All', ...charClassesList.slice(0, allIndex), ...charClassesList.slice(allIndex + 1)];
 }
 
 function getSpellSchool (school) {

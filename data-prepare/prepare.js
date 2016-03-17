@@ -24,7 +24,7 @@ function readXml (dir, file) {
           switch (file) {
             case 'classes':
               charClasses = prepareClasses
-                .prepareClasses(result.compendium['class']);
+                .prepareClasses(result.compendium.class);
               charSpells = prepareClasses
                 .prepareClasses(result.compendium.spell);
               break;

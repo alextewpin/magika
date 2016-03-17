@@ -1,24 +1,34 @@
 import styles from './styles.scss';
 
+import { connect } from 'react-redux';
+
 import Nav from 'Nav';
 
-const asd = { foo: 'asd', bar: 'qwe' };
-const qwe = { ...asd };
-
-function App ({ children }) {
-  return (
-    <div>
-      <Nav/>
-      <div>{qwe.foo}</div>
+function App ({ isLoading = true, children }) {
+  if (isLoading) {
+    return <div>Fetching...</div>;
+  } else {
+    return (
       <div>
-        {children}
+        <Nav/>
+        <div>Search</div>
+        <div>
+          {children}
+        </div>
       </div>
-    </div>
-  );
+    );
+  }
 }
 
 App.propTypes = {
+  isLoading: React.PropTypes.bool,
   children: React.PropTypes.any
 };
 
-export default ReactCSS(App, styles);
+function mapStateToProps (state) {
+  return state.main;
+}
+
+export default connect(
+  mapStateToProps
+)(ReactCSS(App, styles));

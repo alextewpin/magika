@@ -50,7 +50,8 @@ function makeMosterTypeFilters (monsterLists) {
       if (a > b) { return 1; }
       return 0;
     });
-  return monsterTypeList.splice(monsterTypeList.indexOf('All'), 1).splice(0, 0, 'All');
+  const allIndex = monsterTypeList.indexOf('All');
+  return ['All', ...monsterTypeList.slice(0, allIndex), ...monsterTypeList.slice(allIndex + 1)];
 }
 
 function getCrNum (cr) {
@@ -78,7 +79,7 @@ function getSizeFull (size) {
 }
 
 function getTypeShort (type) {
-  let typeShort = type.replace('swarm of Tiny beasts', 'beast')
+  const typeShort = type.replace('swarm of Tiny beasts', 'beast')
     .replace(', monster manual', '')
     .replace(', lost mine of phandelver', '')
     .replace(', tyranny of dragons', '')
@@ -93,7 +94,7 @@ function getTypeShort (type) {
     .replace(' (water genasi), elemental evil', '')
     .replace(' (earth genasi), elemental evil', '')
     .replace(/\s\(.*\)/, '');
-  typeShort = `${typeShort.charAt(0).toUpperCase()}${typeShort.slice(1)}`;
+  return `${typeShort.charAt(0).toUpperCase()}${typeShort.slice(1)}`;
 }
 
 function getStatsFull (monster) {
@@ -101,7 +102,7 @@ function getStatsFull (monster) {
     strFull: statFull(monster.str),
     dexFull: statFull(monster.dex),
     conFull: statFull(monster.con),
-    intFull: statFull(monster['int']),
+    intFull: statFull(monster.int),
     wisFull: statFull(monster.wis),
     chaFull: statFull(monster.cha)
   };

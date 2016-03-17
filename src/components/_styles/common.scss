@@ -13,7 +13,7 @@ body {
 }
 
 body {
-  @include font__style_body;
+  @include font__style-body;
   background-color: $pl__white;
   color: $pl__black;
   overflow-x: auto;
@@ -31,5 +31,5 @@ a {
 input,
 textarea,
 button {
-  @include font__style_body;
+  @include font__style-body;
 }

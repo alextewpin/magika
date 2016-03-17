@@ -15,7 +15,7 @@ $pl__white: #FFF;
 // Fonts
 $font__lh: 1.25em;
 
-@mixin font__style_body {
+@mixin font__style-body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   line-height: $font__lh;

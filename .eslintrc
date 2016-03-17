@@ -8,7 +8,6 @@
   },
   "globals": {
     "React": true,
-    "ReactDOM": true,
     "ReactCSS": true
   },
   "rules": {
@@ -21,7 +20,6 @@
     "no-multi-spaces":                     0,
     "spaced-comment":                      0,
     "jsx-quotes":                          [2, "prefer-single"],
-    "dot-notation":                        [2, {"allowKeywords": false}],
     "comma-dangle":                        [2, "never"],
     "space-before-function-paren":         [2, "always"],
     "react/prefer-stateless-function":      2,
