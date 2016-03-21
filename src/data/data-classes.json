@@ -1,20 +1,4 @@
 {
-	"CLASSES": [
-		"Barbarian",
-		"Bard",
-		"Cleric",
-		"Druid",
-		"Fighter",
-		"Monk",
-		"Mystic",
-		"Paladin",
-		"Ranger",
-		"Ranger_(Variant)",
-		"Rogue",
-		"Sorcerer",
-		"Warlock",
-		"Wizard"
-	],
 	"CLASSES_BY_KEY": {
 		"Barbarian": {
 			"proficiency": "Strength, Constitution",
@@ -10749,5 +10733,21 @@
 			"slotsOptional": false,
 			"url": "Wizard"
 		}
-	}
+	},
+	"CLASSES": [
+		"Barbarian",
+		"Bard",
+		"Cleric",
+		"Druid",
+		"Fighter",
+		"Monk",
+		"Mystic",
+		"Paladin",
+		"Ranger",
+		"Ranger_(Variant)",
+		"Rogue",
+		"Sorcerer",
+		"Warlock",
+		"Wizard"
+	]
 }

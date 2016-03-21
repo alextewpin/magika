@@ -25,13 +25,15 @@ function groupMontersByCR (source) {
   return output;
 }
 
-function makeMosterTypeFilterLists (monsters) {
+function makeMonsterTypeFilterLists (monsters) {
   const allCrArray = [...Array(34)].map(() => []);
   const monsterLists = {
     All: allCrArray
   };
   monsters.forEach(monster => {
-    monsterLists.All[monster.crNum].push(monster.url);
+    if (monsterLists.All[monster.crNum].indexOf(monster.url) === -1) {
+      monsterLists.All[monster.crNum].push(monster.url);
+    }
     if (monsterLists[monster.typeShort] === undefined) {
       const typeCrArray = [...Array(34)].map(() => []);
       monsterLists[monster.typeShort] = typeCrArray;
@@ -43,7 +45,7 @@ function makeMosterTypeFilterLists (monsters) {
   return monsterLists;
 }
 
-function makeMosterTypeFilters (monsterLists) {
+function makeMonsterTypeFilters (monsterLists) {
   const monsterTypeList = Object.keys(monsterLists)
     .sort((a, b) => {
       if (a < b) { return -1; }
@@ -130,6 +132,6 @@ function prepareMonsters (monsters) {
 }
 
 module.exports.prepareMonsters = prepareMonsters;
-module.exports.makeMosterTypeFilterLists = makeMosterTypeFilterLists;
-module.exports.makeMosterTypeFilters = makeMosterTypeFilters;
+module.exports.makeMonsterTypeFilterLists = makeMonsterTypeFilterLists;
+module.exports.makeMonsterTypeFilters = makeMonsterTypeFilters;
 module.exports.groupMontersByCR = groupMontersByCR;

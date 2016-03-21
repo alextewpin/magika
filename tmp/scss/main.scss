@@ -86,32 +86,10 @@ select, input {
 }
 
 //List group
-.list {
-	margin-top: $p-v;
-}
+
 
 .list-filters-select {
 	padding: 0px $p-h;
-}
-
-.list-search-wrapper {
-	padding: 0px $p-h;
-	margin-bottom: $p-v/2;
-}
-
-.list-search {
-	padding: $g;
-	border: 2px solid $c-secondary;
-	border-radius: 0px;
-	height: $g * 8;
-	width: 100%;
-	outline: none;
-	max-width: 400px;
-	box-sizing: border-box !important;
-	display: block;
-	&:focus {
-		border: 2px solid $c-main;
-	}
 }
 
 .list-block-title {
@@ -136,10 +114,6 @@ section:last-of-type {
 @mixin list-group-title {
 	color: $c-secondary;
 	font-weight: bold;
-	height: $g * 8;
-	padding: 0px $p-h;
-	@include display(flex);
-	@include align-items(center);
 	// &>* {
 	// 	@include flex-shrink(0);
 	// }

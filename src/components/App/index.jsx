@@ -11,7 +11,6 @@ function App ({ isLoading = true, children }) {
     return (
       <div>
         <Nav/>
-        <div>Search</div>
         <div>
           {children}
         </div>
@@ -22,11 +21,13 @@ function App ({ isLoading = true, children }) {
 
 App.propTypes = {
   isLoading: React.PropTypes.bool,
-  children: React.PropTypes.any
+  children: React.PropTypes.node
 };
 
 function mapStateToProps (state) {
-  return state.main;
+  return {
+    isLoading: state.app.isLoading
+  };
 }
 
 export default connect(

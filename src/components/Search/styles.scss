@@ -1,0 +1,31 @@
+@import "~_styles/constants.scss";
+
+.root {
+  padding: 0px $g__padding-h;
+  margin-bottom: $g__padding-v/2;
+  position: relative;
+}
+
+.input {
+  padding: g();
+  padding-right: g(7);
+  border: 2px solid $pl__secondary;
+  border-radius: 0px;
+  height: g(8);
+  width: 100%;
+  outline: none;
+  box-sizing: border-box;
+  display: block;
+  &:focus {
+    border-color: $pl__primary;
+  }
+}
+
+.icon {
+  width: g(4);
+  height: g(4);
+  cursor: pointer;
+  position: absolute;
+  top: g(2);
+  right: $g__padding-h + g(2);
+}

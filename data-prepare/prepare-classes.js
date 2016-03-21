@@ -1,10 +1,5 @@
 const utils = require('./prepare-utils.js');
 
-function makeClassesList (source) {
-  console.log(source);
-  return source.map(charClass => charClass.url);
-}
-
 function getFeaturesForLevel (levelObject) {
   let featuresArray = utils.objectToArray(levelObject.feature);
   featuresArray = featuresArray.map(feature => {
@@ -66,4 +61,3 @@ function prepareClasses (charClasses) {
 }
 
 module.exports.prepareClasses = prepareClasses;
-module.exports.makeClassesList = makeClassesList;

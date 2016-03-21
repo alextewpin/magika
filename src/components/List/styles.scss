@@ -1,0 +1,10 @@
+@import "~_styles/constants.scss";
+
+.root_have-separator_ {
+  &true:not(:first-child) {
+    margin-top: g(2);
+  }
+  &false {
+    margin-top: 0;
+  }
+}

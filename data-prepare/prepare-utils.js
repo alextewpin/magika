@@ -44,4 +44,13 @@ utils.sortByName = list => {
   });
 };
 
+utils.makeList = source => {
+  return Object.keys(source)
+    .sort((a, b) => {
+      if (a < b) { return -1; }
+      if (a > b) { return 1; }
+      return 0;
+    });
+};
+
 module.exports = utils;

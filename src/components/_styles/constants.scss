@@ -9,6 +9,8 @@ $g__padding-v: g(5);
 // Palette
 $pl__primary: #DD321E;
 $pl__secondary: #8C0411;
+$pl__grey: #666;
+$pl__grey-l: #eee;
 $pl__black: #000;
 $pl__white: #FFF;
 
@@ -17,6 +19,6 @@ $font__lh: 1.25em;
 
 @mixin font__style-body {
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   line-height: $font__lh;
 }
