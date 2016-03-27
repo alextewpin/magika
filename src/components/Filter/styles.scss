@@ -1,0 +1,41 @@
+@import "~_styles/constants.scss";
+
+.root {
+  padding: 0px $g__padding-h;
+  margin-bottom: $g__padding-v/2;
+  position: relative;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select {
+  opacity: 0;
+  position: absolute;
+  height: g(8);
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  border: none;
+}
+
+.select-cover {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: g();
+  height: g(8);
+  width: 100%;
+  border: 2px solid $pl__secondary;
+  box-sizing: border-box;
+  color: $pl__secondary;
+  &>*:first-child {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  &>*:last-child {
+    flex-shrink: 0;
+  }
+}

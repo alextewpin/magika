@@ -8,6 +8,8 @@ function getBookmarks () {
 const initialState = {
   isLoading: true,
   searchValue: '',
+  filterValue: 0,
+  showAll: [],
   data: {},
   bookmarks: getBookmarks()
 };
@@ -23,12 +25,31 @@ function app (state = initialState, action) {
     case 'SEARCH':
       return {
         ...state,
-        searchValue: action.value
+        searchValue: action.value,
+        showAll: []
       }
     case 'CLEAR_SEARCH':
       return {
         ...state,
-        searchValue: ''
+        searchValue: '',
+        showAll: []
+      }
+    case 'FILTER':
+      return {
+        ...state,
+        filterValue: action.value
+      }
+    case 'SHOW_ALL':
+      return {
+        ...state,
+        showAll: [...state.showAll, action.category]
+      }
+    case '@@router/LOCATION_CHANGE':
+      return {
+        ...state,
+        searchValue: action.payload.query.searchValue || '',
+        filterValue: 0,
+        showAll: []
       }
     default:
       return state;

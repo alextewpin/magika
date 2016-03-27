@@ -15,7 +15,9 @@ function makeSpellsCharFilterLists (spells) {
     All: [[], [], [], [], [], [], [], [], [], []]
   };
   spells.forEach(spell => {
-    spellLists.All[spell.level].push(spell.url);
+    if (spellLists.All[spell.level].indexOf(spell.url) === -1) {
+      spellLists.All[spell.level].push(spell.url);
+    }
     spell.classesArray.forEach(className => {
       if (spellLists[className]) {
         spellLists[className][spell.level].push(spell.url);

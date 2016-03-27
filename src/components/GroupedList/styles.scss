@@ -1,13 +1,10 @@
 @import "~_styles/constants.scss";
 
-.root_is-hidden_ {
+.list_is-hidden_ {
   &true {
     display: none;
   }
   &false {
     display: block;
-    &:not(:first-child) {
-      margin-top: g(2);
-    }
   }
 }

@@ -9,13 +9,13 @@ function Nav ({ title }) {
   }
   let _bookmarks;
   if (title !== 'bookmarks') {
-    _bookmarks = <Link to='bookmarks' styleName='bookmarks'>Bookmarks</Link>;
+    _bookmarks = <Link to='/bookmarks' styleName='bookmarks'>Bookmarks</Link>;
   }
   return (
     <div styleName='root'>
       <div styleName='breadcrumbs'>
         <div>
-          <Link to='app' styleName='logo'>Magika</Link>
+          <Link to='/app' styleName='logo'>Magika</Link>
           {_title}
         </div>
       </div>

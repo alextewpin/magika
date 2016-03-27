@@ -1,35 +1,66 @@
 import styles from './styles.scss';
 
+import { connect } from 'react-redux';
+
 import Line from 'Line';
 
-function List ({ title, link, list, dictionary, maxLength = 0 }) {
-  if (list.length === 0) {
+function List ({
+    title,
+    link,
+    filteredList,
+    fullList,
+    dictionary,
+    category,
+    maxLength = 0,
+    showAll = false,
+    isHidden = false,
+    onShowAll,
+    key
+  }) {
+  if (!fullList && filteredList.length === 0) {
     return null;
-  }
-  function getTitle () {
-    if (link) {
-      return <Line value={title} link={link}/>;
-    }
-    return <Line value={title}/>;
   }
   function getShowMore () {
-    if (maxLength !== 0 && list.length > maxLength) {
-      return <Line value={`Show ${list.length - maxLength} more`} style='show-more'/>;
+    if (maxLength !== 0 && filteredList.length > maxLength && !showAll) {
+      const _onShowAll = () => onShowAll(category);
+      return <Line value={`Show ${filteredList.length - maxLength} more`} style='show-all' onClick={_onShowAll}/>;
     }
     return null;
   }
+  function getList () {
+    if (fullList) {
+      return (
+        fullList.map(item => {
+          return <Line key={item} value={dictionary[item].name} isHidden={filteredList.indexOf(item) === -1}/>;
+        })
+      );
+    } else {
+      return (
+        filteredList.map((item, i) => {
+          if (showAll || (maxLength !== 0 && i + 1 <= maxLength)) {
+            return <Line key={item} value={dictionary[item].name}/>;
+          }
+          return null;
+        })
+      );
+    }
+  }
   return (
-    <div styleName='root_have-separator_true'>
-      {getTitle()}
-      {list.map((item, i) => {
-        if (maxLength !== 0 && i + 1 <= maxLength) {
-          return <Line key={dictionary[item].url} value={dictionary[item].name}/>;
-        }
-        return null;
-      })}
+    <div key={key} styleName={`root_is-hidden_${isHidden}`}>
+      <Line value={title} link={link} style='h2'/>
+      {getList()}
       {getShowMore()}
     </div>
   );
 }
 
-export default ReactCSS(List, styles);
+function mapDispatchToProps (dispatch) {
+  return {
+    onShowAll: category => dispatch({ type: 'SHOW_ALL', category })
+  };
+}
+
+export default connect(
+  null,
+  mapDispatchToProps
+)(ReactCSS(List, styles));
