@@ -1,21 +1,15 @@
-import styles from './styles.scss';
-
-import { connect } from 'react-redux';
-import { filterList } from '_utils/common';
-
 import List from 'List';
 
-function GroupedList ({ groupedList, dictionary, searchValue, filterValue, makeTitleFromIndex }) {
+export default function GroupedList ({ fullGroupedList, filteredGroupedList, dictionary, makeTitleFromIndex }) {
   return (
     <div>
-      {groupedList.map((fullList, i) => {
-        const filteredList = filterList(fullList, searchValue);
+      {fullGroupedList.map((fullList, i) => {
         return (
           <List
             key={i}
-            isHidden={!(filteredList.length > 0)}
+            isHidden={!(filteredGroupedList[i].length > 0)}
             title={makeTitleFromIndex(i)}
-            filteredList={filteredList}
+            filteredList={filteredGroupedList[i]}
             fullList={fullList}
             dictionary={dictionary}/>
         );
@@ -23,14 +17,3 @@ function GroupedList ({ groupedList, dictionary, searchValue, filterValue, makeT
     </div>
   );
 }
-
-function mapStateToProps (state) {
-  return {
-    searchValue: state.app.searchValue,
-    filterValue: state.app.filterValue
-  };
-}
-
-export default connect(
-  mapStateToProps
-)(ReactCSS(GroupedList, styles));

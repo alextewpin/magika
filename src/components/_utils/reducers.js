@@ -25,7 +25,7 @@ function app (state = initialState, action) {
     case 'SEARCH':
       return {
         ...state,
-        searchValue: action.value,
+        searchValue: action.value.toLowerCase().replace(/\s/g, '_').replace(/\//g, '_'),
         showAll: []
       }
     case 'CLEAR_SEARCH':

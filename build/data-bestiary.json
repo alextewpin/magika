@@ -50,6 +50,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Aarakocra"
 		},
 		"Aboleth": {
@@ -130,6 +131,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Aboleth"
 		},
 		"Abominable_Yeti": {
@@ -193,6 +195,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Huge",
+			"typeShort": "Monstrosity",
 			"url": "Abominable_Yeti"
 		},
 		"Acolyte": {
@@ -240,6 +243,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Acolyte"
 		},
 		"Adult_Black_Dragon": {
@@ -323,6 +327,7 @@
 			],
 			"crNum": 17,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Black_Dragon"
 		},
 		"Adult_Blue_Dracolich": {
@@ -406,6 +411,7 @@
 			],
 			"crNum": 20,
 			"sizeFull": "Huge",
+			"typeShort": "Undead",
 			"url": "Adult_Blue_Dracolich"
 		},
 		"Adult_Blue_Dragon": {
@@ -485,6 +491,7 @@
 			],
 			"crNum": 19,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Blue_Dragon"
 		},
 		"Adult_Brass_Dragon": {
@@ -554,6 +561,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Brass_Dragon"
 		},
 		"Adult_Bronze_Dragon": {
@@ -641,6 +649,7 @@
 			],
 			"crNum": 18,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Bronze_Dragon"
 		},
 		"Adult_Copper_Dragon": {
@@ -724,6 +733,7 @@
 			],
 			"crNum": 17,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Copper_Dragon"
 		},
 		"Adult_Gold_Dragon": {
@@ -811,6 +821,7 @@
 			],
 			"crNum": 20,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Gold_Dragon"
 		},
 		"Adult_Green_Dragon": {
@@ -894,6 +905,7 @@
 			],
 			"crNum": 18,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Green_Dragon"
 		},
 		"Adult_Red_Dragon": {
@@ -973,6 +985,7 @@
 			],
 			"crNum": 20,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Red_Dragon"
 		},
 		"Adult_Silver_Dragon": {
@@ -1056,6 +1069,7 @@
 			],
 			"crNum": 19,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_Silver_Dragon"
 		},
 		"Adult_White_Dragon": {
@@ -1139,6 +1153,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Huge",
+			"typeShort": "Dragon",
 			"url": "Adult_White_Dragon"
 		},
 		"Aerisi_Kalinoth": {
@@ -1206,6 +1221,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Aerisi_Kalinoth"
 		},
 		"Air_Elemental": {
@@ -1259,6 +1275,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Air_Elemental"
 		},
 		"Air_Elemental_Myrmidon": {
@@ -1310,6 +1327,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Air_Elemental_Myrmidon"
 		},
 		"Allosaurus": {
@@ -1357,6 +1375,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Allosaurus"
 		},
 		"Ambush_Drake": {
@@ -1404,6 +1423,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Ambush_Drake"
 		},
 		"Ancient_Black_Dragon": {
@@ -1490,6 +1510,7 @@
 			],
 			"crNum": 24,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Black_Dragon"
 		},
 		"Ancient_Blue_Dragon": {
@@ -1563,6 +1584,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Blue_Dragon"
 		},
 		"Ancient_Brass_Dragon": {
@@ -1653,6 +1675,7 @@
 			],
 			"crNum": 23,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Brass_Dragon"
 		},
 		"Ancient_Bronze_Dragon": {
@@ -1747,6 +1770,7 @@
 			],
 			"crNum": 25,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Bronze_Dragon"
 		},
 		"Ancient_Copper_Dragon": {
@@ -1837,6 +1861,7 @@
 			],
 			"crNum": 24,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Copper_Dragon"
 		},
 		"Ancient_Gold_Dragon": {
@@ -1931,6 +1956,7 @@
 			],
 			"crNum": 27,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Gold_Dragon"
 		},
 		"Ancient_Green_Dragon": {
@@ -2014,6 +2040,7 @@
 			],
 			"crNum": 25,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Green_Dragon"
 		},
 		"Ancient_Red_Dragon": {
@@ -2093,6 +2120,7 @@
 			],
 			"crNum": 27,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Red_Dragon"
 		},
 		"Ancient_Silver_Dragon": {
@@ -2183,6 +2211,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_Silver_Dragon"
 		},
 		"Ancient_White_Dragon": {
@@ -2252,6 +2281,7 @@
 			],
 			"crNum": 23,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Ancient_White_Dragon"
 		},
 		"Androsphinx": {
@@ -2342,6 +2372,7 @@
 			],
 			"crNum": 20,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Androsphinx"
 		},
 		"Animated_Armor": {
@@ -2392,6 +2423,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Animated_Armor"
 		},
 		"Ankheg": {
@@ -2433,6 +2465,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Ankheg"
 		},
 		"Ankylosaurus": {
@@ -2468,6 +2501,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Ankylosaurus"
 		},
 		"Ape": {
@@ -2513,6 +2547,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Ape"
 		},
 		"Arcanaloth": {
@@ -2595,6 +2630,7 @@
 			],
 			"crNum": 15,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Arcanaloth"
 		},
 		"Archmage": {
@@ -2655,6 +2691,7 @@
 			],
 			"crNum": 15,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Archmage"
 		},
 		"Assassin": {
@@ -2715,6 +2752,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Assassin"
 		},
 		"Avatar_of_Death": {
@@ -2765,6 +2803,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Avatar_of_Death"
 		},
 		"Awakened_Shrub": {
@@ -2807,6 +2846,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Small",
+			"typeShort": "Plant",
 			"url": "Awakened_Shrub"
 		},
 		"Awakened_Tree": {
@@ -2849,6 +2889,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Huge",
+			"typeShort": "Plant",
 			"url": "Awakened_Tree"
 		},
 		"Awakened_Zurkhwood": {
@@ -2895,6 +2936,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Huge",
+			"typeShort": "Plant",
 			"url": "Awakened_Zurkhwood"
 		},
 		"Axe_Beak": {
@@ -2931,6 +2973,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Axe_Beak"
 		},
 		"Azbara_Jos": {
@@ -2992,6 +3035,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Azbara_Jos"
 		},
 		"Azer": {
@@ -3043,6 +3087,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Azer"
 		},
 		"Baboon": {
@@ -3085,6 +3130,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Baboon"
 		},
 		"Badger": {
@@ -3127,6 +3173,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Badger"
 		},
 		"Balor": {
@@ -3204,6 +3251,7 @@
 			],
 			"crNum": 22,
 			"sizeFull": "Huge",
+			"typeShort": "Fiend",
 			"url": "Balor"
 		},
 		"Bandit": {
@@ -3245,6 +3293,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Bandit"
 		},
 		"Bandit_Captain": {
@@ -3296,6 +3345,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Bandit_Captain"
 		},
 		"Banshee": {
@@ -3350,6 +3400,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Banshee"
 		},
 		"Baphomet": {
@@ -3460,6 +3511,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Huge",
+			"typeShort": "Fiend",
 			"url": "Baphomet"
 		},
 		"Barbed_Devil": {
@@ -3525,6 +3577,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Barbed_Devil"
 		},
 		"Barlgura": {
@@ -3596,6 +3649,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Barlgura"
 		},
 		"Basilisk": {
@@ -3642,6 +3696,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Basilisk"
 		},
 		"Bastian_Thermandar": {
@@ -3702,6 +3757,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Bastian_Thermandar"
 		},
 		"Bat": {
@@ -3748,6 +3804,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Bat"
 		},
 		"Bearded_Devil": {
@@ -3807,6 +3864,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Bearded_Devil"
 		},
 		"Behir": {
@@ -3865,6 +3923,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Huge",
+			"typeShort": "Monstrosity",
 			"url": "Behir"
 		},
 		"Beholder": {
@@ -3931,6 +3990,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Beholder"
 		},
 		"Beholder_Zombie": {
@@ -3984,6 +4044,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Undead",
 			"url": "Beholder_Zombie"
 		},
 		"Berserker": {
@@ -4026,6 +4087,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Berserker"
 		},
 		"Black_Bear": {
@@ -4077,6 +4139,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Black_Bear"
 		},
 		"Black_Dragon_Wyrmling": {
@@ -4124,6 +4187,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Black_Dragon_Wyrmling"
 		},
 		"Black_Earth_Guard": {
@@ -4170,6 +4234,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Black_Earth_Guard"
 		},
 		"Black_Earth_Priest": {
@@ -4229,6 +4294,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Black_Earth_Priest"
 		},
 		"Black_Pudding": {
@@ -4286,6 +4352,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Ooze",
 			"url": "Black_Pudding"
 		},
 		"Blagothkus": {
@@ -4351,6 +4418,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Blagothkus"
 		},
 		"Blink_Dog": {
@@ -4397,6 +4465,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Fey",
 			"url": "Blink_Dog"
 		},
 		"Blood_Hawk": {
@@ -4443,6 +4512,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Blood_Hawk"
 		},
 		"Blue_Dragon_Wyrmling": {
@@ -4484,6 +4554,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Blue_Dragon_Wyrmling"
 		},
 		"Blue_Slaad": {
@@ -4548,6 +4619,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Blue_Slaad"
 		},
 		"Boar": {
@@ -4595,6 +4667,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Boar"
 		},
 		"Bone_Devil": {
@@ -4664,6 +4737,7 @@
 			],
 			"crNum": 15,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Bone_Devil"
 		},
 		"Bone_Devil_Polearm": {
@@ -4693,6 +4767,7 @@
 			"cha": "16",
 			"crNum": 15,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Bone_Devil_Polearm"
 		},
 		"Bone_Naga_(Guardian)": {
@@ -4742,6 +4817,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Undead",
 			"url": "Bone_Naga_(Guardian)"
 		},
 		"Bone_Naga_(Spirit)": {
@@ -4791,6 +4867,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Undead",
 			"url": "Bone_Naga_(Spirit)"
 		},
 		"Brass_Dragon_Wyrmling": {
@@ -4836,6 +4913,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Brass_Dragon_Wyrmling"
 		},
 		"Bridesmaid_of_Zuggtmoy": {
@@ -4881,6 +4959,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Bridesmaid_of_Zuggtmoy"
 		},
 		"Bronze_Dragon_Wyrmling": {
@@ -4932,6 +5011,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Bronze_Dragon_Wyrmling"
 		},
 		"Brown_Bear": {
@@ -4983,6 +5063,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Brown_Bear"
 		},
 		"Bugbear": {
@@ -5038,6 +5119,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Bugbear"
 		},
 		"Bugbear_Chief": {
@@ -5101,6 +5183,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Bugbear_Chief"
 		},
 		"Bulette": {
@@ -5147,6 +5230,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Bulette"
 		},
 		"Bullywug": {
@@ -5210,6 +5294,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Bullywug"
 		},
 		"Burrowshark": {
@@ -5265,6 +5350,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Burrowshark"
 		},
 		"Cambion": {
@@ -5331,6 +5417,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Cambion"
 		},
 		"Camel": {
@@ -5367,6 +5454,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Camel"
 		},
 		"Captain_Othelstan": {
@@ -5425,6 +5513,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Captain_Othelstan"
 		},
 		"Carrion_Crawler": {
@@ -5480,6 +5569,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Carrion_Crawler"
 		},
 		"Cat": {
@@ -5522,6 +5612,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Cat"
 		},
 		"Cave_Bear": {
@@ -5573,6 +5664,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Cave_Bear"
 		},
 		"Centaur": {
@@ -5630,6 +5722,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Centaur"
 		},
 		"Chain_Devil": {
@@ -5693,6 +5786,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Chain_Devil"
 		},
 		"Chamberlain_of_Zuggtmoy": {
@@ -5751,6 +5845,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Plant",
 			"url": "Chamberlain_of_Zuggtmoy"
 		},
 		"Chasme": {
@@ -5809,6 +5904,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Chasme"
 		},
 		"Chimera": {
@@ -5864,6 +5960,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Chimera"
 		},
 		"Chuul": {
@@ -5918,6 +6015,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Chuul"
 		},
 		"Chuul_Spore_Servant": {
@@ -5958,6 +6056,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Plant",
 			"url": "Chuul_Spore_Servant"
 		},
 		"Clay_Golem": {
@@ -6024,6 +6123,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Large",
+			"typeShort": "Construct",
 			"url": "Clay_Golem"
 		},
 		"Cloaker": {
@@ -6095,6 +6195,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Cloaker"
 		},
 		"Cloud_Giant": {
@@ -6156,6 +6257,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Cloud_Giant"
 		},
 		"Cockatrice": {
@@ -6192,6 +6294,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Small",
+			"typeShort": "Monstrosity",
 			"url": "Cockatrice"
 		},
 		"Commoner": {
@@ -6228,6 +6331,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Commoner"
 		},
 		"Constrictor_Snake": {
@@ -6269,6 +6373,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Constrictor_Snake"
 		},
 		"Copper_Dragon_Wyrmling": {
@@ -6314,6 +6419,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Copper_Dragon_Wyrmling"
 		},
 		"Couatl": {
@@ -6382,6 +6488,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Celestial",
 			"url": "Couatl"
 		},
 		"Crab": {
@@ -6424,6 +6531,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Crab"
 		},
 		"Crawling_Claw": {
@@ -6466,6 +6574,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Undead",
 			"url": "Crawling_Claw"
 		},
 		"Crocodile": {
@@ -6508,6 +6617,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Crocodile"
 		},
 		"Crushing_Wave_Priest": {
@@ -6560,6 +6670,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Crushing_Wave_Priest"
 		},
 		"Crushing_Wave_Reaver": {
@@ -6604,6 +6715,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Crushing_Wave_Reaver"
 		},
 		"Cult_Fanatic": {
@@ -6660,6 +6772,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Cult_Fanatic"
 		},
 		"Cultist": {
@@ -6702,6 +6815,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Cultist"
 		},
 		"Cyclops": {
@@ -6753,6 +6867,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Cyclops"
 		},
 		"Dao": {
@@ -6833,6 +6948,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Dao"
 		},
 		"Dark_Tide_Knight": {
@@ -6895,6 +7011,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Dark_Tide_Knight"
 		},
 		"Darkmantle": {
@@ -6949,6 +7066,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Small",
+			"typeShort": "Monstrosity",
 			"url": "Darkmantle"
 		},
 		"Death_Dog": {
@@ -6995,6 +7113,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Death_Dog"
 		},
 		"Death_Knight": {
@@ -7069,6 +7188,7 @@
 			],
 			"crNum": 20,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Death_Knight"
 		},
 		"Death_Slaad": {
@@ -7156,6 +7276,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Death_Slaad"
 		},
 		"Death_Tyrant": {
@@ -7225,6 +7346,7 @@
 			],
 			"crNum": 17,
 			"sizeFull": "Large",
+			"typeShort": "Undead",
 			"url": "Death_Tyrant"
 		},
 		"Deep_Gnome_(Svirfneblin)": {
@@ -7284,6 +7406,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Deep_Gnome_(Svirfneblin)"
 		},
 		"Deer": {
@@ -7320,6 +7443,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Deer"
 		},
 		"Demilich": {
@@ -7391,6 +7515,7 @@
 			],
 			"crNum": 21,
 			"sizeFull": "Tiny",
+			"typeShort": "Undead",
 			"url": "Demilich"
 		},
 		"Demogorgon": {
@@ -7484,6 +7609,7 @@
 			],
 			"crNum": 29,
 			"sizeFull": "Huge",
+			"typeShort": "Fiend",
 			"url": "Demogorgon"
 		},
 		"Derro": {
@@ -7539,6 +7665,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Derro"
 		},
 		"Derro_Savant": {
@@ -7605,6 +7732,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Derro_Savant"
 		},
 		"Deva": {
@@ -7674,6 +7802,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Medium",
+			"typeShort": "Celestial",
 			"url": "Deva"
 		},
 		"Dire_Wolf": {
@@ -7720,6 +7849,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Dire_Wolf"
 		},
 		"Displacer_Beast": {
@@ -7770,6 +7900,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Displacer_Beast"
 		},
 		"Djinni": {
@@ -7844,6 +7975,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Djinni"
 		},
 		"Doppelganger": {
@@ -7903,6 +8035,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Doppelganger"
 		},
 		"Draft_Horse": {
@@ -7939,6 +8072,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Draft_Horse"
 		},
 		"Dragon_Turtle": {
@@ -8000,6 +8134,7 @@
 			],
 			"crNum": 20,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Dragon",
 			"url": "Dragon_Turtle"
 		},
 		"Dragonclaw": {
@@ -8055,6 +8190,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Dragonclaw"
 		},
 		"Dragonfang": {
@@ -8115,6 +8251,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Dragonfang"
 		},
 		"Dragonsoul": {
@@ -8179,6 +8316,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Dragonsoul"
 		},
 		"Dragonwing": {
@@ -8238,6 +8376,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Dragonwing"
 		},
 		"Dralmorrer_Borngray": {
@@ -8310,6 +8449,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Dralmorrer_Borngray"
 		},
 		"Drannin_Splithelm": {
@@ -8377,6 +8517,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Drannin_Splithelm"
 		},
 		"Dretch": {
@@ -8426,6 +8567,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Fiend",
 			"url": "Dretch"
 		},
 		"Drider": {
@@ -8505,6 +8647,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Drider"
 		},
 		"Drider_Spellcaster": {
@@ -8572,6 +8715,7 @@
 			"cha": "12",
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Drider_Spellcaster"
 		},
 		"Droki": {
@@ -8653,6 +8797,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Droki"
 		},
 		"Drow": {
@@ -8712,6 +8857,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Drow"
 		},
 		"Drow_Elite_Warrior": {
@@ -8781,6 +8927,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Drow_Elite_Warrior"
 		},
 		"Drow_Mage": {
@@ -8855,6 +9002,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Drow_Mage"
 		},
 		"Drow_Priestess_of_Lolth": {
@@ -8930,6 +9078,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Drow_Priestess_of_Lolth"
 		},
 		"Drow_Spore_Servant": {
@@ -8966,6 +9115,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Drow_Spore_Servant"
 		},
 		"Druid": {
@@ -9017,6 +9167,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Druid"
 		},
 		"Dryad": {
@@ -9085,6 +9236,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Fey",
 			"url": "Dryad"
 		},
 		"Duergar": {
@@ -9150,6 +9302,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Duergar"
 		},
 		"Duergar_Darkhaft": {
@@ -9224,6 +9377,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Duergar_Darkhaft"
 		},
 		"Duergar_Kavalrachni": {
@@ -9302,6 +9456,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Duergar_Kavalrachni"
 		},
 		"Duergar_Keeper_of_the_Flame": {
@@ -9386,6 +9541,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Duergar_Keeper_of_the_Flame"
 		},
 		"Duergar_Soulblade": {
@@ -9456,6 +9612,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Duergar_Soulblade"
 		},
 		"Duergar_Spore_Servant": {
@@ -9492,6 +9649,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Duergar_Spore_Servant"
 		},
 		"Duergar_Stone_Guard": {
@@ -9557,6 +9715,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Duergar_Stone_Guard"
 		},
 		"Duergar_Xarron": {
@@ -9618,6 +9777,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Duergar_Xarron"
 		},
 		"Duodrone": {
@@ -9673,6 +9833,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Duodrone"
 		},
 		"Dust_Mephit": {
@@ -9727,6 +9888,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Small",
+			"typeShort": "Elemental",
 			"url": "Dust_Mephit"
 		},
 		"Eagle": {
@@ -9769,6 +9931,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Eagle"
 		},
 		"Earth_Elemental": {
@@ -9819,6 +9982,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Earth_Elemental"
 		},
 		"Earth_Elemental_Myrmidon": {
@@ -9870,6 +10034,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Earth_Elemental_Myrmidon"
 		},
 		"Efreeti": {
@@ -9943,6 +10108,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Efreeti"
 		},
 		"Elephant": {
@@ -9990,6 +10156,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Elephant"
 		},
 		"Elizar_Dryflagon": {
@@ -10044,6 +10211,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Elizar_Dryflagon"
 		},
 		"Elk": {
@@ -10090,6 +10258,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Elk"
 		},
 		"Empyrean": {
@@ -10167,6 +10336,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Huge",
+			"typeShort": "Celestial",
 			"url": "Empyrean"
 		},
 		"Erinyes": {
@@ -10235,6 +10405,7 @@
 			],
 			"crNum": 15,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Erinyes"
 		},
 		"Eternal_Flame_Guardian": {
@@ -10290,6 +10461,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Eternal_Flame_Guardian"
 		},
 		"Eternal_Flame_Priest": {
@@ -10339,6 +10511,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Eternal_Flame_Priest"
 		},
 		"Ettercap": {
@@ -10407,6 +10580,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Ettercap"
 		},
 		"Ettin": {
@@ -10462,6 +10636,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Giant",
 			"url": "Ettin"
 		},
 		"Evil_Mage": {
@@ -10513,6 +10688,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Evil_Mage"
 		},
 		"Faerie_Dragon_(Blue)": {
@@ -10594,6 +10770,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Faerie_Dragon_(Blue)"
 		},
 		"Faerie_Dragon_(Green)": {
@@ -10675,6 +10852,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Faerie_Dragon_(Green)"
 		},
 		"Faerie_Dragon_(Indigo)": {
@@ -10756,6 +10934,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Faerie_Dragon_(Indigo)"
 		},
 		"Faerie_Dragon_(Orange)": {
@@ -10837,6 +11016,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Faerie_Dragon_(Orange)"
 		},
 		"Faerie_Dragon_(Red)": {
@@ -10918,6 +11098,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Faerie_Dragon_(Red)"
 		},
 		"Faerie_Dragon_(Violet)": {
@@ -10999,6 +11180,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Faerie_Dragon_(Violet)"
 		},
 		"Faerie_Dragon_(Yellow)": {
@@ -11080,6 +11262,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Faerie_Dragon_(Yellow)"
 		},
 		"Fathomer": {
@@ -11145,6 +11328,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Fathomer"
 		},
 		"Feathergale_Knight": {
@@ -11206,6 +11390,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Feathergale_Knight"
 		},
 		"Female_Steeder": {
@@ -11259,6 +11444,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Female_Steeder"
 		},
 		"Fire_Elemental": {
@@ -11317,6 +11503,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Fire_Elemental"
 		},
 		"Fire_Elemental_Myrmidon": {
@@ -11376,6 +11563,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Fire_Elemental_Myrmidon"
 		},
 		"Fire_Giant": {
@@ -11421,6 +11609,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Fire_Giant"
 		},
 		"Fire_Snake": {
@@ -11473,6 +11662,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Fire_Snake"
 		},
 		"Flameskull": {
@@ -11538,6 +11728,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Tiny",
+			"typeShort": "Undead",
 			"url": "Flameskull"
 		},
 		"Flamewrath": {
@@ -11592,6 +11783,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Flamewrath"
 		},
 		"Flesh_Golem": {
@@ -11661,6 +11853,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Flesh_Golem"
 		},
 		"Flumph": {
@@ -11715,6 +11908,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Small",
+			"typeShort": "Aberration",
 			"url": "Flumph"
 		},
 		"Flying_Snake": {
@@ -11757,6 +11951,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Flying_Snake"
 		},
 		"Flying_Sword": {
@@ -11803,6 +11998,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Construct",
 			"url": "Flying_Sword"
 		},
 		"Fomorian": {
@@ -11855,6 +12051,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Fomorian"
 		},
 		"Fraz-Urb'luu": {
@@ -11943,6 +12140,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Fraz-Urb'luu"
 		},
 		"Frog": {
@@ -11982,6 +12180,7 @@
 			"cha": "3",
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Frog"
 		},
 		"Frost_Giant": {
@@ -12027,6 +12226,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Frost_Giant"
 		},
 		"Frulam_Mondath": {
@@ -12080,6 +12280,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Frulam_Mondath"
 		},
 		"Galeb_Duhr": {
@@ -12131,6 +12332,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Galeb_Duhr"
 		},
 		"Gar_Shatterkeel": {
@@ -12211,6 +12413,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Gar_Shatterkeel"
 		},
 		"Gargoyle": {
@@ -12262,6 +12465,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Gargoyle"
 		},
 		"Gas_Spore": {
@@ -12312,6 +12516,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Plant",
 			"url": "Gas_Spore"
 		},
 		"Gelatinous_Cube": {
@@ -12372,6 +12577,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Ooze",
 			"url": "Gelatinous_Cube"
 		},
 		"Ghald": {
@@ -12441,6 +12647,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Humanoid",
 			"url": "Ghald"
 		},
 		"Ghast": {
@@ -12492,6 +12699,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Ghast"
 		},
 		"Ghost": {
@@ -12553,6 +12761,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Ghost"
 		},
 		"Ghoul": {
@@ -12593,6 +12802,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Ghoul"
 		},
 		"Giant_Ape": {
@@ -12638,6 +12848,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Giant_Ape"
 		},
 		"Giant_Badger": {
@@ -12689,6 +12900,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Giant_Badger"
 		},
 		"Giant_Bat": {
@@ -12735,6 +12947,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Bat"
 		},
 		"Giant_Boar": {
@@ -12782,6 +12995,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Boar"
 		},
 		"Giant_Centipede": {
@@ -12818,6 +13032,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Giant_Centipede"
 		},
 		"Giant_Constrictor_Snake": {
@@ -12859,6 +13074,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Giant_Constrictor_Snake"
 		},
 		"Giant_Crab": {
@@ -12901,6 +13117,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Giant_Crab"
 		},
 		"Giant_Crocodile": {
@@ -12952,6 +13169,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Giant_Crocodile"
 		},
 		"Giant_Eagle": {
@@ -13003,6 +13221,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Eagle"
 		},
 		"Giant_Elk": {
@@ -13051,6 +13270,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Giant_Elk"
 		},
 		"Giant_Fire_Beetle": {
@@ -13093,6 +13313,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Giant_Fire_Beetle"
 		},
 		"Giant_Fly": {
@@ -13122,6 +13343,7 @@
 			"cha": "3",
 			"crNum": 0,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Fly"
 		},
 		"Giant_Frog": {
@@ -13172,6 +13394,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Giant_Frog"
 		},
 		"Giant_Goat": {
@@ -13219,6 +13442,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Goat"
 		},
 		"Giant_Hyena": {
@@ -13261,6 +13485,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Hyena"
 		},
 		"Giant_Lizard": {
@@ -13307,6 +13532,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Lizard"
 		},
 		"Giant_Octopus": {
@@ -13361,6 +13587,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Octopus"
 		},
 		"Giant_Owl": {
@@ -13407,6 +13634,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Owl"
 		},
 		"Giant_Poisonous_Snake": {
@@ -13443,6 +13671,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Giant_Poisonous_Snake"
 		},
 		"Giant_Rat": {
@@ -13489,6 +13718,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Giant_Rat"
 		},
 		"Giant_Rat_(Diseased)": {
@@ -13525,6 +13755,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Giant_Rat_(Diseased)"
 		},
 		"Giant_Scorpion": {
@@ -13570,6 +13801,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Scorpion"
 		},
 		"Giant_Sea_Horse": {
@@ -13617,6 +13849,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Sea_Horse"
 		},
 		"Giant_Shark": {
@@ -13663,6 +13896,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Giant_Shark"
 		},
 		"Giant_Spider": {
@@ -13718,6 +13952,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Spider"
 		},
 		"Giant_Toad": {
@@ -13771,6 +14006,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Toad"
 		},
 		"Giant_Vulture": {
@@ -13826,6 +14062,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Giant_Vulture"
 		},
 		"Giant_Wasp": {
@@ -13862,6 +14099,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Giant_Wasp"
 		},
 		"Giant_Weasel": {
@@ -13904,6 +14142,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Giant_Weasel"
 		},
 		"Giant_Wolf_Spider": {
@@ -13954,6 +14193,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Giant_Wolf_Spider"
 		},
 		"Gibbering_Mouther": {
@@ -14008,6 +14248,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Gibbering_Mouther"
 		},
 		"Githyanki_Knight": {
@@ -14060,6 +14301,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Githyanki_Knight"
 		},
 		"Githyanki_Warrior": {
@@ -14111,6 +14353,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Githyanki_Warrior"
 		},
 		"Githzerai_Monk": {
@@ -14166,6 +14409,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Githzerai_Monk"
 		},
 		"Githzerai_Zerth": {
@@ -14221,6 +14465,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Githzerai_Zerth"
 		},
 		"Glabrezu": {
@@ -14288,6 +14533,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Glabrezu"
 		},
 		"Gladiator": {
@@ -14352,6 +14598,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Gladiator"
 		},
 		"Gnoll": {
@@ -14404,6 +14651,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Gnoll"
 		},
 		"Gnoll_Fang_of_Yeenoghu": {
@@ -14455,6 +14703,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Gnoll_Fang_of_Yeenoghu"
 		},
 		"Gnoll_Pack_Lord": {
@@ -14515,6 +14764,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Gnoll_Pack_Lord"
 		},
 		"Goat": {
@@ -14562,6 +14812,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Goat"
 		},
 		"Goblin": {
@@ -14609,6 +14860,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Goblin"
 		},
 		"Goblin_Boss": {
@@ -14666,6 +14918,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Goblin_Boss"
 		},
 		"Gold_Dragon_Wyrmling": {
@@ -14717,6 +14970,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Gold_Dragon_Wyrmling"
 		},
 		"Gorgon": {
@@ -14768,6 +15022,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Gorgon"
 		},
 		"Goristro": {
@@ -14837,6 +15092,7 @@
 			],
 			"crNum": 20,
 			"sizeFull": "Huge",
+			"typeShort": "Fiend",
 			"url": "Goristro"
 		},
 		"Gray_Ooze": {
@@ -14890,6 +15146,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Ooze",
 			"url": "Gray_Ooze"
 		},
 		"Gray_Ooze_(Psychic)": {
@@ -14947,6 +15204,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Ooze",
 			"url": "Gray_Ooze_(Psychic)"
 		},
 		"Gray_Slaad": {
@@ -15034,6 +15292,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Gray_Slaad"
 		},
 		"Graz'zt": {
@@ -15128,6 +15387,7 @@
 			],
 			"crNum": 27,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Graz'zt"
 		},
 		"Green_Dragon_Wyrmling": {
@@ -15175,6 +15435,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Green_Dragon_Wyrmling"
 		},
 		"Green_Hag": {
@@ -15269,6 +15530,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Fey",
 			"url": "Green_Hag"
 		},
 		"Green_Slaad": {
@@ -15357,6 +15619,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Green_Slaad"
 		},
 		"Grell": {
@@ -15405,6 +15668,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Grell"
 		},
 		"Grick": {
@@ -15456,6 +15720,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Grick"
 		},
 		"Grick_Alpha": {
@@ -15512,6 +15777,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Grick_Alpha"
 		},
 		"Griffon": {
@@ -15563,6 +15829,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Griffon"
 		},
 		"Grimlock": {
@@ -15613,6 +15880,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Grimlock"
 		},
 		"Grisha": {
@@ -15666,6 +15934,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Grisha"
 		},
 		"Guard": {
@@ -15702,6 +15971,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Guard"
 		},
 		"Guard_Drake": {
@@ -15747,6 +16017,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Guard_Drake"
 		},
 		"Guardian_Naga": {
@@ -15808,6 +16079,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Guardian_Naga"
 		},
 		"Gynosphinx": {
@@ -15885,6 +16157,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Gynosphinx"
 		},
 		"Half-Ogre_(Ogrillon)": {
@@ -15929,6 +16202,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Giant",
 			"url": "Half-Ogre_(Ogrillon)"
 		},
 		"Half-Red_Dragon_Veteran": {
@@ -15993,6 +16267,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Half-Red_Dragon_Veteran"
 		},
 		"Harpy": {
@@ -16046,6 +16321,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Harpy"
 		},
 		"Hawk": {
@@ -16088,6 +16364,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Hawk"
 		},
 		"Hell_Hound": {
@@ -16139,6 +16416,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Hell_Hound"
 		},
 		"Hellenrae": {
@@ -16203,6 +16481,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Hellenrae"
 		},
 		"Helmed_Horror": {
@@ -16253,6 +16532,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Helmed_Horror"
 		},
 		"Hezrou": {
@@ -16316,6 +16596,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Hezrou"
 		},
 		"Hill_Giant": {
@@ -16361,6 +16642,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Hill_Giant"
 		},
 		"Hippogriff": {
@@ -16412,6 +16694,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Hippogriff"
 		},
 		"Hobgoblin": {
@@ -16460,6 +16743,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Hobgoblin"
 		},
 		"Hobgoblin_Captain": {
@@ -16516,6 +16800,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Hobgoblin_Captain"
 		},
 		"Hobgoblin_Warlord": {
@@ -16586,6 +16871,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Hobgoblin_Warlord"
 		},
 		"Homunculus": {
@@ -16628,6 +16914,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Construct",
 			"url": "Homunculus"
 		},
 		"Hook_Horror": {
@@ -16678,6 +16965,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Hook_Horror"
 		},
 		"Hook_Horror_Spore_Servant": {
@@ -16718,6 +17006,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Hook_Horror_Spore_Servant"
 		},
 		"Horned_Devil": {
@@ -16778,6 +17067,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Horned_Devil"
 		},
 		"Howling_Hatred_Initiate": {
@@ -16824,6 +17114,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Howling_Hatred_Initiate"
 		},
 		"Howling_Hatred_Priest": {
@@ -16886,6 +17177,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Howling_Hatred_Priest"
 		},
 		"Hunter_Shark": {
@@ -16932,6 +17224,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Hunter_Shark"
 		},
 		"Hurricane": {
@@ -16998,6 +17291,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Hurricane"
 		},
 		"Hydra": {
@@ -17060,6 +17354,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Huge",
+			"typeShort": "Monstrosity",
 			"url": "Hydra"
 		},
 		"Hyena": {
@@ -17102,6 +17397,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Hyena"
 		},
 		"Ice_Devil": {
@@ -17170,6 +17466,7 @@
 			],
 			"crNum": 17,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Ice_Devil"
 		},
 		"Ice_Devil_Spear": {
@@ -17243,6 +17540,7 @@
 			],
 			"crNum": 17,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Ice_Devil_Spear"
 		},
 		"Ice_Mephit": {
@@ -17302,6 +17600,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Small",
+			"typeShort": "Elemental",
 			"url": "Ice_Mephit"
 		},
 		"Ice_Toad": {
@@ -17353,6 +17652,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Ice_Toad"
 		},
 		"Imix": {
@@ -17454,6 +17754,7 @@
 			],
 			"crNum": 22,
 			"sizeFull": "Huge",
+			"typeShort": "Elemental",
 			"url": "Imix"
 		},
 		"Imp": {
@@ -17512,6 +17813,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Tiny",
+			"typeShort": "Fiend",
 			"url": "Imp"
 		},
 		"Intellect_Devourer": {
@@ -17569,6 +17871,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Tiny",
+			"typeShort": "Aberration",
 			"url": "Intellect_Devourer"
 		},
 		"Invisible_Stalker": {
@@ -17619,6 +17922,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Invisible_Stalker"
 		},
 		"Iron_Golem": {
@@ -17687,6 +17991,7 @@
 			],
 			"crNum": 19,
 			"sizeFull": "Large",
+			"typeShort": "Construct",
 			"url": "Iron_Golem"
 		},
 		"Ixitxachitl": {
@@ -17733,6 +18038,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Abberation",
 			"url": "Ixitxachitl"
 		},
 		"Ixitxachitl_Cleric": {
@@ -17792,6 +18098,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Abberation",
 			"url": "Ixitxachitl_Cleric"
 		},
 		"Jackal": {
@@ -17838,6 +18145,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Jackal"
 		},
 		"Jackalwere": {
@@ -17897,6 +18205,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Jackalwere"
 		},
 		"Jamna_Gleamsilver": {
@@ -17956,6 +18265,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Jamna_Gleamsilver"
 		},
 		"Juiblex": {
@@ -18055,6 +18365,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Huge",
+			"typeShort": "Fiend",
 			"url": "Juiblex"
 		},
 		"Kenku": {
@@ -18106,6 +18417,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Kenku"
 		},
 		"Killer_Whale": {
@@ -18155,6 +18467,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Killer_Whale"
 		},
 		"Knight": {
@@ -18216,6 +18529,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Knight"
 		},
 		"Kobold": {
@@ -18267,6 +18581,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Kobold"
 		},
 		"Kraken": {
@@ -18349,6 +18664,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Monstrosity",
 			"url": "Kraken"
 		},
 		"Kuo-Toa": {
@@ -18422,6 +18738,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Kuo-Toa"
 		},
 		"Kuo-Toa_Archpriest": {
@@ -18498,6 +18815,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Kuo-Toa_Archpriest"
 		},
 		"Kuo-Toa_Monitor": {
@@ -18565,6 +18883,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Kuo-Toa_Monitor"
 		},
 		"Kuo-Toa_Whip": {
@@ -18637,6 +18956,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Kuo-Toa_Whip"
 		},
 		"Lamia": {
@@ -18692,6 +19012,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Lamia"
 		},
 		"Langdedrosa_Cyanwrath": {
@@ -18755,6 +19076,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Langdedrosa_Cyanwrath"
 		},
 		"Lemure": {
@@ -18794,6 +19116,7 @@
 			"cha": "3",
 			"crNum": 0,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Lemure"
 		},
 		"Lich": {
@@ -18880,6 +19203,7 @@
 			],
 			"crNum": 24,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Lich"
 		},
 		"Lion": {
@@ -18939,6 +19263,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Lion"
 		},
 		"Lizard": {
@@ -18975,6 +19300,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Lizard"
 		},
 		"Lizard_King_Queen": {
@@ -19038,6 +19364,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Lizard_King_Queen"
 		},
 		"Lizardfolk": {
@@ -19099,6 +19426,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Lizardfolk"
 		},
 		"Lizardfolk_Shaman": {
@@ -19168,6 +19496,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Lizardfolk_Shaman"
 		},
 		"Mage": {
@@ -19219,6 +19548,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Mage"
 		},
 		"Magma_Mephit": {
@@ -19278,6 +19608,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Small",
+			"typeShort": "Elemental",
 			"url": "Magma_Mephit"
 		},
 		"Magmin": {
@@ -19325,6 +19656,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Small",
+			"typeShort": "Elemental",
 			"url": "Magmin"
 		},
 		"Male_Steeder": {
@@ -19378,6 +19710,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Male_Steeder"
 		},
 		"Mammoth": {
@@ -19425,6 +19758,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Mammoth"
 		},
 		"Manes": {
@@ -19461,6 +19795,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Small",
+			"typeShort": "Fiend",
 			"url": "Manes"
 		},
 		"Manticore": {
@@ -19517,6 +19852,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Manticore"
 		},
 		"Marid": {
@@ -19597,6 +19933,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Marid"
 		},
 		"Marilith": {
@@ -19674,6 +20011,7 @@
 			],
 			"crNum": 19,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Marilith"
 		},
 		"Marlos_Urnrayle": {
@@ -19741,6 +20079,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Marlos_Urnrayle"
 		},
 		"Mastiff": {
@@ -19783,6 +20122,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Mastiff"
 		},
 		"Medusa": {
@@ -19843,6 +20183,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Medusa"
 		},
 		"Merfolk": {
@@ -19885,6 +20226,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Merfolk"
 		},
 		"Merrow": {
@@ -19941,6 +20283,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Merrow"
 		},
 		"Mezzoloth": {
@@ -20020,6 +20363,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Mezzoloth"
 		},
 		"Mimic": {
@@ -20079,6 +20423,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Mimic"
 		},
 		"Mind_Flayer": {
@@ -20140,6 +20485,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Mind_Flayer"
 		},
 		"Mind_Flayer_Arcanist": {
@@ -20214,6 +20560,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Mind_Flayer_Arcanist"
 		},
 		"Minotaur": {
@@ -20270,6 +20617,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Minotaur"
 		},
 		"Minotaur_Skeleton": {
@@ -20318,6 +20666,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Undead",
 			"url": "Minotaur_Skeleton"
 		},
 		"Miraj_Vizann": {
@@ -20385,6 +20734,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Miraj_Vizann"
 		},
 		"Monodrone": {
@@ -20436,6 +20786,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Monodrone"
 		},
 		"Mormesk_the_Wraith": {
@@ -20482,6 +20833,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Mormesk_the_Wraith"
 		},
 		"Mud_Mephit": {
@@ -20536,6 +20888,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Elemental",
 			"url": "Mud_Mephit"
 		},
 		"Mule": {
@@ -20582,6 +20935,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Mule"
 		},
 		"Mummy": {
@@ -20626,6 +20980,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Mummy"
 		},
 		"Mummy_Lord": {
@@ -20716,6 +21071,7 @@
 			],
 			"crNum": 18,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Mummy_Lord"
 		},
 		"Myconid_Adult": {
@@ -20770,6 +21126,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Myconid_Adult"
 		},
 		"Myconid_Sovereign": {
@@ -20836,6 +21193,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Plant",
 			"url": "Myconid_Sovereign"
 		},
 		"Myconid_Sprout": {
@@ -20886,6 +21244,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Small",
+			"typeShort": "Plant",
 			"url": "Myconid_Sprout"
 		},
 		"Naergoth_Bladelord": {
@@ -20945,6 +21304,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Naergoth_Bladelord"
 		},
 		"Nalfeshnee": {
@@ -21012,6 +21372,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Nalfeshnee"
 		},
 		"Narrak": {
@@ -21082,6 +21443,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Narrak"
 		},
 		"Needle_Blight": {
@@ -21123,6 +21485,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Needle_Blight"
 		},
 		"Neronvain": {
@@ -21182,6 +21545,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Neronvain"
 		},
 		"Nezznar_the_Black_Spider": {
@@ -21254,6 +21618,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Nezznar_the_Black_Spider"
 		},
 		"Night_Hag": {
@@ -21354,6 +21719,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Night_Hag"
 		},
 		"Nightmare": {
@@ -21404,6 +21770,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Nightmare"
 		},
 		"Noble": {
@@ -21446,6 +21813,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Noble"
 		},
 		"Nothic": {
@@ -21501,6 +21869,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Nothic"
 		},
 		"Nycaloth": {
@@ -21576,6 +21945,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Nycaloth"
 		},
 		"Ochre_Jelly": {
@@ -21628,6 +21998,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Ooze",
 			"url": "Ochre_Jelly"
 		},
 		"Octopus": {
@@ -21682,6 +22053,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Small",
+			"typeShort": "Beast",
 			"url": "Octopus"
 		},
 		"Ogre": {
@@ -21723,6 +22095,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Giant",
 			"url": "Ogre"
 		},
 		"Ogre_Zombie": {
@@ -21765,6 +22138,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Undead",
 			"url": "Ogre_Zombie"
 		},
 		"Ogremoch": {
@@ -21855,6 +22229,7 @@
 			],
 			"crNum": 23,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Elemental",
 			"url": "Ogremoch"
 		},
 		"Olhydra": {
@@ -21951,6 +22326,7 @@
 			],
 			"crNum": 21,
 			"sizeFull": "Huge",
+			"typeShort": "Elemental",
 			"url": "Olhydra"
 		},
 		"One-Eyed_Shiver": {
@@ -22009,6 +22385,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "One-Eyed_Shiver"
 		},
 		"Oni": {
@@ -22080,6 +22457,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Giant",
 			"url": "Oni"
 		},
 		"Orc": {
@@ -22127,6 +22505,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Orc"
 		},
 		"Orc_Eye_of_Gruumsh": {
@@ -22186,6 +22565,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Orc_Eye_of_Gruumsh"
 		},
 		"Orc_War_Chief": {
@@ -22248,6 +22628,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Orc_War_Chief"
 		},
 		"Orcus": {
@@ -22346,6 +22727,7 @@
 			],
 			"crNum": 29,
 			"sizeFull": "Huge",
+			"typeShort": "Fiend",
 			"url": "Orcus"
 		},
 		"Oreioth": {
@@ -22403,6 +22785,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Oreioth"
 		},
 		"Orog": {
@@ -22454,6 +22837,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Orog"
 		},
 		"Otyugh": {
@@ -22509,6 +22893,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Otyugh"
 		},
 		"Owl": {
@@ -22555,6 +22940,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Owl"
 		},
 		"Owlbear": {
@@ -22606,6 +22992,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Owlbear"
 		},
 		"Panther": {
@@ -22657,6 +23044,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Panther"
 		},
 		"Pegasus": {
@@ -22693,6 +23081,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Celestial",
 			"url": "Pegasus"
 		},
 		"Pentadrone": {
@@ -22747,6 +23136,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Pentadrone"
 		},
 		"Peryton": {
@@ -22806,6 +23196,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Peryton"
 		},
 		"Pharblex_Spattergoo": {
@@ -22884,6 +23275,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Pharblex_Spattergoo"
 		},
 		"Phase_Spider": {
@@ -22937,6 +23329,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Phase_Spider"
 		},
 		"Piercer": {
@@ -22983,6 +23376,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Piercer"
 		},
 		"Pit_Fiend": {
@@ -23034,6 +23428,7 @@
 			"cha": "24",
 			"crNum": 23,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Pit_Fiend"
 		},
 		"Pixie": {
@@ -23084,6 +23479,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Tiny",
+			"typeShort": "Fey",
 			"url": "Pixie"
 		},
 		"Planetar": {
@@ -23151,6 +23547,7 @@
 			],
 			"crNum": 19,
 			"sizeFull": "Large",
+			"typeShort": "Celestial",
 			"url": "Planetar"
 		},
 		"Plesiosaurus": {
@@ -23193,6 +23590,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Plesiosaurus"
 		},
 		"Poisonous_Snake": {
@@ -23229,6 +23627,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Poisonous_Snake"
 		},
 		"Polar_Bear": {
@@ -23280,6 +23679,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Polar_Bear"
 		},
 		"Poltergeist": {
@@ -23338,6 +23738,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Poltergeist"
 		},
 		"Pony": {
@@ -23374,6 +23775,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Pony"
 		},
 		"Priest": {
@@ -23428,6 +23830,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Priest"
 		},
 		"Pseudodragon": {
@@ -23487,6 +23890,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Tiny",
+			"typeShort": "Dragon",
 			"url": "Pseudodragon"
 		},
 		"Pteranodon": {
@@ -23528,6 +23932,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Pteranodon"
 		},
 		"Purple_Worm": {
@@ -23582,6 +23987,7 @@
 			],
 			"crNum": 18,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Monstrosity",
 			"url": "Purple_Worm"
 		},
 		"Quadrone": {
@@ -23637,6 +24043,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Quadrone"
 		},
 		"Quaggoth": {
@@ -23684,6 +24091,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Quaggoth"
 		},
 		"Quaggoth_Spore_Servant": {
@@ -23724,6 +24132,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Quaggoth_Spore_Servant"
 		},
 		"Quaggoth_Thonot": {
@@ -23780,6 +24189,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Quaggoth_Thonot"
 		},
 		"Quasit": {
@@ -23838,6 +24248,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Tiny",
+			"typeShort": "Fiend",
 			"url": "Quasit"
 		},
 		"Quipper": {
@@ -23884,6 +24295,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Quipper"
 		},
 		"Rakshasa": {
@@ -23940,6 +24352,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Rakshasa"
 		},
 		"Rat": {
@@ -23982,6 +24395,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Rat"
 		},
 		"Rath_Modar": {
@@ -24047,6 +24461,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Rath_Modar"
 		},
 		"Raven": {
@@ -24088,6 +24503,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Raven"
 		},
 		"Razerblast": {
@@ -24142,6 +24558,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Razerblast"
 		},
 		"Red_Dragon_Wyrmling": {
@@ -24183,6 +24600,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Red_Dragon_Wyrmling"
 		},
 		"Red_Slaad": {
@@ -24251,6 +24669,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Aberration",
 			"url": "Red_Slaad"
 		},
 		"Redbrand_Ruffian": {
@@ -24291,6 +24710,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Redbrand_Ruffian"
 		},
 		"Reef_Shark": {
@@ -24337,6 +24757,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Reef_Shark"
 		},
 		"Remorhaz": {
@@ -24387,6 +24808,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Huge",
+			"typeShort": "Monstrosity",
 			"url": "Remorhaz"
 		},
 		"Revenant": {
@@ -24449,6 +24871,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Revenant"
 		},
 		"Rezmir": {
@@ -24539,6 +24962,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Rezmir"
 		},
 		"Rhinoceros": {
@@ -24582,6 +25006,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Rhinoceros"
 		},
 		"Riding_Horse": {
@@ -24618,6 +25043,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Riding_Horse"
 		},
 		"Roc": {
@@ -24669,6 +25095,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Monstrosity",
 			"url": "Roc"
 		},
 		"Roper": {
@@ -24732,6 +25159,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Roper"
 		},
 		"Rug_of_Smothering": {
@@ -24782,6 +25210,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Construct",
 			"url": "Rug_of_Smothering"
 		},
 		"Rust_Monster": {
@@ -24835,6 +25264,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Rust_Monster"
 		},
 		"Saber-Toothed_Tiger": {
@@ -24886,6 +25316,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Saber-Toothed_Tiger"
 		},
 		"Sacred_Stone_Monk": {
@@ -24942,6 +25373,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Sacred_Stone_Monk"
 		},
 		"Sahuagin": {
@@ -25009,6 +25441,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Sahuagin"
 		},
 		"Sahuagin_Baron": {
@@ -25076,6 +25509,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Sahuagin_Baron"
 		},
 		"Sahuagin_Priestess": {
@@ -25146,6 +25580,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Sahuagin_Priestess"
 		},
 		"Salamander": {
@@ -25202,6 +25637,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Salamander"
 		},
 		"Satyr": {
@@ -25258,6 +25694,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Fey",
 			"url": "Satyr"
 		},
 		"Scarecrow": {
@@ -25308,6 +25745,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Scarecrow"
 		},
 		"Scorpion": {
@@ -25344,6 +25782,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Scorpion"
 		},
 		"Scout": {
@@ -25395,6 +25834,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Scout"
 		},
 		"Sea_Hag": {
@@ -25484,6 +25924,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Fey",
 			"url": "Sea_Hag"
 		},
 		"Sea_Horse": {
@@ -25519,6 +25960,7 @@
 			"cha": "2",
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Sea_Horse"
 		},
 		"Severin": {
@@ -25603,6 +26045,7 @@
 			],
 			"crNum": 14,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Severin"
 		},
 		"Shadow": {
@@ -25656,6 +26099,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Shadow"
 		},
 		"Shadow_Demon": {
@@ -25709,6 +26153,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Shadow_Demon"
 		},
 		"Shambling_Mound": {
@@ -25759,6 +26204,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Plant",
 			"url": "Shambling_Mound"
 		},
 		"Shield_Guardian": {
@@ -25819,6 +26265,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Construct",
 			"url": "Shield_Guardian"
 		},
 		"Shoalar_Quanderil": {
@@ -25881,6 +26328,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Shoalar_Quanderil"
 		},
 		"Shrieker": {
@@ -25922,6 +26370,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Shrieker"
 		},
 		"Sildar_Hallwinter": {
@@ -25976,6 +26425,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Sildar_Hallwinter"
 		},
 		"Silver_Dragon_Wyrmling": {
@@ -26021,6 +26471,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "Silver_Dragon_Wyrmling"
 		},
 		"Skeleton": {
@@ -26062,6 +26513,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Skeleton"
 		},
 		"Skyweaver": {
@@ -26111,6 +26563,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Skyweaver"
 		},
 		"Slaad_Tadpole": {
@@ -26153,6 +26606,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Tiny",
+			"typeShort": "Aberration",
 			"url": "Slaad_Tadpole"
 		},
 		"Smoke_Mephit": {
@@ -26207,6 +26661,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Elemental",
 			"url": "Smoke_Mephit"
 		},
 		"Solar": {
@@ -26297,6 +26752,7 @@
 			],
 			"crNum": 24,
 			"sizeFull": "Large",
+			"typeShort": "Celestial",
 			"url": "Solar"
 		},
 		"Spectator": {
@@ -26353,6 +26809,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Aberration",
 			"url": "Spectator"
 		},
 		"Specter": {
@@ -26399,6 +26856,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Specter"
 		},
 		"Spider": {
@@ -26449,6 +26907,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Spider"
 		},
 		"Spined_Devil": {
@@ -26496,6 +26955,7 @@
 			"cha": "8",
 			"crNum": 5,
 			"sizeFull": "Small",
+			"typeShort": "Fiend",
 			"url": "Spined_Devil"
 		},
 		"Spirit_Naga": {
@@ -26551,6 +27011,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Spirit_Naga"
 		},
 		"Sprite": {
@@ -26600,6 +27061,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Tiny",
+			"typeShort": "Fey",
 			"url": "Sprite"
 		},
 		"Spy": {
@@ -26656,6 +27118,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Spy"
 		},
 		"Steam_Mephit": {
@@ -26711,6 +27174,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Elemental",
 			"url": "Steam_Mephit"
 		},
 		"Stirge": {
@@ -26750,6 +27214,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Stirge"
 		},
 		"Stone_Giant": {
@@ -26807,6 +27272,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Stone_Giant"
 		},
 		"Stone_Golem": {
@@ -26865,6 +27331,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Large",
+			"typeShort": "Construct",
 			"url": "Stone_Golem"
 		},
 		"Stonemelder": {
@@ -26920,6 +27387,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Stonemelder"
 		},
 		"Storm_Giant": {
@@ -26985,6 +27453,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Huge",
+			"typeShort": "Giant",
 			"url": "Storm_Giant"
 		},
 		"Succubus_Incubus": {
@@ -27047,6 +27516,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Succubus_Incubus"
 		},
 		"Swarm_of_Bats": {
@@ -27100,6 +27570,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Bats"
 		},
 		"Swarm_of_Beetles": {
@@ -27145,6 +27616,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Beetles"
 		},
 		"Swarm_of_Centipedes": {
@@ -27193,6 +27665,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Centipedes"
 		},
 		"Swarm_of_Insects": {
@@ -27238,6 +27711,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Insects"
 		},
 		"Swarm_of_Poisonous_Snakes": {
@@ -27283,6 +27757,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Poisonous_Snakes"
 		},
 		"Swarm_of_Quippers": {
@@ -27336,6 +27811,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Quippers"
 		},
 		"Swarm_of_Rats": {
@@ -27385,6 +27861,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Rats"
 		},
 		"Swarm_of_Ravens": {
@@ -27430,6 +27907,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Ravens"
 		},
 		"Swarm_of_Spiders": {
@@ -27487,6 +27965,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Spiders"
 		},
 		"Swarm_of_Wasps": {
@@ -27532,6 +28011,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Swarm_of_Wasps"
 		},
 		"Talis_the_White": {
@@ -27599,6 +28079,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Talis_the_White"
 		},
 		"Tarrasque": {
@@ -27697,6 +28178,7 @@
 			],
 			"crNum": 33,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Monstrosity",
 			"url": "Tarrasque"
 		},
 		"The_Pudding_King": {
@@ -27777,6 +28259,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "The_Pudding_King"
 		},
 		"Thri-kreen": {
@@ -27846,6 +28329,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Thri-kreen"
 		},
 		"Thri-kreen_(Psionic)": {
@@ -27925,6 +28409,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Thri-kreen_(Psionic)"
 		},
 		"Thug": {
@@ -27976,6 +28461,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Thug"
 		},
 		"Thurl_Merosska": {
@@ -28040,6 +28526,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Thurl_Merosska"
 		},
 		"Tiamat": {
@@ -28155,6 +28642,7 @@
 			],
 			"crNum": 33,
 			"sizeFull": "Gargantuan",
+			"typeShort": "Fiend",
 			"url": "Tiamat"
 		},
 		"Tiger": {
@@ -28205,6 +28693,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Tiger"
 		},
 		"Treant": {
@@ -28264,6 +28753,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Huge",
+			"typeShort": "Plant",
 			"url": "Treant"
 		},
 		"Tribal_Warrior": {
@@ -28309,6 +28799,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Tribal_Warrior"
 		},
 		"Triceratops": {
@@ -28356,6 +28847,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Triceratops"
 		},
 		"Tridrone": {
@@ -28411,6 +28903,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Construct",
 			"url": "Tridrone"
 		},
 		"Troglodyte": {
@@ -28470,6 +28963,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Troglodyte"
 		},
 		"Troglodyte_Champion_of_Laogzed": {
@@ -28538,6 +29032,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Troglodyte_Champion_of_Laogzed"
 		},
 		"Troll": {
@@ -28608,6 +29103,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Giant",
 			"url": "Troll"
 		},
 		"Twig_Blight": {
@@ -28650,6 +29146,7 @@
 			],
 			"crNum": 1,
 			"sizeFull": "Small",
+			"typeShort": "Plant",
 			"url": "Twig_Blight"
 		},
 		"Tyrannosaurus_Rex": {
@@ -28695,6 +29192,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Huge",
+			"typeShort": "Beast",
 			"url": "Tyrannosaurus_Rex"
 		},
 		"Ultroloth": {
@@ -28774,6 +29272,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Ultroloth"
 		},
 		"Umber_Hulk": {
@@ -28833,6 +29332,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Umber_Hulk"
 		},
 		"Unicorn": {
@@ -28924,6 +29424,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Celestial",
 			"url": "Unicorn"
 		},
 		"Vampire": {
@@ -29033,6 +29534,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Vampire"
 		},
 		"Vampire_Spawn": {
@@ -29098,6 +29600,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Vampire_Spawn"
 		},
 		"Vampire_Spellcaster": {
@@ -29206,6 +29709,7 @@
 			],
 			"crNum": 18,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Vampire_Spellcaster"
 		},
 		"Vampire_Warrior": {
@@ -29306,6 +29810,7 @@
 			],
 			"crNum": 18,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Vampire_Warrior"
 		},
 		"Vampiric_Ixitxachitl": {
@@ -29352,6 +29857,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Abberation",
 			"url": "Vampiric_Ixitxachitl"
 		},
 		"Vampiric_Ixitxachitl_Cleric": {
@@ -29411,6 +29917,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Abberation",
 			"url": "Vampiric_Ixitxachitl_Cleric"
 		},
 		"Vanifer": {
@@ -29474,6 +29981,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Vanifer"
 		},
 		"Veteran": {
@@ -29524,6 +30032,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Veteran"
 		},
 		"Vine_Blight": {
@@ -29570,6 +30079,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Vine_Blight"
 		},
 		"Violet_Fungus": {
@@ -29616,6 +30126,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Plant",
 			"url": "Violet_Fungus"
 		},
 		"Vrock": {
@@ -29683,6 +30194,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Vrock"
 		},
 		"Vulture": {
@@ -29729,6 +30241,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Vulture"
 		},
 		"Warhorse": {
@@ -29771,6 +30284,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Beast",
 			"url": "Warhorse"
 		},
 		"Warhorse_Skeleton": {
@@ -29807,6 +30321,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Undead",
 			"url": "Warhorse_Skeleton"
 		},
 		"Water_Elemental": {
@@ -29864,6 +30379,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Water_Elemental"
 		},
 		"Water_Elemental_Myrmidon": {
@@ -29915,6 +30431,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Water_Elemental_Myrmidon"
 		},
 		"Water_Weird": {
@@ -29961,6 +30478,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Elemental",
 			"url": "Water_Weird"
 		},
 		"Weasel": {
@@ -30003,6 +30521,7 @@
 			],
 			"crNum": 0,
 			"sizeFull": "Tiny",
+			"typeShort": "Beast",
 			"url": "Weasel"
 		},
 		"Werebear": {
@@ -30063,6 +30582,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Werebear"
 		},
 		"Wereboar": {
@@ -30123,6 +30643,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Wereboar"
 		},
 		"Wererat": {
@@ -30183,6 +30704,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Wererat"
 		},
 		"Weretiger": {
@@ -30252,6 +30774,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Weretiger"
 		},
 		"Werewolf": {
@@ -30315,6 +30838,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Werewolf"
 		},
 		"White_Dragon_Wyrmling": {
@@ -30356,6 +30880,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Medium",
+			"typeShort": "Dragon",
 			"url": "White_Dragon_Wyrmling"
 		},
 		"Wiggan_Nettlebee": {
@@ -30415,6 +30940,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Wiggan_Nettlebee"
 		},
 		"Wight": {
@@ -30474,6 +31000,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Wight"
 		},
 		"Will-o'-Wisp": {
@@ -30532,6 +31059,7 @@
 			],
 			"crNum": 5,
 			"sizeFull": "Tiny",
+			"typeShort": "Undead",
 			"url": "Will-o'-Wisp"
 		},
 		"Windharrow": {
@@ -30590,6 +31118,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Windharrow"
 		},
 		"Winged_Kobold": {
@@ -30641,6 +31170,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Small",
+			"typeShort": "Humanoid",
 			"url": "Winged_Kobold"
 		},
 		"Winter_Wolf": {
@@ -30696,6 +31226,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Winter_Wolf"
 		},
 		"Wolf": {
@@ -30742,6 +31273,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Beast",
 			"url": "Wolf"
 		},
 		"Worg": {
@@ -30784,6 +31316,7 @@
 			],
 			"crNum": 3,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Worg"
 		},
 		"Wraith": {
@@ -30834,6 +31367,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Wraith"
 		},
 		"Wyvern": {
@@ -30884,6 +31418,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Wyvern"
 		},
 		"Xorn": {
@@ -30943,6 +31478,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Medium",
+			"typeShort": "Elemental",
 			"url": "Xorn"
 		},
 		"Yan-C-Bin": {
@@ -31038,6 +31574,7 @@
 			],
 			"crNum": 21,
 			"sizeFull": "Huge",
+			"typeShort": "Elemental",
 			"url": "Yan-C-Bin"
 		},
 		"Yeenoghu": {
@@ -31134,6 +31671,7 @@
 			],
 			"crNum": 27,
 			"sizeFull": "Huge",
+			"typeShort": "Fiend",
 			"url": "Yeenoghu"
 		},
 		"Yestabrod": {
@@ -31203,6 +31741,7 @@
 			],
 			"crNum": 7,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Yestabrod"
 		},
 		"Yeti": {
@@ -31261,6 +31800,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Yeti"
 		},
 		"Yochlol": {
@@ -31343,6 +31883,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Medium",
+			"typeShort": "Fiend",
 			"url": "Yochlol"
 		},
 		"Young_Black_Dragon": {
@@ -31399,6 +31940,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Black_Dragon"
 		},
 		"Young_Blue_Dragon": {
@@ -31449,6 +31991,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Blue_Dragon"
 		},
 		"Young_Brass_Dragon": {
@@ -31503,6 +32046,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Brass_Dragon"
 		},
 		"Young_Bronze_Dragon": {
@@ -31563,6 +32107,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Bronze_Dragon"
 		},
 		"Young_Copper_Dragon": {
@@ -31617,6 +32162,7 @@
 			],
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Copper_Dragon"
 		},
 		"Young_Gold_Dragon": {
@@ -31677,6 +32223,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Gold_Dragon"
 		},
 		"Young_Green_Dragon": {
@@ -31733,6 +32280,7 @@
 			],
 			"crNum": 11,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Green_Dragon"
 		},
 		"Young_Red_Dragon": {
@@ -31783,6 +32331,7 @@
 			],
 			"crNum": 13,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Red_Dragon"
 		},
 		"Young_Red_Shadow_Dragon": {
@@ -31847,6 +32396,7 @@
 			],
 			"crNum": 16,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Red_Shadow_Dragon"
 		},
 		"Young_Remorhaz": {
@@ -31890,6 +32440,7 @@
 			],
 			"crNum": 8,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Young_Remorhaz"
 		},
 		"Young_Silver_Dragon": {
@@ -31944,6 +32495,7 @@
 			],
 			"crNum": 12,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_Silver_Dragon"
 		},
 		"Young_White_Dragon": {
@@ -32000,6 +32552,7 @@
 			],
 			"crNum": 9,
 			"sizeFull": "Large",
+			"typeShort": "Dragon",
 			"url": "Young_White_Dragon"
 		},
 		"Yuan-ti_Abomination": {
@@ -32048,6 +32601,7 @@
 			"cha": "18",
 			"crNum": 10,
 			"sizeFull": "Large",
+			"typeShort": "Monstrosity",
 			"url": "Yuan-ti_Abomination"
 		},
 		"Yuan-ti_Malison_Type_1": {
@@ -32127,6 +32681,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Yuan-ti_Malison_Type_1"
 		},
 		"Yuan-ti_Malison_Type_2": {
@@ -32196,6 +32751,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Yuan-ti_Malison_Type_2"
 		},
 		"Yuan-ti_Malison_Type_3": {
@@ -32280,6 +32836,7 @@
 			],
 			"crNum": 6,
 			"sizeFull": "Medium",
+			"typeShort": "Monstrosity",
 			"url": "Yuan-ti_Malison_Type_3"
 		},
 		"Yuan-ti_Pureblood": {
@@ -32340,6 +32897,7 @@
 			],
 			"crNum": 4,
 			"sizeFull": "Medium",
+			"typeShort": "Humanoid",
 			"url": "Yuan-ti_Pureblood"
 		},
 		"Zombie": {
@@ -32382,6 +32940,7 @@
 			],
 			"crNum": 2,
 			"sizeFull": "Medium",
+			"typeShort": "Undead",
 			"url": "Zombie"
 		},
 		"Zuggtmoy": {
@@ -32468,6 +33027,7 @@
 			],
 			"crNum": 26,
 			"sizeFull": "Large",
+			"typeShort": "Fiend",
 			"url": "Zuggtmoy"
 		}
 	},
@@ -33101,101 +33661,63 @@
 		"All": [
 			[
 				"Awakened_Shrub",
-				"Awakened_Shrub",
-				"Baboon",
 				"Baboon",
 				"Badger",
-				"Badger",
 				"Bat",
-				"Bat",
-				"Cat",
 				"Cat",
 				"Commoner",
 				"Crab",
-				"Crab",
 				"Crawling_Claw",
 				"Deer",
-				"Deer",
-				"Eagle",
 				"Eagle",
 				"Frog",
-				"Frog",
-				"Giant_Fire_Beetle",
 				"Giant_Fire_Beetle",
 				"Giant_Fly",
-				"Giant_Fly",
 				"Goat",
-				"Goat",
-				"Hawk",
 				"Hawk",
 				"Homunculus",
 				"Hyena",
-				"Hyena",
-				"Jackal",
 				"Jackal",
 				"Lemure",
 				"Lizard",
-				"Lizard",
 				"Myconid_Sprout",
 				"Octopus",
-				"Octopus",
-				"Owl",
 				"Owl",
 				"Quipper",
-				"Quipper",
-				"Rat",
 				"Rat",
 				"Raven",
-				"Raven",
 				"Scorpion",
-				"Scorpion",
-				"Sea_Horse",
 				"Sea_Horse",
 				"Shrieker",
 				"Spider",
-				"Spider",
 				"Vulture",
-				"Vulture",
-				"Weasel",
 				"Weasel"
 			],
 			[
 				"Bandit",
 				"Blood_Hawk",
-				"Blood_Hawk",
 				"Bridesmaid_of_Zuggtmoy",
-				"Camel",
 				"Camel",
 				"Cultist",
 				"Drow_Spore_Servant",
 				"Flumph",
 				"Flying_Snake",
-				"Flying_Snake",
-				"Giant_Crab",
 				"Giant_Crab",
 				"Giant_Rat",
-				"Giant_Rat",
 				"Giant_Rat_(Diseased)",
-				"Giant_Rat_(Diseased)",
-				"Giant_Weasel",
 				"Giant_Weasel",
 				"Guard",
 				"Howling_Hatred_Initiate",
 				"Kobold",
 				"Manes",
 				"Mastiff",
-				"Mastiff",
 				"Merfolk",
 				"Monodrone",
 				"Mule",
-				"Mule",
 				"Noble",
 				"Poisonous_Snake",
-				"Poisonous_Snake",
-				"Pony",
 				"Pony",
 				"Slaad_Tadpole",
-				"Stirge",
 				"Stirge",
 				"Tribal_Warrior",
 				"Twig_Blight"
@@ -33204,38 +33726,24 @@
 				"Aarakocra",
 				"Acolyte",
 				"Axe_Beak",
-				"Axe_Beak",
 				"Blink_Dog",
-				"Blink_Dog",
-				"Boar",
 				"Boar",
 				"Bullywug",
 				"Constrictor_Snake",
-				"Constrictor_Snake",
 				"Derro",
-				"Draft_Horse",
 				"Draft_Horse",
 				"Dretch",
 				"Drow",
 				"Duodrone",
 				"Elk",
-				"Elk",
 				"Flying_Sword",
 				"Giant_Badger",
-				"Giant_Badger",
-				"Giant_Bat",
 				"Giant_Bat",
 				"Giant_Centipede",
-				"Giant_Centipede",
-				"Giant_Frog",
 				"Giant_Frog",
 				"Giant_Lizard",
-				"Giant_Lizard",
-				"Giant_Owl",
 				"Giant_Owl",
 				"Giant_Poisonous_Snake",
-				"Giant_Poisonous_Snake",
-				"Giant_Wolf_Spider",
 				"Giant_Wolf_Spider",
 				"Goblin",
 				"Grimlock",
@@ -33245,25 +33753,15 @@
 				"Kuo-Toa",
 				"Male_Steeder",
 				"Mud_Mephit",
-				"Mud_Mephit",
 				"Needle_Blight",
 				"Panther",
-				"Panther",
-				"Pixie",
 				"Pixie",
 				"Pseudodragon",
-				"Pseudodragon",
-				"Pteranodon",
 				"Pteranodon",
 				"Riding_Horse",
-				"Riding_Horse",
-				"Skeleton",
 				"Skeleton",
 				"Smoke_Mephit",
-				"Smoke_Mephit",
 				"Sprite",
-				"Sprite",
-				"Steam_Mephit",
 				"Steam_Mephit",
 				"Swarm_of_Bats",
 				"Swarm_of_Rats",
@@ -33272,55 +33770,41 @@
 				"Violet_Fungus",
 				"Winged_Kobold",
 				"Wolf",
-				"Wolf",
-				"Zombie",
 				"Zombie"
 			],
 			[
 				"Ambush_Drake",
 				"Ape",
-				"Ape",
 				"Avatar_of_Death",
 				"Black_Bear",
-				"Black_Bear",
 				"Cockatrice",
-				"Crocodile",
 				"Crocodile",
 				"Crushing_Wave_Reaver",
 				"Darkmantle",
 				"Deep_Gnome_(Svirfneblin)",
 				"Duergar_Spore_Servant",
 				"Dust_Mephit",
-				"Dust_Mephit",
 				"Gas_Spore",
 				"Giant_Goat",
-				"Giant_Goat",
 				"Giant_Sea_Horse",
-				"Giant_Sea_Horse",
-				"Giant_Wasp",
 				"Giant_Wasp",
 				"Gnoll",
 				"Gray_Ooze",
 				"Gray_Ooze_(Psychic)",
 				"Hobgoblin",
 				"Ice_Mephit",
-				"Ice_Mephit",
 				"Jackalwere",
 				"Lizardfolk",
 				"Magma_Mephit",
-				"Magma_Mephit",
-				"Magmin",
 				"Magmin",
 				"Myconid_Adult",
 				"Orc",
 				"Piercer",
 				"Redbrand_Ruffian",
 				"Reef_Shark",
-				"Reef_Shark",
 				"Rust_Monster",
 				"Sacred_Stone_Monk",
 				"Sahuagin",
-				"Satyr",
 				"Satyr",
 				"Scout",
 				"Shadow",
@@ -33333,7 +33817,6 @@
 				"Tridrone",
 				"Vine_Blight",
 				"Warhorse",
-				"Warhorse",
 				"Warhorse_Skeleton",
 				"Worg"
 			],
@@ -33341,14 +33824,11 @@
 				"Animated_Armor",
 				"Brass_Dragon_Wyrmling",
 				"Brown_Bear",
-				"Brown_Bear",
 				"Bugbear",
 				"Copper_Dragon_Wyrmling",
 				"Death_Dog",
 				"Dire_Wolf",
-				"Dire_Wolf",
 				"Dragonclaw",
-				"Dryad",
 				"Dryad",
 				"Duergar",
 				"Duergar_Soulblade",
@@ -33359,20 +33839,12 @@
 				"Feathergale_Knight",
 				"Female_Steeder",
 				"Fire_Snake",
-				"Fire_Snake",
-				"Ghoul",
 				"Ghoul",
 				"Giant_Eagle",
-				"Giant_Eagle",
-				"Giant_Hyena",
 				"Giant_Hyena",
 				"Giant_Octopus",
-				"Giant_Octopus",
-				"Giant_Spider",
 				"Giant_Spider",
 				"Giant_Toad",
-				"Giant_Toad",
-				"Giant_Vulture",
 				"Giant_Vulture",
 				"Goblin_Boss",
 				"Half-Ogre_(Ogrillon)",
@@ -33380,14 +33852,11 @@
 				"Hippogriff",
 				"Ice_Toad",
 				"Imp",
-				"Imp",
 				"Jamna_Gleamsilver",
 				"Kuo-Toa_Whip",
 				"Lion",
-				"Lion",
 				"Quadrone",
 				"Quaggoth_Spore_Servant",
-				"Quasit",
 				"Quasit",
 				"Scarecrow",
 				"Sildar_Hallwinter",
@@ -33397,17 +33866,13 @@
 				"Thri-kreen",
 				"Thri-kreen_(Psionic)",
 				"Tiger",
-				"Tiger",
 				"Yuan-ti_Pureblood"
 			],
 			[
 				"Allosaurus",
-				"Allosaurus",
 				"Ankheg",
 				"Awakened_Tree",
-				"Awakened_Tree",
 				"Awakened_Zurkhwood",
-				"Azer",
 				"Azer",
 				"Bandit_Captain",
 				"Berserker",
@@ -33415,7 +33880,6 @@
 				"Black_Earth_Guard",
 				"Bronze_Dragon_Wyrmling",
 				"Carrion_Crawler",
-				"Cave_Bear",
 				"Cave_Bear",
 				"Centaur",
 				"Chamberlain_of_Zuggtmoy",
@@ -33438,15 +33902,10 @@
 				"Fathomer",
 				"Frulam_Mondath",
 				"Gargoyle",
-				"Gargoyle",
 				"Gelatinous_Cube",
 				"Ghast",
-				"Ghast",
-				"Giant_Boar",
 				"Giant_Boar",
 				"Giant_Constrictor_Snake",
-				"Giant_Constrictor_Snake",
-				"Giant_Elk",
 				"Giant_Elk",
 				"Gibbering_Mouther",
 				"Githzerai_Monk",
@@ -33457,7 +33916,6 @@
 				"Grisha",
 				"Guard_Drake",
 				"Howling_Hatred_Priest",
-				"Hunter_Shark",
 				"Hunter_Shark",
 				"Hurricane",
 				"Intellect_Devourer",
@@ -33477,23 +33935,17 @@
 				"Oreioth",
 				"Orog",
 				"Pegasus",
-				"Pegasus",
 				"Pentadrone",
 				"Peryton",
 				"Plesiosaurus",
-				"Plesiosaurus",
-				"Polar_Bear",
 				"Polar_Bear",
 				"Poltergeist",
 				"Priest",
 				"Quaggoth",
 				"Rhinoceros",
-				"Rhinoceros",
 				"Rug_of_Smothering",
 				"Saber-Toothed_Tiger",
-				"Saber-Toothed_Tiger",
 				"Sahuagin_Priestess",
-				"Sea_Hag",
 				"Sea_Hag",
 				"Silver_Dragon_Wyrmling",
 				"Spined_Devil",
@@ -33507,7 +33959,6 @@
 			],
 			[
 				"Ankylosaurus",
-				"Ankylosaurus",
 				"Basilisk",
 				"Bearded_Devil",
 				"Black_Earth_Priest",
@@ -33520,10 +33971,8 @@
 				"Dralmorrer_Borngray",
 				"Eternal_Flame_Priest",
 				"Giant_Scorpion",
-				"Giant_Scorpion",
 				"Githyanki_Warrior",
 				"Gold_Dragon_Wyrmling",
-				"Green_Hag",
 				"Green_Hag",
 				"Grell",
 				"Hell_Hound",
@@ -33531,12 +33980,10 @@
 				"Hook_Horror",
 				"Hook_Horror_Spore_Servant",
 				"Killer_Whale",
-				"Killer_Whale",
 				"Knight",
 				"Manticore",
 				"Minotaur",
 				"Mormesk_the_Wraith",
-				"Mummy",
 				"Mummy",
 				"Nightmare",
 				"One-Eyed_Shiver",
@@ -33549,7 +33996,6 @@
 				"Thurl_Merosska",
 				"Troglodyte_Champion_of_Laogzed",
 				"Veteran",
-				"Water_Weird",
 				"Water_Weird",
 				"Werewolf",
 				"Wight",
@@ -33570,8 +34016,6 @@
 				"Chuul",
 				"Chuul_Spore_Servant",
 				"Couatl",
-				"Couatl",
-				"Elephant",
 				"Elephant",
 				"Ettin",
 				"Flameskull",
@@ -33594,7 +34038,6 @@
 			],
 			[
 				"Air_Elemental",
-				"Air_Elemental",
 				"Barbed_Devil",
 				"Barlgura",
 				"Beholder_Zombie",
@@ -33604,14 +34047,10 @@
 				"Dragonfang",
 				"Drow_Elite_Warrior",
 				"Earth_Elemental",
-				"Earth_Elemental",
 				"Elizar_Dryflagon",
-				"Fire_Elemental",
 				"Fire_Elemental",
 				"Flesh_Golem",
 				"Giant_Crocodile",
-				"Giant_Crocodile",
-				"Giant_Shark",
 				"Giant_Shark",
 				"Gladiator",
 				"Gorgon",
@@ -33627,21 +34066,16 @@
 				"Roper",
 				"Sahuagin_Baron",
 				"Salamander",
-				"Salamander",
 				"Shambling_Mound",
 				"Talis_the_White",
-				"Triceratops",
 				"Triceratops",
 				"Troll",
 				"Umber_Hulk",
 				"Unicorn",
-				"Unicorn",
 				"Vampire_Spawn",
-				"Water_Elemental",
 				"Water_Elemental",
 				"Werebear",
 				"Wraith",
-				"Xorn",
 				"Xorn",
 				"Young_Remorhaz"
 			],
@@ -33653,14 +34087,11 @@
 				"Drider_Spellcaster",
 				"Flamewrath",
 				"Galeb_Duhr",
-				"Galeb_Duhr",
 				"Githzerai_Zerth",
 				"Hobgoblin_Warlord",
 				"Invisible_Stalker",
-				"Invisible_Stalker",
 				"Kuo-Toa_Archpriest",
 				"Mage",
-				"Mammoth",
 				"Mammoth",
 				"Medusa",
 				"Miraj_Vizann",
@@ -33673,14 +34104,11 @@
 			[
 				"Aerisi_Kalinoth",
 				"Air_Elemental_Myrmidon",
-				"Air_Elemental_Myrmidon",
 				"Blue_Slaad",
 				"Dragonsoul",
 				"Drannin_Splithelm",
 				"Drow_Mage",
 				"Earth_Elemental_Myrmidon",
-				"Earth_Elemental_Myrmidon",
-				"Fire_Elemental_Myrmidon",
 				"Fire_Elemental_Myrmidon",
 				"Ghald",
 				"Giant_Ape",
@@ -33690,7 +34118,6 @@
 				"Rezmir",
 				"Shield_Guardian",
 				"Stone_Giant",
-				"Water_Elemental_Myrmidon",
 				"Water_Elemental_Myrmidon",
 				"Young_Black_Dragon",
 				"Young_Copper_Dragon",
@@ -33857,231 +34284,67 @@
 				"Tiamat"
 			]
 		],
-		"undefined": [
+		"Humanoid": [
 			[
-				"Awakened_Shrub",
-				"Baboon",
-				"Badger",
-				"Bat",
-				"Cat",
-				"Commoner",
-				"Crab",
-				"Crawling_Claw",
-				"Deer",
-				"Eagle",
-				"Frog",
-				"Giant_Fire_Beetle",
-				"Giant_Fly",
-				"Goat",
-				"Hawk",
-				"Homunculus",
-				"Hyena",
-				"Jackal",
-				"Lemure",
-				"Lizard",
-				"Myconid_Sprout",
-				"Octopus",
-				"Owl",
-				"Quipper",
-				"Rat",
-				"Raven",
-				"Scorpion",
-				"Sea_Horse",
-				"Shrieker",
-				"Spider",
-				"Vulture",
-				"Weasel"
+				"Commoner"
 			],
 			[
 				"Bandit",
-				"Blood_Hawk",
-				"Bridesmaid_of_Zuggtmoy",
-				"Camel",
 				"Cultist",
-				"Drow_Spore_Servant",
-				"Flumph",
-				"Flying_Snake",
-				"Giant_Crab",
-				"Giant_Rat",
-				"Giant_Rat_(Diseased)",
-				"Giant_Weasel",
 				"Guard",
 				"Howling_Hatred_Initiate",
 				"Kobold",
-				"Manes",
-				"Mastiff",
 				"Merfolk",
-				"Monodrone",
-				"Mule",
 				"Noble",
-				"Poisonous_Snake",
-				"Pony",
-				"Slaad_Tadpole",
-				"Stirge",
-				"Tribal_Warrior",
-				"Twig_Blight"
+				"Tribal_Warrior"
 			],
 			[
 				"Aarakocra",
 				"Acolyte",
-				"Axe_Beak",
-				"Blink_Dog",
-				"Boar",
 				"Bullywug",
-				"Constrictor_Snake",
 				"Derro",
-				"Draft_Horse",
-				"Dretch",
 				"Drow",
-				"Duodrone",
-				"Elk",
-				"Flying_Sword",
-				"Giant_Badger",
-				"Giant_Bat",
-				"Giant_Centipede",
-				"Giant_Frog",
-				"Giant_Lizard",
-				"Giant_Owl",
-				"Giant_Poisonous_Snake",
-				"Giant_Wolf_Spider",
 				"Goblin",
 				"Grimlock",
-				"Ixitxachitl",
-				"Ixitxachitl_Cleric",
 				"Kenku",
 				"Kuo-Toa",
-				"Male_Steeder",
-				"Mud_Mephit",
-				"Needle_Blight",
-				"Panther",
-				"Pixie",
-				"Pseudodragon",
-				"Pteranodon",
-				"Riding_Horse",
-				"Skeleton",
-				"Smoke_Mephit",
-				"Sprite",
-				"Steam_Mephit",
-				"Swarm_of_Bats",
-				"Swarm_of_Rats",
-				"Swarm_of_Ravens",
 				"Troglodyte",
-				"Violet_Fungus",
-				"Winged_Kobold",
-				"Wolf",
-				"Zombie"
+				"Winged_Kobold"
 			],
 			[
-				"Ambush_Drake",
-				"Ape",
-				"Avatar_of_Death",
-				"Black_Bear",
-				"Cockatrice",
-				"Crocodile",
 				"Crushing_Wave_Reaver",
-				"Darkmantle",
 				"Deep_Gnome_(Svirfneblin)",
-				"Duergar_Spore_Servant",
-				"Dust_Mephit",
-				"Gas_Spore",
-				"Giant_Goat",
-				"Giant_Sea_Horse",
-				"Giant_Wasp",
 				"Gnoll",
-				"Gray_Ooze",
-				"Gray_Ooze_(Psychic)",
 				"Hobgoblin",
-				"Ice_Mephit",
 				"Jackalwere",
 				"Lizardfolk",
-				"Magma_Mephit",
-				"Magmin",
-				"Myconid_Adult",
 				"Orc",
-				"Piercer",
 				"Redbrand_Ruffian",
-				"Reef_Shark",
-				"Rust_Monster",
 				"Sacred_Stone_Monk",
 				"Sahuagin",
-				"Satyr",
 				"Scout",
-				"Shadow",
-				"Swarm_of_Beetles",
-				"Swarm_of_Centipedes",
-				"Swarm_of_Insects",
-				"Swarm_of_Spiders",
-				"Swarm_of_Wasps",
-				"Thug",
-				"Tridrone",
-				"Vine_Blight",
-				"Warhorse",
-				"Warhorse_Skeleton",
-				"Worg"
+				"Thug"
 			],
 			[
-				"Animated_Armor",
-				"Brass_Dragon_Wyrmling",
-				"Brown_Bear",
 				"Bugbear",
-				"Copper_Dragon_Wyrmling",
-				"Death_Dog",
-				"Dire_Wolf",
 				"Dragonclaw",
-				"Dryad",
 				"Duergar",
 				"Duergar_Soulblade",
 				"Evil_Mage",
-				"Faerie_Dragon_(Orange)",
-				"Faerie_Dragon_(Red)",
-				"Faerie_Dragon_(Yellow)",
 				"Feathergale_Knight",
-				"Female_Steeder",
-				"Fire_Snake",
-				"Ghoul",
-				"Giant_Eagle",
-				"Giant_Hyena",
-				"Giant_Octopus",
-				"Giant_Spider",
-				"Giant_Toad",
-				"Giant_Vulture",
 				"Goblin_Boss",
-				"Half-Ogre_(Ogrillon)",
-				"Harpy",
-				"Hippogriff",
-				"Ice_Toad",
-				"Imp",
 				"Jamna_Gleamsilver",
 				"Kuo-Toa_Whip",
-				"Lion",
-				"Quadrone",
-				"Quaggoth_Spore_Servant",
-				"Quasit",
-				"Scarecrow",
 				"Sildar_Hallwinter",
-				"Specter",
 				"Spy",
-				"Swarm_of_Quippers",
 				"Thri-kreen",
 				"Thri-kreen_(Psionic)",
-				"Tiger",
 				"Yuan-ti_Pureblood"
 			],
 			[
-				"Allosaurus",
-				"Ankheg",
-				"Awakened_Tree",
-				"Awakened_Zurkhwood",
-				"Azer",
 				"Bandit_Captain",
 				"Berserker",
-				"Black_Dragon_Wyrmling",
 				"Black_Earth_Guard",
-				"Bronze_Dragon_Wyrmling",
-				"Carrion_Crawler",
-				"Cave_Bear",
-				"Centaur",
-				"Chamberlain_of_Zuggtmoy",
 				"Crushing_Wave_Priest",
 				"Cult_Fanatic",
 				"Dragonwing",
@@ -34093,112 +34356,228 @@
 				"Duergar_Stone_Guard",
 				"Duergar_Xarron",
 				"Eternal_Flame_Guardian",
-				"Ettercap",
-				"Faerie_Dragon_(Blue)",
-				"Faerie_Dragon_(Green)",
-				"Faerie_Dragon_(Indigo)",
-				"Faerie_Dragon_(Violet)",
 				"Fathomer",
 				"Frulam_Mondath",
-				"Gargoyle",
-				"Gelatinous_Cube",
-				"Ghast",
-				"Giant_Boar",
-				"Giant_Constrictor_Snake",
-				"Giant_Elk",
-				"Gibbering_Mouther",
 				"Githzerai_Monk",
 				"Gnoll_Pack_Lord",
-				"Green_Dragon_Wyrmling",
-				"Grick",
-				"Griffon",
 				"Grisha",
-				"Guard_Drake",
 				"Howling_Hatred_Priest",
-				"Hunter_Shark",
 				"Hurricane",
-				"Intellect_Devourer",
 				"Kuo-Toa_Monitor",
 				"Lizardfolk_Shaman",
-				"Merrow",
-				"Mimic",
-				"Minotaur_Skeleton",
-				"Myconid_Sovereign",
 				"Narrak",
 				"Nezznar_the_Black_Spider",
-				"Nothic",
-				"Ochre_Jelly",
-				"Ogre",
-				"Ogre_Zombie",
 				"Orc_Eye_of_Gruumsh",
 				"Oreioth",
 				"Orog",
-				"Pegasus",
-				"Pentadrone",
-				"Peryton",
-				"Plesiosaurus",
-				"Polar_Bear",
-				"Poltergeist",
 				"Priest",
 				"Quaggoth",
-				"Rhinoceros",
-				"Rug_of_Smothering",
-				"Saber-Toothed_Tiger",
 				"Sahuagin_Priestess",
-				"Sea_Hag",
-				"Silver_Dragon_Wyrmling",
-				"Spined_Devil",
-				"Swarm_of_Poisonous_Snakes",
-				"Vampiric_Ixitxachitl",
-				"Vampiric_Ixitxachitl_Cleric",
 				"Wererat",
-				"White_Dragon_Wyrmling",
-				"Wiggan_Nettlebee",
-				"Will-o'-Wisp"
+				"Wiggan_Nettlebee"
 			],
 			[
-				"Ankylosaurus",
-				"Basilisk",
-				"Bearded_Devil",
 				"Black_Earth_Priest",
-				"Blue_Dragon_Wyrmling",
 				"Bugbear_Chief",
 				"Dark_Tide_Knight",
 				"Derro_Savant",
-				"Displacer_Beast",
-				"Doppelganger",
 				"Dralmorrer_Borngray",
 				"Eternal_Flame_Priest",
-				"Giant_Scorpion",
 				"Githyanki_Warrior",
-				"Gold_Dragon_Wyrmling",
-				"Green_Hag",
-				"Grell",
-				"Hell_Hound",
 				"Hobgoblin_Captain",
-				"Hook_Horror",
-				"Hook_Horror_Spore_Servant",
-				"Killer_Whale",
 				"Knight",
-				"Manticore",
-				"Minotaur",
-				"Mormesk_the_Wraith",
-				"Mummy",
-				"Nightmare",
 				"One-Eyed_Shiver",
-				"Owlbear",
 				"Pharblex_Spattergoo",
-				"Phase_Spider",
 				"Quaggoth_Thonot",
 				"Skyweaver",
-				"Spectator",
 				"Thurl_Merosska",
 				"Troglodyte_Champion_of_Laogzed",
 				"Veteran",
-				"Water_Weird",
 				"Werewolf",
-				"Wight",
-				"Windharrow",
+				"Windharrow"
+			],
+			[
+				"Azbara_Jos",
+				"Burrowshark",
+				"Gnoll_Fang_of_Yeenoghu",
+				"Langdedrosa_Cyanwrath",
+				"Lizard_King_Queen",
+				"Orc_War_Chief",
+				"Shoalar_Quanderil",
+				"Stonemelder",
+				"The_Pudding_King",
+				"Wereboar",
+				"Weretiger"
+			],
+			[
+				"Captain_Othelstan",
+				"Dragonfang",
+				"Drow_Elite_Warrior",
+				"Elizar_Dryflagon",
+				"Gladiator",
+				"Half-Red_Dragon_Veteran",
+				"Hellenrae",
+				"Razerblast",
+				"Sahuagin_Baron",
+				"Talis_the_White",
+				"Werebear"
+			],
+			[
+				"Flamewrath",
+				"Githzerai_Zerth",
+				"Hobgoblin_Warlord",
+				"Kuo-Toa_Archpriest",
+				"Mage",
+				"Miraj_Vizann",
+				"Rath_Modar"
+			],
+			[
+				"Aerisi_Kalinoth",
+				"Dragonsoul",
+				"Drannin_Splithelm",
+				"Drow_Mage",
+				"Ghald",
+				"Rezmir"
+			],
+			[
+				"Assassin",
+				"Bastian_Thermandar",
+				"Drow_Priestess_of_Lolth",
+				"Githyanki_Knight"
+			],
+			[
+				"Gar_Shatterkeel",
+				"Neronvain",
+				"Vanifer"
+			],
+			[],
+			[
+				"Severin"
+			],
+			[
+				"Archmage"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Aberration": [
+			[],
+			[
+				"Flumph",
+				"Slaad_Tadpole"
+			],
+			[],
+			[],
+			[],
+			[
+				"Gibbering_Mouther",
+				"Intellect_Devourer",
+				"Nothic"
+			],
+			[
+				"Grell",
+				"Spectator"
+			],
+			[
+				"Chuul"
+			],
+			[
+				"Otyugh",
+				"Red_Slaad"
+			],
+			[],
+			[
+				"Blue_Slaad",
+				"Mind_Flayer"
+			],
+			[
+				"Cloaker",
+				"Green_Slaad",
+				"Mind_Flayer_Arcanist"
+			],
+			[
+				"Gray_Slaad"
+			],
+			[
+				"Aboleth",
+				"Death_Slaad"
+			],
+			[],
+			[],
+			[
+				"Beholder"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Monstrosity": [
+			[],
+			[],
+			[],
+			[
+				"Cockatrice",
+				"Darkmantle",
+				"Piercer",
+				"Rust_Monster",
+				"Worg"
+			],
+			[
+				"Death_Dog",
+				"Harpy",
+				"Hippogriff",
+				"Ice_Toad"
+			],
+			[
+				"Ankheg",
+				"Carrion_Crawler",
+				"Centaur",
+				"Ettercap",
+				"Grick",
+				"Griffon",
+				"Merrow",
+				"Mimic",
+				"Peryton"
+			],
+			[
+				"Basilisk",
+				"Displacer_Beast",
+				"Doppelganger",
+				"Hook_Horror",
+				"Manticore",
+				"Minotaur",
+				"Owlbear",
+				"Phase_Spider",
 				"Winter_Wolf",
 				"Yeti",
 				"Yuan-ti_Malison_Type_1",
@@ -34206,249 +34585,161 @@
 				"Yuan-ti_Malison_Type_3"
 			],
 			[
-				"Azbara_Jos",
-				"Banshee",
-				"Black_Pudding",
-				"Bone_Naga_(Guardian)",
-				"Bone_Naga_(Spirit)",
-				"Burrowshark",
-				"Chuul",
-				"Chuul_Spore_Servant",
-				"Couatl",
-				"Elephant",
-				"Ettin",
-				"Flameskull",
-				"Ghost",
-				"Gnoll_Fang_of_Yeenoghu",
-				"Helmed_Horror",
 				"Lamia",
-				"Langdedrosa_Cyanwrath",
-				"Lizard_King_Queen",
-				"Orc_War_Chief",
-				"Red_Dragon_Wyrmling",
-				"Shadow_Demon",
-				"Shoalar_Quanderil",
-				"Stonemelder",
-				"Succubus_Incubus",
-				"The_Pudding_King",
-				"Wereboar",
-				"Weretiger",
 				"Yestabrod"
 			],
 			[
-				"Air_Elemental",
-				"Barbed_Devil",
-				"Barlgura",
-				"Beholder_Zombie",
 				"Bulette",
-				"Cambion",
-				"Captain_Othelstan",
-				"Dragonfang",
-				"Drow_Elite_Warrior",
-				"Earth_Elemental",
-				"Elizar_Dryflagon",
-				"Fire_Elemental",
-				"Flesh_Golem",
-				"Giant_Crocodile",
-				"Giant_Shark",
-				"Gladiator",
 				"Gorgon",
-				"Half-Red_Dragon_Veteran",
-				"Hellenrae",
-				"Hill_Giant",
-				"Mezzoloth",
-				"Night_Hag",
-				"Otyugh",
-				"Razerblast",
-				"Red_Slaad",
-				"Revenant",
 				"Roper",
-				"Sahuagin_Baron",
-				"Salamander",
-				"Shambling_Mound",
-				"Talis_the_White",
-				"Triceratops",
-				"Troll",
 				"Umber_Hulk",
-				"Unicorn",
-				"Vampire_Spawn",
-				"Water_Elemental",
-				"Werebear",
-				"Wraith",
-				"Xorn",
 				"Young_Remorhaz"
 			],
 			[
-				"Chasme",
 				"Chimera",
-				"Cyclops",
 				"Drider",
 				"Drider_Spellcaster",
-				"Flamewrath",
-				"Galeb_Duhr",
-				"Githzerai_Zerth",
-				"Hobgoblin_Warlord",
-				"Invisible_Stalker",
-				"Kuo-Toa_Archpriest",
-				"Mage",
-				"Mammoth",
-				"Medusa",
-				"Miraj_Vizann",
-				"Rath_Modar",
-				"Vrock",
+				"Medusa"
+			],
+			[
+				"Grick_Alpha",
+				"Yuan-ti_Abomination"
+			],
+			[
+				"Hydra",
+				"Marlos_Urnrayle",
+				"Spirit_Naga"
+			],
+			[
+				"Abominable_Yeti"
+			],
+			[
+				"Guardian_Naga"
+			],
+			[
+				"Behir",
+				"Gynosphinx",
+				"Remorhaz",
+				"Roc"
+			],
+			[],
+			[],
+			[],
+			[
+				"Purple_Worm"
+			],
+			[],
+			[
+				"Androsphinx"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Kraken"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Tarrasque"
+			]
+		],
+		"Dragon": [
+			[],
+			[],
+			[
+				"Pseudodragon"
+			],
+			[
+				"Ambush_Drake"
+			],
+			[
+				"Brass_Dragon_Wyrmling",
+				"Copper_Dragon_Wyrmling",
+				"Faerie_Dragon_(Orange)",
+				"Faerie_Dragon_(Red)",
+				"Faerie_Dragon_(Yellow)"
+			],
+			[
+				"Black_Dragon_Wyrmling",
+				"Bronze_Dragon_Wyrmling",
+				"Faerie_Dragon_(Blue)",
+				"Faerie_Dragon_(Green)",
+				"Faerie_Dragon_(Indigo)",
+				"Faerie_Dragon_(Violet)",
+				"Green_Dragon_Wyrmling",
+				"Guard_Drake",
+				"Silver_Dragon_Wyrmling",
+				"White_Dragon_Wyrmling"
+			],
+			[
+				"Blue_Dragon_Wyrmling",
+				"Gold_Dragon_Wyrmling"
+			],
+			[
+				"Red_Dragon_Wyrmling"
+			],
+			[],
+			[
 				"Wyvern",
 				"Young_Brass_Dragon",
 				"Young_White_Dragon"
 			],
 			[
-				"Aerisi_Kalinoth",
-				"Air_Elemental_Myrmidon",
-				"Blue_Slaad",
-				"Dragonsoul",
-				"Drannin_Splithelm",
-				"Drow_Mage",
-				"Earth_Elemental_Myrmidon",
-				"Fire_Elemental_Myrmidon",
-				"Ghald",
-				"Giant_Ape",
-				"Grick_Alpha",
-				"Mind_Flayer",
-				"Oni",
-				"Rezmir",
-				"Shield_Guardian",
-				"Stone_Giant",
-				"Water_Elemental_Myrmidon",
 				"Young_Black_Dragon",
-				"Young_Copper_Dragon",
-				"Yuan-ti_Abomination"
+				"Young_Copper_Dragon"
 			],
 			[
-				"Assassin",
-				"Bastian_Thermandar",
-				"Cloaker",
-				"Drow_Priestess_of_Lolth",
-				"Fomorian",
-				"Frost_Giant",
-				"Githyanki_Knight",
-				"Green_Slaad",
-				"Hezrou",
-				"Hydra",
-				"Marlos_Urnrayle",
-				"Mind_Flayer_Arcanist",
-				"Spirit_Naga",
-				"Tyrannosaurus_Rex",
 				"Young_Bronze_Dragon",
 				"Young_Green_Dragon"
 			],
 			[
-				"Abominable_Yeti",
-				"Blagothkus",
-				"Clay_Golem",
-				"Cloud_Giant",
-				"Fire_Giant",
-				"Gar_Shatterkeel",
-				"Glabrezu",
-				"Gray_Slaad",
-				"Neronvain",
-				"Nycaloth",
-				"Treant",
-				"Vanifer",
 				"Young_Blue_Dragon",
 				"Young_Silver_Dragon"
 			],
 			[
-				"Aboleth",
-				"Death_Slaad",
-				"Deva",
-				"Guardian_Naga",
-				"Stone_Golem",
-				"Yochlol",
 				"Young_Gold_Dragon",
 				"Young_Red_Dragon"
 			],
-			[
-				"Behir",
-				"Chain_Devil",
-				"Dao",
-				"Djinni",
-				"Efreeti",
-				"Gynosphinx",
-				"Horned_Devil",
-				"Marid",
-				"Naergoth_Bladelord",
-				"Remorhaz",
-				"Roc",
-				"Severin"
-			],
-			[
-				"Arcanaloth",
-				"Archmage",
-				"Bone_Devil",
-				"Bone_Devil_Polearm",
-				"Erinyes"
-			],
+			[],
+			[],
 			[
 				"Adult_Brass_Dragon",
 				"Adult_White_Dragon",
-				"Beholder",
-				"Nalfeshnee",
-				"Rakshasa",
-				"Storm_Giant",
-				"Ultroloth",
-				"Vampire",
 				"Young_Red_Shadow_Dragon"
 			],
 			[
 				"Adult_Black_Dragon",
-				"Adult_Copper_Dragon",
-				"Death_Tyrant",
-				"Ice_Devil",
-				"Ice_Devil_Spear"
+				"Adult_Copper_Dragon"
 			],
 			[
 				"Adult_Bronze_Dragon",
-				"Adult_Green_Dragon",
-				"Mummy_Lord",
-				"Purple_Worm",
-				"Vampire_Spellcaster",
-				"Vampire_Warrior"
+				"Adult_Green_Dragon"
 			],
 			[
 				"Adult_Blue_Dragon",
-				"Adult_Silver_Dragon",
-				"Iron_Golem",
-				"Marilith",
-				"Planetar"
+				"Adult_Silver_Dragon"
 			],
 			[
-				"Adult_Blue_Dracolich",
 				"Adult_Gold_Dragon",
 				"Adult_Red_Dragon",
-				"Androsphinx",
-				"Death_Knight",
-				"Dragon_Turtle",
-				"Goristro"
+				"Dragon_Turtle"
 			],
-			[
-				"Demilich",
-				"Olhydra",
-				"Yan-C-Bin"
-			],
-			[
-				"Balor",
-				"Imix"
-			],
+			[],
+			[],
 			[
 				"Ancient_Brass_Dragon",
-				"Ancient_White_Dragon",
-				"Ogremoch",
-				"Pit_Fiend"
+				"Ancient_White_Dragon"
 			],
 			[
 				"Ancient_Black_Dragon",
-				"Ancient_Copper_Dragon",
-				"Lich",
-				"Solar"
+				"Ancient_Copper_Dragon"
 			],
 			[
 				"Ancient_Bronze_Dragon",
@@ -34456,17 +34747,491 @@
 			],
 			[
 				"Ancient_Blue_Dragon",
-				"Ancient_Silver_Dragon",
-				"Baphomet",
-				"Empyrean",
-				"Fraz-Urb'luu",
-				"Juiblex",
-				"Kraken",
-				"Zuggtmoy"
+				"Ancient_Silver_Dragon"
 			],
 			[
 				"Ancient_Gold_Dragon",
-				"Ancient_Red_Dragon",
+				"Ancient_Red_Dragon"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Undead": [
+			[
+				"Crawling_Claw"
+			],
+			[],
+			[
+				"Skeleton",
+				"Zombie"
+			],
+			[
+				"Avatar_of_Death",
+				"Shadow",
+				"Warhorse_Skeleton"
+			],
+			[
+				"Ghoul",
+				"Specter"
+			],
+			[
+				"Ghast",
+				"Minotaur_Skeleton",
+				"Ogre_Zombie",
+				"Poltergeist",
+				"Will-o'-Wisp"
+			],
+			[
+				"Mormesk_the_Wraith",
+				"Mummy",
+				"Wight"
+			],
+			[
+				"Banshee",
+				"Bone_Naga_(Guardian)",
+				"Bone_Naga_(Spirit)",
+				"Flameskull",
+				"Ghost"
+			],
+			[
+				"Beholder_Zombie",
+				"Revenant",
+				"Vampire_Spawn",
+				"Wraith"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Naergoth_Bladelord"
+			],
+			[],
+			[
+				"Vampire"
+			],
+			[
+				"Death_Tyrant"
+			],
+			[
+				"Mummy_Lord",
+				"Vampire_Spellcaster",
+				"Vampire_Warrior"
+			],
+			[],
+			[
+				"Adult_Blue_Dracolich",
+				"Death_Knight"
+			],
+			[
+				"Demilich"
+			],
+			[],
+			[],
+			[
+				"Lich"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Elemental": [
+			[],
+			[],
+			[
+				"Mud_Mephit",
+				"Smoke_Mephit",
+				"Steam_Mephit"
+			],
+			[
+				"Dust_Mephit",
+				"Ice_Mephit",
+				"Magma_Mephit",
+				"Magmin"
+			],
+			[
+				"Fire_Snake"
+			],
+			[
+				"Azer",
+				"Gargoyle"
+			],
+			[
+				"Water_Weird"
+			],
+			[],
+			[
+				"Air_Elemental",
+				"Earth_Elemental",
+				"Fire_Elemental",
+				"Salamander",
+				"Water_Elemental",
+				"Xorn"
+			],
+			[
+				"Galeb_Duhr",
+				"Invisible_Stalker"
+			],
+			[
+				"Air_Elemental_Myrmidon",
+				"Earth_Elemental_Myrmidon",
+				"Fire_Elemental_Myrmidon",
+				"Water_Elemental_Myrmidon"
+			],
+			[],
+			[],
+			[],
+			[
+				"Dao",
+				"Djinni",
+				"Efreeti",
+				"Marid"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Olhydra",
+				"Yan-C-Bin"
+			],
+			[
+				"Imix"
+			],
+			[
+				"Ogremoch"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Beast": [
+			[
+				"Baboon",
+				"Badger",
+				"Bat",
+				"Cat",
+				"Crab",
+				"Deer",
+				"Eagle",
+				"Frog",
+				"Giant_Fire_Beetle",
+				"Giant_Fly",
+				"Goat",
+				"Hawk",
+				"Hyena",
+				"Jackal",
+				"Lizard",
+				"Octopus",
+				"Owl",
+				"Quipper",
+				"Rat",
+				"Raven",
+				"Scorpion",
+				"Sea_Horse",
+				"Spider",
+				"Vulture",
+				"Weasel"
+			],
+			[
+				"Blood_Hawk",
+				"Camel",
+				"Flying_Snake",
+				"Giant_Crab",
+				"Giant_Rat",
+				"Giant_Rat_(Diseased)",
+				"Giant_Weasel",
+				"Mastiff",
+				"Mule",
+				"Poisonous_Snake",
+				"Pony",
+				"Stirge"
+			],
+			[
+				"Axe_Beak",
+				"Boar",
+				"Constrictor_Snake",
+				"Draft_Horse",
+				"Elk",
+				"Giant_Badger",
+				"Giant_Bat",
+				"Giant_Centipede",
+				"Giant_Frog",
+				"Giant_Lizard",
+				"Giant_Owl",
+				"Giant_Poisonous_Snake",
+				"Giant_Wolf_Spider",
+				"Male_Steeder",
+				"Panther",
+				"Pteranodon",
+				"Riding_Horse",
+				"Swarm_of_Bats",
+				"Swarm_of_Rats",
+				"Swarm_of_Ravens",
+				"Wolf"
+			],
+			[
+				"Ape",
+				"Black_Bear",
+				"Crocodile",
+				"Giant_Goat",
+				"Giant_Sea_Horse",
+				"Giant_Wasp",
+				"Reef_Shark",
+				"Swarm_of_Beetles",
+				"Swarm_of_Centipedes",
+				"Swarm_of_Insects",
+				"Swarm_of_Spiders",
+				"Swarm_of_Wasps",
+				"Warhorse"
+			],
+			[
+				"Brown_Bear",
+				"Dire_Wolf",
+				"Female_Steeder",
+				"Giant_Eagle",
+				"Giant_Hyena",
+				"Giant_Octopus",
+				"Giant_Spider",
+				"Giant_Toad",
+				"Giant_Vulture",
+				"Lion",
+				"Swarm_of_Quippers",
+				"Tiger"
+			],
+			[
+				"Allosaurus",
+				"Cave_Bear",
+				"Giant_Boar",
+				"Giant_Constrictor_Snake",
+				"Giant_Elk",
+				"Hunter_Shark",
+				"Plesiosaurus",
+				"Polar_Bear",
+				"Rhinoceros",
+				"Saber-Toothed_Tiger",
+				"Swarm_of_Poisonous_Snakes"
+			],
+			[
+				"Ankylosaurus",
+				"Giant_Scorpion",
+				"Killer_Whale"
+			],
+			[
+				"Elephant"
+			],
+			[
+				"Giant_Crocodile",
+				"Giant_Shark",
+				"Triceratops"
+			],
+			[
+				"Mammoth"
+			],
+			[
+				"Giant_Ape"
+			],
+			[
+				"Tyrannosaurus_Rex"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Construct": [
+			[
+				"Homunculus"
+			],
+			[
+				"Monodrone"
+			],
+			[
+				"Duodrone",
+				"Flying_Sword"
+			],
+			[
+				"Tridrone"
+			],
+			[
+				"Animated_Armor",
+				"Quadrone",
+				"Scarecrow"
+			],
+			[
+				"Pentadrone",
+				"Rug_of_Smothering"
+			],
+			[],
+			[
+				"Helmed_Horror"
+			],
+			[
+				"Flesh_Golem"
+			],
+			[],
+			[
+				"Shield_Guardian"
+			],
+			[],
+			[
+				"Clay_Golem"
+			],
+			[
+				"Stone_Golem"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Iron_Golem"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Fiend": [
+			[
+				"Lemure"
+			],
+			[
+				"Manes"
+			],
+			[
+				"Dretch"
+			],
+			[],
+			[
+				"Imp",
+				"Quasit"
+			],
+			[
+				"Spined_Devil"
+			],
+			[
+				"Bearded_Devil",
+				"Hell_Hound",
+				"Nightmare"
+			],
+			[
+				"Shadow_Demon",
+				"Succubus_Incubus"
+			],
+			[
+				"Barbed_Devil",
+				"Barlgura",
+				"Cambion",
+				"Mezzoloth",
+				"Night_Hag"
+			],
+			[
+				"Chasme",
+				"Vrock"
+			],
+			[],
+			[
+				"Hezrou"
+			],
+			[
+				"Glabrezu",
+				"Nycaloth"
+			],
+			[
+				"Yochlol"
+			],
+			[
+				"Chain_Devil",
+				"Horned_Devil"
+			],
+			[
+				"Arcanaloth",
+				"Bone_Devil",
+				"Bone_Devil_Polearm",
+				"Erinyes"
+			],
+			[
+				"Nalfeshnee",
+				"Rakshasa",
+				"Ultroloth"
+			],
+			[
+				"Ice_Devil",
+				"Ice_Devil_Spear"
+			],
+			[],
+			[
+				"Marilith"
+			],
+			[
+				"Goristro"
+			],
+			[],
+			[
+				"Balor"
+			],
+			[
+				"Pit_Fiend"
+			],
+			[],
+			[],
+			[
+				"Baphomet",
+				"Fraz-Urb'luu",
+				"Juiblex",
+				"Zuggtmoy"
+			],
+			[
 				"Graz'zt",
 				"Yeenoghu"
 			],
@@ -34479,10 +35244,898 @@
 			[],
 			[],
 			[
-				"Tarrasque",
 				"Tiamat"
 			]
+		],
+		"Plant": [
+			[
+				"Awakened_Shrub",
+				"Myconid_Sprout",
+				"Shrieker"
+			],
+			[
+				"Bridesmaid_of_Zuggtmoy",
+				"Drow_Spore_Servant",
+				"Twig_Blight"
+			],
+			[
+				"Needle_Blight",
+				"Violet_Fungus"
+			],
+			[
+				"Duergar_Spore_Servant",
+				"Gas_Spore",
+				"Myconid_Adult",
+				"Vine_Blight"
+			],
+			[
+				"Quaggoth_Spore_Servant"
+			],
+			[
+				"Awakened_Tree",
+				"Awakened_Zurkhwood",
+				"Chamberlain_of_Zuggtmoy",
+				"Myconid_Sovereign"
+			],
+			[
+				"Hook_Horror_Spore_Servant"
+			],
+			[
+				"Chuul_Spore_Servant"
+			],
+			[
+				"Shambling_Mound"
+			],
+			[],
+			[],
+			[],
+			[
+				"Treant"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Ooze": [
+			[],
+			[],
+			[],
+			[
+				"Gray_Ooze",
+				"Gray_Ooze_(Psychic)"
+			],
+			[],
+			[
+				"Gelatinous_Cube",
+				"Ochre_Jelly"
+			],
+			[],
+			[
+				"Black_Pudding"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Giant": [
+			[],
+			[],
+			[],
+			[],
+			[
+				"Half-Ogre_(Ogrillon)"
+			],
+			[
+				"Ogre"
+			],
+			[],
+			[
+				"Ettin"
+			],
+			[
+				"Hill_Giant",
+				"Troll"
+			],
+			[
+				"Cyclops"
+			],
+			[
+				"Oni",
+				"Stone_Giant"
+			],
+			[
+				"Fomorian",
+				"Frost_Giant"
+			],
+			[
+				"Blagothkus",
+				"Cloud_Giant",
+				"Fire_Giant"
+			],
+			[],
+			[],
+			[],
+			[
+				"Storm_Giant"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Fey": [
+			[],
+			[],
+			[
+				"Blink_Dog",
+				"Pixie",
+				"Sprite"
+			],
+			[
+				"Satyr"
+			],
+			[
+				"Dryad"
+			],
+			[
+				"Sea_Hag"
+			],
+			[
+				"Green_Hag"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Celestial": [
+			[],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Pegasus"
+			],
+			[],
+			[
+				"Couatl"
+			],
+			[
+				"Unicorn"
+			],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Deva"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Planetar"
+			],
+			[],
+			[],
+			[],
+			[],
+			[
+				"Solar"
+			],
+			[],
+			[
+				"Empyrean"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
+		],
+		"Abberation": [
+			[],
+			[],
+			[
+				"Ixitxachitl",
+				"Ixitxachitl_Cleric"
+			],
+			[],
+			[],
+			[
+				"Vampiric_Ixitxachitl",
+				"Vampiric_Ixitxachitl_Cleric"
+			],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[],
+			[]
 		]
 	},
-	"MONSTER_TYPE_FILTERS": []
+	"MONSTER_TYPE_FILTERS": [
+		"All",
+		"Abberation",
+		"Aberration",
+		"Beast",
+		"Celestial",
+		"Construct",
+		"Dragon",
+		"Elemental",
+		"Fey",
+		"Fiend",
+		"Giant",
+		"Humanoid",
+		"Monstrosity",
+		"Ooze",
+		"Plant",
+		"Undead"
+	],
+	"MONSTERS": [
+		"Aarakocra",
+		"Aboleth",
+		"Abominable_Yeti",
+		"Acolyte",
+		"Adult_Black_Dragon",
+		"Adult_Blue_Dracolich",
+		"Adult_Blue_Dragon",
+		"Adult_Brass_Dragon",
+		"Adult_Bronze_Dragon",
+		"Adult_Copper_Dragon",
+		"Adult_Gold_Dragon",
+		"Adult_Green_Dragon",
+		"Adult_Red_Dragon",
+		"Adult_Silver_Dragon",
+		"Adult_White_Dragon",
+		"Aerisi_Kalinoth",
+		"Air_Elemental",
+		"Air_Elemental_Myrmidon",
+		"Allosaurus",
+		"Ambush_Drake",
+		"Ancient_Black_Dragon",
+		"Ancient_Blue_Dragon",
+		"Ancient_Brass_Dragon",
+		"Ancient_Bronze_Dragon",
+		"Ancient_Copper_Dragon",
+		"Ancient_Gold_Dragon",
+		"Ancient_Green_Dragon",
+		"Ancient_Red_Dragon",
+		"Ancient_Silver_Dragon",
+		"Ancient_White_Dragon",
+		"Androsphinx",
+		"Animated_Armor",
+		"Ankheg",
+		"Ankylosaurus",
+		"Ape",
+		"Arcanaloth",
+		"Archmage",
+		"Assassin",
+		"Avatar_of_Death",
+		"Awakened_Shrub",
+		"Awakened_Tree",
+		"Awakened_Zurkhwood",
+		"Axe_Beak",
+		"Azbara_Jos",
+		"Azer",
+		"Baboon",
+		"Badger",
+		"Balor",
+		"Bandit",
+		"Bandit_Captain",
+		"Banshee",
+		"Baphomet",
+		"Barbed_Devil",
+		"Barlgura",
+		"Basilisk",
+		"Bastian_Thermandar",
+		"Bat",
+		"Bearded_Devil",
+		"Behir",
+		"Beholder",
+		"Beholder_Zombie",
+		"Berserker",
+		"Black_Bear",
+		"Black_Dragon_Wyrmling",
+		"Black_Earth_Guard",
+		"Black_Earth_Priest",
+		"Black_Pudding",
+		"Blagothkus",
+		"Blink_Dog",
+		"Blood_Hawk",
+		"Blue_Dragon_Wyrmling",
+		"Blue_Slaad",
+		"Boar",
+		"Bone_Devil",
+		"Bone_Devil_Polearm",
+		"Bone_Naga_(Guardian)",
+		"Bone_Naga_(Spirit)",
+		"Brass_Dragon_Wyrmling",
+		"Bridesmaid_of_Zuggtmoy",
+		"Bronze_Dragon_Wyrmling",
+		"Brown_Bear",
+		"Bugbear",
+		"Bugbear_Chief",
+		"Bulette",
+		"Bullywug",
+		"Burrowshark",
+		"Cambion",
+		"Camel",
+		"Captain_Othelstan",
+		"Carrion_Crawler",
+		"Cat",
+		"Cave_Bear",
+		"Centaur",
+		"Chain_Devil",
+		"Chamberlain_of_Zuggtmoy",
+		"Chasme",
+		"Chimera",
+		"Chuul",
+		"Chuul_Spore_Servant",
+		"Clay_Golem",
+		"Cloaker",
+		"Cloud_Giant",
+		"Cockatrice",
+		"Commoner",
+		"Constrictor_Snake",
+		"Copper_Dragon_Wyrmling",
+		"Couatl",
+		"Crab",
+		"Crawling_Claw",
+		"Crocodile",
+		"Crushing_Wave_Priest",
+		"Crushing_Wave_Reaver",
+		"Cult_Fanatic",
+		"Cultist",
+		"Cyclops",
+		"Dao",
+		"Dark_Tide_Knight",
+		"Darkmantle",
+		"Death_Dog",
+		"Death_Knight",
+		"Death_Slaad",
+		"Death_Tyrant",
+		"Deep_Gnome_(Svirfneblin)",
+		"Deer",
+		"Demilich",
+		"Demogorgon",
+		"Derro",
+		"Derro_Savant",
+		"Deva",
+		"Dire_Wolf",
+		"Displacer_Beast",
+		"Djinni",
+		"Doppelganger",
+		"Draft_Horse",
+		"Dragon_Turtle",
+		"Dragonclaw",
+		"Dragonfang",
+		"Dragonsoul",
+		"Dragonwing",
+		"Dralmorrer_Borngray",
+		"Drannin_Splithelm",
+		"Dretch",
+		"Drider",
+		"Drider_Spellcaster",
+		"Droki",
+		"Drow",
+		"Drow_Elite_Warrior",
+		"Drow_Mage",
+		"Drow_Priestess_of_Lolth",
+		"Drow_Spore_Servant",
+		"Druid",
+		"Dryad",
+		"Duergar",
+		"Duergar_Darkhaft",
+		"Duergar_Kavalrachni",
+		"Duergar_Keeper_of_the_Flame",
+		"Duergar_Soulblade",
+		"Duergar_Spore_Servant",
+		"Duergar_Stone_Guard",
+		"Duergar_Xarron",
+		"Duodrone",
+		"Dust_Mephit",
+		"Eagle",
+		"Earth_Elemental",
+		"Earth_Elemental_Myrmidon",
+		"Efreeti",
+		"Elephant",
+		"Elizar_Dryflagon",
+		"Elk",
+		"Empyrean",
+		"Erinyes",
+		"Eternal_Flame_Guardian",
+		"Eternal_Flame_Priest",
+		"Ettercap",
+		"Ettin",
+		"Evil_Mage",
+		"Faerie_Dragon_(Blue)",
+		"Faerie_Dragon_(Green)",
+		"Faerie_Dragon_(Indigo)",
+		"Faerie_Dragon_(Orange)",
+		"Faerie_Dragon_(Red)",
+		"Faerie_Dragon_(Violet)",
+		"Faerie_Dragon_(Yellow)",
+		"Fathomer",
+		"Feathergale_Knight",
+		"Female_Steeder",
+		"Fire_Elemental",
+		"Fire_Elemental_Myrmidon",
+		"Fire_Giant",
+		"Fire_Snake",
+		"Flameskull",
+		"Flamewrath",
+		"Flesh_Golem",
+		"Flumph",
+		"Flying_Snake",
+		"Flying_Sword",
+		"Fomorian",
+		"Fraz-Urb'luu",
+		"Frog",
+		"Frost_Giant",
+		"Frulam_Mondath",
+		"Galeb_Duhr",
+		"Gar_Shatterkeel",
+		"Gargoyle",
+		"Gas_Spore",
+		"Gelatinous_Cube",
+		"Ghald",
+		"Ghast",
+		"Ghost",
+		"Ghoul",
+		"Giant_Ape",
+		"Giant_Badger",
+		"Giant_Bat",
+		"Giant_Boar",
+		"Giant_Centipede",
+		"Giant_Constrictor_Snake",
+		"Giant_Crab",
+		"Giant_Crocodile",
+		"Giant_Eagle",
+		"Giant_Elk",
+		"Giant_Fire_Beetle",
+		"Giant_Fly",
+		"Giant_Frog",
+		"Giant_Goat",
+		"Giant_Hyena",
+		"Giant_Lizard",
+		"Giant_Octopus",
+		"Giant_Owl",
+		"Giant_Poisonous_Snake",
+		"Giant_Rat",
+		"Giant_Rat_(Diseased)",
+		"Giant_Scorpion",
+		"Giant_Sea_Horse",
+		"Giant_Shark",
+		"Giant_Spider",
+		"Giant_Toad",
+		"Giant_Vulture",
+		"Giant_Wasp",
+		"Giant_Weasel",
+		"Giant_Wolf_Spider",
+		"Gibbering_Mouther",
+		"Githyanki_Knight",
+		"Githyanki_Warrior",
+		"Githzerai_Monk",
+		"Githzerai_Zerth",
+		"Glabrezu",
+		"Gladiator",
+		"Gnoll",
+		"Gnoll_Fang_of_Yeenoghu",
+		"Gnoll_Pack_Lord",
+		"Goat",
+		"Goblin",
+		"Goblin_Boss",
+		"Gold_Dragon_Wyrmling",
+		"Gorgon",
+		"Goristro",
+		"Gray_Ooze",
+		"Gray_Ooze_(Psychic)",
+		"Gray_Slaad",
+		"Graz'zt",
+		"Green_Dragon_Wyrmling",
+		"Green_Hag",
+		"Green_Slaad",
+		"Grell",
+		"Grick",
+		"Grick_Alpha",
+		"Griffon",
+		"Grimlock",
+		"Grisha",
+		"Guard",
+		"Guard_Drake",
+		"Guardian_Naga",
+		"Gynosphinx",
+		"Half-Ogre_(Ogrillon)",
+		"Half-Red_Dragon_Veteran",
+		"Harpy",
+		"Hawk",
+		"Hell_Hound",
+		"Hellenrae",
+		"Helmed_Horror",
+		"Hezrou",
+		"Hill_Giant",
+		"Hippogriff",
+		"Hobgoblin",
+		"Hobgoblin_Captain",
+		"Hobgoblin_Warlord",
+		"Homunculus",
+		"Hook_Horror",
+		"Hook_Horror_Spore_Servant",
+		"Horned_Devil",
+		"Howling_Hatred_Initiate",
+		"Howling_Hatred_Priest",
+		"Hunter_Shark",
+		"Hurricane",
+		"Hydra",
+		"Hyena",
+		"Ice_Devil",
+		"Ice_Devil_Spear",
+		"Ice_Mephit",
+		"Ice_Toad",
+		"Imix",
+		"Imp",
+		"Intellect_Devourer",
+		"Invisible_Stalker",
+		"Iron_Golem",
+		"Ixitxachitl",
+		"Ixitxachitl_Cleric",
+		"Jackal",
+		"Jackalwere",
+		"Jamna_Gleamsilver",
+		"Juiblex",
+		"Kenku",
+		"Killer_Whale",
+		"Knight",
+		"Kobold",
+		"Kraken",
+		"Kuo-Toa",
+		"Kuo-Toa_Archpriest",
+		"Kuo-Toa_Monitor",
+		"Kuo-Toa_Whip",
+		"Lamia",
+		"Langdedrosa_Cyanwrath",
+		"Lemure",
+		"Lich",
+		"Lion",
+		"Lizard",
+		"Lizard_King_Queen",
+		"Lizardfolk",
+		"Lizardfolk_Shaman",
+		"Mage",
+		"Magma_Mephit",
+		"Magmin",
+		"Male_Steeder",
+		"Mammoth",
+		"Manes",
+		"Manticore",
+		"Marid",
+		"Marilith",
+		"Marlos_Urnrayle",
+		"Mastiff",
+		"Medusa",
+		"Merfolk",
+		"Merrow",
+		"Mezzoloth",
+		"Mimic",
+		"Mind_Flayer",
+		"Mind_Flayer_Arcanist",
+		"Minotaur",
+		"Minotaur_Skeleton",
+		"Miraj_Vizann",
+		"Monodrone",
+		"Mormesk_the_Wraith",
+		"Mud_Mephit",
+		"Mule",
+		"Mummy",
+		"Mummy_Lord",
+		"Myconid_Adult",
+		"Myconid_Sovereign",
+		"Myconid_Sprout",
+		"Naergoth_Bladelord",
+		"Nalfeshnee",
+		"Narrak",
+		"Needle_Blight",
+		"Neronvain",
+		"Nezznar_the_Black_Spider",
+		"Night_Hag",
+		"Nightmare",
+		"Noble",
+		"Nothic",
+		"Nycaloth",
+		"Ochre_Jelly",
+		"Octopus",
+		"Ogre",
+		"Ogre_Zombie",
+		"Ogremoch",
+		"Olhydra",
+		"One-Eyed_Shiver",
+		"Oni",
+		"Orc",
+		"Orc_Eye_of_Gruumsh",
+		"Orc_War_Chief",
+		"Orcus",
+		"Oreioth",
+		"Orog",
+		"Otyugh",
+		"Owl",
+		"Owlbear",
+		"Panther",
+		"Pegasus",
+		"Pentadrone",
+		"Peryton",
+		"Pharblex_Spattergoo",
+		"Phase_Spider",
+		"Piercer",
+		"Pit_Fiend",
+		"Pixie",
+		"Planetar",
+		"Plesiosaurus",
+		"Poisonous_Snake",
+		"Polar_Bear",
+		"Poltergeist",
+		"Pony",
+		"Priest",
+		"Pseudodragon",
+		"Pteranodon",
+		"Purple_Worm",
+		"Quadrone",
+		"Quaggoth",
+		"Quaggoth_Spore_Servant",
+		"Quaggoth_Thonot",
+		"Quasit",
+		"Quipper",
+		"Rakshasa",
+		"Rat",
+		"Rath_Modar",
+		"Raven",
+		"Razerblast",
+		"Red_Dragon_Wyrmling",
+		"Red_Slaad",
+		"Redbrand_Ruffian",
+		"Reef_Shark",
+		"Remorhaz",
+		"Revenant",
+		"Rezmir",
+		"Rhinoceros",
+		"Riding_Horse",
+		"Roc",
+		"Roper",
+		"Rug_of_Smothering",
+		"Rust_Monster",
+		"Saber-Toothed_Tiger",
+		"Sacred_Stone_Monk",
+		"Sahuagin",
+		"Sahuagin_Baron",
+		"Sahuagin_Priestess",
+		"Salamander",
+		"Satyr",
+		"Scarecrow",
+		"Scorpion",
+		"Scout",
+		"Sea_Hag",
+		"Sea_Horse",
+		"Severin",
+		"Shadow",
+		"Shadow_Demon",
+		"Shambling_Mound",
+		"Shield_Guardian",
+		"Shoalar_Quanderil",
+		"Shrieker",
+		"Sildar_Hallwinter",
+		"Silver_Dragon_Wyrmling",
+		"Skeleton",
+		"Skyweaver",
+		"Slaad_Tadpole",
+		"Smoke_Mephit",
+		"Solar",
+		"Spectator",
+		"Specter",
+		"Spider",
+		"Spined_Devil",
+		"Spirit_Naga",
+		"Sprite",
+		"Spy",
+		"Steam_Mephit",
+		"Stirge",
+		"Stone_Giant",
+		"Stone_Golem",
+		"Stonemelder",
+		"Storm_Giant",
+		"Succubus_Incubus",
+		"Swarm_of_Bats",
+		"Swarm_of_Beetles",
+		"Swarm_of_Centipedes",
+		"Swarm_of_Insects",
+		"Swarm_of_Poisonous_Snakes",
+		"Swarm_of_Quippers",
+		"Swarm_of_Rats",
+		"Swarm_of_Ravens",
+		"Swarm_of_Spiders",
+		"Swarm_of_Wasps",
+		"Talis_the_White",
+		"Tarrasque",
+		"The_Pudding_King",
+		"Thri-kreen",
+		"Thri-kreen_(Psionic)",
+		"Thug",
+		"Thurl_Merosska",
+		"Tiamat",
+		"Tiger",
+		"Treant",
+		"Tribal_Warrior",
+		"Triceratops",
+		"Tridrone",
+		"Troglodyte",
+		"Troglodyte_Champion_of_Laogzed",
+		"Troll",
+		"Twig_Blight",
+		"Tyrannosaurus_Rex",
+		"Ultroloth",
+		"Umber_Hulk",
+		"Unicorn",
+		"Vampire",
+		"Vampire_Spawn",
+		"Vampire_Spellcaster",
+		"Vampire_Warrior",
+		"Vampiric_Ixitxachitl",
+		"Vampiric_Ixitxachitl_Cleric",
+		"Vanifer",
+		"Veteran",
+		"Vine_Blight",
+		"Violet_Fungus",
+		"Vrock",
+		"Vulture",
+		"Warhorse",
+		"Warhorse_Skeleton",
+		"Water_Elemental",
+		"Water_Elemental_Myrmidon",
+		"Water_Weird",
+		"Weasel",
+		"Werebear",
+		"Wereboar",
+		"Wererat",
+		"Weretiger",
+		"Werewolf",
+		"White_Dragon_Wyrmling",
+		"Wiggan_Nettlebee",
+		"Wight",
+		"Will-o'-Wisp",
+		"Windharrow",
+		"Winged_Kobold",
+		"Winter_Wolf",
+		"Wolf",
+		"Worg",
+		"Wraith",
+		"Wyvern",
+		"Xorn",
+		"Yan-C-Bin",
+		"Yeenoghu",
+		"Yestabrod",
+		"Yeti",
+		"Yochlol",
+		"Young_Black_Dragon",
+		"Young_Blue_Dragon",
+		"Young_Brass_Dragon",
+		"Young_Bronze_Dragon",
+		"Young_Copper_Dragon",
+		"Young_Gold_Dragon",
+		"Young_Green_Dragon",
+		"Young_Red_Dragon",
+		"Young_Red_Shadow_Dragon",
+		"Young_Remorhaz",
+		"Young_Silver_Dragon",
+		"Young_White_Dragon",
+		"Yuan-ti_Abomination",
+		"Yuan-ti_Malison_Type_1",
+		"Yuan-ti_Malison_Type_2",
+		"Yuan-ti_Malison_Type_3",
+		"Yuan-ti_Pureblood",
+		"Zombie",
+		"Zuggtmoy"
+	]
 }

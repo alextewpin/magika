@@ -20,6 +20,9 @@ import Spellbook from '_pages/Spellbook';
 import fetchData from '_utils/fetchData';
 import reducers from '_utils/reducers';
 
+import Perf from 'react-addons-perf';
+window.perf = Perf;
+
 const devCreateStore = compose(
   window.devToolsExtension ? window.devToolsExtension() : f => f
 )(createStore);

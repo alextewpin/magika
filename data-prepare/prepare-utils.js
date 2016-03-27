@@ -29,9 +29,7 @@ utils.objectToArray = obj => {
 };
 
 utils.nameToUrl = name => {
-  let url = name.replace(/\s/g, '_');
-  url = url.replace(/\//g, '_');
-  return url;
+  return name.toLowerCase().replace(/\s/g, '_').replace(/\//g, '_');
 };
 
 utils.sortByName = list => {

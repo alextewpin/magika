@@ -1,6 +1,6 @@
 {
 	"CLASSES_BY_KEY": {
-		"Barbarian": {
+		"barbarian": {
 			"proficiency": "Strength, Constitution",
 			"hd": "12",
 			"name": "Barbarian",
@@ -485,9 +485,9 @@
 			},
 			"slots": {},
 			"slotsOptional": false,
-			"url": "Barbarian"
+			"url": "barbarian"
 		},
-		"Bard": {
+		"bard": {
 			"proficiency": "Dexterity, Charisma",
 			"name": "Bard",
 			"spellAbility": "Charisma",
@@ -1041,9 +1041,9 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Bard"
+			"url": "bard"
 		},
-		"Cleric": {
+		"cleric": {
 			"proficiency": "Wisdom, Charisma",
 			"name": "Cleric",
 			"spellAbility": "Wisdom",
@@ -1970,9 +1970,9 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Cleric"
+			"url": "cleric"
 		},
-		"Druid": {
+		"druid": {
 			"proficiency": "Intelligence, Wisdom",
 			"name": "Druid",
 			"spellAbility": "Wisdom",
@@ -2465,9 +2465,9 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Druid"
+			"url": "druid"
 		},
-		"Fighter": {
+		"fighter": {
 			"proficiency": "Strength, Constitution",
 			"name": "Fighter",
 			"spellAbility": "Intelligence",
@@ -3208,9 +3208,9 @@
 				]
 			},
 			"slotsOptional": true,
-			"url": "Fighter"
+			"url": "fighter"
 		},
-		"Monk": {
+		"monk": {
 			"proficiency": "Strength, Dexterity",
 			"name": "Monk",
 			"SpellAbility": "Wisdom",
@@ -3714,9 +3714,9 @@
 			},
 			"slots": {},
 			"slotsOptional": false,
-			"url": "Monk"
+			"url": "monk"
 		},
-		"Mystic": {
+		"mystic": {
 			"proficiency": "Wisdom",
 			"name": "Mystic",
 			"spellAbility": "Intelligence",
@@ -4063,9 +4063,9 @@
 			},
 			"slots": {},
 			"slotsOptional": false,
-			"url": "Mystic"
+			"url": "mystic"
 		},
-		"Paladin": {
+		"paladin": {
 			"proficiency": "Wisdom, Charisma",
 			"name": "Paladin",
 			"spellAbility": "Charisma",
@@ -4772,9 +4772,9 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Paladin"
+			"url": "paladin"
 		},
-		"Ranger": {
+		"ranger": {
 			"proficiency": "Strength, Dexterity",
 			"name": "Ranger",
 			"spellAbility": "Wisdom",
@@ -5345,9 +5345,9 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Ranger"
+			"url": "ranger"
 		},
-		"Ranger_(Variant)": {
+		"ranger_(variant)": {
 			"proficiency": "Strength, Dexterity",
 			"hd": "10",
 			"name": "Ranger (Variant)",
@@ -6392,9 +6392,9 @@
 			},
 			"slots": {},
 			"slotsOptional": false,
-			"url": "Ranger_(Variant)"
+			"url": "ranger_(variant)"
 		},
-		"Rogue": {
+		"rogue": {
 			"proficiency": "Dexterity, Intelligence",
 			"name": "Rogue",
 			"spellAbility": "Intelligence",
@@ -6956,9 +6956,9 @@
 				]
 			},
 			"slotsOptional": true,
-			"url": "Rogue"
+			"url": "rogue"
 		},
-		"Sorcerer": {
+		"sorcerer": {
 			"proficiency": "Constitution, Charisma",
 			"name": "Sorcerer",
 			"spellAbility": "Charisma",
@@ -7878,9 +7878,9 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Sorcerer"
+			"url": "sorcerer"
 		},
-		"Warlock": {
+		"warlock": {
 			"proficiency": "Wisdom, Charisma",
 			"name": "Warlock",
 			"spellAbility": "Charisma",
@@ -9824,9 +9824,9 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Warlock"
+			"url": "warlock"
 		},
-		"Wizard": {
+		"wizard": {
 			"proficiency": "Intelligence, Wisdom",
 			"name": "Wizard",
 			"spellAbility": "Intelligence",
@@ -10731,23 +10731,23 @@
 				]
 			},
 			"slotsOptional": false,
-			"url": "Wizard"
+			"url": "wizard"
 		}
 	},
 	"CLASSES": [
-		"Barbarian",
-		"Bard",
-		"Cleric",
-		"Druid",
-		"Fighter",
-		"Monk",
-		"Mystic",
-		"Paladin",
-		"Ranger",
-		"Ranger_(Variant)",
-		"Rogue",
-		"Sorcerer",
-		"Warlock",
-		"Wizard"
+		"barbarian",
+		"bard",
+		"cleric",
+		"druid",
+		"fighter",
+		"monk",
+		"mystic",
+		"paladin",
+		"ranger",
+		"ranger_(variant)",
+		"rogue",
+		"sorcerer",
+		"warlock",
+		"wizard"
 	]
 }

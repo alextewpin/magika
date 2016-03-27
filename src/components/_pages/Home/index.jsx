@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { filterList } from '_utils/common';
 
 import Search from 'Search';
-import List from 'List';
+import ExpandableList from 'ExpandableList';
 import Line from 'Line';
 import Message from 'Message';
 
@@ -51,9 +51,9 @@ function Home ({ spellbook, bestiary, classes, searchValue }) {
       } else {
         return (
           <div>
-            <List {...spellbook} {...getListProps('Spellbook')}/>
-            <List {...bestiary} {...getListProps('Bestiary')}/>
-            <List {...classes} {...getListProps('Classes')}/>
+            <ExpandableList {...spellbook} {...getListProps('Spellbook')}/>
+            <ExpandableList {...bestiary} {...getListProps('Bestiary')}/>
+            <ExpandableList {...classes} {...getListProps('Classes')}/>
           </div>
         );
       }
