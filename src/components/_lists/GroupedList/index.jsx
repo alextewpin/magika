@@ -1,6 +1,6 @@
-import List from 'List';
+import List from '_lists/List';
 
-export default function GroupedList ({ fullGroupedList, filteredGroupedList, dictionary, makeTitleFromIndex }) {
+export default function GroupedList ({ fullGroupedList, filteredGroupedList, makeTitleFromIndex, ...rest }) {
   return (
     <div>
       {fullGroupedList.map((fullList, i) => {
@@ -11,7 +11,7 @@ export default function GroupedList ({ fullGroupedList, filteredGroupedList, dic
             title={makeTitleFromIndex(i)}
             filteredList={filteredGroupedList[i]}
             fullList={fullList}
-            dictionary={dictionary}/>
+            {...rest}/>
         );
       })}
     </div>

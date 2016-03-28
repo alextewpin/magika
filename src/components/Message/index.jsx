@@ -1,6 +1,6 @@
 import styles from './styles.scss';
 
-import Line from 'Line';
+import { Line } from 'Line';
 
 function Message ({ type }) {
   switch (type) {

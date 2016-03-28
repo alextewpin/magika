@@ -4,7 +4,9 @@
   height: g(8);
   padding: 0px $g__padding-h;
   display: flex;
-  align-items: center;
+  line-height: g(8);
+  justify-content: space-between;
+  white-space: nowrap;
 }
 
 .root_style_ {
@@ -20,7 +22,7 @@
     @include root;
     cursor: pointer;
     &:hover {
-      background-color: $pl__grey-l;
+      background-color: $pl__grey-l2;
     }
   }
   &link {
@@ -36,7 +38,7 @@
     color: $pl__grey;
     cursor: pointer;
     &:hover {
-      background-color: $pl__grey-l;
+      background-color: $pl__grey-l2;
     }
   }
 }
@@ -47,5 +49,37 @@
   }
   &false {
     display: flex;
+  }
+}
+
+.extras {
+  display: flex;
+}
+
+.extra {
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: $pl__grey;
+  font-size: 12px;
+  width: g(4);
+  padding-right: g(2);
+  text-align: center;
+}
+
+@mixin star {
+  user-select: none;
+  width: g(6);
+  text-align: center;
+}
+
+.star_is-bookmarked_ {
+  &true {
+    @include star;
+    color: $pl__primary;
+  }
+  &false {
+    @include star;
+    color: $pl__grey-l;
   }
 }

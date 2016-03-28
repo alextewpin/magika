@@ -1,7 +1,7 @@
 import { connect } from 'react-redux';
 
-import Line from 'Line';
-import List from 'List';
+import { Line } from 'Line';
+import List from '_lists/List';
 
 function ExpandableList ({ filteredList, category, maxLength = 0, showAll = false, onShowAll, ...rest }) {
   if (filteredList.length === 0) {

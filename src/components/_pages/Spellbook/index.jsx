@@ -1,14 +1,12 @@
-import styles from './styles.scss';
-
 import { connect } from 'react-redux';
 import { filterGroupedList, isGroupedListNotEmpty } from '_utils/common';
 
 import Message from 'Message';
 import Search from 'Search';
 import Filter from 'Filter';
-import GroupedList from 'GroupedList';
+import GroupedList from '_lists/GroupedList';
 
-function Spellbook ({ classesList, fullGroupedList, filteredGroupedList, dictionary }) {
+function Spellbook ({ classesList, filteredGroupedList, ...rest }) {
   function makeTitleFromIndex (index) {
     if (index === 0) {
       return 'Cantrips';
@@ -26,7 +24,7 @@ function Spellbook ({ classesList, fullGroupedList, filteredGroupedList, diction
     <div>
       <Search/>
       <Filter list={classesList} allSuffix='spells'/>
-      <GroupedList {...{ fullGroupedList, filteredGroupedList, dictionary, makeTitleFromIndex }}/>
+      <GroupedList itemCategory='SPELLBOOK' {...{ filteredGroupedList, makeTitleFromIndex }} {...rest}/>
       {getNotFound()}
     </div>
   );
@@ -45,4 +43,4 @@ function mapStateToProps (state) {
 
 export default connect(
   mapStateToProps
-)(ReactCSS(Spellbook, styles));
+)(Spellbook);

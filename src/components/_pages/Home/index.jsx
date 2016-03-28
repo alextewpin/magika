@@ -1,11 +1,9 @@
-import styles from './styles.scss';
-
 import { connect } from 'react-redux';
 import { filterList } from '_utils/common';
 
 import Search from 'Search';
-import ExpandableList from 'ExpandableList';
-import Line from 'Line';
+import ExpandableList from '_lists/ExpandableList';
+import { Line } from 'Line';
 import Message from 'Message';
 
 function Home ({ spellbook, bestiary, classes, searchValue }) {
@@ -26,7 +24,7 @@ function Home ({ spellbook, bestiary, classes, searchValue }) {
   function getListProps (title) {
     return {
       title,
-      category: title.toLowerCase(),
+      category: title.toUpperCase(),
       link: {
         pathname: `/${title.toLowerCase()}`,
         query: {
@@ -82,17 +80,17 @@ function mapStateToProps (state) {
     spellbook: {
       filteredList: filterList(data.SPELLS, searchValue),
       dictionary: data.SPELLS_BY_KEY,
-      showAll: showAll.indexOf('spellbook') !== -1
+      showAll: showAll.indexOf('SPELLBOOK') !== -1
     },
     bestiary: {
       filteredList: filterList(data.MONSTERS, searchValue),
       dictionary: data.MONSTERS_BY_KEY,
-      showAll: showAll.indexOf('bestiary') !== -1
+      showAll: showAll.indexOf('BESTIARY') !== -1
     },
     classes: {
       filteredList: filterList(data.CLASSES, searchValue),
       dictionary: data.CLASSES_BY_KEY,
-      showAll: showAll.indexOf('classes') !== -1
+      showAll: showAll.indexOf('CLASSES') !== -1
     },
     searchValue
   };
@@ -100,4 +98,4 @@ function mapStateToProps (state) {
 
 export default connect(
   mapStateToProps
-)(ReactCSS(Home, styles));
+)(Home);
