@@ -1,0 +1,85 @@
+@import "~_styles/constants.scss";
+
+@mixin root {
+  height: g(8);
+  padding: 0px $g__padding-h;
+  display: flex;
+  line-height: g(8);
+  justify-content: space-between;
+  white-space: nowrap;
+}
+
+.root_style_ {
+  &text {
+    @include root;
+  }
+  &h2 {
+    @include root;
+    font-weight: bold;
+    color: $pl__secondary;
+  }
+  &normal {
+    @include root;
+    cursor: pointer;
+    &:hover {
+      background-color: $pl__grey-l2;
+    }
+  }
+  &link {
+    @include root;
+    color: $pl__primary;
+    &:hover {
+      color: $pl__secondary;
+    }
+  }
+  &show-all {
+    @include root;
+    font-size: 12px;
+    color: $pl__grey;
+    cursor: pointer;
+    &:hover {
+      background-color: $pl__grey-l2;
+    }
+  }
+}
+
+.root_is-hidden_ {
+  &true {
+    display: none;
+  }
+  &false {
+    display: flex;
+  }
+}
+
+.extras {
+  display: flex;
+}
+
+.extra {
+  flex-shrink: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  color: $pl__grey;
+  font-size: 12px;
+  width: g(4);
+  padding-right: g(2);
+  text-align: center;
+}
+
+@mixin star {
+  user-select: none;
+  width: g(6);
+  text-align: center;
+}
+
+.star_is-bookmarked_ {
+  &true {
+    @include star;
+    color: $pl__primary;
+  }
+  &false {
+    @include star;
+    color: $pl__grey-l;
+  }
+}
