@@ -9,6 +9,16 @@
   margin: g() 0;
 }
 
+.traits {
+  margin-top: g(2);
+}
+
+.traits-title {
+  color: $pl__secondary;
+  border-bottom: 2px dotted $pl__secondary;
+  font-weight: bold;
+}
+
 .subtitle {
   font-style: italic;
 }
@@ -20,4 +30,20 @@
 
 .p:not(:last-child) {
   margin-bottom: g();
+}
+
+.stats-titles, .stats-values {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+  font-size: 12px;
+  &>* {
+    display: table-cell;
+    text-align: center;
+  }
+}
+
+.stats-titles {
+  font-weight: bold;
+  color: $pl__secondary;
 }

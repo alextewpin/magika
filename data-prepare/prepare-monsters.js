@@ -12,7 +12,7 @@ function statFull (stat) {
   const statBonus = Math.floor((stat - 10) / 2);
   let statSymbol = '';
   if (statBonus >= 0) { statSymbol = '+'; }
-  return `${stat} ('${statSymbol}${statBonus})`;
+  return `${stat} (${statSymbol}${statBonus})`;
 }
 
 function groupMontersByCR (source) {
@@ -101,13 +101,22 @@ function getTypeShort (type) {
 
 function getStatsFull (monster) {
   return {
-    strFull: statFull(monster.str),
-    dexFull: statFull(monster.dex),
-    conFull: statFull(monster.con),
-    intFull: statFull(monster.int),
-    wisFull: statFull(monster.wis),
-    chaFull: statFull(monster.cha)
+    str: statFull(monster.str),
+    dex: statFull(monster.dex),
+    con: statFull(monster.con),
+    int: statFull(monster.int),
+    wis: statFull(monster.wis),
+    cha: statFull(monster.cha)
   };
+}
+
+function getTraits (traits) {
+  return traits.map(trait => {
+    return {
+      title: trait.name,
+      value: utils.stringToArray(trait.text)
+    };
+  });
 }
 
 function prepareMonsters (monsters) {
@@ -116,16 +125,22 @@ function prepareMonsters (monsters) {
     _monster.crNum = getCrNum(monster.cr);
     _monster.sizeFull = getSizeFull(monster.size);
     _monster.typeShort = getTypeShort(monster.type);
-
-    Object.assign(monster, getStatsFull(monster));
+    _monster.stats = getStatsFull(monster);
 
     if (monster.languages === '') { _monster.languages = '—'; }
-    if (monster.action) { _monster.action = propsToArray(monster.action); }
-    if (monster.trait) { _monster.trait = propsToArray(monster.trait); }
-    if (monster.reaction) { _monster.reaction = propsToArray(monster.reaction); }
-    if (monster.legendary) { _monster.legendary = propsToArray(monster.legendary); }
+    if (monster.action) { _monster.action = getTraits(propsToArray(monster.action)); }
+    if (monster.trait) { _monster.trait = getTraits(propsToArray(monster.trait)); }
+    if (monster.reaction) { _monster.reaction = getTraits(propsToArray(monster.reaction)); }
+    if (monster.legendary) { _monster.legendary = getTraits(propsToArray(monster.legendary)); }
 
     _monster.url = utils.nameToUrl(monster.name);
+
+    delete _monster.str;
+    delete _monster.dex;
+    delete _monster.con;
+    delete _monster.int;
+    delete _monster.wis;
+    delete _monster.cha;
 
     return _monster;
   });

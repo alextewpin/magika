@@ -17,7 +17,7 @@ function Search ({ value, onValueChange, onClear }) {
       <input
         styleName='input'
         placeholder='Search'
-        value={value}
+        value={value.replace('_', ' ')}
         onChange={onValueChange}/>
       {getClearIcon()}
     </div>

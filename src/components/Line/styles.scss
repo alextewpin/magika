@@ -62,9 +62,16 @@
   text-overflow: ellipsis;
   color: $pl__grey;
   font-size: 12px;
-  width: g(4);
   padding-right: g(2);
-  text-align: center;
+  &_size_ {
+    &s {
+      width: g(4);
+      text-align: center;
+    }
+    &m {
+      width: g(18);
+    }
+  }
 }
 
 @mixin star {

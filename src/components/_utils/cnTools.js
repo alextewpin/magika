@@ -7,22 +7,24 @@ function getMods (mods) {
 }
 
 export default function cnFactory (styles) {
-  function hasClassName (className) {
-    if (!styles[className]) {
-      console.warn(`No style for ${className}`);
-      return false;
-    }
-    return true;
-  }
+  // function hasClassName (className) {
+  //   if (!styles[className]) {
+  //     console.warn(`No style for ${className}`);
+  //     return false;
+  //   }
+  //   return true;
+  // }
   return (element, mods) => {
     if (mods) {
+      const basicClass = styles[element] || '';
       return getMods(mods).reduce((sum, mod) => {
         const className = `${element}_${mod}`;
-        hasClassName(className);
+        if (sum === '') {
+          return styles[className];
+        }
         return `${sum} ${styles[className]}`;
-      }, '');
+      }, basicClass);
     }
-    hasClassName(element);
-    return styles[element];
+    return styles[element] || '';
   };
 }

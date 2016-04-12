@@ -16,6 +16,7 @@ import { syncHistoryWithStore } from 'react-router-redux';
 import App from 'App';
 import Home from '_pages/Home';
 import Spellbook from '_pages/Spellbook';
+import Bestiary from '_pages/Bestiary';
 
 import fetchData from '_utils/fetchData';
 import reducers from '_utils/reducers';
@@ -36,6 +37,7 @@ ReactDOM.render((
       <Route path='/' component={App}>
         <IndexRoute component={Home}/>
         <Route path='/spellbook' component={Spellbook}/>
+        <Route path='/bestiary' component={Bestiary}/>
         <Route path='*' component={Home}/>
       </Route>
     </Router>

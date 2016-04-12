@@ -11,13 +11,18 @@ export default class Line extends React.Component {
     isBookmarked: false
   }
   static propTypes = {
+    value: React.PropTypes.string,
     category: React.PropTypes.string,
     content: React.PropTypes.object,
     isExpanded: React.PropTypes.bool.isRequired,
     isBookmarked: React.PropTypes.bool.isRequired
   }
   shouldComponentUpdate (nextProps) {
-    return this.props.isExpanded !== nextProps.isExpanded || this.props.isBookmarked !== nextProps.isBookmarked;
+    return (
+      this.props.isExpanded !== nextProps.isExpanded ||
+      this.props.isBookmarked !== nextProps.isBookmarked ||
+      this.props.value !== nextProps.value
+    );
   }
   getLineBody () {
     const { category, ...typedLineProps } = this.props;
@@ -30,6 +35,11 @@ export default class Line extends React.Component {
           (spell.ritual && !spell.concentration) ? ' ' : null
         ];
         return <LineBody value={spell.name} extras={extras.filter(item => item)} {...lineBodyProps}/>;
+      }
+      case 'BESTIARY': {
+        const { content: monster, ...lineBodyProps } = typedLineProps;
+        const extras = [monster.typeShort];
+        return <LineBody value={monster.name} extras={extras} extrasSize='m' {...lineBodyProps}/>;
       }
       default:
         return <LineBody {...typedLineProps}/>;
@@ -54,6 +64,7 @@ function LineBody ({
     link,
     icon,
     extras = [],
+    extrasSize = 's',
     isBookmarked = false,
     isHidden = false,
     onToggleBookmark,
@@ -72,7 +83,7 @@ function LineBody ({
     <div onClick={onClick} className={cn('root', { style, isHidden })}>
       <div>{value}</div>
       <div className={cn('extras')}>
-        {extras.map((item, i) => <div key={i} className={cn('extra')}>{item}</div>)}
+        {extras.map((item, i) => <div key={i} className={cn('extra', { size: extrasSize })}>{item}</div>)}
         {getStar()}
       </div>
     </div>
@@ -85,6 +96,7 @@ LineBody.propTypes = {
   link: React.PropTypes.string,
   icon: React.PropTypes.string,
   extras: React.PropTypes.array,
+  extrasSize: React.PropTypes.string,
   isBookmarked: React.PropTypes.bool,
   isHidden: React.PropTypes.bool,
   onToggleBookmark: React.PropTypes.func,
