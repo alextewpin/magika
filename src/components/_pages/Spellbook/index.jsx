@@ -24,7 +24,7 @@ function Spellbook ({ classesList, filteredGroupedList, ...rest }) {
     <div>
       <Search/>
       <Filter list={classesList} allSuffix='spells'/>
-      <GroupedList itemCategory='SPELLBOOK' {...{ filteredGroupedList, makeTitleFromIndex }} {...rest}/>
+      <GroupedList category='SPELLBOOK' {...{ filteredGroupedList, makeTitleFromIndex }} {...rest}/>
       {getNotFound()}
     </div>
   );

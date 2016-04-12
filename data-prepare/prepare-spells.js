@@ -56,7 +56,7 @@ function getSpellSchool (school) {
 }
 
 function getSchoolAndLevelRaw (school, level) {
-  switch (level) {
+  switch (Number(level)) {
     case 0: return `${school.charAt(0).toUpperCase()}${school.substring(1)} cantrip`;
     case 1: return `1st level ${school}`;
     case 2: return `2nd level ${school}`;
@@ -129,18 +129,18 @@ function getClassesArray (classes) {
 function prepareSpells (spells) {
   return spells.map(spell => {
     const _spell = Object.assign({}, spell);
-    _spell.level = parseInt(spell.level, 10);
+    _spell.level = Number(spell.level);
     _spell.school = getSpellSchool(spell.school);
-    _spell.schoolAndLevel = getSchoolAndLevel(spell.school, spell.level, spell.ritual);
-    _spell.timeShort = getTimeShort(spell.time);
-    _spell.rangeShort = getRangeShort(spell.range);
-    _spell.durationShort = getDurationShort(spell.duration);
+    _spell.schoolAndLevel = getSchoolAndLevel(getSpellSchool(spell.school), spell.level, spell.ritual);
+    //_spell.timeShort = getTimeShort(spell.time);
+    //_spell.rangeShort = getRangeShort(spell.range);
+    //_spell.durationShort = getDurationShort(spell.duration);
     _spell.classesArray = getClassesArray(spell.classes);
     _spell.concentration = spell.duration.indexOf('Concentration') !== -1;
+    _spell.ritual = spell.ritual === 'YES';
 
     _spell.url = utils.nameToUrl(spell.name);
 
-    _spell.hiLevelIndex = -1;
     _spell.text = utils.stringToArray(spell.text)
       .filter(p => {
         return p !== '';
@@ -153,6 +153,8 @@ function prepareSpells (spells) {
           return p;
         }
       });
+    delete _spell.classes;
+    delete _spell.roll;
     return _spell;
   });
 }

@@ -3,7 +3,7 @@ import { filterList } from '_utils/common';
 
 import Search from 'Search';
 import ExpandableList from '_lists/ExpandableList';
-import { Line } from 'Line';
+import Line from 'Line';
 import Message from 'Message';
 
 function Home ({ spellbook, bestiary, classes, searchValue }) {

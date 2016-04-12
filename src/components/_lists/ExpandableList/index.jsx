@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 
-import { Line } from 'Line';
+import Line from 'Line';
 import List from '_lists/List';
 
 function ExpandableList ({ filteredList, category, maxLength = 0, showAll = false, onShowAll, ...rest }) {
@@ -15,7 +15,7 @@ function ExpandableList ({ filteredList, category, maxLength = 0, showAll = fals
     return null;
   }
   const collapsedList = showAll ? filteredList : filteredList.slice(0, maxLength);
-  return <List filteredList={collapsedList} extras={getShowMore()} {...rest}/>;
+  return <List filteredList={collapsedList} extras={getShowMore()} category={category} {...rest}/>;
 }
 
 function mapDispatchToProps (dispatch) {

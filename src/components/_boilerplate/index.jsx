@@ -1,9 +1,9 @@
 import styles from './styles.scss';
+import cnTools from '_utils/cnTools';
+const cn = cnTools(styles);
 
-function Boilerplate () {
+export default function Boilerplate () {
   return (
     <div>Boilerplate</div>
   );
 }
-
-export default ReactCSS(Boilerplate, styles);

@@ -1,23 +1,54 @@
 import styles from './styles.scss';
+import cnTools from '_utils/cnTools';
+const cn = cnTools(styles);
 
 import { Link } from 'react-router';
+import Description from 'Description';
 
-export function SpellLine ({ spell, isExpanded = false, ...rest }) {
-  const extras = [
-    spell.ritual ? 'R' : null,
-    spell.concentration ? 'C' : null,
-    (spell.ritual && !spell.concentration) ? ' ' : null
-  ];
-  const expandedLine = isExpanded ? <div>!!!</div> : null;
-  return (
-    <div>
-      <Line value={spell.name} extras={extras.filter(item => item)} {...rest}/>
-      {expandedLine}
-    </div>
-  );
+export default class Line extends React.Component {
+  static defaultProps = {
+    isExpanded: false,
+    isBookmarked: false
+  }
+  static propTypes = {
+    category: React.PropTypes.string,
+    content: React.PropTypes.object,
+    isExpanded: React.PropTypes.bool.isRequired,
+    isBookmarked: React.PropTypes.bool.isRequired
+  }
+  shouldComponentUpdate (nextProps) {
+    return this.props.isExpanded !== nextProps.isExpanded || this.props.isBookmarked !== nextProps.isBookmarked;
+  }
+  getLineBody () {
+    const { category, ...typedLineProps } = this.props;
+    switch (category) {
+      case 'SPELLBOOK': {
+        const { content: spell, ...lineBodyProps } = typedLineProps;
+        const extras = [
+          spell.ritual ? 'R' : null,
+          spell.concentration ? 'C' : null,
+          (spell.ritual && !spell.concentration) ? ' ' : null
+        ];
+        return <LineBody value={spell.name} extras={extras.filter(item => item)} {...lineBodyProps}/>;
+      }
+      default:
+        return <LineBody {...typedLineProps}/>;
+    }
+  }
+  render () {
+    const { isExpanded, ...getLineBodyProps } = this.props;
+    const { category, content } = this.props;
+    const expandedLine = isExpanded ? <Description {...{ category, content }}/> : null;
+    return (
+      <div>
+        {this.getLineBody(getLineBodyProps)}
+        {expandedLine}
+      </div>
+    );
+  }
 }
 
-function LineComponent ({
+function LineBody ({
     value,
     style = 'normal',
     link,
@@ -26,28 +57,36 @@ function LineComponent ({
     isBookmarked = false,
     isHidden = false,
     onToggleBookmark,
-    onExpandLine
+    onClick
   }) {
   if (link) {
-    return <Link styleName='root_style_link' to={link}>{value}</Link>;
+    return <Link className={cn('root', { style: 'link' })} to={link}>{value}</Link>;
   }
   function getStar () {
     if (onToggleBookmark) {
-      return <div styleName={`star_is-bookmarked_${isBookmarked}`} onClick={onToggleBookmark}>★</div>;
+      return <div className={cn('star', { isBookmarked })} onClick={onToggleBookmark}>★</div>;
     }
     return null;
   }
   return (
-    <div onClick={onExpandLine} styleName={`root_style_${style} root_is-hidden_${isHidden}`}>
+    <div onClick={onClick} className={cn('root', { style, isHidden })}>
       <div>{value}</div>
-      <div styleName='extras'>
-        {extras.map((item, i) => <div key={i} styleName='extra'>{item}</div>)}
+      <div className={cn('extras')}>
+        {extras.map((item, i) => <div key={i} className={cn('extra')}>{item}</div>)}
         {getStar()}
       </div>
     </div>
   );
 }
 
-LineComponent.displayName = 'Line';
-
-export const Line = ReactCSS(LineComponent, styles, { allowMultiple: true });
+LineBody.propTypes = {
+  value: React.PropTypes.string.isRequired,
+  style: React.PropTypes.string,
+  link: React.PropTypes.string,
+  icon: React.PropTypes.string,
+  extras: React.PropTypes.array,
+  isBookmarked: React.PropTypes.bool,
+  isHidden: React.PropTypes.bool,
+  onToggleBookmark: React.PropTypes.func,
+  onClick: React.PropTypes.func
+};

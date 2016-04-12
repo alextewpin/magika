@@ -1,8 +1,10 @@
 import styles from './styles.scss';
+import cnTools from '_utils/cnTools';
+const cn = cnTools(styles);
 
 import { connect } from 'react-redux';
 
-import { Line, SpellLine } from 'Line';
+import Line from 'Line';
 
 function List ({
     title,
@@ -11,7 +13,7 @@ function List ({
     dictionary,
     bookmarks,
     expanded,
-    itemCategory,
+    category,
     isHidden = false,
     extras = null,
     key,
@@ -19,25 +21,21 @@ function List ({
     onExpandLine
   }) {
   return (
-    <div key={key} styleName={`root_is-hidden_${isHidden}`}>
+    <div key={key} className={cn('root', { isHidden })}>
       <Line value={title} link={link} style='h2'/>
       {filteredList.map(item => {
-        const _onToggleBookmark = onToggleBookmark.bind(null, itemCategory, item);
-        const _onExpandLine = onExpandLine.bind(null, itemCategory, item);
-        switch (itemCategory) {
-          case 'SPELLBOOK':
-            return (
-              <SpellLine
-                key={item}
-                spell={dictionary[item]}
-                isBookmarked={bookmarks[itemCategory].indexOf(item) !== -1}
-                isExpanded={expanded[itemCategory].indexOf(item) !== -1}
-                onToggleBookmark={_onToggleBookmark}
-                onExpandLine={_onExpandLine}/>
-            );
-          default:
-            return <Line key={item} value={dictionary[item].name}/>;
-        }
+        const _onToggleBookmark = onToggleBookmark.bind(null, category, item);
+        const _onExpandLine = onExpandLine.bind(null, category, item);
+        return (
+          <Line
+            key={item}
+            category={category}
+            content={dictionary[item]}
+            isBookmarked={bookmarks[category].indexOf(item) !== -1}
+            isExpanded={expanded[category].indexOf(item) !== -1}
+            onToggleBookmark={_onToggleBookmark}
+            onClick={_onExpandLine}/>
+        );
       })}
       {extras}
     </div>
@@ -64,4 +62,4 @@ function mapStateToProps (state) {
 export default connect(
   mapStateToProps,
   mapDispatchToProps
-)(ReactCSS(List, styles));
+)(List);
