@@ -9,58 +9,23 @@ function getCategories () {
   };
 }
 
-function setBookmarks () {
-  return {};
+function getBookmarks () {
+  try {
+    const bm = JSON.parse(window.localStorage.bookmarks);
+    // Some tweaks to support legacy bookmarks style
+    return Object.keys(bm).reduce((sum, key) => {
+      return Object.assign({}, sum, {
+        [key.toUpperCase()]: bm[key].map(item => item.toLowerCase())
+      });
+    }, getCategories());
+  } catch (err) {
+    console.log(err);
+    return getCategories();
+  }
 }
 
-const initialState = {
-  isLoading: true,
-  searchValue: '',
-  filterValue: 0,
-  showAll: [],
-  data: {}
-};
-
-function app (state = initialState, action) {
-  switch (action.type) {
-    case 'INIT':
-      return {
-        ...state,
-        isLoading: false,
-        data: action.data
-      };
-    case 'SEARCH':
-      return {
-        ...state,
-        searchValue: action.value.toLowerCase().replace(/\s/g, '_').replace(/\//g, '_'),
-        showAll: []
-      };
-    case 'CLEAR_SEARCH':
-      return {
-        ...state,
-        searchValue: '',
-        showAll: []
-      };
-    case 'FILTER':
-      return {
-        ...state,
-        filterValue: action.value
-      };
-    case 'SHOW_ALL':
-      return {
-        ...state,
-        showAll: [...state.showAll, action.category]
-      };
-    case '@@router/LOCATION_CHANGE':
-      return {
-        ...state,
-        searchValue: action.payload.query.searchValue || '',
-        filterValue: 0,
-        showAll: []
-      };
-    default:
-      return state;
-  }
+function setBookmarks (bm) {
+  window.localStorage.bookmarks = JSON.stringify(bm);
 }
 
 function toggle (state, action) {
@@ -80,6 +45,62 @@ function toggle (state, action) {
   };
 }
 
+
+function isLoading (state = true, action) {
+  if (action.type === 'INIT') {
+    return false;
+  } else {
+    return state;
+  }
+}
+
+function data (state = {}, action) {
+  if (action.type === 'INIT') {
+    return action.data;
+  } else {
+    return state;
+  }
+}
+
+function searchValue (state = '', action) {
+  switch (action.type) {
+    case 'SEARCH':
+      return action.value.toLowerCase().replace(/\s/g, '_').replace(/\//g, '_');
+    case 'CLEAR_SEARCH':
+      return '';
+    case '@@router/LOCATION_CHANGE':
+      return action.payload.query.searchValue || '';
+    default:
+      return state;
+  }
+}
+
+function filterValue (state = 0, action) {
+  switch (action.type) {
+    case 'FILTER':
+      return action.value;
+    case '@@router/LOCATION_CHANGE':
+      return 0;
+    default:
+      return state;
+  }
+}
+
+function showAll (state = [], action) {
+  switch (action.type) {
+    case 'SHOW_ALL':
+      return [...state, action.category];
+    case 'SEARCH':
+      return [];
+    case 'CLEAR_SEARCH':
+      return [];
+    case '@@router/LOCATION_CHANGE':
+      return [];
+    default:
+      return state;
+  }
+}
+
 function expanded (state = getCategories(), action) {
   switch (action.type) {
     case 'TOGGLE_EXPAND':
@@ -97,9 +118,10 @@ function expanded (state = getCategories(), action) {
   }
 }
 
-function bookmarks (state = getCategories(), action) {
+function bookmarks (state = getBookmarks(), action) {
   switch (action.type) {
     case 'TOGGLE_BOOKMARK':
+      setBookmarks(toggle(state, action));
       return toggle(state, action);
     default:
       return state;
@@ -107,8 +129,12 @@ function bookmarks (state = getCategories(), action) {
 }
 
 export default combineReducers({
-  app,
+  isLoading,
+  data,
+  searchValue,
+  filterValue,
   bookmarks,
   expanded,
+  showAll,
   routing: routerReducer
 });

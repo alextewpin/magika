@@ -17,6 +17,8 @@ import App from 'App';
 import Home from '_pages/Home';
 import Spellbook from '_pages/Spellbook';
 import Bestiary from '_pages/Bestiary';
+import Classes from '_pages/Classes';
+import Bookmarks from '_pages/Bookmarks';
 
 import fetchData from '_utils/fetchData';
 import reducers from '_utils/reducers';
@@ -38,6 +40,8 @@ ReactDOM.render((
         <IndexRoute component={Home}/>
         <Route path='/spellbook' component={Spellbook}/>
         <Route path='/bestiary' component={Bestiary}/>
+        <Route path='/classes' component={Classes}/>
+        <Route path='/bookmarks' component={Bookmarks}/>
         <Route path='*' component={Home}/>
       </Route>
     </Router>

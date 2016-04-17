@@ -87,6 +87,7 @@ function getTypeShort (type) {
     .replace(', tyranny of dragons', '')
     .replace(', elemental evil', '')
     .replace(', out of the abyss', '')
+    .replace(', curse of strahd', '')
     .replace(' (human), elemental evil', '')
     .replace(' (elf), elemental evil', '')
     .replace(' (half-elf), elemental evil', '')

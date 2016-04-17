@@ -5,15 +5,16 @@
   font-size: 14px;
 }
 
-.block {
-  margin: g() 0;
+.block_size_ {
+  &m {
+    margin: g() 0; 
+  }
+  &l {
+    margin: g(2) 0;
+  }
 }
 
-.traits {
-  margin-top: g(2);
-}
-
-.traits-title {
+.h3 {
   color: $pl__secondary;
   border-bottom: 2px dotted $pl__secondary;
   font-weight: bold;
@@ -25,14 +26,16 @@
 
 .item-title {
   font-weight: bold;
-  color: $pl__secondary;
+  &_style_red {
+    color: $pl__secondary;
+  }
 }
 
 .p:not(:last-child) {
   margin-bottom: g();
 }
 
-.stats-titles, .stats-values {
+.stats-titles, .stats-values, .slots-row {
   display: table;
   table-layout: fixed;
   width: 100%;
@@ -43,7 +46,11 @@
   }
 }
 
-.stats-titles {
+.stats-titles, .slots-title {
   font-weight: bold;
   color: $pl__secondary;
+}
+
+.slots-empty {
+  color: $pl__grey-l;
 }

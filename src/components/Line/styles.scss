@@ -13,6 +13,16 @@
   &text {
     @include root;
   }
+  &h1 {
+    @include root;
+    height: g(9);
+    line-height: g(9);
+    font-size: 18px;
+    color: $pl__secondary;
+    border-bottom: 2px solid $pl__secondary;
+    padding: 0px;
+    margin: g(4) $g__padding-h g(2) $g__padding-h;
+  }
   &h2 {
     @include root;
     font-weight: bold;
@@ -25,13 +35,6 @@
       background-color: $pl__grey-l2;
     }
   }
-  &link {
-    @include root;
-    color: $pl__primary;
-    &:hover {
-      color: $pl__secondary;
-    }
-  }
   &show-all {
     @include root;
     font-size: 12px;
@@ -40,6 +43,13 @@
     &:hover {
       background-color: $pl__grey-l2;
     }
+  }
+}
+
+.link {
+  color: $pl__primary;
+  &:hover {
+    color: $pl__secondary;
   }
 }
 

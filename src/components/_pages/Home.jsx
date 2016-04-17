@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { filterList } from '_utils/common';
+import { getListDataForCategory } from '_utils/common';
 
 import Search from 'Search';
 import ExpandableList from '_lists/ExpandableList';
@@ -24,7 +24,6 @@ function Home ({ spellbook, bestiary, classes, searchValue }) {
   function getListProps (title) {
     return {
       title,
-      category: title.toUpperCase(),
       link: {
         pathname: `/${title.toLowerCase()}`,
         query: {
@@ -73,25 +72,12 @@ Home.propTypes = {
 };
 
 function mapStateToProps (state) {
-  const data = state.app.data;
-  const searchValue = state.app.searchValue;
-  const showAll = state.app.showAll;
+  const { data, searchValue, showAll } = state;
+  const common = [data, searchValue, showAll];
   return {
-    spellbook: {
-      filteredList: filterList(data.SPELLS, searchValue),
-      dictionary: data.SPELLS_BY_KEY,
-      showAll: showAll.indexOf('SPELLBOOK') !== -1
-    },
-    bestiary: {
-      filteredList: filterList(data.MONSTERS, searchValue),
-      dictionary: data.MONSTERS_BY_KEY,
-      showAll: showAll.indexOf('BESTIARY') !== -1
-    },
-    classes: {
-      filteredList: filterList(data.CLASSES, searchValue),
-      dictionary: data.CLASSES_BY_KEY,
-      showAll: showAll.indexOf('CLASSES') !== -1
-    },
+    spellbook: getListDataForCategory('SPELLBOOK', ...common),
+    bestiary: getListDataForCategory('BESTIARY', ...common),
+    classes: getListDataForCategory('CLASSES', ...common),
     searchValue
   };
 }

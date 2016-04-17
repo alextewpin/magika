@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bestiary version="5">
+<compendium version="5">
 <!--Hoard of the Dragon Queen-->
 	<monster>
 		<name>Ambush Drake</name>
@@ -7,15 +7,16 @@
 		<type>dragon, tyranny of dragons</type>
 		<alignment>unaligned</alignment>
 		<ac>13 (natural armor)</ac>
-		<hp>22 (4d6 + 8)</hp>
+		<hp>22 (4d6+8)</hp>
 		<speed>30 ft.</speed>
-		<str>13</str><dex>15</dex><con>14</con><int>4</int><wis>11</wis><cha>6</cha>
-		<save></save>
+		<str>13</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>4</int>
+		<wis>11</wis>
+		<cha>6</cha>
 		<skill>Perception +4, Stealth +4</skill>
 		<resist>poison</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>understands Draconic but can't speak it</languages>
@@ -34,7 +35,6 @@
 			<text>Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit 4 (1d6 + 1) piercing damage.</text>
 			<attack>Bite|4|1d6+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Azbara Jos</name>
@@ -42,16 +42,16 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>lawful evil</alignment>
 		<ac>13 (16 with mage armor)</ac>
-		<hp>39 (6d8 + 12)</hp>
+		<hp>39 (6d8+12)</hp>
 		<speed>30 ft.</speed>
-		<str>9</str><dex>16</dex><con>14</con><int>16</int><wis>13</wis><cha>11</cha>
+		<str>9</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>16</int>
+		<wis>13</wis>
+		<cha>11</cha>
 		<save>Int +5, Wis +3</save>
 		<skill>Arcana +5, Deception +2, Insight +3, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages>Common, Draconic, Infernal, Primordial, Thayan</languages>
 		<cr>4</cr>
@@ -70,7 +70,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Azbara is a 6th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Azbara has the following spells prepared from the wizard spell list: </text>
-			<text></text>
+			<text />
 			<text>• Cantrips (at will): mage hand, prestidigitation, ray of frost, shocking grasp</text>
 			<text>• 1st level (4 slots): fog cloud, magic missile, shield, thunderwave</text>
 			<text>• 2nd level (3 slots): invisibility, misty step, scorching ray</text>
@@ -89,16 +89,16 @@
 		<type>giant (cloud giant), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>17 (splint)</ac>
-		<hp>138 (12d12 + 60)</hp>
+		<hp>138 (12d12+60)</hp>
 		<speed>40 ft.</speed>
-		<str>26</str><dex>13</dex><con>20</con><int>16</int><wis>15</wis><cha>15</cha>
+		<str>26</str>
+		<dex>13</dex>
+		<con>20</con>
+		<int>16</int>
+		<wis>15</wis>
+		<cha>15</cha>
 		<save>Con +9, Wis +6, Cha +6</save>
 		<skill>Arcana +7, Insight +6, Intimidation +6, Perception +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>16</passive>
 		<languages>Common, Draconic, Giant</languages>
 		<cr>9</cr>
@@ -109,13 +109,13 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Blagothkus can innately cast the following spells (spell save DC 15), requiring no material components: </text>
-			<text></text>
+			<text />
 			<text>• 3/day each: fog cloud, levitate</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>Blagothkus is a 5th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Blagothkus has the following spells prepared from the wizard spell list: </text>
-			<text></text>
+			<text />
 			<text>• Cantrips (at will): light, mage hand, prestidigitation</text>
 			<text>• 1st level (4 slots): detect magic, identify, magic missile, shield</text>
 			<text>• 2nd level (3 slots): gust of wind, misty step, shatter</text>
@@ -138,16 +138,16 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>lawful evil</alignment>
 		<ac>19 (splint, shield)</ac>
-		<hp>93 (11d10 + 33)</hp>
+		<hp>93 (11d10+33)</hp>
 		<speed>30 ft.</speed>
-		<str>19</str><dex>10</dex><con>16</con><int>13</int><wis>14</wis><cha>12</cha>
+		<str>19</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>13</int>
+		<wis>14</wis>
+		<cha>12</cha>
 		<save>Str +7, Con +6</save>
 		<skill>Athletics +7, Intimidation +7, Perception +5, Religion +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>15</passive>
 		<languages>Common, Draconic, Giant</languages>
 		<cr>5</cr>
@@ -174,7 +174,6 @@
 			<attack>One Handed|7|1d6+4</attack>
 			<attack>Two Handed|7|1d8+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Dragonclaw</name>
@@ -182,16 +181,16 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>14 (leather armor)</ac>
-		<hp>16 (3d8 + 3)</hp>
+		<hp>16 (3d8+3)</hp>
 		<speed>30 ft.</speed>
-		<str>9</str><dex>16</dex><con>13</con><int>11</int><wis>10</wis><cha>12</cha>
+		<str>9</str>
+		<dex>16</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>12</cha>
 		<save>Wis +2</save>
 		<skill>Deception +3, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Draconic</languages>
 		<cr>1</cr>
@@ -217,7 +216,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage.</text>
 			<attack>Scimitar|5|1d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Dragonwing</name>
@@ -225,16 +223,17 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>14 (leather armor)</ac>
-		<hp>33 (6d8 + 6)</hp>
+		<hp>33 (6d8+6)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>16</dex><con>13</con><int>11</int><wis>11</wis><cha>13</cha>
+		<str>11</str>
+		<dex>16</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>13</cha>
 		<save>Wis +2</save>
 		<skill>Deception +3, Stealth +5</skill>
 		<resist>one of the following: acid, cold, fire, lightning, or poison</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Draconic</languages>
 		<cr>2</cr>
@@ -264,7 +263,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) slashing damage plus 3 (1d6) damage of the type to which the cultist has resistance.</text>
 			<attack>Scimitar|5|1d6+3+1d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Dralmorrer Borngray</name>
@@ -272,15 +270,16 @@
 		<type>humanoid (high elf), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (studded leather, shield)</ac>
-		<hp>52 (7d10 + 14)</hp>
+		<hp>52 (7d10+14)</hp>
 		<speed>30 ft.</speed>
-		<str>18</str><dex>14</dex><con>14</con><int>16</int><wis>10</wis><cha>8</cha>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>16</int>
+		<wis>10</wis>
+		<cha>8</cha>
 		<save>Str +6, Con +4</save>
 		<skill>Arcana +5, Deception +1, Insight +2, Perception +2, Religion +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>Common, Bullywug, Draconic, Elvish, Goblin, Sylvan</languages>
@@ -292,7 +291,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Dralmorrer is a 7th-level spellcaster that uses Intelligence as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Dralmorrer has the following spells prepared from the wizard spell list: </text>
-			<text></text>
+			<text />
 			<text>• Cantrips (at will): fire bolt, prestidigitation, shocking grasp</text>
 			<text>• 1st level (4 slots): longstrider, magic missile, shield, thunderwave</text>
 			<text>• 2nd level (2 slots): magic weapon, misty step</text>
@@ -328,23 +327,23 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>lawful evil</alignment>
 		<ac>16 (chain mail)</ac>
-		<hp>44 (8d8 + 8)</hp>
+		<hp>44 (8d8+8)</hp>
 		<speed>30 ft.</speed>
-		<str>14</str><dex>10</dex><con>13</con><int>11</int><wis>18</wis><cha>15</cha>
+		<str>14</str>
+		<dex>10</dex>
+		<con>13</con>
+		<int>11</int>
+		<wis>18</wis>
+		<cha>15</cha>
 		<save>Wis +6, Cha +4</save>
 		<skill>Deception +4, History +2, Religion +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages>Common, Draconic, Infernal</languages>
 		<cr>2</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>Frulam is a 5th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Frulam has the following spells prepared from the cleric spell list: </text>
-			<text></text>
+			<text />
 			<text>• Cantrips (at will): light, sacred flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): command, cure wounds, healing word, sanctuary</text>
 			<text>• 2nd level (3 slots): calm emotions, hold person, spiritual weapon</text>
@@ -367,15 +366,16 @@
 		<type>dragon, tyranny of dragons</type>
 		<alignment>unaligned</alignment>
 		<ac>14 (natural armor)</ac>
-		<hp>52 (7d8 + 21)</hp>
+		<hp>52 (7d8+21)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str><dex>11</dex><con>16</con><int>4</int><wis>10</wis><cha>7</cha>
-		<save></save>
+		<str>16</str>
+		<dex>11</dex>
+		<con>16</con>
+		<int>4</int>
+		<wis>10</wis>
+		<cha>7</cha>
 		<skill>Perception +2</skill>
 		<resist>lightning</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>12</passive>
 		<languages>understands Draconic but can't speak it</languages>
@@ -394,7 +394,6 @@
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
 			<attack>Tail|5|1d6+3</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Jamna Gleamsilver</name>
@@ -402,15 +401,16 @@
 		<type>humanoid (gnome), tyranny of dragons</type>
 		<alignment>neutral</alignment>
 		<ac>15 (leather armor)</ac>
-		<hp>22 (4d6 + 8)</hp>
+		<hp>22 (4d6+8)</hp>
 		<speed>25 ft.</speed>
-		<str>8</str><dex>17</dex><con>14</con><int>15</int><wis>10</wis><cha>12</cha>
+		<str>8</str>
+		<dex>17</dex>
+		<con>14</con>
+		<int>15</int>
+		<wis>10</wis>
+		<cha>12</cha>
 		<save>Dex +5, Int +4</save>
 		<skill>Acrobatics +5, Deception +3, Insight +2, Perception +4, Persuasion +3, Stealth +7</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common, Gnomish, Goblin, Sylvan</languages>
@@ -426,7 +426,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Jamna is a 4th-level spellcaster that uses Intelligence as her spellcasting ability (spell save DC 12, +4 to hit with spell attacks). Jamna has the following spells prepared from the wizard spell list.</text>
-			<text></text>
+			<text />
 			<text>• Cantrips (at will): mage hand, minor illusion, prestidigitation, ray of frost</text>
 			<text>• 1st level (3 slots): charm person, color spray, disguise self, longstrider</text>
 		</trait>
@@ -447,15 +447,17 @@
 		<type>humanoid (half-dragon), tyranny of dragons</type>
 		<alignment>lawful evil</alignment>
 		<ac>17 (splint)</ac>
-		<hp>57 (6d12 + 18)</hp>
+		<hp>57 (6d12+18)</hp>
 		<speed>30 ft.</speed>
-		<str>19</str><dex>13</dex><con>16</con><int>10</int><wis>14</wis><cha>12</cha>
+		<str>19</str>
+		<dex>13</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>12</cha>
 		<save>Str +6, Con +5</save>
 		<skill>Athletics +6, Intimidation +3, Perception +4</skill>
 		<resist>lightning</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>blindsight 10 ft., darkvision 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common, Draconic</languages>
@@ -486,9 +488,8 @@
 		<action>
 			<name>Lightning Breath (Recharge 5-6)</name>
 			<text>Langdedrosa breathes lightning in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 13 Dexterity saving throw, taking 22 (4d10) lightning damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Lightning Breath|0|4d10</attack>
+			<attack>Lightning Breath||4d10</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Pharblex Spattergoo</name>
@@ -496,16 +497,16 @@
 		<type>humanoid (bullywug), tyranny of dragons</type>
 		<alignment>chaotic evil</alignment>
 		<ac>15 (studded leather armor, shield)</ac>
-		<hp>59 (7d8 + 28)</hp>
+		<hp>59 (7d8+28)</hp>
 		<speed>20 ft., swim 40 ft.</speed>
-		<str>15</str><dex>12</dex><con>18</con><int>11</int><wis>16</wis><cha>7</cha>
+		<str>15</str>
+		<dex>12</dex>
+		<con>18</con>
+		<int>11</int>
+		<wis>16</wis>
+		<cha>7</cha>
 		<save>Str +4, Con +6</save>
 		<skill>Perception +5, Religion +2, Stealth +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>15</passive>
 		<languages>Common, Bullywug</languages>
 		<cr>3</cr>
@@ -521,8 +522,8 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Pharblex is a 6th-level spellcaster that uses Wisdom as his spellcasting ability (spell save DC 13, +5 to hit with spell attacks). Pharblex has the following spells prepared from the druid spell list: </text>
-			<text></text>
-			<text>• Cantrips (at will): druidcraft, guidance, poison cloud</text>
+			<text />
+			<text>• Cantrips (at will): druidcraft, guidance, poison spray</text>
 			<text>• 1st level (4 slots): cure wounds, entangle, healing word, thunderwave</text>
 			<text>• 2nd level (3 slots): barkskin, beast sense, spike growth</text>
 			<text>• 3rd level (3 slots): plant growth, water walk</text>
@@ -558,16 +559,16 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>lawful evil</alignment>
 		<ac>13 (16 with mage armor)</ac>
-		<hp>71 (11d8 + 22)</hp>
+		<hp>71 (11d8+22)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>16</dex><con>14</con><int>18</int><wis>14</wis><cha>10</cha>
+		<str>11</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>18</int>
+		<wis>14</wis>
+		<cha>10</cha>
 		<save>Int +7, Wis +5</save>
 		<skill>Arcana +7, Deception +3, Insight +5, Stealth +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>12</passive>
 		<languages>Common, Draconic, Infernal, Primordial, Thayan</languages>
 		<cr>6</cr>
@@ -578,7 +579,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Rath is an 11th-level spellcaster who uses Intelligence as his spellcasting ability (spell save DC 15, +7 to hit with spell attacks). Rath has the following spells prepared from the wizard spell list: </text>
-			<text></text>
+			<text />
 			<text>• Cantrips (at will): fire bolt, minor illusion, prestidigitation, shocking grasp</text>
 			<text>• 1st level (4 slots): chromatic orb, color spray, mage armor, magic missile</text>
 			<text>• 2nd level (3 slots): detect thoughts, mirror image, phantasmal force</text>
@@ -605,13 +606,16 @@
 		<type>humanoid (half-black dragon), tyranny of dragons</type>
 		<alignment>neutral evil</alignment>
 		<ac>13 (15 with the Black Dragon Mask)</ac>
-		<hp>90 (12d8 + 36)</hp>
+		<hp>90 (12d8+36)</hp>
 		<speed>30 ft.</speed>
-		<str>18</str><dex>16</dex><con>16</con><int>15</int><wis>12</wis><cha>14</cha>
+		<str>18</str>
+		<dex>16</dex>
+		<con>16</con>
+		<int>15</int>
+		<wis>12</wis>
+		<cha>14</cha>
 		<save>Dex +6, Wis +4</save>
 		<skill>Arcana +5, Stealth +9</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>acid</immune>
 		<conditionImmune>charmed, frightened</conditionImmune>
 		<senses>blindsight 10 ft., darkvision 120 ft.</senses>
@@ -656,7 +660,7 @@
 		<action>
 			<name>Acid Breath (Recharge 5-6)</name>
 			<text>Rezmir breathes acid in a 30-foot line that is 5 feet wide. Each creature in the line must make a DC 14 Dexterity saving throw, taking 22 (5d8) acid damage on a failed save, or half as much damage on a successful one.</text>
-			<attack>Acid Breath|0|5d8</attack>
+			<attack>Acid Breath||5d8</attack>
 		</action>
 		<legendary>
 			<name>Darkness (Costs 2 Actions)</name>
@@ -671,7 +675,6 @@
 			<name>Hide</name>
 			<text>Rezmir takes the Hide action.</text>
 		</legendary>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Talis the White</name>
@@ -679,15 +682,16 @@
 		<type>humanoid (half-elf), tyranny of dragons</type>
 		<alignment>lawful evil</alignment>
 		<ac>18 (scale mail +1, shield)</ac>
-		<hp>58 (9d8 + 18)</hp>
+		<hp>58 (9d8+18)</hp>
 		<speed>30 ft.</speed>
-		<str>14</str><dex>12</dex><con>14</con><int>10</int><wis>16</wis><cha>16</cha>
+		<str>14</str>
+		<dex>12</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>16</wis>
+		<cha>16</cha>
 		<save>Wis +6, Cha +6</save>
 		<skill>Deception +6, Insight +6, Perception +6, Persuasion +6</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>16</passive>
 		<languages>Common, Draconic, Elvish, Infernal</languages>
@@ -703,7 +707,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Talis is a 9th-level spellcaster that uses Wisdom as her spellcasting ability (spell save DC 14, +6 to hit with spell attacks). Talis has the following spells prepared from the cleric spell list: </text>
-			<text></text>
+			<text />
 			<text>• Cantrips (at will): guidance, resistance, thaumaturgy</text>
 			<text>• 1st level (4 slots): command, cure wounds, healing word, inflict wounds</text>
 			<text>• 2nd level (3 slots): blindness/deafness, lesser restoration, spiritual weapon (spear) </text>
@@ -724,4 +728,4 @@
 		</action>
 		<spells>guidance, resistance, thaumaturgy, command, cure wounds, healing word, inflict wounds, blindness/deafness, lesser restoration, spiritual weapon, dispel magic, mass healing word, sending, death ward, freedom of movement, insect plague</spells>
 	</monster>
-</bestiary>
+</compendium>

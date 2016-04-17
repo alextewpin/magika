@@ -1,4 +1,4 @@
-source/data_source
+data_source
 node_modules
 jsconfig.json
 *.log

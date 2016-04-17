@@ -8,12 +8,14 @@ import Line from 'Line';
 
 function List ({
     title,
+    titleSize = 'h2',
     link,
     filteredList,
     dictionary,
     bookmarks,
     expanded,
     category,
+    isEmpty = false,
     isHidden = false,
     extras = null,
     key,
@@ -22,7 +24,8 @@ function List ({
   }) {
   return (
     <div key={key} className={cn('root', { isHidden })}>
-      <Line value={title} link={link} style='h2'/>
+      {title && !isEmpty ?
+        <Line value={title} link={link} style={titleSize}/> : null}
       {filteredList.map(item => {
         const _onToggleBookmark = onToggleBookmark.bind(null, category, item);
         const _onExpandLine = onExpandLine.bind(null, category, item);

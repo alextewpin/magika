@@ -15,13 +15,19 @@ export default class Line extends React.Component {
     category: React.PropTypes.string,
     content: React.PropTypes.object,
     isExpanded: React.PropTypes.bool.isRequired,
-    isBookmarked: React.PropTypes.bool.isRequired
+    isBookmarked: React.PropTypes.bool.isRequired,
+    link: React.PropTypes.oneOfType([
+      React.PropTypes.string,
+      React.PropTypes.object
+    ])
   }
   shouldComponentUpdate (nextProps) {
+    // Make shalow compare later
     return (
       this.props.isExpanded !== nextProps.isExpanded ||
       this.props.isBookmarked !== nextProps.isBookmarked ||
-      this.props.value !== nextProps.value
+      this.props.value !== nextProps.value ||
+      this.props.link !== nextProps.link
     );
   }
   getLineBody () {
@@ -40,6 +46,10 @@ export default class Line extends React.Component {
         const { content: monster, ...lineBodyProps } = typedLineProps;
         const extras = [monster.typeShort];
         return <LineBody value={monster.name} extras={extras} extrasSize='m' {...lineBodyProps}/>;
+      }
+      case 'CLASSES': {
+        const { content: charClass, ...lineBodyProps } = typedLineProps;
+        return <LineBody value={charClass.name} {...lineBodyProps}/>;
       }
       default:
         return <LineBody {...typedLineProps}/>;
@@ -71,7 +81,11 @@ function LineBody ({
     onClick
   }) {
   if (link) {
-    return <Link className={cn('root', { style: 'link' })} to={link}>{value}</Link>;
+    return (
+      <div className={cn('root', { style: 'text' })}>
+        <Link className={cn('link')} to={link}>{value}</Link>
+      </div>
+    );
   }
   function getStar () {
     if (onToggleBookmark) {
@@ -91,9 +105,12 @@ function LineBody ({
 }
 
 LineBody.propTypes = {
-  value: React.PropTypes.string.isRequired,
+  value: React.PropTypes.string,
   style: React.PropTypes.string,
-  link: React.PropTypes.string,
+  link: React.PropTypes.oneOfType([
+    React.PropTypes.string,
+    React.PropTypes.object
+  ]),
   icon: React.PropTypes.string,
   extras: React.PropTypes.array,
   extrasSize: React.PropTypes.string,

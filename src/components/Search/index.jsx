@@ -32,7 +32,7 @@ Search.propTypes = {
 
 function mapStateToProps (state) {
   return {
-    value: state.app.searchValue
+    value: state.searchValue
   };
 }
 

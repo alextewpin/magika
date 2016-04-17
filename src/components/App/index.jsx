@@ -3,20 +3,18 @@ import styles from './styles.scss';
 import { connect } from 'react-redux';
 
 import Nav from 'Nav';
+import Line from 'Line';
 
 function App ({ isLoading = true, children }) {
-  if (isLoading) {
-    return <div>Fetching...</div>;
-  } else {
-    return (
+  return (
+    <div>
+      <Nav/>
       <div>
-        <Nav/>
-        <div>
-          {children}
-        </div>
+        {isLoading ?
+          <Line value='Fetching...' type='text'/> : children}
       </div>
-    );
-  }
+    </div>
+  );
 }
 
 App.propTypes = {
@@ -26,7 +24,7 @@ App.propTypes = {
 
 function mapStateToProps (state) {
   return {
-    isLoading: state.app.isLoading
+    isLoading: state.isLoading
   };
 }
 

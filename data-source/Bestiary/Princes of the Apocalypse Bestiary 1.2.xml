@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<compendium version="5" auto_indent="YES">
+<compendium version="5">
 	<monster>
 		<name>Aerisi Kalinoth</name>
 		<size>M</size>
 		<type>humanoid (elf), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>13 (16 with mage armor)</ac>
-		<hp>66 (12d8 + 12)</hp>
+		<hp>66 (12d8+12)</hp>
 		<speed>30 ft.</speed>
-		<str>8</str><dex>16</dex><con>12</con><int>17</int><wis>10</wis><cha>16</cha>
-		<save></save>
+		<str>8</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>17</int>
+		<wis>10</wis>
+		<cha>16</cha>
 		<skill>Arcana +6, History +6, Perception +3</skill>
 		<resist>lightning</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>13</passive>
 		<languages>Auran, Common, Elvish</languages>
@@ -34,7 +35,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Aerisi is a 12th-level spellcaster. Her spellcasting ability is Intelligence (spell save DC 14, +6 to hit with spell attacks). Aerisi has the following wizard spells prepared: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): gust, mage hand, message, prestidigitation, ray of frost, shocking grasp</text>
 			<text>• 1st level (4 slots): charm person, feather fall, mage armor, thunderwave</text>
 			<text>• 2nd level (3 slots): dust devil, gust of wind, invisibility</text>
@@ -57,13 +58,15 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>117 (18d8 + 36)</hp>
+		<hp>117 (18d8+36)</hp>
 		<speed>30 ft., fly 30 ft.</speed>
-		<str>18</str><dex>14</dex><con>14</con><int>9</int><wis>10</wis><cha>10</cha>
-		<save></save>
-		<skill></skill>
+		<str>18</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
 		<resist>lightning, thunder; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -88,7 +91,6 @@
 			<text>The myrmidon makes one flail attack. If the attack hits, it deals an extra 18 (4d8) lightning damage, and the target must succeed on a DC 14 Constitution saving throw or be stunned until the end of the myrmidon's next turn.</text>
 			<attack>Lightning Strike|7|1d8+4+4d8</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Bastian Thermandar</name>
@@ -96,15 +98,16 @@
 		<type>humanoid (fire genasi), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
-		<hp>78 (12d8 + 24)</hp>
+		<hp>78 (12d8+24)</hp>
 		<speed>30 ft.</speed>
-		<str>12</str><dex>14</dex><con>15</con><int>11</int><wis>9</wis><cha>18</cha>
-		<save></save>
+		<str>12</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>11</int>
+		<wis>9</wis>
+		<cha>18</cha>
 		<skill>Arcana +3, Deception +7</skill>
 		<resist>fire</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>9</passive>
 		<languages>Common, Ignan</languages>
@@ -112,14 +115,14 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Bastian's innate spellcasting ability is Constitution (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• At will: produce flame</text>
 			<text>• 1/day: burning hands</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>Bastian is a 9th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). Bastian knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): fire bolt, mage hand, message, prestidigitation, shocking grasp</text>
 			<text>• 1st level (4 slots): mage armor, magic missile, shield</text>
 			<text>• 2nd level (3 slots): misty step, scorching ray</text>
@@ -140,16 +143,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (plate)</ac>
-		<hp>39 (6d8 + 12)</hp>
+		<hp>39 (6d8+12)</hp>
 		<speed>30 ft.</speed>
-		<str>17</str><dex>11</dex><con>14</con><int>10</int><wis>10</wis><cha>9</cha>
-		<save></save>
+		<str>17</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>10</wis>
+		<cha>9</cha>
 		<skill>Intimidation +1, Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>12</passive>
 		<languages>Common</languages>
 		<cr>2</cr>
@@ -166,7 +168,6 @@
 			<name>Unyielding</name>
 			<text>When the guard is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone.</text>
 		</reaction>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Black Earth Priest</name>
@@ -174,16 +175,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>17 (splint)</ac>
-		<hp>45 (7d8 + 14)</hp>
+		<hp>45 (7d8+14)</hp>
 		<speed>30 ft.</speed>
-		<str>15</str><dex>11</dex><con>14</con><int>12</int><wis>10</wis><cha>16</cha>
-		<save></save>
+		<str>15</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>12</int>
+		<wis>10</wis>
+		<cha>16</cha>
 		<skill>Intimidation +5, Religion +3, Persuasion +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Terran</languages>
 		<cr>3</cr>
@@ -211,23 +211,21 @@
 		</reaction>
 		<spells>acid splash, blade ward, light, mending, mold earth (ee), earth tremor (ee), expeditious retreat, shield, shatter, spider climb, slow</spells>
 	</monster>
-
 	<monster>
 		<name>Burrowshark</name>
 		<size>M</size>
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (plate)</ac>
-		<hp>82 (11d8 + 33)</hp>
+		<hp>82 (11d8+33)</hp>
 		<speed>30 ft.</speed>
-		<str>18</str><dex>12</dex><con>16</con><int>10</int><wis>11</wis><cha>13</cha>
-		<save></save>
+		<str>18</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>13</cha>
 		<skill>Animal Handling +2, Athletics +6, Intimidation +3, Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>12</passive>
 		<languages>Common</languages>
 		<cr>4</cr>
@@ -249,7 +247,6 @@
 			<name>Unyielding</name>
 			<text>When the burrowshark is subjected to an effect that would move it, knock it prone, or both, it can use its reaction to be neither moved nor knocked prone.</text>
 		</reaction>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Crushing Wave Priest</name>
@@ -257,23 +254,22 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>13 (chain shirt)</ac>
-		<hp>52 (8d8 + 16)</hp>
+		<hp>52 (8d8+16)</hp>
 		<speed>30 ft.</speed>
-		<str>15</str><dex>11</dex><con>14</con><int>10</int><wis>11</wis><cha>16</cha>
-		<save></save>
+		<str>15</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>16</cha>
 		<skill>Deception +5, Religion +2, Stealth +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Aquan, Common</languages>
 		<cr>2</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): chill touch, mage hand, minor illusion, prestidigitation, ray of frost</text>
 			<text>• 1st level (4 slots): expeditious retreat, ice knife, magic missile, shield</text>
 			<text>• 2nd level (3 slots): blur, hold person</text>
@@ -293,16 +289,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>14 (shield)</ac>
-		<hp>22 (4d8 + 4)</hp>
+		<hp>22 (4d8+4)</hp>
 		<speed>30 ft.</speed>
-		<str>15</str><dex>14</dex><con>13</con><int>10</int><wis>11</wis><cha>8</cha>
-		<save></save>
+		<str>15</str>
+		<dex>14</dex>
+		<con>13</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>8</cha>
 		<skill>Athletics +4, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common</languages>
 		<cr>1/2</cr>
@@ -317,7 +312,6 @@
 			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 30/120 ft., one target. Hit: 5 (1d6 + 2) piercing damage.</text>
 			<attack>Javelin|4|1d6+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Dark Tide Knight</name>
@@ -325,16 +319,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>lawful evil</alignment>
 		<ac>13</ac>
-		<hp>58 (9d8 + 18)</hp>
+		<hp>58 (9d8+18)</hp>
 		<speed>30 ft.</speed>
-		<str>17</str><dex>16</dex><con>14</con><int>10</int><wis>11</wis><cha>11</cha>
-		<save></save>
+		<str>17</str>
+		<dex>16</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>11</cha>
 		<skill>Athletics +7, Stealth +7</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common</languages>
 		<cr>3</cr>
@@ -365,7 +358,6 @@
 			<name>Uncanny Dodge</name>
 			<text>When an attacker the knight can see hits it with an attack, the knight can halve the damage against it.</text>
 		</reaction>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Drannin Splithelm</name>
@@ -373,15 +365,16 @@
 		<type>humanoid (shield dwarf), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (plate)</ac>
-		<hp>93 (11d8 + 44)</hp>
+		<hp>93 (11d8+44)</hp>
 		<speed>25 ft.</speed>
-		<str>19</str><dex>10</dex><con>18</con><int>11</int><wis>8</wis><cha>12</cha>
-		<save></save>
+		<str>19</str>
+		<dex>10</dex>
+		<con>18</con>
+		<int>11</int>
+		<wis>8</wis>
+		<cha>12</cha>
 		<skill>Athletics +7, Intimidation +4</skill>
 		<resist>cold, poison</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>9</passive>
 		<languages>Common, Dwarvish</languages>
@@ -420,7 +413,6 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one target. Hit: 17 (2d12 + 4) slashing damage.</text>
 			<attack>Greataxe|7|2d12+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Earth Elemental Myrmidon</name>
@@ -428,13 +420,15 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>127 (17d8 + 51)</hp>
+		<hp>127 (17d8+51)</hp>
 		<speed>30 ft.</speed>
-		<str>18</str><dex>10</dex><con>17</con><int>8</int><wis>10</wis><cha>10</cha>
-		<save></save>
-		<skill></skill>
+		<str>18</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>10</cha>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -459,7 +453,6 @@
 			<text>The myrmidon makes one maul attack. If the attack hits, it deals an extra 16 (3d10) thunder damage, and the target must succeed on a DC 14 Strength saving throw or be knocked prone.</text>
 			<attack>Thunderous Strike|7|2d6+4+3d10</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Elizar Dryflagon</name>
@@ -467,23 +460,22 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>14 (hide)</ac>
-		<hp>71 (11d8 + 22)</hp>
+		<hp>71 (11d8+22)</hp>
 		<speed>30 ft.</speed>
-		<str>13</str><dex>15</dex><con>14</con><int>11</int><wis>18</wis><cha>10</cha>
-		<save></save>
+		<str>13</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>18</wis>
+		<cha>10</cha>
 		<skill>Arcana +3, Deception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages>Common, Druidic</languages>
 		<cr>5</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>Elizar is a 7th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 15, +7 to hit with spell attacks). Elizar has the following druid spells prepared: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): druidcraft, guidance, poison spray, produce flame</text>
 			<text>• 1st level (4 slots): animal friendship, faerie fire, healing word, jump, thunderwave</text>
 			<text>• 2nd level (3 slots): flame blade, spike growth</text>
@@ -507,16 +499,16 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>chaotic evil</alignment>
 		<ac>17 (breastplate, shield; 15 while using a crossbow)</ac>
-		<hp>45 (7d8 + 14)</hp>
+		<hp>45 (7d8+14)</hp>
 		<speed>30 ft.</speed>
-		<str>15</str><dex>13</dex><con>14</con><int>8</int><wis>11</wis><cha>13</cha>
-		<save></save>
+		<str>15</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>8</int>
+		<wis>11</wis>
+		<cha>13</cha>
 		<skill>Intimidation +3, Perception +2</skill>
 		<resist>fire</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>12</passive>
 		<languages>Common</languages>
 		<cr>2</cr>
@@ -540,7 +532,6 @@
 			<text>Ranged Weapon Attack: +3 to hit, range 100/400 ft., one target. Hit: 6 (1d10 + 1) piercing damage.</text>
 			<attack>Heavy Crossbow|3|1d10+1</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Eternal Flame Priest</name>
@@ -548,23 +539,23 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
-		<hp>52 (8d8 + 16)</hp>
+		<hp>52 (8d8+16)</hp>
 		<speed>30 ft.</speed>
-		<str>12</str><dex>15</dex><con>14</con><int>10</int><wis>11</wis><cha>16</cha>
-		<save></save>
+		<str>12</str>
+		<dex>15</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>11</wis>
+		<cha>16</cha>
 		<skill>Deception +5, Intimidation +5, Religion +2</skill>
 		<resist>fire</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Ignan</languages>
 		<cr>3</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): control flames, create bonfire, fire bolt, light, minor illusion</text>
 			<text>• 1st level (4 slots): burning hands, expeditious retreat, mage armor</text>
 			<text>• 2nd level (3 slots): blur, scorching ray</text>
@@ -583,16 +574,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>10 (13 with mage armor)</ac>
-		<hp>52 (8d8 + 16)</hp>
+		<hp>52 (8d8+16)</hp>
 		<speed>30 ft.</speed>
-		<str>14</str><dex>11</dex><con>14</con><int>11</int><wis>11</wis><cha>15</cha>
-		<save></save>
+		<str>14</str>
+		<dex>11</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>11</wis>
+		<cha>15</cha>
 		<skill>Arcana +2, Perception +4, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages>Aquan, Common</languages>
 		<cr>2</cr>
@@ -608,7 +598,7 @@
 		<trait>
 			<name>Spellcasting (Human Form Only)</name>
 			<text>The fathomer is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It has two 3rd-level spell slots, which it regains after finishing a short or long rest, and knows the following warlock spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): chill touch, eldritch blast, mage hand</text>
 			<text>• 1st level: armor of Agathys, expeditious retreat, hex</text>
 			<text>• 2nd level: invisibility</text>
@@ -632,16 +622,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>lawful evil</alignment>
 		<ac>16 (scale)</ac>
-		<hp>33 (6d8 + 6)</hp>
+		<hp>33 (6d8+6)</hp>
 		<speed>30 ft.</speed>
-		<str>14</str><dex>14</dex><con>12</con><int>11</int><wis>10</wis><cha>14</cha>
-		<save></save>
+		<str>14</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>14</cha>
 		<skill>Animal Handling +2, History +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Auran, Common</languages>
 		<cr>1</cr>
@@ -675,13 +664,15 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>117 (18d8 + 36)</hp>
+		<hp>117 (18d8+36)</hp>
 		<speed>40 ft.</speed>
-		<str>13</str><dex>18</dex><con>15</con><int>9</int><wis>10</wis><cha>10</cha>
-		<save></save>
-		<skill></skill>
+		<str>13</str>
+		<dex>18</dex>
+		<con>15</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>10</cha>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -714,7 +705,6 @@
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) fire damage.</text>
 			<attack>Fiery Strikes|7|1d6+4+1d10</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Flamewrath</name>
@@ -722,23 +712,23 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>chaotic evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
-		<hp>105 (14d8 + 42)</hp>
+		<hp>105 (14d8+42)</hp>
 		<speed>30 ft.</speed>
-		<str>10</str><dex>14</dex><con>16</con><int>11</int><wis>10</wis><cha>16</cha>
-		<save></save>
+		<str>10</str>
+		<dex>14</dex>
+		<con>16</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>16</cha>
 		<skill>Arcana +3, Religion +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>fire</immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Ignan</languages>
 		<cr>6</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The flamewrath is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 14, +6 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): control flames, fire bolt, friends, light, minor illusion</text>
 			<text>• 1st level (4 slots): burning hands, color spray, mage armor</text>
 			<text>• 2nd level (3 slots): scorching ray, suggestion</text>
@@ -756,23 +746,22 @@
 		</action>
 		<spells>control flames (ee), fire bolt, friends, light, minor illusion, burning hands, color spray, mage armor, scorching ray, suggestion, fireball, hypnotic pattern, fire shield</spells>
 	</monster>
-
 	<monster>
 		<name>Gar Shatterkeel</name>
 		<size>M</size>
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>16 (natural armor)</ac>
-		<hp>30 (15d8 + 45)</hp>
+		<hp>30 (15d8+45)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
-		<str>15</str><dex>15</dex><con>16</con><int>12</int><wis>18</wis><cha>13</cha>
-		<save></save>
+		<str>15</str>
+		<dex>15</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>18</wis>
+		<cha>13</cha>
 		<skill>Nature +8, Survival +8</skill>
 		<resist>cold</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>14</passive>
 		<languages>Aquan, Common</languages>
 		<cr>9</cr>
@@ -787,9 +776,9 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Gar is a 9th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 16, +8 to hit with spell attacks). He has the following druid spells prepared: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): mending, resistance, shape water</text>
-			<text></text>
+			<text> </text>
 			<text>• 1st level (4 slots): create or destroy water, cure wounds, fog cloud, thunderwave</text>
 			<text>• 2nd level (3 slots): darkvision, hold person, protection from poison</text>
 			<text>• 3rd level (3 slots): call lightning, sleet storm, tidal wave</text>
@@ -827,15 +816,16 @@
 		<type>humanoid (sahuagin), elemental evil</type>
 		<alignment>lawful evil</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>102 (12d10 + 36)</hp>
+		<hp>102 (12d10+36)</hp>
 		<speed>30 ft., swim 50 ft.</speed>
-		<str>19</str><dex>17</dex><con>16</con><int>14</int><wis>13</wis><cha>17</cha>
+		<str>19</str>
+		<dex>17</dex>
+		<con>16</con>
+		<int>14</int>
+		<wis>13</wis>
+		<cha>17</cha>
 		<save>Dex +6, Con +6, Int +5, Wis +4</save>
 		<skill>Insight +4, Perception +7</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 120 ft.</senses>
 		<passive>17</passive>
 		<languages>Common, Sahuagin</languages>
@@ -876,22 +866,22 @@
 			<text>Melee Weapon Attack: +7 to hit, reach 5 ft., one Medium or Small creature against which Ghald has advantage on the attack roll. Hit: 9 (2d4 + 4) bludgeoning damage, and the target is grappled (escape DC 15). Until the grapple ends, the target can't breathe, and Ghald has advantage on attack rolls against it.</text>
 			<attack>Garrote|7|2d4+4</attack>
 		</action>
-		<spells></spells>
 	</monster>
-
 	<monster>
 		<name>Hellenrae</name>
 		<size>M</size>
 		<type>humanoid (human), elemental evil</type>
 		<alignment>lawful evil</alignment>
 		<ac>16</ac>
-		<hp>78 (12d8 + 24)</hp>
+		<hp>78 (12d8+24)</hp>
 		<speed>30 ft.</speed>
-		<str>13</str><dex>18</dex><con>14</con><int>10</int><wis>15</wis><cha>13</cha>
-		<save></save>
+		<str>13</str>
+		<dex>18</dex>
+		<con>14</con>
+		<int>10</int>
+		<wis>15</wis>
+		<cha>13</cha>
 		<skill>Acrobatics +7, Athletics +4, Insight +5, Perception +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>blinded, poisoned</conditionImmune>
 		<senses>blindsight 60 ft. (blind beyond this radius)</senses>
@@ -927,7 +917,6 @@
 			<name>Parry and Counter</name>
 			<text>Hellenrae adds 3 to her AC against one melee or ranged weapon attack that would hit her. To do so, she must be able to sense the attacker with her blindsight. If the attack misses, Hellenrae can make one melee attack against the attacker if it is within her reach.</text>
 		</reaction>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Howling Hatred Initiate</name>
@@ -937,14 +926,13 @@
 		<ac>13 (leather)</ac>
 		<hp>9 (2d8)</hp>
 		<speed>30 ft.</speed>
-		<str>10</str><dex>15</dex><con>10</con><int>10</int><wis>9</wis><cha>11</cha>
-		<save></save>
+		<str>10</str>
+		<dex>15</dex>
+		<con>10</con>
+		<int>10</int>
+		<wis>9</wis>
+		<cha>11</cha>
 		<skill>Deception +2, Religion +2, Stealth +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>9</passive>
 		<languages>Common</languages>
 		<cr>1/8</cr>
@@ -961,7 +949,6 @@
 			<text>Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one target. Hit: 4 (1d4 + 2) piercing damage.</text>
 			<attack>Dagger|4|1d4+2</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Howling Hatred Priest</name>
@@ -971,14 +958,13 @@
 		<ac>15 (studded leather)</ac>
 		<hp>45 (10d8)</hp>
 		<speed>30 ft.</speed>
-		<str>12</str><dex>16</dex><con>10</con><int>14</int><wis>10</wis><cha>14</cha>
-		<save></save>
+		<str>12</str>
+		<dex>16</dex>
+		<con>10</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>14</cha>
 		<skill>Acrobatics +5, Intimidation +4, Religion +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Auran, Common</languages>
 		<cr>2</cr>
@@ -989,7 +975,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The priest is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): blade ward, gust, light, prestidigitation, shocking grasp</text>
 			<text>• 1st level (4 slots): featherfall, shield, witch bolt</text>
 			<text>• 2nd level (3 slots): dust devil, gust of wind</text>
@@ -1017,23 +1003,22 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>lawful evil</alignment>
 		<ac>14</ac>
-		<hp>33 (6d8 + 6)</hp>
+		<hp>33 (6d8+6)</hp>
 		<speed>45 ft.</speed>
-		<str>12</str><dex>16</dex><con>13</con><int>10</int><wis>12</wis><cha>10</cha>
-		<save></save>
+		<str>12</str>
+		<dex>16</dex>
+		<con>13</con>
+		<int>10</int>
+		<wis>12</wis>
+		<cha>10</cha>
 		<skill>Acrobatics +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>11</passive>
 		<languages>Auran, Common</languages>
 		<cr>2</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The hurricane is a 3rd-level spellcaster. Its spellcasting ability is Wisdom (spell save DC 11, +3 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): blade ward, gust, light, prestidigitation</text>
 			<text>• 1st level (4 slots): feather fall, jump, thunderwave</text>
 			<text>• 2nd level (2 slots): gust of wind</text>
@@ -1053,7 +1038,7 @@
 		<action>
 			<name>Unarmed Strike</name>
 			<text>Melee Weapon Attack: +5 to hit, reach 5 ft., one target. Hit: 6 (1d6 + 3) bludgeoning damage.</text>
-			<attack>Unarmed Strike}5}1d6+3</attack>
+			<attack>Unarmed Strike|5|1d6+3</attack>
 		</action>
 		<reaction>
 			<name>Deflect Missiles</name>
@@ -1067,13 +1052,16 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>17</ac>
-		<hp>325 (26d12 + 156)</hp>
+		<hp>325 (26d12+156)</hp>
 		<speed>50 ft., fly 50 ft.</speed>
-		<str>19</str><dex>24</dex><con>22</con><int>15</int><wis>16</wis><cha>23</cha>
+		<str>19</str>
+		<dex>24</dex>
+		<con>22</con>
+		<int>15</int>
+		<wis>16</wis>
+		<cha>23</cha>
 		<save>Dex +14, Con +13, Cha +13</save>
-		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>fire, poison</immune>
 		<conditionImmune>charmed, frightened, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
 		<senses>blindsight 120 ft.</senses>
@@ -1104,7 +1092,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Imix's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components: </text>
-			<text></text>
+			<text> </text>
 			<text>• At will: fireball, wall of fire</text>
 			<text>• 3/day each: fire storm, haste, teleport</text>
 		</trait>
@@ -1152,15 +1140,16 @@
 		<type>monstrosity, elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (natural armor)</ac>
-		<hp>136 (16d8 + 64)</hp>
+		<hp>136 (16d8+64)</hp>
 		<speed>30 ft.</speed>
-		<str>17</str><dex>11</dex><con>18</con><int>12</int><wis>13</wis><cha>17</cha>
-		<save></save>
+		<str>17</str>
+		<dex>11</dex>
+		<con>18</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>17</cha>
 		<skill>Arcana +4, Deception +6, Perception +4</skill>
 		<resist>acid</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft., tremorsense 60 ft.</senses>
 		<passive>14</passive>
 		<languages>Common, Terran</languages>
@@ -1197,7 +1186,6 @@
 			<text>Melee Weapon Attack: +9 to hit, reach 5 ft., one target. Hit: 7 (1d8 + 3) piercing damage plus 4 (1d8) thunder damage.</text>
 			<attack>Ironfang|9|1d8+3+1d8</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Miraj Vizann</name>
@@ -1205,16 +1193,15 @@
 		<type>humanoid (earth genasi), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>10 (13 with mage armor)</ac>
-		<hp>82 (11d8 + 33)</hp>
+		<hp>82 (11d8+33)</hp>
 		<speed>30 ft.</speed>
-		<str>12</str><dex>10</dex><con>17</con><int>13</int><wis>11</wis><cha>18</cha>
-		<save></save>
+		<str>12</str>
+		<dex>10</dex>
+		<con>17</con>
+		<int>13</int>
+		<wis>11</wis>
+		<cha>18</cha>
 		<skill>Arcana +4, Deception +7</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Common, Primordial</languages>
 		<cr>6</cr>
@@ -1225,13 +1212,13 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Miraj's innate spellcasting ability is Constitution (spell save DC 14). He can innately cast the following spell, requiring no material components: </text>
-			<text></text>
+			<text> </text>
 			<text>• 1/day: pass without trace</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>Miraj is an 11th-level spellcaster. His spellcasting ability is Charisma (spell save DC 15, +7 to hit with spell attacks). He knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): acid splash, blade ward, friends, light, message, mold earth</text>
 			<text>• 1st level (4 slots): chromatic orb, mage armor, magic missile</text>
 			<text>• 2nd level (3 slots): Maximilian's earthen grasp, shatter, suggestion</text>
@@ -1254,13 +1241,16 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>20 (natural armor)</ac>
-		<hp>526 (27d20 + 243)</hp>
+		<hp>526 (27d20+243)</hp>
 		<speed>50 ft., burrow 50 ft.</speed>
-		<str>26</str><dex>11</dex><con>28</con><int>11</int><wis>15</wis><cha>22</cha>
+		<str>26</str>
+		<dex>11</dex>
+		<con>28</con>
+		<int>11</int>
+		<wis>15</wis>
+		<cha>22</cha>
 		<save>Str +14, Con +15, Wis +8</save>
-		<skill></skill>
 		<resist>bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>charmed, frightened, paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>blindsight 120 ft., tremorsense 120 ft.</senses>
@@ -1274,8 +1264,8 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Ogremoch's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components: </text>
-			<text></text>
-			<text></text>
+			<text> </text>
+			<text> </text>
 			<text>• At will: meld into stone, move earth, wall of stone</text>
 		</trait>
 		<trait>
@@ -1328,13 +1318,16 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>18 (natural armor)</ac>
-		<hp>324 (24d12 + 168)</hp>
+		<hp>324 (24d12+168)</hp>
 		<speed>50 ft., swim 100 ft.</speed>
-		<str>21</str><dex>22</dex><con>24</con><int>17</int><wis>18</wis><cha>23</cha>
+		<str>21</str>
+		<dex>22</dex>
+		<con>24</con>
+		<int>17</int>
+		<wis>18</wis>
+		<cha>23</cha>
 		<save>Str +11, Con +13, Wis +10</save>
-		<skill></skill>
 		<resist>lightning; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>acid, cold, poison</immune>
 		<conditionImmune>charmed, frightened, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
 		<senses>blindsight 120 ft.</senses>
@@ -1348,7 +1341,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Olhydra's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). She can innately cast the following spells, requiring no material components: </text>
-			<text></text>
+			<text> </text>
 			<text>• At will: wall of ice</text>
 			<text>• 3/day: ice storm</text>
 			<text>• 1/day: storm of vengeance</text>
@@ -1406,16 +1399,16 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>chaotic evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
-		<hp>49 (9d8 + 9)</hp>
+		<hp>49 (9d8+9)</hp>
 		<speed>30 ft.</speed>
-		<str>10</str><dex>14</dex><con>12</con><int>13</int><wis>13</wis><cha>17</cha>
-		<save></save>
+		<str>10</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>13</int>
+		<wis>13</wis>
+		<cha>17</cha>
 		<skill>Arcana +3, Perception +3, Intimidation +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>cold</immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages>Common</languages>
 		<cr>3</cr>
@@ -1427,7 +1420,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The one-eyed shiver is a 5th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): chill touch, mage hand</text>
 			<text>• 1st level (4 slots): fog cloud, mage armor, thunderwave</text>
 			<text>• 2nd level (3 slots): mirror image, misty step</text>
@@ -1450,16 +1443,16 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>chaotic evil</alignment>
 		<ac>11 (14 with mage armor)</ac>
-		<hp>39 (6d8 + 12)</hp>
+		<hp>39 (6d8+12)</hp>
 		<speed>30 ft.</speed>
-		<str>8</str><dex>13</dex><con>14</con><int>16</int><wis>9</wis><cha>11</cha>
+		<str>8</str>
+		<dex>13</dex>
+		<con>14</con>
+		<int>16</int>
+		<wis>9</wis>
+		<cha>11</cha>
 		<save>Wis +1</save>
 		<skill>Arcana +5, Investigation +5, Medicine +1</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>9</passive>
 		<languages>Abyssal, Common</languages>
 		<cr>2</cr>
@@ -1470,7 +1463,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Oreioth is a 6th-level spellcaster. His spellcasting ability is Intelligence (spell save DC 13, +5 to hit with spell attacks). He has the following wizard spells prepared: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): chill touch, minor illusion, prestidigitation, shocking grasp</text>
 			<text>• 1st level (4 slots): false life, mage armor, magic missile, ray of sickness</text>
 			<text>• 2nd level (3 slots): crown of madness, misty step</text>
@@ -1493,16 +1486,16 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>chaotic evil</alignment>
 		<ac>17 (splint)</ac>
-		<hp>112 (15d8 + 75)</hp>
+		<hp>112 (15d8+75)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str><dex>11</dex><con>16</con><int>9</int><wis>10</wis><cha>13</cha>
-		<save></save>
+		<str>16</str>
+		<dex>11</dex>
+		<con>16</con>
+		<int>9</int>
+		<wis>10</wis>
+		<cha>13</cha>
 		<skill>Intimidation +4, Perception +3</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>fire</immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>13</passive>
 		<languages>Common, Ignan</languages>
 		<cr>5</cr>
@@ -1525,7 +1518,6 @@
 			<attack>One Handed|6|1d6+3+1d6</attack>
 			<attack>Two Handed|6|1d8+3+1d6</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Sacred Stone Monk</name>
@@ -1533,15 +1525,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>lawful evil</alignment>
 		<ac>14</ac>
-		<hp>22 (4d8 + 4)</hp>
+		<hp>22 (4d8+4)</hp>
 		<speed>40 ft.</speed>
-		<str>13</str><dex>15</dex><con>12</con><int>10</int><wis>14</wis><cha>9</cha>
-		<save></save>
+		<str>13</str>
+		<dex>15</dex>
+		<con>12</con>
+		<int>10</int>
+		<wis>14</wis>
+		<cha>9</cha>
 		<skill>Acrobatics +4, Athletics +3, Perception +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>tremorsense 10 ft.</senses>
 		<passive>14</passive>
 		<languages>Common</languages>
@@ -1567,7 +1559,6 @@
 			<name>Parry</name>
 			<text>The monk adds 2 to its AC against one melee or ranged weapon attack that would hit it. To do so, the monk must see the attacker.</text>
 		</reaction>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Shoalar Quanderil</name>
@@ -1575,16 +1566,16 @@
 		<type>humanoid (water genasi), elemental evil</type>
 		<alignment>lawful evil</alignment>
 		<ac>10 (13 with mage armor)</ac>
-		<hp>60 (8d8 + 24)</hp>
+		<hp>60 (8d8+24)</hp>
 		<speed>30 ft., swim 30 ft.</speed>
-		<str>11</str><dex>12</dex><con>16</con><int>14</int><wis>10</wis><cha>17</cha>
-		<save></save>
+		<str>11</str>
+		<dex>12</dex>
+		<con>16</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>17</cha>
 		<skill>Arcana +4, Deception +5, Insight +2, Persuasion +5</skill>
 		<resist>acid</resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Aquan, Common</languages>
 		<cr>4</cr>
@@ -1595,14 +1586,14 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Shoalar's innate spellcasting ability is Constitution (spell save DC 13, +5 to hit with spell attacks). He can innately cast the following spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• At will: shape water</text>
 			<text>• 1/day: create or destroy water</text>
 		</trait>
 		<trait>
 			<name>Spellcasting</name>
 			<text>Shoalar is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). He knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): acid splash, chill touch, friends, prestidigitation, ray of frost</text>
 			<text>• 1st level (4 slots): disguise self, mage armor, magic missile</text>
 			<text>• 2nd level (3 slots): hold person, misty step</text>
@@ -1621,23 +1612,22 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>chaotic evil</alignment>
 		<ac>12 (15 with mage armor)</ac>
-		<hp>44 (8d8 + 8)</hp>
+		<hp>44 (8d8+8)</hp>
 		<speed>30 ft.</speed>
-		<str>8</str><dex>14</dex><con>12</con><int>11</int><wis>10</wis><cha>16</cha>
-		<save></save>
+		<str>8</str>
+		<dex>14</dex>
+		<con>12</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>16</cha>
 		<skill>Deception +5, Persuasion +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Auran, Common</languages>
 		<cr>3</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>The Skyweaver is a 6th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): blade ward, light, message, ray of frost, shocking grasp</text>
 			<text>• 1st level (4 slots): feather fall, mage armor, witch bolt</text>
 			<text>• 2nd level (3 slots): gust of wind, invisibility</text>
@@ -1656,15 +1646,15 @@
 		<type>humanoid (human), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>17 (splint)</ac>
-		<hp>75 (10d8 + 30)</hp>
+		<hp>75 (10d8+30)</hp>
 		<speed>30 ft.</speed>
-		<str>15</str><dex>10</dex><con>16</con><int>12</int><wis>11</wis><cha>17</cha>
-		<save></save>
+		<str>15</str>
+		<dex>10</dex>
+		<con>16</con>
+		<int>12</int>
+		<wis>11</wis>
+		<cha>17</cha>
 		<skill>Intimidation +5, Perception +2</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>tremorsense 30 ft.</senses>
 		<passive>12</passive>
 		<languages>Common, Terran</languages>
@@ -1677,7 +1667,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>The Stonemelder is a 7th-level spellcaster. Its spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). It knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): acid splash, blade ward, light, mending, mold earth</text>
 			<text>• 1st level (4 slots): expeditious retreat, false life, shield</text>
 			<text>• 2nd level (3 slots): Maximilian's earthen grasp, shatter</text>
@@ -1697,23 +1687,22 @@
 		<type>humanoid (human), tyranny of dragons</type>
 		<alignment>lawful evil</alignment>
 		<ac>16 (breastplate)</ac>
-		<hp>71 (11d8 + 21)</hp>
+		<hp>71 (11d8+21)</hp>
 		<speed>30 ft.</speed>
-		<str>16</str><dex>14</dex><con>14</con><int>11</int><wis>10</wis><cha>15</cha>
-		<save></save>
+		<str>16</str>
+		<dex>14</dex>
+		<con>14</con>
+		<int>11</int>
+		<wis>10</wis>
+		<cha>15</cha>
 		<skill>Animal Handling +2, Athletics +5, Deception +4, Persuasion +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>10</passive>
 		<languages>Auran, Common</languages>
 		<cr>3</cr>
 		<trait>
 			<name>Spellcasting</name>
 			<text>Thurl is a 5th-level spellcaster. His spellcasting ability is Charisma (spell save DC 12, +4 to hit with spell attacks). Thurl knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): friends, gust, light, message, ray of frost</text>
 			<text>• 1st level (4 slots): expeditious retreat, feather fall, jump</text>
 			<text>• 2nd level (3 slots): levitate, misty step</text>
@@ -1745,15 +1734,16 @@
 		<type>humanoid (tiefling), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (studded leather)</ac>
-		<hp>112 (15d8 + 45)</hp>
+		<hp>112 (15d8+45)</hp>
 		<speed>30 ft.</speed>
-		<str>11</str><dex>16</dex><con>17</con><int>12</int><wis>13</wis><cha>19</cha>
-		<save></save>
+		<str>11</str>
+		<dex>16</dex>
+		<con>17</con>
+		<int>12</int>
+		<wis>13</wis>
+		<cha>19</cha>
 		<skill>Arcana +5, Deception +8, Performance +8</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
 		<immune>fire</immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>11</passive>
 		<languages>Common, Ignan, Infernal</languages>
@@ -1769,7 +1759,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Vanifer is a 10th-level spellcaster. Her spellcasting ability is Charisma (spell save DC 16, +8 to hit with spell attacks). Vanifer knows the following sorcerer spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): chill touch, fire bolt, friends, mage hand, message, produce flame, thaumaturgy</text>
 			<text>• 1st level (4 slots): burning hands, chromatic orb, hellish rebuke, shield</text>
 			<text>• 2nd level (3 slots): darkness, detect thoughts, misty step, scorching ray</text>
@@ -1794,13 +1784,15 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral</alignment>
 		<ac>18 (plate)</ac>
-		<hp>127 (17d8 + 51)</hp>
+		<hp>127 (17d8+51)</hp>
 		<speed>40 ft., swim 40 ft.</speed>
-		<str>18</str><dex>14</dex><con>15</con><int>8</int><wis>10</wis><cha>10</cha>
-		<save></save>
-		<skill></skill>
+		<str>18</str>
+		<dex>14</dex>
+		<con>15</con>
+		<int>8</int>
+		<wis>10</wis>
+		<cha>10</cha>
 		<resist>acid; bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>poison</immune>
 		<conditionImmune>paralyzed, petrified, poisoned, prone</conditionImmune>
 		<senses>darkvision 60 ft.</senses>
@@ -1825,7 +1817,6 @@
 			<text>The myrmidon uses Multiattack. Each attack that hits deals an extra 5 (1d10) cold damage, and the target's speed is reduced by 10 feet until the end of the myrmidon's next turn.</text>
 			<attack>Freezing Strikes|7|1d6+4+1d10</attack>
 		</action>
-		<spells></spells>
 	</monster>
 	<monster>
 		<name>Wiggan Nettlebee</name>
@@ -1833,16 +1824,15 @@
 		<type>humanoid (halfling), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>11 (16 with barkskin)</ac>
-		<hp>36 (8d6 + 8)</hp>
+		<hp>36 (8d6+8)</hp>
 		<speed>30 ft.</speed>
-		<str>8</str><dex>12</dex><con>12</con><int>14</int><wis>15</wis><cha>13</cha>
-		<save></save>
+		<str>8</str>
+		<dex>12</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>15</wis>
+		<cha>13</cha>
 		<skill>Deception +3, Insight +4</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
-		<senses></senses>
 		<passive>12</passive>
 		<languages>Common, Halfling</languages>
 		<cr>2</cr>
@@ -1853,7 +1843,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Wiggan is a 4th-level spellcaster. His spellcasting ability is Wisdom (spell save DC 12, +4 to hit with spell attacks). He has the following cleric spells prepared: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): guidance, light, mending, shillelagh, thaumaturgy</text>
 			<text>• 1st Level (4 slots): animal friendship, cure wounds, healing word, inflict wounds, speak with animals</text>
 			<text>• 2nd Level (3 slots): barkskin, spike growth, spiritual weapon</text>
@@ -1865,7 +1855,7 @@
 		<action>
 			<name>Wooden Cane</name>
 			<text>Melee Weapon Attack: +0 to hit (+4 to hit with shillelagh), reach 5 ft., one target. Hit: 1 (1d4-1) bludgeoning damage, or 6 (1d8 + 2) bludgeoning damage with shillelagh.</text>
-			<attack>Wooden Cane|0|1d4-1</attack>
+			<attack>Wooden Cane||1d4-1</attack>
 			<attack>Shillelagh|4|1d8+2</attack>
 		</action>
 		<spells>guidance, light, mending, shillelagh, thaumaturgy, animal friendship, cure wounds, healing word, inflict wounds, speak with animals, barkskin, spike growth, spiritual weapon</spells>
@@ -1876,15 +1866,15 @@
 		<type>humanoid (half-elf), elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>15 (studded leather)</ac>
-		<hp>55 (10d8 + 10)</hp>
+		<hp>55 (10d8+10)</hp>
 		<speed>30 ft.</speed>
-		<str>10</str><dex>16</dex><con>12</con><int>14</int><wis>10</wis><cha>17</cha>
-		<save></save>
+		<str>10</str>
+		<dex>16</dex>
+		<con>12</con>
+		<int>14</int>
+		<wis>10</wis>
+		<cha>17</cha>
 		<skill>Acrobatics +5, Deception +7, Persuasion +5, Performance +7, Stealth +5</skill>
-		<resist></resist>
-		<vulnerable></vulnerable>
-		<immune></immune>
-		<conditionImmune></conditionImmune>
 		<senses>darkvision 60 ft.</senses>
 		<passive>10</passive>
 		<languages>Auran, Common, Elvish</languages>
@@ -1896,7 +1886,7 @@
 		<trait>
 			<name>Spellcasting</name>
 			<text>Windharrow is an 8th-level spellcaster. His spellcasting ability is Charisma (spell save DC 13, +5 to hit with spell attacks). Windharrow knows the following bard spells: </text>
-			<text></text>
+			<text> </text>
 			<text>• Cantrips (at will): friends, prestidigitation, vicious mockery</text>
 			<text>• 1st level (4 slots): disguise self, dissonant whispers, thunderwave</text>
 			<text>• 2nd level (3 slots): invisibility, shatter, silence</text>
@@ -1920,13 +1910,16 @@
 		<type>elemental, elemental evil</type>
 		<alignment>neutral evil</alignment>
 		<ac>22 (natural armor)</ac>
-		<hp>283 (21d12 + 147)</hp>
+		<hp>283 (21d12+147)</hp>
 		<speed>50 ft., fly 150 ft.</speed>
-		<str>18</str><dex>24</dex><con>24</con><int>16</int><wis>21</wis><cha>23</cha>
+		<str>18</str>
+		<dex>24</dex>
+		<con>24</con>
+		<int>16</int>
+		<wis>21</wis>
+		<cha>23</cha>
 		<save>Dex +13, Wis +11, Cha +12</save>
-		<skill></skill>
 		<resist>cold, fire;  bludgeoning, piercing, and slashing from nonmagical weapons</resist>
-		<vulnerable></vulnerable>
 		<immune>lightning, poison, thunder</immune>
 		<conditionImmune>charmed, frightened, paralyzed, petrified, poisoned, prone, restrained</conditionImmune>
 		<senses>blindsight 120 ft.</senses>
@@ -1944,7 +1937,7 @@
 		<trait>
 			<name>Innate Spellcasting</name>
 			<text>Yan-C-Bin's innate spellcasting ability is Charisma (spell save DC 20, +12 to hit with spell attacks). He can innately cast the following spells, requiring no material components: </text>
-			<text></text>
+			<text> </text>
 			<text>• At will: gust of wind, invisibility, lightning bolt</text>
 			<text>• 2/day each: chain lightning, cloudkill, haste</text>
 		</trait>

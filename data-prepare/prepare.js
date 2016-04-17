@@ -40,7 +40,7 @@ function readXml (dir, file) {
         const xmlFile = fs.readFileSync(`${dir}/${xmlFileNameLc}`, { encoding: 'utf-8' });
         parseXml(xmlFile, (err, result) => {
           if (dir.indexOf('Spells') !== -1) {
-            spellsMerged = spellsMerged.concat(prepareSpells.prepareSpells(result.spells.spell));
+            spellsMerged = spellsMerged.concat(prepareSpells.prepareSpells(result.compendium.spell));
           }
           if (dir.indexOf('Bestiary') !== -1) {
             if (result.bestiary) {
@@ -66,24 +66,33 @@ function main (dir, file) {
   const data = readXml(dir, file);
   if (data.charClasses.length > 0) {
     data.charClasses = utils.sortByName(data.charClasses);
-    output.CLASSES_BY_KEY = utils.convertToObjects(data.charClasses);
-    output.CLASSES = utils.makeList(output.CLASSES_BY_KEY);
+    output.CLASSES = {
+      dictionary: utils.convertToObjects(data.charClasses),
+      list: utils.makeList(utils.convertToObjects(data.charClasses))
+    };
   }
   if (data.spellsMerged.length > 0) {
     data.spellsMerged = utils.sortByName(data.spellsMerged);
-    output.SPELLS_BY_KEY = utils.convertToObjects(data.spellsMerged);
-    output.SPELLS_GROUPED_BY_LEVEL = prepareSpells.groupSpellsByLevel(data.spellsMerged);
-    output.SPELLS_CHAR_FILTER_LISTS = prepareSpells.makeSpellsCharFilterLists(data.spellsMerged);
-    output.SPELLS_CHAR_FILTERS = prepareSpells.makeSpellsCharFilters(output.SPELLS_CHAR_FILTER_LISTS);
-    output.SPELLS = utils.makeList(output.SPELLS_BY_KEY);
+    output.SPELLBOOK = {
+      dictionary: utils.convertToObjects(data.spellsMerged),
+      list: utils.makeList(utils.convertToObjects(data.spellsMerged)),
+      byClass: {
+        groupedLists: prepareSpells.makeSpellsCharFilterLists(data.spellsMerged),
+        options: prepareSpells.makeSpellsCharFilters(prepareSpells.makeSpellsCharFilterLists(data.spellsMerged))
+      }
+    };
   }
   if (data.monstersMerged.length > 0) {
     data.monstersMerged = utils.sortByName(data.monstersMerged);
-    output.MONSTERS_BY_KEY = utils.convertToObjects(data.monstersMerged);
-    output.MONSTERS_GROUPED_BY_CR = prepareMonsters.groupMontersByCR(data.monstersMerged);
-    output.MONSTER_TYPE_FILTER_LISTS = prepareMonsters.makeMonsterTypeFilterLists(data.monstersMerged);
-    output.MONSTER_TYPE_FILTERS = prepareMonsters.makeMonsterTypeFilters(output.MONSTER_TYPE_FILTER_LISTS);
-    output.MONSTERS = utils.makeList(output.MONSTERS_BY_KEY);
+    output.BESTIARY = {
+      dictionary: utils.convertToObjects(data.monstersMerged),
+      list: utils.makeList(utils.convertToObjects(data.monstersMerged)),
+      byType: {
+        groupedLists: prepareMonsters.makeMonsterTypeFilterLists(data.monstersMerged),
+        options: prepareMonsters.makeMonsterTypeFilters(
+          prepareMonsters.makeMonsterTypeFilterLists(data.monstersMerged))
+      }
+    };
   }
   return JSON.stringify(output, null, '\t');
 }

@@ -1,23 +1,13 @@
 const utils = require('./prepare-utils.js');
 
 function getFeaturesForLevel (levelObject) {
-  let featuresArray = utils.objectToArray(levelObject.feature);
-  featuresArray = featuresArray.map(feature => {
-    const _feature = Object.assign({}, feature);
-    _feature.optional = false;
-    if (feature.$ && feature.$.optional === 'YES') {
-      _feature.optional = true;
-      delete _feature.$;
-    }
-
-    _feature.text = utils.stringToArray(feature.text)
-      .map(p => p.trim())
-      .filter(p => (p !== ''));
-
-    delete _feature.modifier;
-    return _feature;
+  return utils.objectToArray(levelObject.feature).map(feature => {
+    return {
+      title: feature.name,
+      isOptional: feature.$ && feature.$.optional === 'YES',
+      value: utils.stringToArray(feature.text).map(p => p.trim()).filter(p => (p !== ''))
+    };
   });
-  return featuresArray;
 }
 
 function prepareClasses (charClasses) {
@@ -31,26 +21,31 @@ function prepareClasses (charClasses) {
       _charClass.hpAtFirstLevel = `${hd} + your Constitution modifier`;
       _charClass.hpAtHigherLevels = `1d${hd} (or ${avgDice}) + your Constitution modifier per ${cls} level after 1st`;
 
-      _charClass.features = {};
-      _charClass.slots = {};
+      _charClass.features = [...Array(20)].map(() => []);
+      _charClass.slots = [...Array(20)].map(() => []);
       _charClass.slotsOptional = false;
 
       charClass.autolevel.forEach(levelObject => {
-        const level = parseInt(levelObject.$.level, 10);
+        const levelIndex = Number(levelObject.$.level) - 1;
 
         if (levelObject.feature) {
-          _charClass.features[level] = getFeaturesForLevel(levelObject);
+          _charClass.features[levelIndex] = getFeaturesForLevel(levelObject);
         }
 
         if (levelObject.slots) {
           if (levelObject.slots.$ && levelObject.slots.$.optional === 'YES') {
             _charClass.slotsOptional = true;
-            _charClass.slots[level] = levelObject.slots._.split(',');
+            _charClass.slots[levelIndex] = levelObject.slots._.split(',');
           } else {
-            _charClass.slots[level] = levelObject.slots.split(',');
+            _charClass.slots[levelIndex] = levelObject.slots.split(',');
           }
         }
       });
+
+      if (_charClass.slots.reduce((sum, level) => { return sum + level.length; }, 0) === 0) {
+        _charClass.slots = null;
+      }
+
       _charClass.url = utils.nameToUrl(charClass.name);
       delete _charClass.autolevel;
       return _charClass;
