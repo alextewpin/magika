@@ -6,6 +6,8 @@ require('./data/data-bestiary.json');
 require('./data/data-classes.json');
 require('./data/data-spellbook.json');
 
+require('es6-promise').polyfill();
+
 import ReactDOM from 'react-dom';
 import { createStore, compose } from 'redux';
 import { Provider } from 'react-redux';

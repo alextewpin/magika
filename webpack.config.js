@@ -44,8 +44,7 @@ module.exports = {
   plugins: [
     new webpack.ProvidePlugin({
       React: 'react',
-      ReactCSS: 'react-css-modules',
-      Promise: 'exports?global.Promise!es6-promise'
+      ReactCSS: 'react-css-modules'
     }),
     new ExtractTextPlugin('main.css')
   ]
