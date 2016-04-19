@@ -1,3 +1,5 @@
+require('babel-polyfill');
+
 require('./index.html');
 require('_styles/common.scss');
 require('_assets/favicon.ico');

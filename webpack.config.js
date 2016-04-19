@@ -24,7 +24,7 @@ module.exports = {
       loader: 'babel',
       query: {
         presets: ['react', 'es2015', 'stage-2'],
-        plugins: ['transform-class-properties', 'transform-runtime']
+        plugins: ['transform-class-properties']
       }
     }, {
       test: /\.scss$/,
