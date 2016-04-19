@@ -1,3 +1,5 @@
+require('babel-polyfill');
+
 require('./index.html');
 require('_styles/common.scss');
 require('_assets/favicon.ico');
@@ -5,8 +7,6 @@ require('_assets/favicon-hires.png');
 require('./data/data-bestiary.json');
 require('./data/data-classes.json');
 require('./data/data-spellbook.json');
-
-require('es6-promise').polyfill();
 
 import ReactDOM from 'react-dom';
 import { createStore, compose } from 'redux';
