@@ -8,7 +8,7 @@ const COMPONENTS_PATH = __dirname + '/src/components/';
 const isDev = () => NODE_ENV === 'development';
 
 module.exports = {
-  entry: ['./src'],
+  entry: ['babel-polyfill', './src'],
   output: {
     path: './build',
     filename: 'main.js'
