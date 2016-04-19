@@ -1,4 +1,4 @@
-require('babel-polyfill');
+// require('babel-polyfill');
 
 require('./index.html');
 require('_styles/common.scss');
