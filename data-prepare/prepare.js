@@ -4,6 +4,7 @@ const xml2js = require('xml2js');
 const prepareClasses = require('./prepare-classes.js');
 const prepareSpells = require('./prepare-spells.js');
 const prepareMonsters = require('./prepare-monsters.js');
+const prepareItems = require('./prepare-items.js');
 const utils = require('./prepare-utils.js');
 
 const parser = new xml2js.Parser({ explicitArray: false });
@@ -15,6 +16,7 @@ function readXml (dir, file) {
   let charSpells = [];
   let spellsMerged = [];
   let monstersMerged = [];
+  let itemsMerged = [];
   if (dir.indexOf('Character Files') !== -1) {
     folderContent.forEach(xmlFileName => {
       const xmlFileNameLc = xmlFileName.toLowerCase();
@@ -49,6 +51,9 @@ function readXml (dir, file) {
               monstersMerged = monstersMerged.concat(prepareMonsters.prepareMonsters(result.compendium.monster));
             }
           }
+          if (dir.indexOf('Items') !== -1) {
+            itemsMerged = itemsMerged.concat(prepareItems.prepareItems(result.compendium.item));
+          }
         });
       }
     });
@@ -57,7 +62,8 @@ function readXml (dir, file) {
     charClasses,
     charSpells,
     spellsMerged,
-    monstersMerged
+    monstersMerged,
+    itemsMerged
   };
 }
 
@@ -89,9 +95,18 @@ function main (dir, file) {
       list: utils.makeList(utils.convertToObjects(data.monstersMerged)),
       byType: {
         groupedLists: prepareMonsters.makeMonsterTypeFilterLists(data.monstersMerged),
-        options: prepareMonsters.makeMonsterTypeFilters(
-          prepareMonsters.makeMonsterTypeFilterLists(data.monstersMerged))
+        options: prepareMonsters.makeMonsterTypeFilters(prepareMonsters.makeMonsterTypeFilterLists(data.monstersMerged))
       }
+    };
+  }
+  if (data.itemsMerged.length > 0) {
+    data.itemsMerged = utils.sortByName(data.itemsMerged);
+    const dictionary = utils.convertToObjects(data.itemsMerged);
+    const list = utils.makeList(dictionary);
+    output.ITEMS = {
+      dictionary,
+      list,
+      byType: prepareItems.getByTypeFilterOptions(dictionary, list)
     };
   }
   return JSON.stringify(output, null, '\t');

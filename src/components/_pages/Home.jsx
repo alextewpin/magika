@@ -6,11 +6,12 @@ import ExpandableList from '_lists/ExpandableList';
 import Line from 'Line';
 import Message from 'Message';
 
-function Home ({ spellbook, bestiary, classes, searchValue }) {
+function Home ({ spellbook, bestiary, items, classes, searchValue }) {
   const menu = (
     <div>
       <Line link='/spellbook' value='Spellbook'/>
       <Line link='/bestiary' value='Bestiary'/>
+      <Line link='/items' value='Items'/>
       <Line link='/classes' value='Classes'/>
     </div>
   );
@@ -18,6 +19,7 @@ function Home ({ spellbook, bestiary, classes, searchValue }) {
     return (
       spellbook.filteredList.length === 0 &&
       bestiary.filteredList.length === 0 &&
+      items.filteredList.length === 0 &&
       spellbook.filteredList.length === 0
     );
   }
@@ -50,6 +52,7 @@ function Home ({ spellbook, bestiary, classes, searchValue }) {
           <div>
             <ExpandableList {...spellbook} {...getListProps('Spellbook')}/>
             <ExpandableList {...bestiary} {...getListProps('Bestiary')}/>
+            <ExpandableList {...items} {...getListProps('Items')}/>
             <ExpandableList {...classes} {...getListProps('Classes')}/>
           </div>
         );
@@ -67,6 +70,7 @@ function Home ({ spellbook, bestiary, classes, searchValue }) {
 Home.propTypes = {
   spellbook: React.PropTypes.object.isRequired,
   bestiary: React.PropTypes.object.isRequired,
+  items: React.PropTypes.object.isRequired,
   classes: React.PropTypes.object.isRequired,
   searchValue: React.PropTypes.string
 };
@@ -77,6 +81,7 @@ function mapStateToProps (state) {
   return {
     spellbook: getListDataForCategory('SPELLBOOK', ...common),
     bestiary: getListDataForCategory('BESTIARY', ...common),
+    items: getListDataForCategory('ITEMS', ...common),
     classes: getListDataForCategory('CLASSES', ...common),
     searchValue
   };

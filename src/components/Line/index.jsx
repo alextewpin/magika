@@ -36,16 +36,24 @@ export default class Line extends React.Component {
       case 'SPELLBOOK': {
         const { content: spell, ...lineBodyProps } = typedLineProps;
         const extras = [
-          spell.ritual ? 'R' : null,
-          spell.concentration ? 'C' : null,
-          (spell.ritual && !spell.concentration) ? ' ' : null
+          { value: spell.ritual ? 'R' : null },
+          { value: spell.concentration ? 'C' : null },
+          { value: (spell.ritual && !spell.concentration) ? ' ' : null }
         ];
-        return <LineBody value={spell.name} extras={extras.filter(item => item)} {...lineBodyProps}/>;
+        return <LineBody value={spell.name} extras={extras.filter(item => item.value)} {...lineBodyProps}/>;
       }
       case 'BESTIARY': {
         const { content: monster, ...lineBodyProps } = typedLineProps;
-        const extras = [monster.typeShort];
-        return <LineBody value={monster.name} extras={extras} extrasSize='m' {...lineBodyProps}/>;
+        const extras = [{ value: monster.typeShort, size: 'm' }];
+        return <LineBody value={monster.name} extras={extras} {...lineBodyProps}/>;
+      }
+      case 'ITEMS': {
+        const { content: item, ...lineBodyProps } = typedLineProps;
+        const extras = [
+          { value: item.requiresAttunement ? 'A' : null },
+          { value: item.typeShort, size: 'm' }
+        ];
+        return <LineBody value={item.name} extras={extras} {...lineBodyProps}/>;
       }
       case 'CLASSES': {
         const { content: charClass, ...lineBodyProps } = typedLineProps;
@@ -72,9 +80,7 @@ function LineBody ({
     value,
     style = 'normal',
     link,
-    icon,
     extras = [],
-    extrasSize = 's',
     isBookmarked = false,
     isHidden = false,
     onToggleBookmark,
@@ -95,11 +101,17 @@ function LineBody ({
   }
   return (
     <div onClick={onClick} className={cn('root', { style, isHidden })}>
-      <div>{value}</div>
-      <div className={cn('extras')}>
-        {extras.map((item, i) => <div key={i} className={cn('extra', { size: extrasSize })}>{item}</div>)}
-        {getStar()}
-      </div>
+      <div className={cn('value')}>{value}</div>
+      {extras.length > 0 &&
+        <div className={cn('extras')}>
+          {extras.map((item, i) =>
+            <div key={i} className={cn('extra', { size: item.size || 's' })}>
+              {item.value}
+            </div>
+          )}
+          {getStar()}
+        </div>
+      }
     </div>
   );
 }

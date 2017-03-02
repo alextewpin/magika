@@ -5,6 +5,7 @@ function getCategories () {
   return {
     SPELLBOOK: [],
     BESTIARY: [],
+    ITEMS: [],
     CLASSES: []
   };
 }

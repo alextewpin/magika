@@ -11,3 +11,4 @@ if (!fs.existsSync(`${outDir}`)) {
 fs.writeFileSync(`${outDir}/data-spellbook.json`, prepare(`${srcDir}Spells`));
 fs.writeFileSync(`${outDir}/data-bestiary.json`, prepare(`${srcDir}Bestiary`));
 fs.writeFileSync(`${outDir}/data-classes.json`, prepare(`${srcDir}Character Files`, 'classes'));
+fs.writeFileSync(`${outDir}/data-items.json`, prepare(`${srcDir}Items`));

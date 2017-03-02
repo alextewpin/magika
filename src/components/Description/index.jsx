@@ -44,6 +44,21 @@ export default function Description ({ category, content }) {
           <Traits title='Reactions' value={content.reaction}/>
         </div>
       );
+    case 'ITEMS': {
+      const reqAttunement = content.requiresAttunement ? ' (requires atttinement)' : '';
+      return (
+        <div className={cn('root')}>
+          <Subtitle value={`${content.type}, ${content.rarity.toLowerCase()} ${reqAttunement}`}/>
+          <Block>
+            <Item title='Value' value={content.value}/>
+            <Item title='Raw Armor Class' value={content.ac}/>
+            <Item title='Raw Damage' value={content.damage}/>
+            <Item title='Range' value={content.range}/>
+          </Block>
+          <Text value={content.text}/>
+        </div>
+      );
+    }
     case 'CLASSES':
       return (
         <div className={cn('root')}>

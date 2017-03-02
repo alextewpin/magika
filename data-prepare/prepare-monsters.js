@@ -88,6 +88,9 @@ function getTypeShort (type) {
     .replace(', elemental evil', '')
     .replace(', out of the abyss', '')
     .replace(', curse of strahd', '')
+    .replace(', storm kings thunder', '')
+    .replace(', Volo\'s Guide, Volo\'s Guide', '')
+    .replace(', Volo\'s Guide', '')
     .replace(' (human), elemental evil', '')
     .replace(' (elf), elemental evil', '')
     .replace(' (half-elf), elemental evil', '')
@@ -96,6 +99,12 @@ function getTypeShort (type) {
     .replace(' (half-dragon), elemental evil', '')
     .replace(' (water genasi), elemental evil', '')
     .replace(' (earth genasi), elemental evil', '')
+    .replace(' (shield dwarf), storm kings thunder', '')
+    .replace(' (Illuskan human), storm kings thunder', '')
+    .replace(' (Illuskan humanoid), storm kings thunder', '')
+    .replace(' (Turami human), storm kings thunder', '')
+    .replace(' (shield dwarf), storm kings thunder', '')
+    .replace(' (shield dwarf), storm kings thunder', '')
     .replace(/\s\(.*\)/, '');
   return `${typeShort.charAt(0).toUpperCase()}${typeShort.slice(1)}`;
 }

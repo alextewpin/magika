@@ -7,6 +7,8 @@
   line-height: g(8);
   justify-content: space-between;
   white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .root_style_ {
@@ -15,13 +17,14 @@
   }
   &h1 {
     @include root;
-    height: g(9);
+    height: g(9) + 2px;
     line-height: g(9);
     font-size: 18px;
     color: $pl__secondary;
     border-bottom: 2px solid $pl__secondary;
     padding: 0px;
     margin: g(4) $g__padding-h g(2) $g__padding-h;
+    width: auto;
   }
   &h2 {
     @include root;
@@ -60,6 +63,11 @@
   &false {
     display: flex;
   }
+}
+
+.value {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
 }
 
 .extras {

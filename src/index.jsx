@@ -7,6 +7,7 @@ require('_assets/favicon-hires.png');
 require('./data/data-bestiary.json');
 require('./data/data-classes.json');
 require('./data/data-spellbook.json');
+require('./data/data-items.json');
 
 import ReactDOM from 'react-dom';
 import { createStore, compose } from 'redux';
@@ -19,6 +20,7 @@ import App from 'App';
 import Home from '_pages/Home';
 import Spellbook from '_pages/Spellbook';
 import Bestiary from '_pages/Bestiary';
+import Items from '_pages/Items';
 import Classes from '_pages/Classes';
 import Bookmarks from '_pages/Bookmarks';
 
@@ -42,6 +44,7 @@ ReactDOM.render((
         <IndexRoute component={Home}/>
         <Route path='/spellbook' component={Spellbook}/>
         <Route path='/bestiary' component={Bestiary}/>
+        <Route path='/items' component={Items}/>
         <Route path='/classes' component={Classes}/>
         <Route path='/bookmarks' component={Bookmarks}/>
         <Route path='*' component={Home}/>

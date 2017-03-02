@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "data": "node --use_strict ./data-prepare",
-    "eslint": "./node_modules/.bin/eslint . --ext .js --ext .jsx || true",
-    "start": "NODE_ENV=development ./node_modules/.bin/webpack-dev-server --inline --port 7777",
-    "build": "npm run eslint && npm run data && NODE_ENV=production ./node_modules/.bin/webpack",
+    "eslint": "eslint . --ext .js --ext .jsx || true",
+    "start": "NODE_ENV=development webpack-dev-server --inline --port 7777",
+    "build": "npm run eslint && npm run data && NODE_ENV=production webpack",
     "pages": "git subtree push --prefix build origin gh-pages"
   },
   "author": "Alexander Tewpin",
@@ -36,6 +36,7 @@
     "imports-loader": "^0.6.5",
     "node-sass": "^3.4.2",
     "postcss-loader": "^0.8.2",
+    "ramda": "^0.23.0",
     "react": "^0.14.7",
     "react-addons-perf": "^0.14.7",
     "react-css-modules": "^3.7.5",
