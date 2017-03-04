@@ -102,7 +102,6 @@ function LineBody ({
   return (
     <div onClick={onClick} className={cn('root', { style, isHidden })}>
       <div className={cn('value')}>{value}</div>
-      {extras.length > 0 &&
         <div className={cn('extras')}>
           {extras.map((item, i) =>
             <div key={i} className={cn('extra', { size: item.size || 's' })}>
@@ -111,7 +110,6 @@ function LineBody ({
           )}
           {getStar()}
         </div>
-      }
     </div>
   );
 }
